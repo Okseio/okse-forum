@@ -33,6 +33,11 @@
       display: inline-flex;
       width: 100%;
       align-items: end;
+
+      button {
+        margin-bottom: 0.5em;
+        margin-right: 3px;
+      }
     }
   }
 }

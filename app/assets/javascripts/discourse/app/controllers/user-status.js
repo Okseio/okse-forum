@@ -12,6 +12,7 @@ export default Controller.extend(ModalFunctionality, {
   description: null,
   statusIsSet: notEmpty("description"),
   showDeleteButton: false,
+  showEmojiPicker: false,
 
   onShow() {
     if (this.currentUser.status) {
@@ -44,6 +45,16 @@ export default Controller.extend(ModalFunctionality, {
         })
         .catch((e) => this._handleError(e));
     }
+  },
+
+  @action
+  emojiSelected() {
+    this.set("showEmojiPicker", false);
+  },
+
+  @action
+  showPicker() {
+    this.set("showEmojiPicker", true);
   },
 
   _handleError(e) {

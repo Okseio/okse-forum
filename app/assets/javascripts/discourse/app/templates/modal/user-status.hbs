@@ -1,10 +1,18 @@
 {{#d-modal-body}}
   {{#conditional-loading-spinner condition=loading}}
     <div class="control-group user-status-description-wrap">
+      {{d-button class="btn btn-icon" icon="mega" action=(action showPicker)}}
       {{input
         class="user-status-description"
         placeholder=(i18n "user_status.what_are_you_doing")
         value=description}}
+    </div>
+    <div class="control-group">
+      {{emoji-picker
+        isActive=this.showEmojiPicker
+        isEditorFocused=true
+        emojiSelected=(action "emojiSelected")
+      }}
     </div>
     <div class="modal-footer control-group">
       {{d-button
