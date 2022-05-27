@@ -13,7 +13,7 @@ export default Controller.extend(ModalFunctionality, {
   description: null,
   statusIsSet: notEmpty("description"),
   showDeleteButton: false,
-  showEmojiPicker: false,
+  emojiPickerIsActive: false,
 
   onShow() {
     if (this.currentUser.status) {
@@ -39,7 +39,7 @@ export default Controller.extend(ModalFunctionality, {
   @action
   saveAndClose() {
     if (this.description) {
-      const status = { description: this.description };
+      const status = { description: this.description, emoji: this.emoji };
       this.userStatusService
         .set(status)
         .then(() => {
@@ -52,12 +52,16 @@ export default Controller.extend(ModalFunctionality, {
   @action
   emojiSelected(code) {
     this.set("emoji", code);
-    this.set("showEmojiPicker", false);
+    this.set("emojiPickerIsActive", false);
   },
 
   @action
-  showPicker() {
-    this.set("showEmojiPicker", true);
+  toggleEmojiPicker() {
+    if (this.emojiPickerIsActive) {
+      this.set("emojiPickerIsActive", false);
+    } else {
+      this.set("emojiPickerIsActive", true);
+    }
   },
 
   _handleError(e) {
@@ -71,6 +75,6 @@ export default Controller.extend(ModalFunctionality, {
   _resetModal() {
     this.set("description", null);
     this.set("showDeleteButton", false);
-    this.set("showEmojiPicker", false);
+    this.set("emojiPickerIsActive", false);
   },
 });
