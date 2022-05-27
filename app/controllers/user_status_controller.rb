@@ -8,7 +8,7 @@ class UserStatusController < ApplicationController
     description = params.require(:description)
     emoji = params.require(:emoji)
 
-    current_user.set_status!(description)
+    current_user.set_status!(description, emoji)
     render json: success_json
   end
 
