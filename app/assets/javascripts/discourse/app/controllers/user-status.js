@@ -9,8 +9,7 @@ import bootbox from "bootbox";
 export default Controller.extend(ModalFunctionality, {
   userStatusService: service("user-status"),
 
-  defaultEmoji: "mega",
-  emoji: this.defaultEmoji,
+  emoji: "mega",
   description: null,
   statusIsSet: notEmpty("description"),
   showDeleteButton: false,
@@ -19,7 +18,7 @@ export default Controller.extend(ModalFunctionality, {
   onShow() {
     if (this.currentUser.status) {
       this.setProperties({
-        emoji: this.currentUser.status.emoji || this.defaultEmoji,
+        emoji: this.currentUser.status.emoji || "mega",
         description: this.currentUser.status.description,
         showDeleteButton: true,
       });
