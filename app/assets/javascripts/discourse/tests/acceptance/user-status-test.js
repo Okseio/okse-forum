@@ -74,6 +74,33 @@ acceptance("User Status", function (needs) {
     );
   });
 
+  test("emoji picking", async function (assert) {
+    this.siteSettings.enable_user_status = true;
+
+    const defaultStatusEmoji = "mega";
+    const statusEmoji = "mega";
+
+    await visit("/");
+    await click(".header-dropdown-toggle.current-user");
+    await click(".menu-links-row .user-preferences-link");
+    await click(".user-status button");
+
+    assert.ok(
+      exists(`.btn-emoji .d-icon-${defaultStatusEmoji}`),
+      "default status emoji is shown"
+    );
+
+    await click(".btn-emoji");
+    assert.ok(exists(".emoji-picker-opened"), "emoji picker is opened");
+
+    await fillIn(".emoji-picker-content .filter", statusEmoji);
+    await click(".results .emoji");
+    assert.ok(
+      exists(`.btn-emoji d-icon-${statusEmoji}`),
+      "chosen status emoji is shown"
+    );
+  });
+
   test("setting user status", async function (assert) {
     this.siteSettings.enable_user_status = true;
 
