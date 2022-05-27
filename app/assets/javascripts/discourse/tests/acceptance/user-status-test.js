@@ -78,7 +78,7 @@ acceptance("User Status", function (needs) {
     this.siteSettings.enable_user_status = true;
 
     const defaultStatusEmoji = "mega";
-    const statusEmoji = "mega";
+    const emoji = "palm_tree";
 
     await visit("/");
     await click(".header-dropdown-toggle.current-user");
@@ -91,12 +91,12 @@ acceptance("User Status", function (needs) {
     );
 
     await click(".btn-emoji");
-    assert.ok(exists(".emoji-picker-opened"), "emoji picker is opened");
+    assert.ok(exists(".emoji-picker.opened"), "emoji picker is opened");
 
-    await fillIn(".emoji-picker-content .filter", statusEmoji);
+    await fillIn(".emoji-picker-content .filter", emoji);
     await click(".results .emoji");
     assert.ok(
-      exists(`.btn-emoji d-icon-${statusEmoji}`),
+      exists(`.btn-emoji .d-icon-${emoji}`),
       "chosen status emoji is shown"
     );
   });
