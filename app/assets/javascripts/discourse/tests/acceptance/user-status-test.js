@@ -81,7 +81,11 @@ acceptance("User Status", function (needs) {
     await click(".header-dropdown-toggle.current-user");
     await click(".menu-links-row .user-preferences-link");
     await click(".user-status button");
+
     await fillIn(".user-status-description", userStatus);
+    await click(".btn-emoji");
+    await fillIn(".emoji-picker-content .filter", "palm_tree");
+    await click(".results .emoji");
     await click(".btn-primary");
 
     assert.equal(
