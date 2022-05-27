@@ -74,6 +74,7 @@ export default Controller.extend(ModalFunctionality, {
 
   _resetModal() {
     this.set("description", null);
+    this.set("emoji", null);
     this.set("showDeleteButton", false);
     this.set("emojiPickerIsActive", false);
   },
