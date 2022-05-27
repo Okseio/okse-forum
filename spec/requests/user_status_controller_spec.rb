@@ -46,14 +46,14 @@ describe UserStatusController do
       it "following calls update status" do
         status = "off to dentist"
         status_emoji = "tooth"
-        put "/user-status.json", params: { description: status }
+        put "/user-status.json", params: { description: status, emoji: status_emoji }
         user.reload
         expect(user.user_status.description).to eq(status)
         expect(user.user_status.emoji).to eq(status_emoji)
 
         new_status = "surfing"
         new_status_emoji = "surfing_man"
-        put "/user-status.json", params: { description: new_status }
+        put "/user-status.json", params: { description: new_status, emoji: new_status_emoji }
         user.reload
         expect(user.user_status.description).to eq(new_status)
         expect(user.user_status.emoji).to eq(new_status_emoji)
