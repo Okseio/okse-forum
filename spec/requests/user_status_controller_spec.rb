@@ -25,27 +25,38 @@ describe UserStatusController do
         SiteSetting.enable_user_status = true
       end
 
-      it "sets user status" do
-        status = "off to dentist"
-        put "/user-status.json", params: { description: status }
-        expect(user.user_status.description).to eq(status)
+      it 'the description parameter is mandatory' do
+        put "/user-status.json", params: { emoji: "tooth" }
+        expect(response.status).to eq(400)
       end
 
-      it 'the description parameter is mandatory' do
-        put "/user-status.json", params: {}
+      it 'the emoji parameter is mandatory' do
+        put "/user-status.json", params: { description: "off to dentist" }
         expect(response.status).to eq(400)
+      end
+
+      it "sets user status" do
+        status = "off to dentist"
+        status_emoji = "tooth"
+        put "/user-status.json", params: { description: status, emoji: status_emoji }
+        expect(user.user_status.description).to eq(status)
+        expect(user.user_status.emoji).to eq(status_emoji)
       end
 
       it "following calls update status" do
         status = "off to dentist"
+        status_emoji = "tooth"
         put "/user-status.json", params: { description: status }
         user.reload
         expect(user.user_status.description).to eq(status)
+        expect(user.user_status.emoji).to eq(status_emoji)
 
-        new_status = "working"
+        new_status = "surfing"
+        new_status_emoji = "surfing_man"
         put "/user-status.json", params: { description: new_status }
         user.reload
         expect(user.user_status.description).to eq(new_status)
+        expect(user.user_status.emoji).to eq(new_status_emoji)
       end
     end
   end
