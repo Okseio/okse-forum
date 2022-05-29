@@ -67,7 +67,7 @@ describe ExcerptParser do
           <div class="title">
             <div class="quote-controls"></div>
             <img width="20" height="20" src="/user_avatar/localhost/system/40/2_2.png" class="avatar">
-            <a href="/t/welcome-to-discourse/8/1">Welcome to Discourse</a>
+            <a href="/t/welcome-to-discourse/8/1">Welcome to Okse</a>
           </div>
           <blockquote>The first paragraph of this pinned topic will be visible as a welcome message to all new visitors on your homepage.</blockquote>
         </aside>
@@ -75,7 +75,7 @@ describe ExcerptParser do
       expect(ExcerptParser.get_excerpt(html, 100, keep_onebox_body: true)).to eq(<<~HTML.strip)
         [image]
 
-        <a href="/t/welcome-to-discourse/8/1">Welcome to Discourse</a>
+        <a href="/t/welcome-to-discourse/8/1">Welcome to Okse</a>
 
         The first paragraph of this pinned topic will be &hellip;
       HTML

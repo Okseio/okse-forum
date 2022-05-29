@@ -82,7 +82,7 @@ describe InviteMailer do
 
     context "invite to topic" do
       let(:trust_level_2) { build(:user, trust_level: 2) }
-      let(:topic) { Fabricate(:topic, excerpt: "Topic invite support is now available in Discourse!", user: trust_level_2) }
+      let(:topic) { Fabricate(:topic, excerpt: "Topic invite support is now available in Okse forum!", user: trust_level_2) }
 
       context "default invite message" do
         let(:invite) do

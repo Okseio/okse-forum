@@ -1448,14 +1448,14 @@ describe User do
 
     before do
       PostCreator.new(Discourse.system_user,
-                      title: "Welcome to our Discourse",
+                      title: "Welcome to our Okse forum!",
                       raw: "This is a welcome message",
                       archetype: Archetype.private_message,
                       target_usernames: [unactivated_old_with_system_pm.username],
       ).create
 
       PostCreator.new(user,
-                      title: "Welcome to our Discourse",
+                      title: "Welcome to our Okse forum!",
                       raw: "This is a welcome message",
                       archetype: Archetype.private_message,
                       target_usernames: [unactivated_old_with_human_pm.username],
