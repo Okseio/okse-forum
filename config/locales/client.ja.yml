@@ -988,7 +988,7 @@ ja:
         invite_link:
           success: "招待リンクが生成されました！"
         bulk_invite:
-          none: "まだ誰も招待していません。個々に招待するか、<a href='https://meta.discourse.org/t/send-bulk-invites/16468'>CSVファイルをアップロード</a>して、まとめて招待しましょう。"
+          none: "まだ誰も招待していません。個々に招待するか、<a href='https://forum.okse.io/t/send-bulk-invites/16468'>CSVファイルをアップロード</a>して、まとめて招待しましょう。"
           success: "ファイルは無事にアップロードされました。処理が完了したらメッセージでお知らせします。"
           error: "申し訳ありません、ファイルはCSV形式である必要があります。"
       password:

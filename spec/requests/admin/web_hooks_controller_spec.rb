@@ -20,7 +20,7 @@ describe Admin::WebHooksController do
       it 'creates a webhook' do
         post "/admin/api/web_hooks.json", params: {
           web_hook: {
-            payload_url: 'https://meta.discourse.org/',
+            payload_url: 'https://forum.okse.io/',
             content_type: 1,
             secret: "a_secret_for_webhooks",
             wildcard_web_hook: false,
@@ -35,7 +35,7 @@ describe Admin::WebHooksController do
         expect(response.status).to eq(200)
 
         json = response.parsed_body
-        expect(json["web_hook"]["payload_url"]).to eq("https://meta.discourse.org/")
+        expect(json["web_hook"]["payload_url"]).to eq("https://forum.okse.io/")
         expect(UserHistory.where(acting_user_id: admin.id, action: UserHistory.actions[:web_hook_create]).count).to eq(1)
       end
 

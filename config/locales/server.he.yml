@@ -184,7 +184,7 @@ he:
       second_factor_cannot_be_enforced_with_disabled_local_login: "אי אפשר לאכוף אימות דו־שלבי אם כניסה מקומית מושבתת."
       local_login_cannot_be_disabled_if_second_factor_enforced: "אי אפשר להשבית כניסה מקומית אם נאכף אימות דו־שלבי. יש להשבית את אכיפת האימות הדו־שלבי בטרם השבתת כניסה מקומית."
       cannot_enable_s3_uploads_when_s3_enabled_globally: "לא ניתן להפעיל העלאות ל־S3 כיוון שהעלאות ל־S3 כבר פעילות באופן גלובלי והפעלת האפשרות הזאת ברמת האתר עשויה להוביל לתקלות חמורות בהעלאה."
-    conflicting_google_user_id: 'מזהה חשבון ה־Google לחשבון זה השתנה, התערבות של חבר סגל נדרשת מטעמי אבטחה. נא ליצור קשר עם אחד מחברי הסגל ולהפנות אותו אל <br><a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'מזהה חשבון ה־Google לחשבון זה השתנה, התערבות של חבר סגל נדרשת מטעמי אבטחה. נא ליצור קשר עם אחד מחברי הסגל ולהפנות אותו אל <br><a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors
@@ -1361,12 +1361,12 @@ he:
     sidekiq_warning: 'Sidekiq לא רץ. משימות רבות, כמו שליחת מיילים, מבוצעות אסינכרונית באמצעות Sidekiq. אנא וודאו שלפחות תהליך אחד של Sidekiq רץ. <a href="https://github.com/mperham/sidekiq" target="_blank">לימדו על Sidekiq כאן</a>.'
     queue_size_warning: "מספר העבודות בתור הוא %{queue_size}, שהוא גבוה. זה עלול להצביע על בעיה עם תהליך(י) Sidekiq, או שייתכן שאתם צריכים יותר Sidekiq workers."
     memory_warning: "בשרת שלכם יש פחות מ 1 גיגה זיכרון בסך הכל. מומלץ לפחות 1 גיגה זיכרון."
-    google_oauth2_config_warning: 'השרת מוגדר לאפשר הרשמה דרך OAuth2 עם Google‏ (enable_google_oauth2_logins), אך לא הוגדרו ערכים למזהה לקוח ולסוד לקוח. יש לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">מדריך זה יסביר לך כיצד</a>.'
-    facebook_config_warning: 'השרת מוגדר לאפשר הרשמה דרך Facebook‏ (enable_facebook_logins), אך לא הוגדרו ערכים למזהה יישום ולסוד. יש לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394" target="_blank">מדריך זה יסביר לך כיצד</a>.'
-    twitter_config_warning: 'השרת מוגדר לאפשר הרשמה דרך Twitter‏ (enable_twitter_logins), אך לא הוגדרו ערכים למפתח ולסוד. יש לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://meta.discourse.org/t/configuring-twitter-login-for-discourse/13395" target="_blank">מדריך זה יסביר לך כיצד</a>.'
-    github_config_warning: 'השרת מוגדר לאפשר הרשמה דרך GitHub‏ (enable_github_logins), אך לא הוגדרו ערכים למפתח ולסוד. יש לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://meta.discourse.org/t/configuring-github-login-for-discourse/13745" target="_blank">מדריך זה יסביר לך כיצד</a>.'
-    s3_config_warning: 'השרת מוגדר להעלות קבצים ל־S3, אך לפחות אחת מההגדרות הבאות חסרה: s3_access_key_id,‏ s3_secret_access_key,‏ s3_use_iam_profile, או s3_upload_bucket. עליך לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">ניתן לעיין בעמוד „איך להגדיר העלאת תמונות ל־S3?” כדי ללמוד עוד</a>.'
-    s3_backup_config_warning: 'השרת מוגדר להעלות גיבויים ל־S3, אך לפחות אחת מההגדרות הבאות חסרה: s3_access_key_id,‏ s3_secret_access_key,‏ s3_use_iam_profile, או s3_backup_bucket. עליך לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">ניתן לעיין בעמוד „איך להגדיר העלאת תמונות ל־S3?” כדי ללמוד עוד</a>.'
+    google_oauth2_config_warning: 'השרת מוגדר לאפשר הרשמה דרך OAuth2 עם Google‏ (enable_google_oauth2_logins), אך לא הוגדרו ערכים למזהה לקוח ולסוד לקוח. יש לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">מדריך זה יסביר לך כיצד</a>.'
+    facebook_config_warning: 'השרת מוגדר לאפשר הרשמה דרך Facebook‏ (enable_facebook_logins), אך לא הוגדרו ערכים למזהה יישום ולסוד. יש לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://forum.okse.io/t/configuring-facebook-login-for-discourse/13394" target="_blank">מדריך זה יסביר לך כיצד</a>.'
+    twitter_config_warning: 'השרת מוגדר לאפשר הרשמה דרך Twitter‏ (enable_twitter_logins), אך לא הוגדרו ערכים למפתח ולסוד. יש לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://forum.okse.io/t/configuring-twitter-login-for-discourse/13395" target="_blank">מדריך זה יסביר לך כיצד</a>.'
+    github_config_warning: 'השרת מוגדר לאפשר הרשמה דרך GitHub‏ (enable_github_logins), אך לא הוגדרו ערכים למפתח ולסוד. יש לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://forum.okse.io/t/configuring-github-login-for-discourse/13745" target="_blank">מדריך זה יסביר לך כיצד</a>.'
+    s3_config_warning: 'השרת מוגדר להעלות קבצים ל־S3, אך לפחות אחת מההגדרות הבאות חסרה: s3_access_key_id,‏ s3_secret_access_key,‏ s3_use_iam_profile, או s3_upload_bucket. עליך לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">ניתן לעיין בעמוד „איך להגדיר העלאת תמונות ל־S3?” כדי ללמוד עוד</a>.'
+    s3_backup_config_warning: 'השרת מוגדר להעלות גיבויים ל־S3, אך לפחות אחת מההגדרות הבאות חסרה: s3_access_key_id,‏ s3_secret_access_key,‏ s3_use_iam_profile, או s3_backup_bucket. עליך לגשת אל <a href="%{base_path}/admin/site_settings">הגדרות האתר</a> ולעדכן את ההגדרות. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">ניתן לעיין בעמוד „איך להגדיר העלאת תמונות ל־S3?” כדי ללמוד עוד</a>.'
     image_magick_warning: 'השרת שלך מוגדר ליצור תמונות מוקטנות של תמונות גדולות אך אין התקנה של ImageMagick. יש להתקין את ImageMagick בעזרת מנהל החבילות החביב עליך או <a href="https://www.imagemagick.org/script/download.php" target="_blank">להוריד את הגרסה העדכנית ביותר</a>.'
     failing_emails_warning: 'ישנן %{num_failed_jobs} משימות דוא״ל שנכשלו. נא לבדוק את ה־app.yml שלך ולוודא שהגדרות כתובת שרת הדוא״ל נכונות. <a href="%{base_path}/sidekiq/retries" target="_blank">ניתן לעיין במשימות שנכשלו ב־Sidekiq</a>.'
     subfolder_ends_in_slash: "הגדרת תיקיית המשנה שלך שגויה, הנתיב DISCOURSE_RELATIVE_URL_ROOT צריך להסתיים בלוכסן."
@@ -1377,8 +1377,8 @@ he:
       other: "ניסיונות שליחת מיילים יצרו %{count} תקלות ב 24 השעות האחרונות. צפו ב<a href='%{base_path}/logs' target='_blank'>יומנים</a> לפרטים נוספים."
     missing_mailgun_api_key: "השרת מוגדר לשלוח דוא״ל דרך Mailgun אך לא סיפקת מפתח API שישמש לאימות ההודעות דרך ההתליה."
     bad_favicon_url: "טעינת סמל האתר נכשלה. נא לבדוק את הגדרות סמל האתר שלך תחת <a href='%{base_path}/admin/site_settings'>הגדרות האתר</a>."
-    deprecated_api_usage: "זיהינו בקשת API שהשתמשה בשיטת אימות ישנה. נא לעדכן את הלקוח להשתמש ב<a href='https://meta.discourse.org/t/-/22706'>אימות בכותרת</a>. לאחר העדכון ההודעה הזו תיעלם תוך 24 שעות."
-    update_mail_receiver: "זיהינו גרסה מיושנת של mail-receiver. יש ללחוץ <a href='https://meta.discourse.org/t/-/133491'>כאן</a> להנחיות על עדכון. לאחר העדכון ההודעה הזו תיעלם תוך 24 שעות."
+    deprecated_api_usage: "זיהינו בקשת API שהשתמשה בשיטת אימות ישנה. נא לעדכן את הלקוח להשתמש ב<a href='https://forum.okse.io/t/-/22706'>אימות בכותרת</a>. לאחר העדכון ההודעה הזו תיעלם תוך 24 שעות."
+    update_mail_receiver: "זיהינו גרסה מיושנת של mail-receiver. יש ללחוץ <a href='https://forum.okse.io/t/-/133491'>כאן</a> להנחיות על עדכון. לאחר העדכון ההודעה הזו תיעלם תוך 24 שעות."
     poll_pop3_timeout: "החיבור לשרת POP3 התנתק. דוא\"ל נכנס לא יכול להשלף ואינו מאוחזר. אנא בדקו את <a href='%{base_path}/admin/site_settings/category/email'> הגדרות ה-POP3 </a> שלכם ואת ספק השירות."
     poll_pop3_auth_error: "החיבור לשרת POP3 נכשל בשל שגיאת הזדהות. אנא בדקו את <a href='%{base_path}/admin/site_settings/category/email'> הגדרות ה-POP3 </a> שלכם."
     force_https_warning: "האתר שלך משתמש ב־SSL. אך `<a href='%{base_path}/admin/site_settings/category/all_results?filter=force_https'>force_https</a>` לא מופעל עדיין בהגדרות האתר שלך."
@@ -1466,7 +1466,7 @@ he:
     twitter_summary_large_image: "‚תמונת סיכום גדולה’ של כרטיס טוויטר (אמור להיות ברוחב של 280 לפחות ובגובה של 150 לפחות). אם נשאר ריק, ייווצרו נתוני על של כרטיס רגיל בעזרת ב־opengraph_image (תמונת opengraph)."
     notification_email: "מאת: נעשה שימוש בכתובת מייל זו כאשר שולחים את כל הודעות המערכת הנדרשות. כדי שהודעות הדוא\"ל יגיעו, המתחם (domain) המצויין כאן חייב לכלול SPF, DKIM ורשומות reverse PTR מוגדרים כהלכה."
     email_custom_headers: "רשימה מופרדת pipes (הסימון |) של כותרות מייל מותאמות אישית"
-    email_subject: "תבנית נושא בהתאמה אישית להודעות דוא״ל תקניות. יש לעיין ב־<a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801</a>"
+    email_subject: "תבנית נושא בהתאמה אישית להודעות דוא״ל תקניות. יש לעיין ב־<a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801</a>"
     detailed_404: "מספק פרטים נוספים למשתמשים בנוגע לסיבה שבגינה אין להם גישה לנושא מסוים. לתשומת לבך: מדובר בתצורה לא מאובטחת כיוון שמשתמשים ידעו אם כתובת מקשרת לנושא תקף."
     enforce_second_factor: "מאלץ משתמשים להפעיל אימות דו־שלבי. יש לבחור ב‚הכול’ כדי לאלץ את כל המשתמשים. יש לבחור ב‚סגל’ כדי לאכוף על חברי סגל בלבד."
     force_https: "הכריחו את אתרכם להשתמש אך ורק ב HTTPS. אזהרה: אל תאפשרו זאת עד שתוודאו ש HTTPS מותקן ועובד ממש בכל המקרים! וידאתם את הגדרות ה CDN שלכם, כל שירותי ההתחברות, וכל הלוגואים / תלויות החיצוניים - כדי לוודא שכולם עובדים גם כן עם HTTPS?"
@@ -1527,7 +1527,7 @@ he:
     content_security_policy: "הפעלת Content-Security-Policy (מדיניות אבטחת תוכן)"
     content_security_policy_report_only: "הפעלת Content-Security-Policy-Report-Only (מדיניות אבטחת תוכן בדיווח בלבד)"
     content_security_policy_collect_reports: "הפעלת איסוף דוחות הפרה של CSP (מדיניות אבטחת תוכן) תחת ‎/csp_reports"
-    content_security_policy_script_src: "מקורות נוספים לסקריפטים שעברו אישור. המארח וה־CDN הנוכחיים נכללים כבררת מחדל. ניתן לעיין ב<a href='https://meta.discourse.org/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>התקפות XSS בעזרת CSP - מדיניות אבטחת תוכן.</a>"
+    content_security_policy_script_src: "מקורות נוספים לסקריפטים שעברו אישור. המארח וה־CDN הנוכחיים נכללים כבררת מחדל. ניתן לעיין ב<a href='https://forum.okse.io/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>התקפות XSS בעזרת CSP - מדיניות אבטחת תוכן.</a>"
     invalidate_inactive_admin_email_after_days: "חשבונות מנהלים שלא ביקרו באתר מעל כמות כזו של ימים יאלצו לאמת מחדש את כתובת הדוא״ל שלהם כדי לשוב ולהיכנס. להגדיר כ־0 כדי לנטרל."
     top_menu: "החליטו אילו פריטים יופיעו בניווט עמוד הבית ובאיזה סדר לדוגמה |אחרונים|חדשים|קטגוריות|מובילים|נקראו|פורסמו|סימניות"
     post_menu: "החליטו אילו פריטים מופיעים בתפריט הפוסט, ובאיזה סדר. למשל like|edit|flag|delete|share|bookmark|reply"
@@ -1595,27 +1595,27 @@ he:
     enable_local_logins_via_email: "לאפשר למשתמשים לבקש לשלוח אליהם קישור לכניסה בלחיצה אחת בדוא״ל."
     allow_new_registrations: "לאפשר הרשמות של משתמשים חדשים. יש לבטל סימון זה כדי למנוע יצירת חשבונות חדשים."
     enable_signup_cta: "הציגו מודעה למשתמשים אנונימיים חוזרים שמציעה להם להרשם כדי לקבל חשבון."
-    enable_google_oauth2_logins: "להפעיל אימות עם Oauth2 מול Google. זו שיטת האימות שכרגע נתמכת מול Google. דורשת מפתח וסוד. יש לעיין ב<a href='https://meta.discourse.org/t/15858' target='_blank'>הגדרת כניסה עם Google ל־Okse</a>."
+    enable_google_oauth2_logins: "להפעיל אימות עם Oauth2 מול Google. זו שיטת האימות שכרגע נתמכת מול Google. דורשת מפתח וסוד. יש לעיין ב<a href='https://forum.okse.io/t/15858' target='_blank'>הגדרת כניסה עם Google ל־Okse</a>."
     google_oauth2_client_id: "זהות לקוח (Client ID) של אפליקציית ה-Google שלך."
     google_oauth2_client_secret: "קוד סודי של לקוח (client secret) של אפליקציית Google."
     google_oauth2_prompt: "רשימת רשות של ערכי מחרוזות מופרדים ברווחים שמציינת האם שרת האימות מבקש מהמשתמש אימות מחודש והסכמה. יש לעיין ב־<a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> לצפייה בערכים האפשריים."
     google_oauth2_hd: "שם מתחם שמתארח ב־Google Apps שאליו תוגבל הכניסה. יש לעיין ב־<a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> לפרטים נוספים."
-    enable_twitter_logins: "הפעלת אימות עם טוויטר, דורש twitter_consumer_key ו־twitter_consumer_secret. יש לעיין ב<a href='https://meta.discourse.org/t/13395' target='_blank'>הגדרת כניסה עם טוויטר (לרבות הטמעות עשירות) ל־Okse</a>."
+    enable_twitter_logins: "הפעלת אימות עם טוויטר, דורש twitter_consumer_key ו־twitter_consumer_secret. יש לעיין ב<a href='https://forum.okse.io/t/13395' target='_blank'>הגדרת כניסה עם טוויטר (לרבות הטמעות עשירות) ל־Okse</a>."
     twitter_consumer_key: "מפתח צרכן לאימות עם טוויטר, ניתן להירשם תחת <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "סוד צרכן לאימות עם טוויטר, ניתן להירשם תחת <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "הפעלת אימות אינסטגרם, דורש instagram_consumer_key ו־instagram_consumer_secret"
     instagram_consumer_key: "מפתח לאימות אינסטגרם"
     instagram_consumer_secret: "סוד לאימות אינסטגרם"
-    enable_facebook_logins: "הפעלת אימות עם Facebook, דורש facebook_app_id ו־facebook_app_secret. יש לעיין ב<a href='https://meta.discourse.org/t/13394' target='_blank'>הגדרת כניסה עם Facebook ל־Okse</a>."
+    enable_facebook_logins: "הפעלת אימות עם Facebook, דורש facebook_app_id ו־facebook_app_secret. יש לעיין ב<a href='https://forum.okse.io/t/13394' target='_blank'>הגדרת כניסה עם Facebook ל־Okse</a>."
     facebook_app_id: "מזהה יישום לאימות עם Facebook, ניתן להירשם תחת <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "סוד יישום לאימות עם Facebook, ניתן להירשם תחת <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "הפעלת אימות עם GitHub, דורש github_client_id ו־github_client_secret. יש לעיין ב<a href='https://meta.discourse.org/t/13745' target='_blank'>הגדרת כניסה עם GitHub ל־Okse</a>."
+    enable_github_logins: "הפעלת אימות עם GitHub, דורש github_client_id ו־github_client_secret. יש לעיין ב<a href='https://forum.okse.io/t/13745' target='_blank'>הגדרת כניסה עם GitHub ל־Okse</a>."
     github_client_id: "מזהה לקוח לאימות מול Github, ניתן להירשם ב־<a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "סוד לקוח לאימות מול Github, ניתן להירשם ב־<a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     enable_discord_logins: "לאפשר למשתמשים לעבור אימות דרך Discord?"
     discord_client_id: 'מזהה לקוח Discord (אין לך כזה? יש לבקר ב<a href="https://discordapp.com/developers/applications/me">פורטל המפתחים של Discord</a>)'
     discord_secret: "מפתח סודי של Discord"
-    discord_trusted_guilds: 'לאפשר רק למשתמש מגילדות ה־Discord האלה להיכנס באמצעות Discord. עליך להשתמש במזהה המספרי של הגילדה. למידע נוסף, יש לעיין בהנחיות ש<a href="https://meta.discourse.org/t/configuring-discord-login-for-discourse/127129">כאן</a>. שדה ריק משמעו כל גילדה שהיא.'
+    discord_trusted_guilds: 'לאפשר רק למשתמש מגילדות ה־Discord האלה להיכנס באמצעות Discord. עליך להשתמש במזהה המספרי של הגילדה. למידע נוסף, יש לעיין בהנחיות ש<a href="https://forum.okse.io/t/configuring-discord-login-for-discourse/127129">כאן</a>. שדה ריק משמעו כל גילדה שהיא.'
     enable_backups: "לאפשר למנהלים ליצור גיבויים של הפורום"
     allow_restore: "אפשר שחזור, אשר יכול להחליף את כל(!) המידע באתר! הותירו על \"שלילי\" (false) אלא אם כן אתם מתכננים לשחזר גיבוי."
     maximum_backups: "המספר המקסימלי של גיבויים לשמירה על הכונן. גיבויים ישנים יותר ימחקו אוטומטית"
@@ -1842,7 +1842,7 @@ he:
     log_mail_processing_failures: "לתעד את כל שגיאות עיבוד הדוא״ל אל <a href='%{base_path}/logs' target='_blank'>‎/logs</a>"
     email_in: 'לאפשר למשתמשים לפרסם נושאים חדשים באמצעות דוא״ל (נדרש תשאול ידני או דרך pop3). יש להגדיר את הכתובות בלשונית ה„הגדרות” שבכל קטגוריה.'
     email_in_min_trust: "רמת האמון המינימלית הנדרשת למשתמשים כדי שיוכלו להעלות נושאים חדשים באמצעות הדוא\"ל."
-    email_in_authserv_id: "מזהה השירות מבצע בדיקות אימות על הודעות דוא״ל נכנסות. יש לעיין ב־<a href='https://meta.discourse.org/t/134358'>https://meta.discourse.org/t/134358</a> לקבלת הנחיות כיצד להגדיר זאת."
+    email_in_authserv_id: "מזהה השירות מבצע בדיקות אימות על הודעות דוא״ל נכנסות. יש לעיין ב־<a href='https://forum.okse.io/t/134358'>https://forum.okse.io/t/134358</a> לקבלת הנחיות כיצד להגדיר זאת."
     email_in_spam_header: "כותרת הודעת הדוא״ל לאיתור ספאם."
     email_prefix: "ה[תווית] שתשמש כנושא של מיילים. אם לא יוגדר, ברירת המחדל תכוון ל'כותרת' אם לא יוגדר אחרת."
     email_site_title: "הכותרת של האתר שתשמש כשם השולח של דוא\"ל מהאתר. במידה ולא יוגדר ערך, תכוון ברירת המחדל ל\"כותרת\". אם ה\"כותרת\" שלכם מכילה תוים שאינם מותרים לשימוש במחרוזות \"שם השולח\" בדוא\"ל, השתמשו בהגדרה זו."
@@ -1878,7 +1878,7 @@ he:
     enable_user_directory: "ספקו ספריייה של משתמשים לגלישה"
     enable_group_directory: "ספקו ספריה של קבוצות לסיור"
     enable_category_group_review: "לאפשר קבוצות כדי לסקור תוכן בקטגוריות מסוימות"
-    group_in_subject: "ניתן להגדיר %%{optional_pm} בנושא הודעת הדוא״ל לשם הקבוצה הראשונה בהודעה הפרטית (PM), למידע נוסף: <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>התאמת תבנית הנושא להודעות דוא״ל תקניות</a>"
+    group_in_subject: "ניתן להגדיר %%{optional_pm} בנושא הודעת הדוא״ל לשם הקבוצה הראשונה בהודעה הפרטית (PM), למידע נוסף: <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>התאמת תבנית הנושא להודעות דוא״ל תקניות</a>"
     allow_anonymous_posting: "אפשרו למשתמשים לעבור למצב אנונימי"
     anonymous_posting_min_trust_level: "רמת האמון המינמלית הנדרשת כדי לאפשר פרסום אנונימי"
     anonymous_account_duration_minutes: "בכדי להגן על האנונימות צרו חשבון אנונימי כל N דקות לכל משתמש. לדוגמה: אם מכוון ל-600, כאשר יעברו 600 דקות מהפרסום האחרון והמשתמש/ת יחליפו לזהות אנונימית, חשבון אנונימי חדש יווצר."
@@ -1943,7 +1943,7 @@ he:
     delete_drafts_older_than_n_days: "מחקו טיוטות בנות יותר מ (n) ימים."
     bootstrap_mode_min_users: "מספר משתמשים מינימלי שנדרש כדי לנטרל מצב איתחול (קבעו ל 0 כדי לנטרל)"
     prevent_anons_from_downloading_files: "מונע ממשתמשים אנונימיים להוריד צרופות (attachments). אזהרה: דבר זה ימנע מכל משאב שאינו תמונה ופורסם כצרופה לעבוד."
-    secure_media: 'מגביל גישה לכל ההעלאות (תמונות, סרטונים, שמע, טקסט, קובצי PDF, ארכיוני zip ועוד). אם מופעלת האפשרות „דרישת כניסה”, רק משתמשים שנכנסו למערכת יכולים לגשת להעלאות. אחרת, הגישה תוגבל רק להעלאות מסוגי מדיה בהודעות פרטיות ובקטגוריות פרטיות. אזהרה: מדובר בהגדרה מסובכת שדורשת הבנה עמוקה בניהול המערכת. יש לעיין ב<a target="_blank" href="https://meta.discourse.org/t/secure-media-uploads/140017">נושא המדיה המאובטחת ב־Meta</a> לקבלת פרטים נוספים.'
+    secure_media: 'מגביל גישה לכל ההעלאות (תמונות, סרטונים, שמע, טקסט, קובצי PDF, ארכיוני zip ועוד). אם מופעלת האפשרות „דרישת כניסה”, רק משתמשים שנכנסו למערכת יכולים לגשת להעלאות. אחרת, הגישה תוגבל רק להעלאות מסוגי מדיה בהודעות פרטיות ובקטגוריות פרטיות. אזהרה: מדובר בהגדרה מסובכת שדורשת הבנה עמוקה בניהול המערכת. יש לעיין ב<a target="_blank" href="https://forum.okse.io/t/secure-media-uploads/140017">נושא המדיה המאובטחת ב־Meta</a> לקבלת פרטים נוספים.'
     slug_generation_method: "בחרו צורת ייצור slug. צורה של 'encoded' תגרום למחרוזות עם קידוד אחוזים. 'none' ינטרל slug לחלוטין."
     enable_emoji: "הפעלת אמוג׳י"
     enable_emoji_shortcuts: "חייכנים נפוצים כגון ‎:) :p :(‎ יומרו לאמוג׳ים"
@@ -2500,9 +2500,9 @@ he:
 
       - אפשר לשדרג בעזרת **[עדכון בלחיצה אחת דרך הדפדפן](%{base_url}/admin/upgrade)**
 
-      - צפייה ב[הערות המהדורה](https://meta.discourse.org/tag/release-notes) יציגו בפניך את כל השינויים או צפייה ב[יומן השינויים הגולמי של GitHub](https://github.com/discourse/discourse/commits/master)
+      - צפייה ב[הערות המהדורה](https://forum.okse.io/tag/release-notes) יציגו בפניך את כל השינויים או צפייה ב[יומן השינויים הגולמי של GitHub](https://github.com/discourse/discourse/commits/master)
 
-      - ניתן לבקר ב־[meta.discourse.org](https://meta.discourse.org) לחדשות, דיונים ותמיכה ב־Okse
+      - ניתן לבקר ב־[forum.okse.io](https://forum.okse.io) לחדשות, דיונים ותמיכה ב־Okse
   new_version_mailer_with_notes:
     title: "שולח-מיילים של גרסה חדשה עם הערות"
     subject_template: "[%{email_prefix}] עדכון זמין"
@@ -2514,9 +2514,9 @@ he:
 
       - אפשר לשדרג בעזרת **[עדכון בלחיצה אחת דרך הדפדפן](%{base_url}/admin/upgrade)**
 
-      - צפייה ב[הערות המהדורה](https://meta.discourse.org/tag/release-notes) יציגו בפניך את כל השינויים או צפייה ב[יומן השינויים הגולמי של GitHub](https://github.com/discourse/discourse/commits/master)
+      - צפייה ב[הערות המהדורה](https://forum.okse.io/tag/release-notes) יציגו בפניך את כל השינויים או צפייה ב[יומן השינויים הגולמי של GitHub](https://github.com/discourse/discourse/commits/master)
 
-      - ניתן לבקר ב־[meta.discourse.org](https://meta.discourse.org) לחדשות, דיונים ותמיכה ב־Okse
+      - ניתן לבקר ב־[forum.okse.io](https://forum.okse.io) לחדשות, דיונים ותמיכה ב־Okse
 
       ### הערות מהדורה
 
@@ -2634,7 +2634,7 @@ he:
 
         הרשאות %{role} מעניקות לך גישה אל <a href='%{base_url}/admin' target='_blank'>מנשק הניהול</a>.
 
-        כוח רב טומן בחובו אחריות רבה. אם תחום הפיקוח זר לך, ניתן לפנות אל [המדריך למפקחים](https://meta.discourse.org/t/discourse-moderation-guide/63116).
+        כוח רב טומן בחובו אחריות רבה. אם תחום הפיקוח זר לך, ניתן לפנות אל [המדריך למפקחים](https://forum.okse.io/t/discourse-moderation-guide/63116).
     welcome_invite:
       title: "הזמנת ברוכים הבאים"
       subject_template: "ברוכים הבאים ל %{site_name}!"
@@ -4058,10 +4058,10 @@ he:
       button: "הרשמה"
       title: "הרשמת חשבון אדמיניסטרטור"
       help: "רישמו חשבון חדש כדי להתחיל"
-      no_emails: "לרוע המזל, לא הוגדרו כתובות דוא״ל של מנהלים במהלך ההקמה, לכן סיום התצורה עשוי להיות מורכב. נא להוסיף כתובת דוא״ל של מפתח בקובץ התצורה או <a href='https://meta.discourse.org/t/create-admin-account-from-console/17274'>ליצור חשבון מנהל מהמסוף</a>."
+      no_emails: "לרוע המזל, לא הוגדרו כתובות דוא״ל של מנהלים במהלך ההקמה, לכן סיום התצורה עשוי להיות מורכב. נא להוסיף כתובת דוא״ל של מפתח בקובץ התצורה או <a href='https://forum.okse.io/t/create-admin-account-from-console/17274'>ליצור חשבון מנהל מהמסוף</a>."
     confirm_email:
       title: "אישור הדוא״ל שלך"
-      message: "<p>שלחנו הודעת הפעלה בדוא״ל אל <b>%{email}</b>. נא לעקוב אחר ההנחיות שבהודעה כדי להפעיל את החשבון שלך.</p><p>אם ההודעה לא הגיעה אליך, מוטב לבדוק את תיקיית הספאם, וגם <a href='https://meta.discourse.org/t/troubleshooting-email-on-a-new-discourse-install/16326'>לוודא שכתובת הדוא״ל שלך הוגדרה כראוי</a>.</p>"
+      message: "<p>שלחנו הודעת הפעלה בדוא״ל אל <b>%{email}</b>. נא לעקוב אחר ההנחיות שבהודעה כדי להפעיל את החשבון שלך.</p><p>אם ההודעה לא הגיעה אליך, מוטב לבדוק את תיקיית הספאם, וגם <a href='https://forum.okse.io/t/troubleshooting-email-on-a-new-discourse-install/16326'>לוודא שכתובת הדוא״ל שלך הוגדרה כראוי</a>.</p>"
     resend_email:
       title: "שליחת הודעת הפעלה בדוא״ל מחדש"
       message: "<p>הודעת ההפעלה נשלחה מחדש בדוא״ל אל <b>%{email}</b>"
@@ -4154,7 +4154,7 @@ he:
         title: "תמה"
       themes_further_reading:
         title: "תמות"
-        description: "מעניין אותך לערוך התאמות ל־Okse שלך? אפשר לעשות זאת בעזרת מערכת ערכות העיצוב: <ul> <li><a href='https://meta.discourse.org/t/63682' target='_blank'>איך אוכל להתקין ערכת עיצוב או רכיב של ערכת עיצוב?</a></li> <li><a href='https://meta.discourse.org/t/110448' target='_blank'>מדריך זריז למפתחי ערכות עיצוב</a></li> </ul> רכיבי ערכות עיצוב נפוצים (לעיון בנוספים יש לסייר ב־<a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>‎#theme</a>)"
+        description: "מעניין אותך לערוך התאמות ל־Okse שלך? אפשר לעשות זאת בעזרת מערכת ערכות העיצוב: <ul> <li><a href='https://forum.okse.io/t/63682' target='_blank'>איך אוכל להתקין ערכת עיצוב או רכיב של ערכת עיצוב?</a></li> <li><a href='https://forum.okse.io/t/110448' target='_blank'>מדריך זריז למפתחי ערכות עיצוב</a></li> </ul> רכיבי ערכות עיצוב נפוצים (לעיון בנוספים יש לסייר ב־<a href='https://forum.okse.io/c/theme/l/latest' target='_blank'>‎#theme</a>)"
       logos:
         title: "לוגואים"
         fields:

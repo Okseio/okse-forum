@@ -11,7 +11,7 @@ class BulkImport::DiscourseMerger < BulkImport::Base
   # DB_HOST: hostname of database being merged
   # UPLOADS_PATH: absolute path of the directory containing "original"
   #               and "optimized" dirs. e.g. /home/discourse/other-site/public/uploads/default
-  # SOURCE_BASE_URL: base url of the site being merged. e.g. https://meta.discourse.org
+  # SOURCE_BASE_URL: base url of the site being merged. e.g. https://forum.okse.io
   # SOURCE_CDN: (optional) base url of the CDN of the site being merged.
   #             e.g. https://discourse-cdn-sjc1.com/business4
 

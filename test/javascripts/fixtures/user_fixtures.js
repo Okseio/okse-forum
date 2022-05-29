@@ -550,7 +550,7 @@ export default {
         action_type: 7,
         created_at: "2014-01-15T11:16:36Z",
         excerpt:
-          "<a class='mention' href='/users/eviltrout'>@eviltrout</a> recently added support for multiple API keys [wink] \n\n<a href='//meta.discourse.org/uploads/default/2905/4c8decfac1518ff6.png' target='_blank'>[]</a>",
+          "<a class='mention' href='/users/eviltrout'>@eviltrout</a> recently added support for multiple API keys [wink] \n\n<a href='//forum.okse.io/uploads/default/2905/4c8decfac1518ff6.png' target='_blank'>[]</a>",
         avatar_template:
           "//www.gravatar.com/avatar/b7797beb47cfb7aa0fe60d09604aaa09.png?s={size}&r=pg&d=identicon",
         acting_avatar_template:

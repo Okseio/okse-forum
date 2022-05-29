@@ -178,8 +178,8 @@ export default {
         },
         {
           id: 1,
-          title: "Welcome to meta.discourse.org",
-          fancy_title: "Welcome to meta.discourse.org",
+          title: "Welcome to forum.okse.io",
+          fancy_title: "Welcome to forum.okse.io",
           slug: "welcome-to-meta-discourse-org",
           posts_count: 5,
           reply_count: 5,
@@ -1890,8 +1890,8 @@ export default {
           topics: [
             {
               id: 1,
-              title: "Welcome to meta.discourse.org",
-              fancy_title: "Welcome to meta.discourse.org",
+              title: "Welcome to forum.okse.io",
+              fancy_title: "Welcome to forum.okse.io",
               slug: "welcome-to-meta-discourse-org",
               posts_count: 5,
               reply_count: 5,
@@ -2075,7 +2075,7 @@ export default {
           slug: "meta",
           topic_count: 79,
           description:
-            "Discussion about meta.discourse.org itself, the organization of this forum about Discourse, how it works, and how we can improve this site.",
+            "Discussion about forum.okse.io itself, the organization of this forum about Discourse, how it works, and how we can improve this site.",
           topic_url: "/t/category-definition-for-meta/24",
           read_restricted: false,
           permission: null,
@@ -2089,7 +2089,7 @@ export default {
           posts_month: 18,
           posts_year: 696,
           description_excerpt:
-            "Discussion about meta.discourse.org itself, the organization of this forum about Discourse, how it works, and how we can improve this site.",
+            "Discussion about forum.okse.io itself, the organization of this forum about Discourse, how it works, and how we can improve this site.",
           featured_user_ids: [19, 8085, 32, 5174, 4534],
           topics: [
             {

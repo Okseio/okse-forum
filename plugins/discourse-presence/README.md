@@ -3,7 +3,7 @@ This plugin shows which users are currently writing a reply at the same time as 
 
 ## Installation
 
-Follow the directions at [Install a Plugin](https://meta.discourse.org/t/install-a-plugin/19157) using https://github.com/discourse/discourse-presence.git as the repository URL.
+Follow the directions at [Install a Plugin](https://forum.okse.io/t/install-a-plugin/19157) using https://github.com/discourse/discourse-presence.git as the repository URL.
 
 ## Authors
 

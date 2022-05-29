@@ -178,7 +178,7 @@ PreloadStore.store("site", {
       slug: "meta",
       topic_count: 79,
       description:
-        "Discussion about meta.discourse.org itself, the organization of this forum about Discourse, how it works, and how we can improve this site.",
+        "Discussion about forum.okse.io itself, the organization of this forum about Discourse, how it works, and how we can improve this site.",
       topic_url: "/t/category-definition-for-meta/24",
       hotness: 5.0,
       read_restricted: false,

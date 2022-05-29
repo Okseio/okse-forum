@@ -174,7 +174,7 @@ nl:
       second_factor_cannot_be_enforced_with_disabled_local_login: "U kunt geen 2FA afdwingen als lokale aanmeldingen zijn uitgeschakeld."
       local_login_cannot_be_disabled_if_second_factor_enforced: "U kunt geen lokale aanmelding uitschakelen als 2FA is afgedwongen. Schakel afgedwongen 2FA uit voordat u lokale aanmeldingen uitschakelt."
       cannot_enable_s3_uploads_when_s3_enabled_globally: "U kunt geen S3-uploads inschakelen, omdat S3-uploads al globaal zijn ingeschakeld, en inschakelen hiervan op websiteniveau kan kritieke problemen met uploads veroorzaken"
-    conflicting_google_user_id: 'De Google-account-ID voor deze account is gewijzigd; om beveiligingsredenen is stafinterventie vereist. Neem contact op met een staflid en wijs hem of haar op <br><a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'De Google-account-ID voor deze account is gewijzigd; om beveiligingsredenen is stafinterventie vereist. Neem contact op met een staflid en wijs hem of haar op <br><a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors
@@ -1285,12 +1285,12 @@ nl:
     sidekiq_warning: 'Sidekiq is niet actief. Veel taken, zoals het verzenden van e-mail, worden door Sidekiq asynchroon uitgevoerd. Zorg ervoor dat er minstens één Sidekiq-proces actief is. <a href="https://github.com/mperham/sidekiq" target="_blank">Lees hier meer over Sidekiq</a>.'
     queue_size_warning: "Het aantal taken in de wachtrij is %{queue_size}, wat hoog is. Dit zou op een probleem met Sidekiq-processen kunnen duiden, of mogelijk dient u meer Sidekiq-workers toe te voegen."
     memory_warning: "Uw server werkt met minder dan 1 GB aan totaal geheugen. Minstens 1 GB geheugen wordt aanbevolen."
-    google_oauth2_config_warning: 'De server is geconfigureerd om registratie en aanmelding via Google OAuth2 toe te staan (enable_google_oauth2_logins), maar de waarden voor client-ID en clientgeheim zijn niet ingesteld. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">Bekijk deze handleiding voor meer info</a>.'
-    facebook_config_warning: 'De server is geconfigureerd om registratie en aanmelding via Facebook to te staan (enable_facebook_logins), maar de waarden voor app-ID en app-geheim zijn niet ingesteld. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394" target="_blank">Bekijk deze handleiding voor meer info</a>.'
-    twitter_config_warning: 'De server is geconfigureerd om registratie en aanmelding via Twitter toe te staan (enable_twitter_logins), maar de waarden voor sleutel en geheim zijn niet ingesteld. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://meta.discourse.org/t/configuring-twitter-login-for-discourse/13395" target="_blank">Bekijk deze handleiding voor meer info</a>.'
-    github_config_warning: 'De server is geconfigureerd om registratie en aanmelding via GitHub toe te staan (enable_github_logins), maar de waarden voor client-ID en -geheim zijn niet ingesteld. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://meta.discourse.org/t/configuring-github-login-for-discourse/13745" target="_blank">Bekijk deze handleiding voor meer info</a>.'
-    s3_config_warning: 'De server is geconfigureerd om bestanden naar S3 te uploaden, maar minstens één van de volgende waarden is niet ingesteld: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, of s3_upload_bucket. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Bekijk ''How to set up image uploads to S3?'' voor meer info</a>.'
-    s3_backup_config_warning: 'De server is geconfigureerd om back-ups naar S3 te uploaden, maar minstens één van de volgende waarden is niet ingesteld: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, of s3_backup_bucket. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Bekijk ''How to set up image uploads to S3?'' voor meer info</a>.'
+    google_oauth2_config_warning: 'De server is geconfigureerd om registratie en aanmelding via Google OAuth2 toe te staan (enable_google_oauth2_logins), maar de waarden voor client-ID en clientgeheim zijn niet ingesteld. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">Bekijk deze handleiding voor meer info</a>.'
+    facebook_config_warning: 'De server is geconfigureerd om registratie en aanmelding via Facebook to te staan (enable_facebook_logins), maar de waarden voor app-ID en app-geheim zijn niet ingesteld. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://forum.okse.io/t/configuring-facebook-login-for-discourse/13394" target="_blank">Bekijk deze handleiding voor meer info</a>.'
+    twitter_config_warning: 'De server is geconfigureerd om registratie en aanmelding via Twitter toe te staan (enable_twitter_logins), maar de waarden voor sleutel en geheim zijn niet ingesteld. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://forum.okse.io/t/configuring-twitter-login-for-discourse/13395" target="_blank">Bekijk deze handleiding voor meer info</a>.'
+    github_config_warning: 'De server is geconfigureerd om registratie en aanmelding via GitHub toe te staan (enable_github_logins), maar de waarden voor client-ID en -geheim zijn niet ingesteld. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://forum.okse.io/t/configuring-github-login-for-discourse/13745" target="_blank">Bekijk deze handleiding voor meer info</a>.'
+    s3_config_warning: 'De server is geconfigureerd om bestanden naar S3 te uploaden, maar minstens één van de volgende waarden is niet ingesteld: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, of s3_upload_bucket. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Bekijk ''How to set up image uploads to S3?'' voor meer info</a>.'
+    s3_backup_config_warning: 'De server is geconfigureerd om back-ups naar S3 te uploaden, maar minstens één van de volgende waarden is niet ingesteld: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, of s3_backup_bucket. Ga naar <a href="%{base_path}/admin/site_settings">de Website-instellingen</a> en werk de instellingen bij. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Bekijk ''How to set up image uploads to S3?'' voor meer info</a>.'
     image_magick_warning: 'De server is geconfigureerd om miniaturen van grote afbeeldingen te maken, maar ImageMagick is niet geïnstalleerd. Installeer ImageMagick met uw favoriete pakketbeheerder, of <a href="https://www.imagemagick.org/script/download.php" target="_blank">download de nieuwste versie</a>.'
     failing_emails_warning: 'Er zijn %{num_failed_jobs} mislukte e-mailtaken. Controleer uw bestand app.yml en zorg ervoor dat de mailserverinstellingen juist zijn. <a href="%{base_path}/sidekiq/retries" target="_blank">Bekijk de mislukte taken in Sidekiq</a>.'
     subfolder_ends_in_slash: "Uw submapconfiguratie is onjuist; de DISCOURSE_RELATIVE_URL_ROOT eindigt met een schuine streep."
@@ -1299,8 +1299,8 @@ nl:
       other: "E-mailpolling heeft de afgelopen 24 uur %{count} fouten gegenereerd. Bekijk <a href='%{base_path}/logs' target='_blank'>de logboeken</a> voor meer details."
     missing_mailgun_api_key: "De server is geconfigureerd om e-mails via Mailgun te verzenden, maar u hebt geen API-sleutel opgegeven voor verificatie van de webhookberichten."
     bad_favicon_url: "De favicon wordt niet geladen. Controleer uw favicon-instelling in de <a href='%{base_path}/admin/site_settings'>Website-instellingen</a>."
-    deprecated_api_usage: "We hebben een API-aanvraag via een verouderde authenticatiemethode gedetecteerd. Werk deze bij zodat <a href='https://meta.discourse.org/t/-/22706'>op headers gebaseerde authenticatie</a> wordt gebruikt. Na het bijwerken zou dit bericht pas na 24 uur kunnen verschijnen."
-    update_mail_receiver: "We hebben een verouderde versie van mail-receiver gedetecteerd. Klik <a href='https://meta.discourse.org/t/-/133491'>hier</a> voor update-instructies. Na het bijwerken zou dit bericht pas na 24 uur kunnen verschijnen."
+    deprecated_api_usage: "We hebben een API-aanvraag via een verouderde authenticatiemethode gedetecteerd. Werk deze bij zodat <a href='https://forum.okse.io/t/-/22706'>op headers gebaseerde authenticatie</a> wordt gebruikt. Na het bijwerken zou dit bericht pas na 24 uur kunnen verschijnen."
+    update_mail_receiver: "We hebben een verouderde versie van mail-receiver gedetecteerd. Klik <a href='https://forum.okse.io/t/-/133491'>hier</a> voor update-instructies. Na het bijwerken zou dit bericht pas na 24 uur kunnen verschijnen."
     poll_pop3_timeout: "Time-out voor verbinding met de POP3-server. Inkomende e-mail kon niet worden opgehaald. Controleer uw <a href='%{base_path}/admin/site_settings/category/email'>POP3-instellingen</a> en serviceprovider."
     poll_pop3_auth_error: "Verbinding met de POP3-server is mislukt met een authenticatiefout. Controleer uw <a href='%{base_path}/admin/site_settings/category/email'>POP3-instellingen</a>."
     force_https_warning: "Uw website gebruikt SSL, maar `<a href='%{base_path}/admin/site_settings/category/all_results?filter=force_https'>force_https</a>` is nog niet ingeschakeld in uw website-instellingen."
@@ -1388,7 +1388,7 @@ nl:
     twitter_summary_large_image: "'summary large image' van Twitter-card (dient minstens 280 in breedte, en minstens 150 in hoogte te zijn). Bij leeg laten worden reguliere kaartmetagegevens gegenereerd via de opengraph_image."
     notification_email: "Het Van:-e-mailadres adres dat wordt gebruikt voor het verzenden van alle essentiële systeem-e-mails. Het hier opgegeven domein moet goed ingestelde SPF-, DKIM- en reverse-PTR-records hebben om e-mails te doen aankomen."
     email_custom_headers: "Een door een pipe (|) gescheiden lijst van aangepaste e-mailheaders"
-    email_subject: "Aanpasbare onderwerpnotatie voor standaard-e-mails. Zie <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801</a>"
+    email_subject: "Aanpasbare onderwerpnotatie voor standaard-e-mails. Zie <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801</a>"
     detailed_404: "Biedt gebruikers meer informatie over waarom ze geen toegang hebben tot een bepaald topic. Opmerking: dit is minder veilig, omdat gebruikers dan weten of een URL naar een geldig topic verwijst."
     enforce_second_factor: "Dwingt gebruikers om twee-factor-authenticatie in te schakelen. Selecteer 'alle' om dit voor alle gebruikers te doen. Selecteer 'stafleden' om dit alleen voor stafleden te doen."
     force_https: "Gebruik van alleen HTTPS voor uw website afdwingen. WAARSCHUWING: schakel dit NIET in voordat u hebt geverifieerd dat HTTPS volledig is ingesteld en echt overal werkt! Hebt u ook uw CDN, alle sociale aanmeldingen en eventuele externe logo's / afhankelijkheden gecontroleerd om zeker te weten dat ze ook allemaal met HTTPS compatibel zijn?"
@@ -1449,7 +1449,7 @@ nl:
     content_security_policy: "Content-Security-Policy inschakelen"
     content_security_policy_report_only: "Content-Security-Policy-Report-Only inschakelen"
     content_security_policy_collect_reports: "Rapportverzameling voor CSP-schendingen inschakelen via /csp_reports"
-    content_security_policy_script_src: "Aanvullende scriptbronnen op de whitelist. De huidige host en CDN zijn standaard inbegrepen. Zie <a href='https://meta.discourse.org/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>Mitigate XSS Attacks with Content Security Policy</a>."
+    content_security_policy_script_src: "Aanvullende scriptbronnen op de whitelist. De huidige host en CDN zijn standaard inbegrepen. Zie <a href='https://forum.okse.io/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>Mitigate XSS Attacks with Content Security Policy</a>."
     invalidate_inactive_admin_email_after_days: "Beheerdersaccounts die de website dit aantal dagen niet hebben bezocht, dienen hun e-mailadres voor het aanmelden opnieuw te valideren. Stel dit in op 0 om uit te schakelen."
     top_menu: "Bepalen welke items in het hoofdnavigatiemenu verschijnen, en in welke volgorde. Voorbeeld: latest|new|unread|categories|top|read|posted|bookmarks"
     post_menu: "Bepalen welke items in het berichtmenu verschijnen, en in welke volgorde. Voorbeeld: like|edit|flag|delete|share|bookmark|reply"
@@ -1517,27 +1517,27 @@ nl:
     enable_local_logins_via_email: "Gebruikers mogen vragen een koppeling voor aanmelding met één klik via e-mail te laten toesturen."
     allow_new_registrations: "Nieuwe gebruikersregistraties toestaan. Vink dit uit om te voorkomen dat iedereen een nieuwe account kan maken."
     enable_signup_cta: "Een melding tonen voor terugkerende anonieme gebruikers waarin wordt gevraagd zich voor een account te registreren"
-    enable_google_oauth2_logins: "Google Oauth2-authenticatie inschakelen. Dit is de methode voor authenticatie die Google momenteel ondersteunt. Vereist sleutel en geheim. Zie <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuring Google login for Okse</a>."
+    enable_google_oauth2_logins: "Google Oauth2-authenticatie inschakelen. Dit is de methode voor authenticatie die Google momenteel ondersteunt. Vereist sleutel en geheim. Zie <a href='https://forum.okse.io/t/15858' target='_blank'>Configuring Google login for Okse</a>."
     google_oauth2_client_id: "Client-ID van uw Google-toepassing."
     google_oauth2_client_secret: "Client-geheim van uw Google-toepassing."
     google_oauth2_prompt: "Een optionele door spaties gescheiden lijst van tekenreekswaarden die bepaalt of de autorisatieserver de gebruiker opnieuw om authenticatie en instemming vraagt. Zie <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> voor de mogelijke waarden."
     google_oauth2_hd: "Een optioneel door Google Apps gehost domein waartoe de aanmelding wordt beperkt. Zie <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> voor meer details."
-    enable_twitter_logins: "Twitter-authenticatie inschakelen, vereist twitter_consumer_key en twitter_consumer_secret. Zie <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Okse</a>."
+    enable_twitter_logins: "Twitter-authenticatie inschakelen, vereist twitter_consumer_key en twitter_consumer_secret. Zie <a href='https://forum.okse.io/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Okse</a>."
     twitter_consumer_key: "Consumentsleutel voor Twitter-authenticatie, geregistreerd bij <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Consumentgeheim voor Twitter-authenticatie, geregistreerd bij <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "Instagram-authenticatie inschakelen; vereist instagram_consumer_key en instagram_consumer_secret."
     instagram_consumer_key: "Consumentsleutel voor Instagram-authenticatie"
     instagram_consumer_secret: "Consumentgeheim voor Instagram-authenticatie"
-    enable_facebook_logins: "Facebook-authenticatie inschakelen, vereist facebook_app_id en facebook_app_secret. Zie <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuring Facebook login for Okse</a>."
+    enable_facebook_logins: "Facebook-authenticatie inschakelen, vereist facebook_app_id en facebook_app_secret. Zie <a href='https://forum.okse.io/t/13394' target='_blank'>Configuring Facebook login for Okse</a>."
     facebook_app_id: "App-ID voor Facebook-authenticatie, geregistreerd bij <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "App-geheim voor Facebook-authenticatie, geregistreerd bij <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "Github-authenticatie inschakelen, vereist github_client_id en github_client_secret. Zie <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuring GitHub login for Okse</a>."
+    enable_github_logins: "Github-authenticatie inschakelen, vereist github_client_id en github_client_secret. Zie <a href='https://forum.okse.io/t/13745' target='_blank'>Configuring GitHub login for Okse</a>."
     github_client_id: "Client-ID voor Github-authenticatie, geregistreerd bij <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "Client-geheim voor Github-authenticatie, geregistreerd bij <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     enable_discord_logins: "Mogen gebruikers authenticeren via Discord?"
     discord_client_id: 'Discord-client-ID (eentje nodig? bezoek <a href="https://discordapp.com/developers/applications/me">het Discord developer portal</a>)'
     discord_secret: "Geheime sleutel van Discord"
-    discord_trusted_guilds: 'Alleen leden van deze Discord-guilds mogen zich aanmelden via Discord. Gebruik de numerieke ID voor de guild. Bekijk de instructies <a href="https://meta.discourse.org/t/configuring-discord-login-for-discourse/127129">hier</a> voor meer informatie. Laat dit leeg om alle guilds toe te staan.'
+    discord_trusted_guilds: 'Alleen leden van deze Discord-guilds mogen zich aanmelden via Discord. Gebruik de numerieke ID voor de guild. Bekijk de instructies <a href="https://forum.okse.io/t/configuring-discord-login-for-discourse/127129">hier</a> voor meer informatie. Laat dit leeg om alle guilds toe te staan.'
     enable_backups: "Beheerders mogen back-ups van het forum maken"
     allow_restore: "Herstellen van gegevens toestaan, waarbij ALLE websitegegevens worden overschreven! Laat dit op 'false' staan, tenzij u een back-up wilt terugzetten."
     maximum_backups: "Het maximale aantal back-ups om op schijf te bewaren. Oudere back-ups worden automatisch verwijderd."
@@ -1764,7 +1764,7 @@ nl:
     log_mail_processing_failures: "Alle fouten van e-mailverwerking opslaan in <a href='%{base_path}/logs' target='_blank'>/logs</a>"
     email_in: 'Gebruikers mogen nieuwe topics maken via e-mail (vereist handmatige of POP3-polling). Configureer de adressen in het tabblad ''Instellingen'' van elke categorie.'
     email_in_min_trust: "Het minimale vertrouwensniveau dat een gebruiker moet hebben om nieuwe topics te kunnen plaatsen via e-mail."
-    email_in_authserv_id: "De ID van de service die authenticatiecontroles op inkomende e-mails uitvoert. Zie <a href='https://meta.discourse.org/t/134358'>https://meta.discourse.org/t/134358</a> voor instructies over het configureren hiervan."
+    email_in_authserv_id: "De ID van de service die authenticatiecontroles op inkomende e-mails uitvoert. Zie <a href='https://forum.okse.io/t/134358'>https://forum.okse.io/t/134358</a> voor instructies over het configureren hiervan."
     email_in_spam_header: "De e-mailheader voor het detecteren van spam."
     email_prefix: "Het [label] dat in het onderwerp van e-mails wordt gebruikt. Als niets is ingevuld, wordt 'title' gebruikt."
     email_site_title: "De titel van de website die als de afzender van e-mails van de website wordt gebruikt. Standaard wordt 'titel' gebruikt als niets is ingesteld. Gebruik deze instelling als uw 'titel' tekens bevat die niet in tekenreeksen van e-mailafzenders zijn toegestaan."
@@ -1800,7 +1800,7 @@ nl:
     enable_user_directory: "Een lijst van gebruikers aanbieden om door te bladeren"
     enable_group_directory: "Een lijst van groepen aanbieden om door te bladeren"
     enable_category_group_review: "Groepen mogen inhoud in specifieke categorieën beoordelen"
-    group_in_subject: "%%{optional_pm} in e-mailonderwerp instellen op naam van eerste groep in PM; zie <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>Customize subject format for standard emails</a>"
+    group_in_subject: "%%{optional_pm} in e-mailonderwerp instellen op naam van eerste groep in PM; zie <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>Customize subject format for standard emails</a>"
     allow_anonymous_posting: "Gebruikers mogen naar anonieme modus overschakelen"
     anonymous_posting_min_trust_level: "Het minimale vertrouwensniveau dat nodig is om anonieme berichtplaatsing in te schakelen"
     anonymous_account_duration_minutes: "Om anonimiteit te beschermen, elke N minuten voor iedere gebruiker een nieuwe anonieme account aanmaken. Voorbeeld: als dit is ingesteld op 600, wordt een nieuwe anonieme account aangemaakt als er 600 minuten zijn verstreken na het laatste bericht EN de gebruiker naar anon overschakelt."
@@ -1865,7 +1865,7 @@ nl:
     delete_drafts_older_than_n_days: "Concepten ouder dan (n) dagen verwijderen."
     bootstrap_mode_min_users: "Minimale aantal vereiste gebruikers om bootstrapmodus uit te schakelen (stel dit in op 0 om uit te schakelen)"
     prevent_anons_from_downloading_files: "Voorkomen dat anonieme gebruikers bijlagen downloaden. WAARSCHUWING: hierdoor zullen websiteonderdelen anders dan afbeeldingen die als bijlage zijn geplaatst niet werken."
-    secure_media: 'Beperkt toegang tot ALLE uploads (afbeeldingen, video, audio, tekst, pdf’s, zips en andere). Als ‘aanmelding vereist’ is ingeschakeld, hebben alleen aangemelde gebruikers toegang tot uploads. Anders is toegang beperkt tot media-uploads in privéberichten en privécategorieën. WAARSCHUWING: deze instelling is complex en vereist grondige kennis van beheer. Zie <a target="_blank" href="https://meta.discourse.org/t/secure-media-uploads/140017">het topic over beveiligde media op Meta</a> voor details.'
+    secure_media: 'Beperkt toegang tot ALLE uploads (afbeeldingen, video, audio, tekst, pdf’s, zips en andere). Als ‘aanmelding vereist’ is ingeschakeld, hebben alleen aangemelde gebruikers toegang tot uploads. Anders is toegang beperkt tot media-uploads in privéberichten en privécategorieën. WAARSCHUWING: deze instelling is complex en vereist grondige kennis van beheer. Zie <a target="_blank" href="https://forum.okse.io/t/secure-media-uploads/140017">het topic over beveiligde media op Meta</a> voor details.'
     slug_generation_method: "Kies een slug-generatiemodus. 'encoded' genereert een percentage-coderingsstring. 'none' schakelt de slug helemaal uit."
     enable_emoji: "Emoji inschakelen"
     enable_emoji_shortcuts: "Gebruikelijke smileyteksten zoals :) :p :( worden naar emoji geconverteerd"
@@ -2251,9 +2251,9 @@ nl:
 
       - Upgrade via onze eenvoudige **[browserupgrade via één klik](%{base_url}/admin/upgrade)**
 
-      - Lees wat er nieuw is in de [uitgaveopmerkingen](https://meta.discourse.org/tag/release-notes), of bekijk de [groffe GitHub-changelog](https://github.com/discourse/discourse/commits/master)
+      - Lees wat er nieuw is in de [uitgaveopmerkingen](https://forum.okse.io/tag/release-notes), of bekijk de [groffe GitHub-changelog](https://github.com/discourse/discourse/commits/master)
 
-      - Bezoek [meta.discourse.org](https://meta.discourse.org) voor nieuws, discussie en ondersteuning voor Okse
+      - Bezoek [forum.okse.io](https://forum.okse.io) voor nieuws, discussie en ondersteuning voor Okse
   new_version_mailer_with_notes:
     text_body_template: |
       Hoera, er is een nieuwe versie van [Okse](https://www.discourse.org) beschikbaar!
@@ -2263,9 +2263,9 @@ nl:
 
       - Upgrade via onze eenvoudige **[browserupgrade via één klik](%{base_url}/admin/upgrade)**
 
-      - Lees wat er nieuw is in de [uitgaveopmerkingen](https://meta.discourse.org/tag/release-notes), of bekijk de [groffe GitHub-changelog](https://github.com/discourse/discourse/commits/master)
+      - Lees wat er nieuw is in de [uitgaveopmerkingen](https://forum.okse.io/tag/release-notes), of bekijk de [groffe GitHub-changelog](https://github.com/discourse/discourse/commits/master)
 
-      - Bezoek [meta.discourse.org](https://meta.discourse.org) voor nieuws, discussie en ondersteuning voor Okse
+      - Bezoek [forum.okse.io](https://forum.okse.io) voor nieuws, discussie en ondersteuning voor Okse
 
       ### Uitgaveopmerkingen
 

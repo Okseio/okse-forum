@@ -131,7 +131,7 @@ be:
       enable_s3_uploads_is_required: "Вы не можаце ўключыць інвентарызацыю S3, калі вы не ўключылі запампоўкі S3."
       s3_backup_requires_s3_settings: "Вы не можаце выкарыстоўваць S3 ў якасці сховішча рэзервовых копій, калі вы не забяспечылі %{setting_name}'."
       s3_bucket_reused: "Вы не можаце выкарыстоўваць той жа вядро для «s3_upload_bucket» і «s3_backup_bucket». Трэба выбраць іншае вядро або выкарыстаць іншы шлях для кожнага сегмента."
-    conflicting_google_user_id: 'Google Account ID для гэтага ўліковага запісу змяніўся; ўмяшанне персаналу патрабуецца па меркаваннях бяспекі. <br>Калі ласка, звяжыцеся з супрацоўнікамі і накіруйце іх да <a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'Google Account ID для гэтага ўліковага запісу змяніўся; ўмяшанне персаналу патрабуецца па меркаваннях бяспекі. <br>Калі ласка, звяжыцеся з супрацоўнікамі і накіруйце іх да <a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors

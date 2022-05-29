@@ -1170,7 +1170,7 @@ fa_IR:
         invite_link:
           success: "لینک دعوت با موفقیت ایجاد شد!"
         bulk_invite:
-          none: "هنوز کسی را دعوت نکرده‌اید. افراد را یکی یکی یا یک جا با <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>فایل CSV</a> دعوت کنید."
+          none: "هنوز کسی را دعوت نکرده‌اید. افراد را یکی یکی یا یک جا با <a href='https://forum.okse.io/t/send-bulk-invites/16468'>فایل CSV</a> دعوت کنید."
           success: "فایل با موفقیت بارگذاری شد٬ وقتی که پروسه تمام شد به شما را از طریق پیام اطلاع می دهیم. "
           error: "با عرض پوزش، نوع فایل باید CSV باشد."
           confirmation_message: "میخواهید به همه ی افراد فایل اپلود شده دعوتنامه بفرستید"

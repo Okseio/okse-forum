@@ -45,9 +45,9 @@ describe SearchIndexer do
   end
 
   it 'extract a link' do
-    html = "<a href='http://meta.discourse.org/'>link</a>"
+    html = "<a href='http://forum.okse.io/'>link</a>"
     scrubbed = scrub(html)
-    expect(scrubbed).to eq("http://meta.discourse.org/ link")
+    expect(scrubbed).to eq("http://forum.okse.io/ link")
   end
 
   it 'extracts @username from mentions' do
@@ -143,7 +143,7 @@ describe SearchIndexer do
 
     it "should not tokenize urls and duplicate title and href in <a>" do
       post = Fabricate(:post, raw: <<~RAW)
-      https://meta.discourse.org/some.png
+      https://forum.okse.io/some.png
       RAW
 
       post.rebake!
@@ -151,7 +151,7 @@ describe SearchIndexer do
       topic = post.topic
 
       expect(post.post_search_data.raw_data).to eq(
-        "#{topic.title} #{topic.category.name} https://meta.discourse.org/some.png meta discourse org some png"
+        "#{topic.title} #{topic.category.name} https://forum.okse.io/some.png meta discourse org some png"
       )
     end
 
@@ -160,10 +160,10 @@ describe SearchIndexer do
       SiteSetting.crawl_images = true
       SiteSetting.max_image_width = 1
 
-      stub_request(:get, "https://meta.discourse.org/some.png")
+      stub_request(:get, "https://forum.okse.io/some.png")
         .to_return(status: 200, body: file_from_fixtures("logo.png").read)
 
-      src = "https://meta.discourse.org/some.png"
+      src = "https://forum.okse.io/some.png"
 
       post = Fabricate(:post, raw: <<~RAW)
       Let me see how I can fix this image

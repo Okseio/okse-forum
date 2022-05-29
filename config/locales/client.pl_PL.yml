@@ -1252,7 +1252,7 @@ pl_PL:
         invite_link:
           success: "Link z zaproszenie został poprawnie wygenerowany!"
         bulk_invite:
-          none: "Jeszcze nikogo nie zaprosiłeś. Możesz wysłać pojedyncze zaproszenia lub zaprosić wiele osób na raz poprzez <a href='https://meta.discourse.org/t/send-bulk-invites/16468'> wysłanie pliku CSV</a>."
+          none: "Jeszcze nikogo nie zaprosiłeś. Możesz wysłać pojedyncze zaproszenia lub zaprosić wiele osób na raz poprzez <a href='https://forum.okse.io/t/send-bulk-invites/16468'> wysłanie pliku CSV</a>."
           success: "Plik został przesłany pomyślnie: otrzymasz prywatną wiadomość, gdy proces zostanie zakończony."
           error: "Przykro nam, ale wymagany format pliku to CSV."
           confirmation_message: "Za chwilę wyślesz zaproszenia do wszystkich w przesłanym pliku."

@@ -4,7 +4,7 @@ require "mysql2"
 require File.expand_path(File.dirname(__FILE__) + "/base.rb")
 
 # If you change this script's functionality, please consider making a note here:
-# https://meta.discourse.org/t/importing-from-kunena-3/43776
+# https://forum.okse.io/t/importing-from-kunena-3/43776
 
 # Before running this script, paste these lines into your shell,
 # then use arrow keys to edit the values

@@ -159,13 +159,13 @@ QUnit.test("Admin viewing group messages", async assert => {
             id: 2,
             username: "bruce1",
             avatar_template:
-              "/user_avatar/meta.discourse.org/bruce1/{size}/5245.png"
+              "/user_avatar/forum.okse.io/bruce1/{size}/5245.png"
           },
           {
             id: 3,
             username: "CodingHorror",
             avatar_template:
-              "/user_avatar/meta.discourse.org/codinghorror/{size}/5245.png"
+              "/user_avatar/forum.okse.io/codinghorror/{size}/5245.png"
           }
         ],
         primary_groups: [],

@@ -1221,7 +1221,7 @@ fi:
           max_redemptions_allowed_label: "Kuinka moni voi enintään liittyä tämä linkin avulla?"
           expires_at: "Koska tämä linkki vanhenee?"
         bulk_invite:
-          none: "Et ole kutsunut vielä ketään tänne. Voit lähettää yksittäisiä kutsuja tai kutsua joukon ihmisiä kerralla <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>lataamalla CSV-tiedoston</a>."
+          none: "Et ole kutsunut vielä ketään tänne. Voit lähettää yksittäisiä kutsuja tai kutsua joukon ihmisiä kerralla <a href='https://forum.okse.io/t/send-bulk-invites/16468'>lataamalla CSV-tiedoston</a>."
           text: "Massakutsu"
           success: "Tiedoston lähettäminen onnistui. Saat viestin, kun prosessi on valmis."
           error: "Pahoittelut, tiedoston tulee olla CSV-muodossa."

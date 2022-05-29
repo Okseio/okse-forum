@@ -54,7 +54,7 @@ acceptance("Group Requests", {
             username: "eviltrout",
             name: "Robin Ward",
             avatar_template:
-              "/user_avatar/meta.discourse.org/eviltrout/{size}/5275_2.png",
+              "/user_avatar/forum.okse.io/eviltrout/{size}/5275_2.png",
             reason: "Please accept my membership request.",
             requested_at: "2019-01-31T12:00:00.000Z"
           },
@@ -63,7 +63,7 @@ acceptance("Group Requests", {
             username: "eviltrout2",
             name: "Robin Ward",
             avatar_template:
-              "/user_avatar/meta.discourse.org/eviltrout/{size}/5275_2.png",
+              "/user_avatar/forum.okse.io/eviltrout/{size}/5275_2.png",
             reason: "Please accept another membership request.",
             requested_at: "2019-01-31T14:00:00.000Z"
           }

@@ -7,7 +7,7 @@ Discourse.SiteSettingsOriginal = {
   site_logo_small_url: "/assets/logo-single.png",
   site_mobile_logo_url: "",
   site_favicon_url:
-    "//meta.discourse.org/uploads/default/2499/79d53726406d87af.ico",
+    "//forum.okse.io/uploads/default/2499/79d53726406d87af.ico",
   allow_user_locale: false,
   suggested_topics: 7,
   ga_universal_tracking_code: "",

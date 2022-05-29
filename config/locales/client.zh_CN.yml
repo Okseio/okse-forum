@@ -1183,7 +1183,7 @@ zh_CN:
           max_redemptions_allowed_label: "多少人被允许通过这个链接注册？"
           expires_at: "邀请链接多久失效？"
         bulk_invite:
-          none: "你还没有邀请任何人。你可以单独邀请用户，也可以通过<a href='https://meta.discourse.org/t/send-bulk-invites/16468'>上传CSV文件</a>批量邀请。"
+          none: "你还没有邀请任何人。你可以单独邀请用户，也可以通过<a href='https://forum.okse.io/t/send-bulk-invites/16468'>上传CSV文件</a>批量邀请。"
           text: "批量邀请"
           success: "文件上传成功，当操作完成时将通过私信通知你。"
           error: "抱歉，文件必须是CSV格式。"

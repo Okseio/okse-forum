@@ -996,7 +996,7 @@ ar:
         invite_link:
           success: "وُلّد رابط الدعوة بنجاح!"
         bulk_invite:
-          none: "لم تدعُ أحدًا إلى هنا بعد. أرسل الدّعوات إمّا فرديّة، أو إلى مجموعة أشخاص عبر <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>رفع ملفّ CSV</a>."
+          none: "لم تدعُ أحدًا إلى هنا بعد. أرسل الدّعوات إمّا فرديّة، أو إلى مجموعة أشخاص عبر <a href='https://forum.okse.io/t/send-bulk-invites/16468'>رفع ملفّ CSV</a>."
           success: "رُفع الملف بنجاح. سيصلك إشعارا عبر رسالة عند اكتمال العملية."
           error: "عذرا، يجب أن يكون الملفّ بنسق CSV."
       password:

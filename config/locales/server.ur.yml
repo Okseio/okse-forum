@@ -161,7 +161,7 @@ ur:
       enable_s3_uploads_is_required: "آپ S3 پر انوینٹری فعال نہیں کرسکتے جب تک کہ آپ نے S3 پر اپ لوڈز کو فعال نہیں کیا ہو۔"
       s3_backup_requires_s3_settings: "آپ S3 کو بیک اپ کے طور پر استعمال نہیں کرسکتے جب تک کہ آپ نے '%{setting_name}' فراہم نہیں کیا ہو۔"
       s3_bucket_reused: "آپ 's3_upload_bucket' اور 's3_backup_bucket' کیلئے ایک ہی بَکِّٹ کا استعمال نہیں کرسکتے۔ ایک مختلف بَکِّٹ کا انتخاب کریں یا ہر بَکِّٹ کیلئے ایک مختلف راستہ استعمال کریں۔"
-    conflicting_google_user_id: 'اِس اکاؤنٹ کے لئے گُوگَل اکاؤنٹ ID تبدیل ہوگئی ہے؛ سیکیورٹی وجوہات کی بناہ پر اسٹاف کی مداخلت کی ضرورت ہے۔ براہ مہربانی اسٹاف سے رابطہ کریں اور اُنہیں اشارہ کریں <br><a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'اِس اکاؤنٹ کے لئے گُوگَل اکاؤنٹ ID تبدیل ہوگئی ہے؛ سیکیورٹی وجوہات کی بناہ پر اسٹاف کی مداخلت کی ضرورت ہے۔ براہ مہربانی اسٹاف سے رابطہ کریں اور اُنہیں اشارہ کریں <br><a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors
@@ -1188,12 +1188,12 @@ ur:
     sidekiq_warning: 'Sidekiq نہیں چل رہا۔ بہت سے کام، جیسا کہ ای میل بھیجنا، sidekq کی طرف سے اےسِنکرونسلی مکمل کیے جاتے ہیں۔ براہ کرم یقینی بنائیں کہ کم ازکم ایک sidekq پراسیس چل رہا ہے۔ <a href="https://github.com/mperham/sidekiq" target="_blank">Sidekiq کے بارے میں یہاں سے جانیے</a>۔'
     queue_size_warning: "قطار میں موجود جابز کی تعداد %{queue_size} ہے، جو کہ زیادہ ہے۔ یہ Sidekiq پراسیس کے ساتھ ایک مسئلہ کی نشاندہی کر سکتا ہے، یا آپ کو مزید Sidekiq کارکنوں کو شامل کرنے کی ضرورت ہوسکتی ہے۔"
     memory_warning: "آپ کا سرور مجموعی طور پر 1 GB سے کم میموری کے ساتھ چل رہا ہے۔ کم ازکم 1 GB میموری تجویز کی گئی ہے۔"
-    google_oauth2_config_warning: 'سرور کو ترتیب دیا گیا ہے کہ گُوگل (OAuth2 (enable_google_oauth2_logins کے ساتھ سائن اپ اور لاگ اِن کی اجازت ہو، لیکن کلائنٹ آئی ڈی اور کلائنٹ سیکرٹ وَیلِیوز مقرر نہیں کیے گئے ہیں۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">مزید جاننے کے لئے یہ گائیڈ ملاحظہ کریں</a>۔'
-    facebook_config_warning: 'سرور کو ترتیب دیا گیا ہے کہ فیس بُک (OAuth2 (enable_facebook_logins کے ساتھ سائن اپ اور لاگ اِن کی اجازت ہو، لیکن اَیپ آئی ڈی اور اَیپ سیکرٹ وَیلِیوز مقرر نہیں کیے گئے ہیں۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394" target="_blank">مزید جاننے کے لئے یہ گائیڈ ملاحظہ کریں</a>۔'
-    twitter_config_warning: 'سرور کو ترتیب دیا گیا ہے کہ ٹَوِیٹر (enable_twitter_logins) کے ساتھ سائن اپ اور لاگ اِن کی اجازت ہو، لیکن قیی اور سیکرٹ وَیلِیوز مقرر نہیں کیے گئے ہیں۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://meta.discourse.org/t/configuring-twitter-login-for-discourse/13395" target="_blank">مزید جاننے کے لئے یہ گائیڈ ملاحظہ کریں</a>۔'
-    github_config_warning: 'سرور کو ترتیب دیا گیا ہے کہ گِٹ ہَب (enable_github_logins) کے ساتھ سائن اپ اور لاگ اِن کی اجازت ہو، لیکن کلائنٹ آئی ڈی اور سیکرٹ وَیلِیوز مقرر نہیں کیے گئے ہیں۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://meta.discourse.org/t/configuring-github-login-for-discourse/13745" target="_blank">مزید جاننے کے لئے یہ گائیڈ ملاحظہ کریں</a>۔'
-    s3_config_warning: 'سرور کو S3 پر فائلوں کو اَپ لوڈ کرنے کیلئے ترتیب دیا گیا ہے، لیکن کم از کم ایک درج ذیل ترتیب سَیٹ نہیں کی گئی ہے: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_upload_bucket۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">مزید جاننے کے لئے "S3 پر تصویر اپ لوڈز کیسے سَیٹ کریں؟" ملاحظہ کریں</a>۔'
-    s3_backup_config_warning: 'سرور کو S3 پر بیک اَپس اَپ لوڈ کرنے کیلئے ترتیب دیا گیا ہے، لیکن کم از کم ایک درج ذیل ترتیب سَیٹ نہیں کی گئی ہے: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_backup_bucket۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">مزید جاننے کے لئے "S3 پر تصویر اپ لوڈز کیسے سَیٹ کریں؟" ملاحظہ کریں</a>۔'
+    google_oauth2_config_warning: 'سرور کو ترتیب دیا گیا ہے کہ گُوگل (OAuth2 (enable_google_oauth2_logins کے ساتھ سائن اپ اور لاگ اِن کی اجازت ہو، لیکن کلائنٹ آئی ڈی اور کلائنٹ سیکرٹ وَیلِیوز مقرر نہیں کیے گئے ہیں۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">مزید جاننے کے لئے یہ گائیڈ ملاحظہ کریں</a>۔'
+    facebook_config_warning: 'سرور کو ترتیب دیا گیا ہے کہ فیس بُک (OAuth2 (enable_facebook_logins کے ساتھ سائن اپ اور لاگ اِن کی اجازت ہو، لیکن اَیپ آئی ڈی اور اَیپ سیکرٹ وَیلِیوز مقرر نہیں کیے گئے ہیں۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://forum.okse.io/t/configuring-facebook-login-for-discourse/13394" target="_blank">مزید جاننے کے لئے یہ گائیڈ ملاحظہ کریں</a>۔'
+    twitter_config_warning: 'سرور کو ترتیب دیا گیا ہے کہ ٹَوِیٹر (enable_twitter_logins) کے ساتھ سائن اپ اور لاگ اِن کی اجازت ہو، لیکن قیی اور سیکرٹ وَیلِیوز مقرر نہیں کیے گئے ہیں۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://forum.okse.io/t/configuring-twitter-login-for-discourse/13395" target="_blank">مزید جاننے کے لئے یہ گائیڈ ملاحظہ کریں</a>۔'
+    github_config_warning: 'سرور کو ترتیب دیا گیا ہے کہ گِٹ ہَب (enable_github_logins) کے ساتھ سائن اپ اور لاگ اِن کی اجازت ہو، لیکن کلائنٹ آئی ڈی اور سیکرٹ وَیلِیوز مقرر نہیں کیے گئے ہیں۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://forum.okse.io/t/configuring-github-login-for-discourse/13745" target="_blank">مزید جاننے کے لئے یہ گائیڈ ملاحظہ کریں</a>۔'
+    s3_config_warning: 'سرور کو S3 پر فائلوں کو اَپ لوڈ کرنے کیلئے ترتیب دیا گیا ہے، لیکن کم از کم ایک درج ذیل ترتیب سَیٹ نہیں کی گئی ہے: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_upload_bucket۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">مزید جاننے کے لئے "S3 پر تصویر اپ لوڈز کیسے سَیٹ کریں؟" ملاحظہ کریں</a>۔'
+    s3_backup_config_warning: 'سرور کو S3 پر بیک اَپس اَپ لوڈ کرنے کیلئے ترتیب دیا گیا ہے، لیکن کم از کم ایک درج ذیل ترتیب سَیٹ نہیں کی گئی ہے: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_backup_bucket۔ <a href="%{base_path}/admin/site_settings">سائٹ ترتیبات</a> پر جائیں اور ترتیبات کو اَپ ڈیٹ کریں۔ <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">مزید جاننے کے لئے "S3 پر تصویر اپ لوڈز کیسے سَیٹ کریں؟" ملاحظہ کریں</a>۔'
     image_magick_warning: 'سرور کو بڑی تصاویر کے تھَمب نَیل تخلیق کرنے کیلئے ترتیب دیا گیا ہے، لیکن ImageMagick اِنسٹال نہیں ہے۔ اپنے پسندیدہ پیکیج مینیجر کا استعمال کرکے ImageMagick اِنسٹال کریں یا <a href="https://www.imagemagick.org/script/download.php" target="_blank">تازہ ترین ورژن ڈاؤن لوڈ کریں</a>۔'
     failing_emails_warning: 'ناکام ہونے والی %{num_failed_jobs} اِی مَیل جابز موجود ہیں۔ اپنا app.yml چیک کریں اور یہ یقینی بنائیں کہ میل سرور کی ترتیبات درست ہیں۔ <a href="%{base_path}/sidekiq/retries" target="_blank">Sidekiq میں ناکام جابز ملاحظہ کریں</a>۔'
     subfolder_ends_in_slash: "آپ کا سب-فولڈر سیٹ اپ غلط ہے؛ DISCOURSE_RELATIVE_URL_ROOT ایک سلَیش میں ختم ہوتا ہے۔"
@@ -1284,7 +1284,7 @@ ur:
     twitter_summary_large_image: "ٹویٹر کارڈ 'خلاصہ بڑی تصویر' (کم از کم 280 چوڑائی میں، اور کم از کم 150 اونچائی میں ہونی چاہئیے)۔ اگر خالی چھوڑ دیا گیا ہو، تو opengraph_image کا استعمال کرتے ہوئے عام کارڈ مَیٹا ڈَیٹا بنایا جاتا ہے۔"
     notification_email: "تمام ضروری سِسٹم ای میلز بھیجنے کیلئے استعمال ہونے والا from: ای میل ایڈریس۔ یہاں درج کردہ ڈومین کا SPF ،DKIM اور ریورس PTR ریکارڈ، ای میل کے پہنچنے کیلئے، صحیح طریقے سے مقرر ہونا لازمی ہے۔"
     email_custom_headers: "اپنی مرضی کے ای میل ہیڈرز کی پائپ سے علیحدہ کردہ فہرست"
-    email_subject: "سٹینڈرڈ ای میلز کیلئے اپنی مرضی کا موضوع فارمَیٹ۔ دیکھیے <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801</a>"
+    email_subject: "سٹینڈرڈ ای میلز کیلئے اپنی مرضی کا موضوع فارمَیٹ۔ دیکھیے <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801</a>"
     enforce_second_factor: "صارفین کو دوسری فیکٹر توثیق فعال کرنے کیلئے مجبور کرتی ہے۔ تمام صارفین پر لاگو کرنے کیلئے 'تمام' منتخب کریں۔ صرف سٹاف صارفین پر لاگو کرنے کیلئے 'سٹاف' منتخب کریں۔"
     force_https: "صرف HTTPS استعمال کرنے کیلئے اپنی سائٹ کو مجبورکریں۔ انتباہ: جب تک آپ تصدیق نہ کر لیں کہ HTTPS مکمل طور پر سیٹ ہے اور ہر جگہ کام کر رہا ہے، اِس کو فعال نہ کریں! کیا آپ نے اپنا CDN، تمام سماجی لاگ ان، اور بیرونی لوگو / انحصارات کو چیک کر کے یہ یقینی بنا لیا ہے کہ وہ تمام HTTPS سے مطابقت رکھتے ہیں؟"
     same_site_cookies: "سَیم سائٹ کے کُوکِیز کا استعمال کریں، وہ قابل براؤزرز (Lax یا Strict) پر تمام ویکٹر Cross Site Request Forgery کو ختم کر دیتے ہیں۔ انتباہ: Strict صرف اُن سائٹس پر کام کرے گا جو لاگ اِن پر مجبور کرتے ہیں اور SSO کا استعمال کرتے ہیں۔"
@@ -1403,27 +1403,27 @@ ur:
     enable_local_logins_via_email: "صارفین کو بذریعہ ای میل بھیجے جانے والے ایک کلِک لاگ اِن لِنک کی درخواست کرنے کی اجازت دیں۔"
     allow_new_registrations: "نئے صارف رجسٹریشنوں کی اجازت دیں۔ کسی کو نیا اکاؤنٹ بنانے سے روکنے کیلئے اس کو غیر چیک شدہ کریں۔"
     enable_signup_cta: "واپس آنے والے گمنام صارفین کو ایک نوٹس دکھائیں جو اُنہیں اکاؤنٹ بنانے کیلۓ قائل کرے۔"
-    enable_google_oauth2_logins: "گُوگل Oauth2 توثیق کو فعال کریں۔ گُوگل فی الحال اِس توثیق کے طریقہ کی اجازت دیتا ہے۔ کلید اور سیکرٹ کی ضرورت ہے۔ دیکھیے <a href='https://meta.discourse.org/t/15858' target='_blank'>ڈسکورس کیلئے گُوگَل لاگ اِن ترتیب دیں</a>۔"
+    enable_google_oauth2_logins: "گُوگل Oauth2 توثیق کو فعال کریں۔ گُوگل فی الحال اِس توثیق کے طریقہ کی اجازت دیتا ہے۔ کلید اور سیکرٹ کی ضرورت ہے۔ دیکھیے <a href='https://forum.okse.io/t/15858' target='_blank'>ڈسکورس کیلئے گُوگَل لاگ اِن ترتیب دیں</a>۔"
     google_oauth2_client_id: "آپ کی گُوگل ایپلی کیشن کی کلائنٹ آئی ڈی."
     google_oauth2_client_secret: "آپ کی گُوگل ایپلی کیشن کا کلائنٹ سیکرٹ."
     google_oauth2_prompt: "خالی جگہ سے علیحدہ کردہ سٹرنگ وَیلِیوز کی ایک اختیاری فہرست جو اِس بات کی وضاحت کرتی ہے کہ اَوتھرائزیشن سرور صارف کو دوبارہ تصدیق اور رضامندی کیلئے پوچھتا ہے کہ نہیں۔ ممکنہ اقدار کیلئے <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> دیکھیے۔"
     google_oauth2_hd: "ایک اختیاری گُوگل اَیپس ہوسٹِڈ ڈومَین جس تک کہ سائن اِن محدود ہو گا۔ مزید تفصیلات کیلئے <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> ملاحظہ کریں۔"
-    enable_twitter_logins: "ٹویٹر توثیق فعال کریں۔ twitter_consumer_key اور twitter_consumer_secret ضروری ہیں۔ دیکھیے <a href='https://meta.discourse.org/t/13395' target='_blank'>ڈسکورس کیلئے ٹویٹر لاگ اِن ترتیب دیں (اور رِچ اَیمبَیڈ)</a>۔"
+    enable_twitter_logins: "ٹویٹر توثیق فعال کریں۔ twitter_consumer_key اور twitter_consumer_secret ضروری ہیں۔ دیکھیے <a href='https://forum.okse.io/t/13395' target='_blank'>ڈسکورس کیلئے ٹویٹر لاگ اِن ترتیب دیں (اور رِچ اَیمبَیڈ)</a>۔"
     twitter_consumer_key: "ٹویٹر توثیق کیلئے کنزِیُومر کِی، <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/app</a> پر رجسٹر کردہ"
     twitter_consumer_secret: "ٹویٹر توثیق کیلئے کنزِیُومر سیکرٹ، <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/app</a> پر رجسٹر کردہ"
     enable_instagram_logins: "اِنسٹاگرام توثیق کو فعال کریں، instagram_consumer_key اور instagram_consumer_secret کی ضرورت ہے"
     instagram_consumer_key: "اِنسٹاگرام توثیق کیلئے کنزِیُومر کلید"
     instagram_consumer_secret: "اِنسٹاگرام توثیق کیلئے کنزِیُومر سیکرٹ"
-    enable_facebook_logins: "فَیسبُک توثیق فعال کریں۔ facebook_app_id اور facebook_app_secret ضروری ہیں۔ دیکھیے <a href='https://meta.discourse.org/t/13394' target='_blank'>ڈسکورس کیلئے فَیسبُک لاگ اِن ترتیب دیں</a>۔"
+    enable_facebook_logins: "فَیسبُک توثیق فعال کریں۔ facebook_app_id اور facebook_app_secret ضروری ہیں۔ دیکھیے <a href='https://forum.okse.io/t/13394' target='_blank'>ڈسکورس کیلئے فَیسبُک لاگ اِن ترتیب دیں</a>۔"
     facebook_app_id: "فَیسبُک توثیق کیلئے اَیپ آئی ڈی، <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a> پر رجسٹر کردہ"
     facebook_app_secret: "فَیسبُک توثیق کیلئے اَیپ سیکرٹ، <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a> پر رجسٹر کردہ"
-    enable_github_logins: "گِٹ ہَب توثیق فعال کریں۔ github_client_id اور github_client_secret ضروری ہیں۔ دیکھیے <a href='https://meta.discourse.org/t/13745' target='_blank'>ڈسکورس کیلئے گِٹ ہَب لاگ اِن ترتیب دیں</a>۔"
+    enable_github_logins: "گِٹ ہَب توثیق فعال کریں۔ github_client_id اور github_client_secret ضروری ہیں۔ دیکھیے <a href='https://forum.okse.io/t/13745' target='_blank'>ڈسکورس کیلئے گِٹ ہَب لاگ اِن ترتیب دیں</a>۔"
     github_client_id: "گِٹ ہَب توثیق کیلئے کلائنٹ آئی ڈی، <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a> پر رجسٹر کردہ"
     github_client_secret: "گِٹ ہَب توثیق کیلئے کلائنٹ سیکرٹ، <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a> پر رجسٹر کردہ"
     enable_discord_logins: "صارفین کو بذریعہ ڈِسکَورڈ تصدیق کی اجازت دیں؟"
     discord_client_id: 'ڈِسکَورڈ کلائنٹ ID (ایک کی ضرورت ہے؟ <a href="https://discordapp.com/developers/applications/me">ڈِسکَورڈ ڈَوَیلپر پَورٹل</a> ملاحظہ کریں)'
     discord_secret: "ڈِسکَورڈ سیکرٹ کی۔"
-    discord_trusted_guilds: 'صرف اِن ڈِسکَورڈ گِلڈز کے ممبران کو بذریعہ ڈِسکَورڈ لاگ اِن ہونے کی اجازت دیں۔ گِلڈ کیلئے ہندسوں والی شناخت استعمال کریں۔ مزید معلومات کیلئے، ہدایات کو <a href="https://meta.discourse.org/t/configuring-discord-login-for-discourse/127129">یہاں</a> چیک کریں۔ کسی بھی گِلڈ کو اجازت دینے کیلئے خالی چھوڑ دیں۔'
+    discord_trusted_guilds: 'صرف اِن ڈِسکَورڈ گِلڈز کے ممبران کو بذریعہ ڈِسکَورڈ لاگ اِن ہونے کی اجازت دیں۔ گِلڈ کیلئے ہندسوں والی شناخت استعمال کریں۔ مزید معلومات کیلئے، ہدایات کو <a href="https://forum.okse.io/t/configuring-discord-login-for-discourse/127129">یہاں</a> چیک کریں۔ کسی بھی گِلڈ کو اجازت دینے کیلئے خالی چھوڑ دیں۔'
     enable_backups: "ایڈمِنِسٹریٹروں کو فورم کے بیک اَپ بنانے کی اجازت دیں"
     allow_restore: "رِیسٹور کی اجازت دیں، جو سائٹ کا تمام ڈیٹا تبدیل کر سکتا ہے! فالس چھوڑ دیں جب تک کہ آپ بیک اَپ بحال نہ کرنے لگیں"
     maximum_backups: "ڈِسک پر رکھے جانے بیک اَپس کی زیادہ سے زیادہ تعداد۔ پرانے بیک اَپس خود کار طریقے سے حذف کر دیے جاتے ہیں"
@@ -1674,7 +1674,7 @@ ur:
     enable_user_directory: "براؤزِنگ کیلئے صارفین کی ایک ڈائرِکٹری فراہم کریں"
     enable_group_directory: "براؤزِنگ کیلئے گروپوں کی ایک ڈائرِکٹری فراہم کریں"
     enable_category_group_review: "گروپوں کو مخصوص زُمرہ جات میں مواد کا جائزہ لینے کی اجازت دیں"
-    group_in_subject: "ایمیل کے موضوع میں %%{optional_pm} کو ذاتی پیغام میں پہلے گروپ کے نام پر سَیٹ کریں، دیکھیے: <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>سٹینڈرڈ ایمیلز کیلئے موضوع فارمَیٹ کو حسب ضرورت تبدیل کریں</a>"
+    group_in_subject: "ایمیل کے موضوع میں %%{optional_pm} کو ذاتی پیغام میں پہلے گروپ کے نام پر سَیٹ کریں، دیکھیے: <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>سٹینڈرڈ ایمیلز کیلئے موضوع فارمَیٹ کو حسب ضرورت تبدیل کریں</a>"
     allow_anonymous_posting: "صارفین کو گمنام مَوڈ میں تبدیل ہونے کی اجازت دیں"
     anonymous_posting_min_trust_level: "گمنام پوسٹنگ کو فعال کرنے کیلئے کم از کم مطلوبہ ٹرسٹ لَیول"
     anonymous_account_duration_minutes: "صارف کی گمنامی کی حفاظت کیلئے ہر صارف کیلئے ہر ن منٹ بعد ایک نیا گمنام اکاؤنٹ بنائیں۔ مثال: اگر 600 پر سَیٹ کیا جائے، تو جیسے ہی آخری پوسٹ سے 600 منٹ گزر چکے ہوں گے اور صارف گمنام مَوڈ پر تبدیل ہو گا، تو ایک نیا گمنام اکاؤنٹ پیدا کر دیا جائے گا۔"
@@ -3542,10 +3542,10 @@ ur:
       button: "رجسٹر"
       title: "رجسٹر ایڈمن اکاؤنٹ"
       help: "شروع کرنے کے لئے ایک نیا اکاؤنٹ رجسٹر کریں"
-      no_emails: "بدقسمتی سے، سَیٹ اَپ کے دوران کوئی ایڈمِنِسٹریٹر ای میل واضح نہیں کی گئیں، لہٰذا ترتیب کو حتمی شکل دینا مشکل ہوسکتا ہے۔ براہ کرم کسی ڈویلپر ایمیل کو ترتیب فائل میں شامل کریں یا <a href='https://meta.discourse.org/t/create-admin-account-from-console/17274'>کَونسول سے ایک ایڈمِنِسٹریٹر اکاؤنٹ بنائیں</a>۔"
+      no_emails: "بدقسمتی سے، سَیٹ اَپ کے دوران کوئی ایڈمِنِسٹریٹر ای میل واضح نہیں کی گئیں، لہٰذا ترتیب کو حتمی شکل دینا مشکل ہوسکتا ہے۔ براہ کرم کسی ڈویلپر ایمیل کو ترتیب فائل میں شامل کریں یا <a href='https://forum.okse.io/t/create-admin-account-from-console/17274'>کَونسول سے ایک ایڈمِنِسٹریٹر اکاؤنٹ بنائیں</a>۔"
     confirm_email:
       title: "اپنے ای میل کی تصدیق کریں"
-      message: "<p>ہم نے <b>%{email}</b> پر ایک ایکٹیویشن میل بھیج دی ہے۔ براہ مہربانی اپنے اکاؤنٹ کو چالو کرنے کیلئے میل میں دی گئی ہدایات پر عمل کریں۔</p> <p>اگر یہ آپ کو موصول نہ ہو، تو اپنا سپَیم فولڈر چیک کریں، اور <a href='https://meta.discourse.org/t/troubleshooting-email-on-a-new-discourse-install/16326'>یقینی بنائیں کہ آپ نے صحیح طریقہ سے ای میل سَیٹ کر لی ہے</a>۔</p>"
+      message: "<p>ہم نے <b>%{email}</b> پر ایک ایکٹیویشن میل بھیج دی ہے۔ براہ مہربانی اپنے اکاؤنٹ کو چالو کرنے کیلئے میل میں دی گئی ہدایات پر عمل کریں۔</p> <p>اگر یہ آپ کو موصول نہ ہو، تو اپنا سپَیم فولڈر چیک کریں، اور <a href='https://forum.okse.io/t/troubleshooting-email-on-a-new-discourse-install/16326'>یقینی بنائیں کہ آپ نے صحیح طریقہ سے ای میل سَیٹ کر لی ہے</a>۔</p>"
     resend_email:
       title: "ایکٹیویشن اِیمیل دوبارہ بھیجییں"
       message: "<p>ہم نے <b>%{email}</b> پر ایکٹیویشن اِیمیل دوبارہ بھیج دی ہے"
@@ -3638,7 +3638,7 @@ ur:
         title: "تھیم"
       themes_further_reading:
         title: "تِھیمز"
-        description: "اپنے ڈِسکورس کو اپنی مرضی کے مطابق بنانا چاہتے ہیں؟ ہمارے طاقتور تِھیمز کے سسٹم کا فائدہ اٹھائیں: <ul> <li><a href='https://meta.discourse.org/t/63682' target='_blank'>میں تِھیم یا تِھیم کمپنَینٹ کیسے انسٹال کروں؟</a></li> <li><a href='https://meta.discourse.org/t/110448' target='_blank'>تھیم ڈویلپر فوری حوالہ گائیڈ</a></li> </ul> مقبول تِھیم کمپنَینٹ (مزید کیلئے، <a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#theme</a> براؤز کریں)"
+        description: "اپنے ڈِسکورس کو اپنی مرضی کے مطابق بنانا چاہتے ہیں؟ ہمارے طاقتور تِھیمز کے سسٹم کا فائدہ اٹھائیں: <ul> <li><a href='https://forum.okse.io/t/63682' target='_blank'>میں تِھیم یا تِھیم کمپنَینٹ کیسے انسٹال کروں؟</a></li> <li><a href='https://forum.okse.io/t/110448' target='_blank'>تھیم ڈویلپر فوری حوالہ گائیڈ</a></li> </ul> مقبول تِھیم کمپنَینٹ (مزید کیلئے، <a href='https://forum.okse.io/c/theme/l/latest' target='_blank'>#theme</a> براؤز کریں)"
       logos:
         title: "لَوگَو"
         fields:

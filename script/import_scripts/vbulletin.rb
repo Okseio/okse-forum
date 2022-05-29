@@ -15,7 +15,7 @@ rescue LoadError
   exit
 end
 
-# See https://meta.discourse.org/t/importing-from-vbulletin-4/54881
+# See https://forum.okse.io/t/importing-from-vbulletin-4/54881
 # Please update there if substantive changes are made!
 
 class ImportScripts::VBulletin < ImportScripts::Base
@@ -782,7 +782,7 @@ EOM
 
     # convert list tags to ul and list=1 tags to ol
     # (basically, we're only missing list=a here...)
-    # (https://meta.discourse.org/t/phpbb-3-importer-old/17397)
+    # (https://forum.okse.io/t/phpbb-3-importer-old/17397)
     raw.gsub!(/\[list\](.*?)\[\/list\]/im, '[ul]\1[/ul]')
     raw.gsub!(/\[list=1\](.*?)\[\/list\]/im, '[ol]\1[/ol]')
     raw.gsub!(/\[list\](.*?)\[\/list:u\]/im, '[ul]\1[/ul]')

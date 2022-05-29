@@ -22,7 +22,7 @@ describe TopicListItemSerializer do
     expect(serialized[:featured_link]).to eq(nil)
     expect(serialized[:featured_link_root_domain]).to eq(nil)
 
-    featured_link = 'http://meta.discourse.org'
+    featured_link = 'http://forum.okse.io'
     topic.featured_link = featured_link
     serialized = TopicListItemSerializer.new(topic, scope: Guardian.new, root: false).as_json
 
@@ -36,7 +36,7 @@ describe TopicListItemSerializer do
     end
 
     it "should not include the topic's featured link" do
-      topic.featured_link = 'http://meta.discourse.org'
+      topic.featured_link = 'http://forum.okse.io'
       serialized = TopicListItemSerializer.new(topic, scope: Guardian.new, root: false).as_json
 
       expect(serialized[:featured_link]).to eq(nil)

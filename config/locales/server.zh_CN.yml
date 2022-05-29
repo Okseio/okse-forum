@@ -169,7 +169,7 @@ zh_CN:
       second_factor_cannot_be_enforced_with_disabled_local_login: "如果禁用本地登录则无法强制启用2FA。"
       local_login_cannot_be_disabled_if_second_factor_enforced: "如果强制启用2FA则不能禁用本地登录。在禁用本地登录之前，请禁用强制启用2FA。"
       cannot_enable_s3_uploads_when_s3_enabled_globally: "你无法启用S3上传，因为S3上传已经全局启用了，另外这样站点级的启用可能会导致上传的文件出现严重问题"
-    conflicting_google_user_id: '此账户的Google账户ID已更改; 出于安全原因，需要管理人员干预。请联系工作人员并指引他们前往<a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: '此账户的Google账户ID已更改; 出于安全原因，需要管理人员干预。请联系工作人员并指引他们前往<a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors
@@ -1243,12 +1243,12 @@ zh_CN:
     sidekiq_warning: 'Sidekiq 不在运行。很多任务，例如发送电子邮件，是异步的被 sidekiq 调度执行的。请确保至少运行一个 sidekiq 进程。<a href="https://github.com/mperham/sidekiq" target="_blank">了解 Sidekiq</a>。'
     queue_size_warning: "队列中有较多任务，为 %{queue_size} 个。这可能是因为 Sidekiq 进程的问题导致，或者需要更多的 Sidekiq 进程。"
     memory_warning: "你的服务器环境内存少于 1GB，我们建议至少要有 1GB 内存。"
-    google_oauth2_config_warning: '服务器允许使用 Google Oauth2 登录（enable_google_oauth2_logins），但client id和client secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">参考设定指南</a>。'
+    google_oauth2_config_warning: '服务器允许使用 Google Oauth2 登录（enable_google_oauth2_logins），但client id和client secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">参考设定指南</a>。'
     facebook_config_warning: '服务器允许使用Facebook帐号登录（enable_facebook_logins），但app id和app secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-facebook-logins" target="_blank">参考设定指南</a>。'
     twitter_config_warning: '服务器允许使用Twitter账号登录（enable_twitter_logins），但key和secret没有设定。 到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-twitter-logins" target="_blank">参考设定指南</a>。'
     github_config_warning: '服务器允许使用GitHub账号登录（enable_github_logins），但client id和secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide" target="_blank">参考设定指南</a>。'
-    s3_config_warning: '服务器被配置为上传文件到s3，但以下的值中有未被设定的项目：s3_access_key_id、s3_secret_access_key、s3_use_iam_profile 或 s3_upload_bucket。到<a href="%{base_path}/admin/site_settings">站点设置</a>中更新设置。<a href="http://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">看看“参考如何设置图片上传至 S3？”以了解更多</a>。'
-    s3_backup_config_warning: '服务器被配置为上传备份到S3，但是以下的值中有未被设定的项目：s3_access_key_id、s3_secret_access_key、s3_use_iam_profile 或 s3_backup_bucket。到<a href="%{base_path}/admin/site_settings">站点设置</a>中更新设置。<a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">看看“参考如何设置图片上传至 S3？”以了解更多</a>。'
+    s3_config_warning: '服务器被配置为上传文件到s3，但以下的值中有未被设定的项目：s3_access_key_id、s3_secret_access_key、s3_use_iam_profile 或 s3_upload_bucket。到<a href="%{base_path}/admin/site_settings">站点设置</a>中更新设置。<a href="http://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">看看“参考如何设置图片上传至 S3？”以了解更多</a>。'
+    s3_backup_config_warning: '服务器被配置为上传备份到S3，但是以下的值中有未被设定的项目：s3_access_key_id、s3_secret_access_key、s3_use_iam_profile 或 s3_backup_bucket。到<a href="%{base_path}/admin/site_settings">站点设置</a>中更新设置。<a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">看看“参考如何设置图片上传至 S3？”以了解更多</a>。'
     image_magick_warning: '服务器被设置为给大图片创建缩略图，但是ImageMagick没有被安装。用你最喜爱的包管理器安装ImageMagick或<a href="https://www.imagemagick.org/script/download.php" target="_blank">下载最新版</a>。'
     failing_emails_warning: '有%{num_failed_jobs}个邮件任务失败。请检查app.yml文件是否正确配置了邮件服务器。<a href="%{base_path}/sidekiq/retries" target="_blank">查看Sidekiq中失败的任务</a>。'
     subfolder_ends_in_slash: "你的子目录设置不正确；DISCOURSE_RELATIVE_URL_ROOT以斜杠结尾。"
@@ -1256,8 +1256,8 @@ zh_CN:
       other: "邮件轮询在过去的 24 小时内出现了 %{count} 个错误。看一看<a href='%{base_path}/logs' target='_blank'>日志</a>寻找详情。"
     missing_mailgun_api_key: "服务器设置使用Mailgun发送邮件，但并未设置验证webhook私信的API密钥。"
     bad_favicon_url: "网站图标无法载入。检查<a href='%{base_path}/admin/site_settings'>站点设置</a>中的图标设置。"
-    deprecated_api_usage: "我们检测到了不建议使用的身份验证方法的API请求。请更新以使用<a href='https://meta.discourse.org/t/-/22706'>基于header的认证</a> 。更新后，此消息可能需要24小时才能消失。"
-    update_mail_receiver: "我们检测到一个过时的电子邮件收信人版本。点击<a href='https://meta.discourse.org/t/-/133491'>这里</a>查看更新说明。更新后，此消息后可能需要24小时才会消失。"
+    deprecated_api_usage: "我们检测到了不建议使用的身份验证方法的API请求。请更新以使用<a href='https://forum.okse.io/t/-/22706'>基于header的认证</a> 。更新后，此消息可能需要24小时才能消失。"
+    update_mail_receiver: "我们检测到一个过时的电子邮件收信人版本。点击<a href='https://forum.okse.io/t/-/133491'>这里</a>查看更新说明。更新后，此消息后可能需要24小时才会消失。"
     poll_pop3_timeout: "连接 POP3 服务器超时。无法获取进站邮件。请检查你的<a href='%{base_path}/admin/site_settings/category/email'>POP3 设置</a>和服务商。"
     poll_pop3_auth_error: "连接至 POP3 服务器因身份验证错误而失败。请检查你的<a href='%{base_path}/admin/site_settings/category/email'>POP3 设置</a>。"
     force_https_warning: "你的网站使用了SSL。但是，你的网站设置中尚未启用`<a href='%{base_path}/admin/site_settings/category/all_results?filter=force_https'>force_https</a>`。"
@@ -1344,7 +1344,7 @@ zh_CN:
     twitter_summary_large_image: "Twitter卡片的“摘要大图”（宽度至少应为280，高度至少为150）。如果留空，则使用opengraph_image生成常规卡片元数据。"
     notification_email: "这个表格：被用于发送所有重要系统邮件的邮箱地址。指定的域名必须正确设置 SPF、DKIM 和反向 PTR 记录以发送邮件。"
     email_custom_headers: "以竖线分割的自定义邮件标头列表。"
-    email_subject: "标准邮件的自定义主题格式。参见<a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801</a>"
+    email_subject: "标准邮件的自定义主题格式。参见<a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801</a>"
     detailed_404: "为用户提供关于他们为什么不能访问特定主题的更多细节。注意：这是不安全的，因为用户将知道一个 URL 是否链接到一个有效的主题。"
     enforce_second_factor: "强制用户启用双重验证。选择“all”以强制所有用户启用。选择“staff”仅强制管理人员。"
     force_https: "强制使用 https。警告：开启前必须确认 HTTPS 已经配置并能够正常使用！你检查了 CDN、第三方登录和站外的 logo / 依赖是否支持 HTTPS 了吗？"
@@ -1405,7 +1405,7 @@ zh_CN:
     content_security_policy: "启用内容安全策略"
     content_security_policy_report_only: "只启用内容安全策略报告"
     content_security_policy_collect_reports: "在/csp_reports上启用内容安全策略违规报告集"
-    content_security_policy_script_src: "附加的脚本来源白名单。默认包含当前主机和CDN。<a href='https://meta.discourse.org/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>使用内容安全策略缓解XSS攻击</a>"
+    content_security_policy_script_src: "附加的脚本来源白名单。默认包含当前主机和CDN。<a href='https://forum.okse.io/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>使用内容安全策略缓解XSS攻击</a>"
     invalidate_inactive_admin_email_after_days: "在此天数内未访问过网站的管理员账户需要在登录前重新验证邮件地址。设置为0禁用。"
     top_menu: "确定在主页导航条包含哪些条目，以及排列顺序。例如：latest|new|unread|categories|top|read|posted|bookmarks"
     post_menu: "确定在帖子菜单条包含哪些条目，以及排列顺序。例如：like|edit|flag|delete|share|bookmark|reply"
@@ -1473,27 +1473,27 @@ zh_CN:
     enable_local_logins_via_email: "允许用户请求通过电子邮件将一键登录链接发送给他们。"
     allow_new_registrations: "允许新用户注册。取消选择将阻止任何人创建一个新账户。"
     enable_signup_cta: "显示推荐创建账户的提示给那些回访的未注册用户。"
-    enable_google_oauth2_logins: "启用Google Oauth2身份验证。是Google目前支持的身份验证方法。需要密钥和秘密。请参阅<a href='https://meta.discourse.org/t/15858' target='_blank'>配置Google登录话语</a>。"
+    enable_google_oauth2_logins: "启用Google Oauth2身份验证。是Google目前支持的身份验证方法。需要密钥和秘密。请参阅<a href='https://forum.okse.io/t/15858' target='_blank'>配置Google登录话语</a>。"
     google_oauth2_client_id: "Google 应用的 Client ID"
     google_oauth2_client_secret: "Google 应用的 Client secret"
     google_oauth2_prompt: "可选的以空格分隔的字符串值列表，指定授权服务器是否提示用户进行重新认证和同意。请参阅<a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'> https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a >为可能的值。"
     google_oauth2_hd: "登录将受限的可选Google Apps Hosted域。请参阅<a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd- param</a>了解更多详情。"
-    enable_twitter_logins: "启用Twitter身份验证，需要twitter_consumer_key和twitter_consumer_secret。请参阅<a href='https://meta.discourse.org/t/13395'target='_blank'>为Discourse配置Twitter登录（和丰富的嵌入内容）</a>。"
+    enable_twitter_logins: "启用Twitter身份验证，需要twitter_consumer_key和twitter_consumer_secret。请参阅<a href='https://forum.okse.io/t/13395'target='_blank'>为Discourse配置Twitter登录（和丰富的嵌入内容）</a>。"
     twitter_consumer_key: "Twitter身份验证的消费者Key，在<a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>上注册"
     twitter_consumer_secret: "Twitter身份验证的客户secret，在<a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>上注册"
     enable_instagram_logins: "启用 Instagram 验证，需要 instagram_consumer_key 和 instagram_consumer_secret"
     instagram_consumer_key: "Instagram 验证的 Consumer key"
     instagram_consumer_secret: "Instagram 验证的 Consumer secret"
-    enable_facebook_logins: "启用Facebook身份验证，需要facebook_app_id和facebook_app_secret。请参阅<a href='https://meta.discourse.org/t/13394'target='_blank'>配置Facebook登录Discourse</a>。"
+    enable_facebook_logins: "启用Facebook身份验证，需要facebook_app_id和facebook_app_secret。请参阅<a href='https://forum.okse.io/t/13394'target='_blank'>配置Facebook登录Discourse</a>。"
     facebook_app_id: "用于Facebook身份验证的应用程序ID，在<a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>上注册"
     facebook_app_secret: "用于Facebook身份验证的应用程序secret，在<a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>上注册"
-    enable_github_logins: "启用Github身份验证，需要github_client_id和github_client_secret。请参阅<a href='https://meta.discourse.org/t/13745'target='_blank'>配置GitHub登录Discourse</a>。"
+    enable_github_logins: "启用Github身份验证，需要github_client_id和github_client_secret。请参阅<a href='https://forum.okse.io/t/13745'target='_blank'>配置GitHub登录Discourse</a>。"
     github_client_id: "Github身份验证的客户端ID，在<a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>中注册"
     github_client_secret: "Github身份验证的客户端secret，在<a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>上注册"
     enable_discord_logins: "允许用户使用DIscord认证？"
     discord_client_id: 'Discord 客户端 ID（需要申请一个？请访问 <a href="https://discordapp.com/developers/applications/me">Discord 开发者门户</a>)'
     discord_secret: "Discord Secret Key"
-    discord_trusted_guilds: '只允许这些 Discord  公会的成员通过 Discord 登录。使用公会的数字 ID。更多有关信息，请查看<a href="https://meta.discourse.org/t/configuring-discord-login-for-discourse/127129">这里</a>的说明。留空则允许任意公会。'
+    discord_trusted_guilds: '只允许这些 Discord  公会的成员通过 Discord 登录。使用公会的数字 ID。更多有关信息，请查看<a href="https://forum.okse.io/t/configuring-discord-login-for-discourse/127129">这里</a>的说明。留空则允许任意公会。'
     enable_backups: "允许管理员创建论坛备份"
     allow_restore: "允许导入数据，这将能替换所有全站数据！除非你计划导入数据，否则请保持设置为 false"
     maximum_backups: "磁盘保存的最大备份数量。老的备份将自动删除"
@@ -1719,7 +1719,7 @@ zh_CN:
     log_mail_processing_failures: "将所有电子邮件处理失败记录到<a href='%{base_path}/logs'target='_blank'> /logs</a>"
     email_in: '允许用户通过邮件发表新主题（需要手动或 pop3 轮询）。在每一个分类的“设置”标签页配置地址。'
     email_in_min_trust: "能通过邮件发表新主题的最低用户信任等级。"
-    email_in_authserv_id: "对收到的电子邮件进行身份验证检查服务的标识符。参见 <a href='https://meta.discourse.org/t/134358'>https://meta.discourse.org/t/134358</a> 了解如何配置它。"
+    email_in_authserv_id: "对收到的电子邮件进行身份验证检查服务的标识符。参见 <a href='https://forum.okse.io/t/134358'>https://forum.okse.io/t/134358</a> 了解如何配置它。"
     email_in_spam_header: "用于检测垃圾邮件的标头。"
     email_prefix: "邮件标题中使用的 [标签]。留空将默认使用 'title'。"
     email_site_title: "邮件发送人站点标题。如果没有设置，默认为“title”。如果标题包含了任何不允许的字符，使用这个设置。"
@@ -1755,7 +1755,7 @@ zh_CN:
     enable_user_directory: "提供可供浏览的用户目录"
     enable_group_directory: "提供可供浏览的群组目录"
     enable_category_group_review: "允许群组审核指定分类的内容"
-    group_in_subject: "在邮件标题中设置%%{optional_pm}，取决于PM中第一个组的名称，请参阅：<a href ='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target ='_blank'>自定义标准邮件的标题格式</a>"
+    group_in_subject: "在邮件标题中设置%%{optional_pm}，取决于PM中第一个组的名称，请参阅：<a href ='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target ='_blank'>自定义标准邮件的标题格式</a>"
     allow_anonymous_posting: "允许用户切换至匿名模式"
     anonymous_posting_min_trust_level: "启用匿名发帖所需的最低信任等级"
     anonymous_account_duration_minutes: "为了匿名性，每 N 分钟为各个用户创建一个新的匿名账户。例如：如果设置为 600，只要自最后发帖起过去 600 分钟，并且用户切换至匿名模式，就会创建一个新的匿名账户。"
@@ -1820,7 +1820,7 @@ zh_CN:
     delete_drafts_older_than_n_days: "删除超过 n 天的草稿。"
     bootstrap_mode_min_users: "禁用摘要模式的用户数下限（0 为禁用）。"
     prevent_anons_from_downloading_files: "禁止匿名用户下载附件。警告：这将禁止他们访问任何发表在帖子中的非图片资源。"
-    secure_media: '限制所有上传文件（图像、视频、音频、文本、可移植文档格式（pdf）、压缩文件等）的访问。如启用“login required”，那么只有已登录的用户才可以访问上传的文件。否则只对私信和私有分类中的媒体上传进行限制。注意：此设置很复杂且需要深入的管理认识。更详细的内容参阅<a target="_blank" href="https://meta.discourse.org/t/secure-media-uploads/140017">官方论坛中的媒体安全话题</a>。'
+    secure_media: '限制所有上传文件（图像、视频、音频、文本、可移植文档格式（pdf）、压缩文件等）的访问。如启用“login required”，那么只有已登录的用户才可以访问上传的文件。否则只对私信和私有分类中的媒体上传进行限制。注意：此设置很复杂且需要深入的管理认识。更详细的内容参阅<a target="_blank" href="https://forum.okse.io/t/secure-media-uploads/140017">官方论坛中的媒体安全话题</a>。'
     slug_generation_method: "选择一个链接生成方式。“encoded”将生成以百分号编码的链接。“none”将禁用自定义链接，只生成默认链接。"
     enable_emoji: "启用绘文字（emoji）"
     enable_emoji_shortcuts: "常见的笑脸文字如 :) :p :( 将被转换为绘文字"
@@ -2298,9 +2298,9 @@ zh_CN:
 
       - 轻松使用我们的**[浏览器一键式升级](%{base_url}/admin/upgrade)**进行升级
 
-      - 查看[发行说明](https://meta.discourse.org/tag/release-notes)中的新功能或查看[原始GitHub更新日志](https://github.com/discourse/discourse/commits/master)
+      - 查看[发行说明](https://forum.okse.io/tag/release-notes)中的新功能或查看[原始GitHub更新日志](https://github.com/discourse/discourse/commits/master)
 
-      - 访问[meta.discourse.org](https://meta.discourse.org)获取资讯、讨论以及对Discourse的支持
+      - 访问[forum.okse.io](https://forum.okse.io)获取资讯、讨论以及对Discourse的支持
   new_version_mailer_with_notes:
     title: "带注解的新版本发件人"
     subject_template: "[%{email_prefix}] 可以升级"
@@ -2312,9 +2312,9 @@ zh_CN:
 
       - 轻松使用我们的**[浏览器一键式升级](%{base_url}/admin/ upgrade)**进行升级
 
-      - 查看[发行说明](https://meta.discourse.org/tag/release-notes)中的新功能或查看[原始GitHub更新日志](https://github.com/discourse/discourse/commits/master)
+      - 查看[发行说明](https://forum.okse.io/tag/release-notes)中的新功能或查看[原始GitHub更新日志](https://github.com/discourse/discourse/commits/master)
 
-      - 访问[meta.discourse.org](https://meta.discourse.org)获取资讯、讨论以及对Discourse的支持
+      - 访问[forum.okse.io](https://forum.okse.io)获取资讯、讨论以及对Discourse的支持
 
       ### 发布说明
 
@@ -2431,7 +2431,7 @@ zh_CN:
 
         作为一名%{role}，现在你可以访问<a href='%{base_url}/admin' target='_blank'>管理面板</a>。
 
-        拥有权利的同时也被赋予了重大的责任。如果你不熟悉管理，请参考[管理指南](https://meta.discourse.org/t/discourse-moderation-guide/63116)。
+        拥有权利的同时也被赋予了重大的责任。如果你不熟悉管理，请参考[管理指南](https://forum.okse.io/t/discourse-moderation-guide/63116)。
     welcome_invite:
       title: "欢迎邀请"
       subject_template: "欢迎来到 %{site_name}！"
@@ -4010,10 +4010,10 @@ zh_CN:
       button: "注册"
       title: "注册管理员账户"
       help: "注册新账户以开始"
-      no_emails: "遗憾的是，在设置过程中未定义管理员电子邮件，因此最终确定配置可能很困难。请在配置文件中添加开发人员电子邮件或<a href='https://meta.discourse.org/t/create-admin-account-from-console/17274'>从控制台创建管理员账户</a>。"
+      no_emails: "遗憾的是，在设置过程中未定义管理员电子邮件，因此最终确定配置可能很困难。请在配置文件中添加开发人员电子邮件或<a href='https://forum.okse.io/t/create-admin-account-from-console/17274'>从控制台创建管理员账户</a>。"
     confirm_email:
       title: "配置你的邮件"
-      message: "<p>我们发送了一封激活邮件到<b>%{email}</b>。请安装电子邮件中的说明激活你的帐号。</p><p>如果没有收到，检查你的收件箱的垃圾箱或者<a href='https://meta.discourse.org/t/troubleshooting-email-on-a-new-discourse-install/16326'>确认你的电子邮件地址是正确的</a>。</p>"
+      message: "<p>我们发送了一封激活邮件到<b>%{email}</b>。请安装电子邮件中的说明激活你的帐号。</p><p>如果没有收到，检查你的收件箱的垃圾箱或者<a href='https://forum.okse.io/t/troubleshooting-email-on-a-new-discourse-install/16326'>确认你的电子邮件地址是正确的</a>。</p>"
     resend_email:
       title: "重发激活邮件"
       message: "<p>我们重发了激活邮件至<b>%{email}</b>"
@@ -4106,7 +4106,7 @@ zh_CN:
         title: "主题"
       themes_further_reading:
         title: "主题"
-        description: "想要定制你的Discourse？利用我们强大的主题系统：<ul><li><a href='https://meta.discourse.org/t/63682' target='_blank'>怎样安装一个主题或主题组件</a></li><li><a href='https://meta.discourse.org/t/110448' target='_blank'>主题开发者快速参考指南</a></li></ul>热门的主题组件（更多请浏览<a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#主题</a>）"
+        description: "想要定制你的Discourse？利用我们强大的主题系统：<ul><li><a href='https://forum.okse.io/t/63682' target='_blank'>怎样安装一个主题或主题组件</a></li><li><a href='https://forum.okse.io/t/110448' target='_blank'>主题开发者快速参考指南</a></li></ul>热门的主题组件（更多请浏览<a href='https://forum.okse.io/c/theme/l/latest' target='_blank'>#主题</a>）"
       logos:
         title: "标志"
         fields:

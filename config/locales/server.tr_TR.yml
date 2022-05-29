@@ -171,7 +171,7 @@ tr_TR:
       second_factor_cannot_be_enforced_with_disabled_local_login: "Yerel girişler devre dışı bırakılmışsa 2FA&#39;yı uygulayamazsınız."
       local_login_cannot_be_disabled_if_second_factor_enforced: "2FA zorunluysa, yerel girişi devre dışı bırakamazsınız. Yerel girişleri devre dışı bırakmadan önce zorunlu 2FA&#39;yı devre dışı bırakın."
       cannot_enable_s3_uploads_when_s3_enabled_globally: "S3 yüklemeleri zaten küresel olarak etkin olduğundan S3 yüklemelerini etkinleştiremezsiniz ve bu site düzeyini etkinleştirmek yüklemelerde kritik sorunlara neden olabilir"
-    conflicting_google_user_id: 'Bu hesap için Google Hesap Kimliği değişti; Güvenlik nedeniyle yetkili müdahalesi gerekmektedir. Lütfen yetkili ile iletişime geçin ve <br> <a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'Bu hesap için Google Hesap Kimliği değişti; Güvenlik nedeniyle yetkili müdahalesi gerekmektedir. Lütfen yetkili ile iletişime geçin ve <br> <a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors
@@ -531,7 +531,7 @@ tr_TR:
 
       (Güven seviyeleriyle ilgili daha fazla bilgi için, [bu konuya bakın][trust]. Lütfen, sadece sürekli olarak kriterlere uyan üyelerin standart seviyede kalacağını unutmayın.)
 
-      [trust]: https://meta.discourse.org/t/what-do-user-trust-levels-do/4924
+      [trust]: https://forum.okse.io/t/what-do-user-trust-levels-do/4924
   admin_quick_start_title: "İLK ÖNCE BURAYI OKUYUN: Yönetici Hızlı Başlangıç Kılavuzu"
   category:
     topic_prefix: "%{category} kategorisi hakkında "
@@ -1245,12 +1245,12 @@ tr_TR:
     sidekiq_warning: 'Sidekiq çalışmıyor. E-posta yollamak gibi gibi birçok asenkron görev sidekiq''in işidir. En az bir tane sidekiq süreci çalıştırdığınızdan emin olun. <a href="https://github.com/mperham/sidekiq" target="_blank">Sidekiq ile ilgili bilgi burada</a>.'
     queue_size_warning: "Kuyruğa eklenmiş işlerin sayısı fazla: %{queue_size}. Bu Sidekiq işlem(ler)indeki bir sorunu işaret ediyor olabilir, ya da daha fazla Sidekiq işçisi eklemeniz gerekiyor olabilir."
     memory_warning: "Sunucunuz toplam 1GB'tan az bellek ile çalışıyor. En az 1GB bellek tavsiye edilmektedir."
-    google_oauth2_config_warning: 'Sunucu Google OAuth2 (enable_google_oauth2_logins) ile üyelik oluşturulması ve giriş yapılmasına izin veriyor. Fakat istemci ID''si ve gizli istemci değerleri henüz ayarlanmamış. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a> gidin ve ayarları güncelleyin. <a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">Daha fazla bilgi için bu kılavuza bakın</a>.'
-    facebook_config_warning: 'Sunucu Facebook (enable_facebook_logins) ile üyelik oluşturulmasına ve giriş yapılmasına izin veriyor, fakat uygulama ID''si ve gizli uygulama değerleri henüz ayarlanmamış. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a> gidin ve ayarları güncelleyin. <a href="https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394" target="_blank">Daha fazla bilgi için bu kılavuza bakın</a>.'
-    twitter_config_warning: 'Sunucu Twitter (enable_twitter_logins) ile üyelik oluşturulması ve giriş yapılmasına izin veriyor, fakat anahtar ve gizli değerler henüz ayarlanmamış. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a>gidin ve ayarları güncelleyin. <a href="https://meta.discourse.org/t/configuring-twitter-login-for-discourse/13395" target="_blank">Daha fazla bilgi için bu kılavuza bakın</a>.'
-    github_config_warning: 'Sunucu GitHub (enable_github_logins) ile üyelik oluşturulması ve giriş yapılmasına izin veriyor, fakat istemci ID''si ve gizli değerler henüz ayarlanmamış. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a> gidin ve ayarları güncelleyin. <a href="https://meta.discourse.org/t/configuring-github-login-for-discourse/13745" target="_blank">Daha fazla bilgi için bu kılavuza bakın</a>.'
-    s3_config_warning: 'Sunucu s3''e dosya yüklenebilmesi için yapılandırılmış, fakat şunlardan en az biri henüz ayarlanmamış: s3_access_key_id, s3_secret_access_key or s3_upload_bucket. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a> gidin ve ayarları güncelleyin. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Daha fazla bilgi için "S3''e resim yüklemeleri nasıl ayarlanır?" konulu gönderiye bakın</a>.'
-    s3_backup_config_warning: 'Sunucu s3''e yedeklerin yüklenebilmesi için yapılandırılmış, fakat şunlardan en az biri henüz ayarlanmamış: s3_access_key_id, s3_secret_access_key or s3_upload_bucket. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a> gidin ve ayarları güncelleyin. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Daha fazla bilgi için "S3''e resim yüklemeleri nasıl ayarlanır?" konulu gönderiye bakın</a>.'
+    google_oauth2_config_warning: 'Sunucu Google OAuth2 (enable_google_oauth2_logins) ile üyelik oluşturulması ve giriş yapılmasına izin veriyor. Fakat istemci ID''si ve gizli istemci değerleri henüz ayarlanmamış. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a> gidin ve ayarları güncelleyin. <a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">Daha fazla bilgi için bu kılavuza bakın</a>.'
+    facebook_config_warning: 'Sunucu Facebook (enable_facebook_logins) ile üyelik oluşturulmasına ve giriş yapılmasına izin veriyor, fakat uygulama ID''si ve gizli uygulama değerleri henüz ayarlanmamış. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a> gidin ve ayarları güncelleyin. <a href="https://forum.okse.io/t/configuring-facebook-login-for-discourse/13394" target="_blank">Daha fazla bilgi için bu kılavuza bakın</a>.'
+    twitter_config_warning: 'Sunucu Twitter (enable_twitter_logins) ile üyelik oluşturulması ve giriş yapılmasına izin veriyor, fakat anahtar ve gizli değerler henüz ayarlanmamış. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a>gidin ve ayarları güncelleyin. <a href="https://forum.okse.io/t/configuring-twitter-login-for-discourse/13395" target="_blank">Daha fazla bilgi için bu kılavuza bakın</a>.'
+    github_config_warning: 'Sunucu GitHub (enable_github_logins) ile üyelik oluşturulması ve giriş yapılmasına izin veriyor, fakat istemci ID''si ve gizli değerler henüz ayarlanmamış. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a> gidin ve ayarları güncelleyin. <a href="https://forum.okse.io/t/configuring-github-login-for-discourse/13745" target="_blank">Daha fazla bilgi için bu kılavuza bakın</a>.'
+    s3_config_warning: 'Sunucu s3''e dosya yüklenebilmesi için yapılandırılmış, fakat şunlardan en az biri henüz ayarlanmamış: s3_access_key_id, s3_secret_access_key or s3_upload_bucket. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a> gidin ve ayarları güncelleyin. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Daha fazla bilgi için "S3''e resim yüklemeleri nasıl ayarlanır?" konulu gönderiye bakın</a>.'
+    s3_backup_config_warning: 'Sunucu s3''e yedeklerin yüklenebilmesi için yapılandırılmış, fakat şunlardan en az biri henüz ayarlanmamış: s3_access_key_id, s3_secret_access_key or s3_upload_bucket. <a href="%{base_path}/admin/site_settings">Site Ayarlarına</a> gidin ve ayarları güncelleyin. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Daha fazla bilgi için "S3''e resim yüklemeleri nasıl ayarlanır?" konulu gönderiye bakın</a>.'
     image_magick_warning: 'Sunucu büyük resimlerin küçük boylarının oluşturulması için yapılandırılmış, fakat ImageMagick henüz kurulmamış. Favori paket yöneticinizi kullanarak ImageMagick kurun veya <a href="https://www.imagemagick.org/script/download.php" target="_blank">son sürümünü indirin</a>.'
     failing_emails_warning: 'Başarısızlıkla sonuçlanmış %{num_failed_jobs} e-posta işlemi bulunuyor. app.yml dosyanızı kontrol edin ve e-posta sunucu ayarlarınızın doğru olduğundan emin olun. <a href="%{base_path}/sidekiq/retries" target="_blank">Sidekiq''deki başarısız işlemlere göz atın</a>.'
     subfolder_ends_in_slash: "Alt dizin kurulumunuz hatalı, DISCOURSE_RELATIVE_URL_ROOT sonunda yan çizgi bulunmalı."
@@ -1259,8 +1259,8 @@ tr_TR:
       other: "E-posta taraması, son 24 saat içinde %{count} adet hata üretti. Daha fazla ayrıntı <a href='%{base_path}/logs' target='_blank'>için günlüklere</a> bakın."
     missing_mailgun_api_key: "Sunucu, Mailgun üzerinden e-posta gönderecek şekilde yapılandırılmış, ancak webhook iletilerini doğrulamak için kullanılan bir API anahtarı sağlamadınız."
     bad_favicon_url: "Minik simge yüklemesi başarısız oldu. <a href='%{base_path}/admin/site_settings'>Site Ayarları</a>ndan favicon_url alanını kontrol edin."
-    deprecated_api_usage: "Kullanımdan kaldırılmış bir kimlik doğrulama yöntemi kullanarak bir API isteği tespit ettik. Lütfen <a href='https://meta.discourse.org/t/-/22706'>başlık tabanlı kimlik doğrulamasını</a> kullanmak için güncelleyin. Güncellemeden sonra bu mesajın kaybolması 24 saat sürebilir."
-    update_mail_receiver: "Posta alıcısının eski bir sürümünü tespit ettik. Güncelleme talimatları için <a href='https://meta.discourse.org/t/-/133491'>buraya</a> tıklayın. Güncellemeden sonra bu mesajın kaybolması 24 saat sürebilir."
+    deprecated_api_usage: "Kullanımdan kaldırılmış bir kimlik doğrulama yöntemi kullanarak bir API isteği tespit ettik. Lütfen <a href='https://forum.okse.io/t/-/22706'>başlık tabanlı kimlik doğrulamasını</a> kullanmak için güncelleyin. Güncellemeden sonra bu mesajın kaybolması 24 saat sürebilir."
+    update_mail_receiver: "Posta alıcısının eski bir sürümünü tespit ettik. Güncelleme talimatları için <a href='https://forum.okse.io/t/-/133491'>buraya</a> tıklayın. Güncellemeden sonra bu mesajın kaybolması 24 saat sürebilir."
     poll_pop3_timeout: "POP3 sunucusuna bağlantı zaman aşımına uğradı. Gelen e-posta alınamadı. Lütfen <a href='%{base_path}/admin/site_settings/category/email'>POP3 ayarlarınızı</a> ve servis sağlayıcınızı kontrol edin."
     poll_pop3_auth_error: "POP3 sunucusuna bağlantı bir kimlik doğrulama hatası sebebiyle başarısız oluyor. Lütfen <a href='%{base_path}/admin/site_settings/category/email'>POP3 ayarlarınızı</a> kontrol edin."
     force_https_warning: "Web siteniz SSL kullanıyor. Ancak site ayarlarınızda ` <a href='%{base_path}/admin/site_settings/category/all_results?filter=force_https'>force_https`</a> henüz etkin değil."
@@ -1345,7 +1345,7 @@ tr_TR:
     twitter_summary_large_image: "Twitter kartı 'özet büyük resim' (en az 280 genişliğinde ve en az 150 yüksekliğinde olmalıdır). Boş bırakılırsa, opengraph_image kullanılarak normal kart meta verileri oluşturulur."
     notification_email: "Tüm önemli sistem e-postaları için kullanılacak olan gönderen e-posta adresi. E-postaların başarıyla ulaşması için buraya girilen alan adının SPF, DKIM ve reverse PTR kayıtlarının doğru yapılması lazım."
     email_custom_headers: "Sınırlandırılmış özel e-posta başlıkları listesi"
-    email_subject: "Standart e-postalar için özelleştirilebilir konu biçimi. Bkz. <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801</a>"
+    email_subject: "Standart e-postalar için özelleştirilebilir konu biçimi. Bkz. <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801</a>"
     detailed_404: "Kullanıcılara belirli bir konuya neden erişemedikleri hakkında daha fazla ayrıntı sağlar. Not: Bu daha az güvenlidir çünkü kullanıcılar bir URL'nin geçerli bir konuya bağlantı verip vermediğini bilecektir."
     enforce_second_factor: "Kullanıcıları ikinci faktör kimlik doğrulamasını etkinleştirmeye zorlar. Tüm kullanıcılara uygulamak için \"tümü\"; seçeneğini seçin. Yalnızca yetkili kullanıcılara uygulamak için \"yetkili\" seçin."
     force_https: "Sitenizi HTTPS kullanmaya zorlayın. DİKKAT: bu seçeneği HTTPS'nin her yerde doğru bir şekilde çalıştığından emin olmadan SEÇMEYİN. Sitenizde bulunan paylaşım siteleri bağlantılarını, CDN' adresinizi, dışsal bağlantısı olan görsellerinizi de kontrol ettiniz mi?"
@@ -1402,7 +1402,7 @@ tr_TR:
     content_security_policy: "İçerik-Güvenlik-Politikasını Etkinleştir"
     content_security_policy_report_only: "Yalnızca İçerik-Güvenlik-İlke-Raporunu Etkinleştir"
     content_security_policy_collect_reports: "/ Csp_reports adresinde CSP ihlali raporu toplamayı etkinleştir"
-    content_security_policy_script_src: "Beyaz listeye eklenen ek komut dosyası kaynakları. Geçerli ana sunucu ve CDN varsayılan olarak dahil edilmiştir. Bkz <a href='https://meta.discourse.org/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>. İçerik Güvenliği İlkesi ile XSS Saldırılarını Azaltma.</a>"
+    content_security_policy_script_src: "Beyaz listeye eklenen ek komut dosyası kaynakları. Geçerli ana sunucu ve CDN varsayılan olarak dahil edilmiştir. Bkz <a href='https://forum.okse.io/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>. İçerik Güvenliği İlkesi ile XSS Saldırılarını Azaltma.</a>"
     invalidate_inactive_admin_email_after_days: "Bu günlerde siteyi ziyaret etmeyen yönetici hesaplarının giriş yapmadan önce e-posta adreslerini yeniden doğrulamaları gerekir. Devre dışı bırakmak için 0 olarak ayarlayın."
     top_menu: "Anasayfa gezingesinde nelerin, hangi sırada yer alacağını belirleyin. Örneğin en sonIyeniIokunmamışIkategorilerIgözdeIokunmuşlarIgönderilenlerIimlenenler"
     post_menu: "Gönderi menüsündeki öğelerin hangi sırada yer alacağını belirleyin. Örnek: beğen|düzenle|bildir|sil|paylaş|imle|cevapla"
@@ -1466,27 +1466,27 @@ tr_TR:
     enable_local_logins_via_email: "Kullanıcıların e-posta yoluyla kendilerine tek tıklamayla giriş bağlantısı gönderilmesini istemesine izin ver."
     allow_new_registrations: "Yeni kayıtlara izin ver. Yeni hesap oluşturulmasını engellemek için burayı işaretlemeyin."
     enable_signup_cta: "Geri dönen anonim kullanıcılara hesap oluşturmaları için bir uyarı göster."
-    enable_google_oauth2_logins: "Google Oauth2 kimlik doğrulamasını etkinleştirin. Bu, Google'ın şu anda desteklediği kimlik doğrulama yöntemidir. Anahtar ve sır gerektirir.<a href='https://meta.discourse.org/t/15858' target='_blank'>Okse için Google giriş bilgilerini yapılandırma sayfasına göz atın</a> ."
+    enable_google_oauth2_logins: "Google Oauth2 kimlik doğrulamasını etkinleştirin. Bu, Google'ın şu anda desteklediği kimlik doğrulama yöntemidir. Anahtar ve sır gerektirir.<a href='https://forum.okse.io/t/15858' target='_blank'>Okse için Google giriş bilgilerini yapılandırma sayfasına göz atın</a> ."
     google_oauth2_client_id: "Google uygulamanıza ait Müşteri ID'si."
     google_oauth2_client_secret: "Google uygulamanıza ait client secret değeri."
     google_oauth2_prompt: "Yetkilendirme sunucusunun kullanıcıdan yeniden kimlik doğrulaması ve onay isteyip istemediğini belirten, isteğe bağlı, boşlukla ayrılmış bir dize değerleri listesi. Olası değerler için <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt adresine</a> bakın."
     google_oauth2_hd: "Oturum açmanın sınırlı olacağı isteğe bağlı bir Google Apps Barındırılan alan adı. Daha fazla ayrıntı için <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param adresine</a> bakın."
-    enable_twitter_logins: "Twitter kimlik doğrulamasını etkinleştir, twitter_consumer_key ve twitter_consumer_secret gerektirir. <a href='https://meta.discourse.org/t/13395' target='_blank'>Okse için Twitter girişini (ve zengin yerleştirmeleri) yapılandırma sayfasına göz atın</a> ."
+    enable_twitter_logins: "Twitter kimlik doğrulamasını etkinleştir, twitter_consumer_key ve twitter_consumer_secret gerektirir. <a href='https://forum.okse.io/t/13395' target='_blank'>Okse için Twitter girişini (ve zengin yerleştirmeleri) yapılandırma sayfasına göz atın</a> ."
     twitter_consumer_key: "<a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps adresinde</a> kayıtlı olan Twitter kimlik doğrulaması için 'consumer key'"
     twitter_consumer_secret: "<a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps adresinde</a> kayıtlı olan Twitter kimlik doğrulaması için 'consumer secret'"
     enable_instagram_logins: "Instagram doğrulamasını etkinleştir, instagram_consumer_key ve instagram_consumer_secret gereklidir"
     instagram_consumer_key: "Instagram kimlik doğrulaması için 'consumer key'"
     instagram_consumer_secret: "'consumer secret' Instagram kimlik doğrulaması"
-    enable_facebook_logins: "Facebook kimlik doğrulamasını etkinleştir, facebook_app_id ve facebook_app_secret gerektirir. Bkz. <a href='https://meta.discourse.org/t/13394' target='_blank'>Okse için Facebook oturumunu yapılandırma</a> ."
+    enable_facebook_logins: "Facebook kimlik doğrulamasını etkinleştir, facebook_app_id ve facebook_app_secret gerektirir. Bkz. <a href='https://forum.okse.io/t/13394' target='_blank'>Okse için Facebook oturumunu yapılandırma</a> ."
     facebook_app_id: "Facebook kimlik doğrulaması için uygulama kimliği, <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps adresinde</a> kayıtlı"
     facebook_app_secret: "<a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps adresinde</a> kayıtlı Facebook kimlik doğrulaması için uygulama sırrı"
-    enable_github_logins: "Github kimlik doğrulamasını etkinleştir, github_client_id ve github_client_secret gerektirir. Bkz <a href='https://meta.discourse.org/t/13745' target='_blank'>Okse için  GitHub giriş yapılandırma</a> ."
+    enable_github_logins: "Github kimlik doğrulamasını etkinleştir, github_client_id ve github_client_secret gerektirir. Bkz <a href='https://forum.okse.io/t/13745' target='_blank'>Okse için  GitHub giriş yapılandırma</a> ."
     github_client_id: "<a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers adresinde</a> kayıtlı Github kimlik doğrulaması için istemci kimliği"
     github_client_secret: "<a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers adresinde</a> kayıtlı Github kimlik doğrulaması için 'client secret'"
     enable_discord_logins: "Kullanıcıların Discord kullanarak kimlik doğrulamasına izin verilsin mi?"
     discord_client_id: 'Discord İstemci Kimliği (birine ihtiyacınız var mı? <a href="https://discordapp.com/developers/applications/me">Discord geliştirici portalını</a> ziyaret edin)'
     discord_secret: "Discord Gizli Anahtarı"
-    discord_trusted_guilds: 'Yalnızca bu Discord loncalarının üyelerinin Discord üzerinden giriş yapmasına izin verin. Lonca için sayısal kimliği kullanın. Daha fazla bilgi için, talimatları kontrol edin <a href="https://meta.discourse.org/t/configuring-discord-login-for-discourse/127129">buraya</a> . Bir loncaya izin vermek için boş bırakın.'
+    discord_trusted_guilds: 'Yalnızca bu Discord loncalarının üyelerinin Discord üzerinden giriş yapmasına izin verin. Lonca için sayısal kimliği kullanın. Daha fazla bilgi için, talimatları kontrol edin <a href="https://forum.okse.io/t/configuring-discord-login-for-discourse/127129">buraya</a> . Bir loncaya izin vermek için boş bırakın.'
     enable_backups: "Yöneticilerin forumun yedeklerini oluşturmalarına izin ver"
     allow_restore: "Geri almaya izin ver. Sitedeki TÜM verileri değiştirebilir! Bir yedeklemeyi geri yüklemeyi planlamıyorsanız devre dışı bırakın."
     maximum_backups: "Diskte tutulacak en fazla yedek sayısı. Eski yedekler otomatik olarak silinir."
@@ -1707,7 +1707,7 @@ tr_TR:
     log_mail_processing_failures: "Tüm e-posta işleme hatalarını <a href='%{base_path}/logs' target='_blank'>/ günlüklerine</a> kaydet"
     email_in: 'Kullanıcıların e-posta aracılığıyla yeni konu oluşturabilmesine izin ver (pop3 sorgulaması gerektirir). Adresleri her kategorinin "Ayarlar" sekmesinden düzenleyin.'
     email_in_min_trust: "Bir kullanıcının e-posta aracılığı ile yeni konu oluşturabilmesi için sahip olması gereken en az güven seviyesi."
-    email_in_authserv_id: "Kimlik doğrulama yapan hizmetin tanımlayıcısı gelen e-postaları kontrol eder. Bunu yapılandırma talimatları için bkz. <a href='https://meta.discourse.org/t/134358'>https://meta.discourse.org/t/134358</a> ."
+    email_in_authserv_id: "Kimlik doğrulama yapan hizmetin tanımlayıcısı gelen e-postaları kontrol eder. Bunu yapılandırma talimatları için bkz. <a href='https://forum.okse.io/t/134358'>https://forum.okse.io/t/134358</a> ."
     email_in_spam_header: "Spam tespit etmek için e-posta başlığı."
     email_prefix: "E-postaların konu bölümünü belirten [etiket]. Boş bırakılırsa 'title' yazacak."
     email_site_title: "Bu siteden giden e-postalarda gönderici olarak kullanılacak sitenin başlığı. Herhangi bir şey girilmezse öntanımlı olarak 'title' yazacak. Eğer 'başlık\" içeriğinizde, e-posta göndericisinin stringlerinde izin verilmeyen karakterler varsa, bu ayarı kullanın. "
@@ -1742,7 +1742,7 @@ tr_TR:
     enable_user_directory: "Göz atılabilmesi için kullanıcıların olduğu bir dizin sağla"
     enable_group_directory: "Tarama için bir grup dizini sağlayın"
     enable_category_group_review: "Grupların belirli kategorilerdeki içeriği incelemesine izin ver"
-    group_in_subject: "PM'deki ilk grubun adına tabi e-postada %%{optional_pm} olarak ayarlayın, bkz: <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>Standart e-postalar için konu biçimini özelleştirme</a>"
+    group_in_subject: "PM'deki ilk grubun adına tabi e-postada %%{optional_pm} olarak ayarlayın, bkz: <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>Standart e-postalar için konu biçimini özelleştirme</a>"
     allow_anonymous_posting: "Kullanıcıların anonim moda geçebilmelerine izin ver"
     anonymous_posting_min_trust_level: "Anonim gönderi oluşturabilmeyi etkinleştirebilmek için gereken en az güven seviyesi"
     anonymous_account_duration_minutes: "Anonimliği koruyabilmek için, her kulanıcı için her N dakikada bir yeni bir anonim hesap oluştur. Örnek: 600'e ayarlanırsa, son gönderi üzerinden 600 dakika geçer geçmez VE kullanıcı anonim moddaysa, yeni bir anonim hesap oluşturulur."
@@ -2229,9 +2229,9 @@ tr_TR:
 
       - **[Tek tıklamayla](%{base_url}/admin/upgrade)** basitçe yükseltin
 
-      - Nelerin yeni olduğunu [GitHub kayıtlarında](https://github.com/discourse/discourse/commits/master) ve [Yayınlanmış Notlarda] (https://meta.discourse.org/tags/release-notes) görün
+      - Nelerin yeni olduğunu [GitHub kayıtlarında](https://github.com/discourse/discourse/commits/master) ve [Yayınlanmış Notlarda] (https://forum.okse.io/tags/release-notes) görün
 
-      - Yeniliklerden haberdar olmak, tartışmak ve destek almak için [meta.discourse.org](https://meta.discourse.org) adresini ziyaret edin
+      - Yeniliklerden haberdar olmak, tartışmak ve destek almak için [forum.okse.io](https://forum.okse.io) adresini ziyaret edin
   new_version_mailer_with_notes:
     title: "Yeni Sürüm Notlarla beraber Posta Göndericisi "
     subject_template: "[%{email_prefix}] güncelleme mevcut"
@@ -2243,9 +2243,9 @@ tr_TR:
 
       - **[Tek tıklamayla](%{base_url}/admin/upgrade)** basitçe yükseltin
 
-      - Nelerin yeni olduğunu [GitHub kayıtlarında](https://github.com/discourse/discourse/commits/master) ve [Yayınlanmış Notlarda] (https://meta.discourse.org/tags/release-notes) görün
+      - Nelerin yeni olduğunu [GitHub kayıtlarında](https://github.com/discourse/discourse/commits/master) ve [Yayınlanmış Notlarda] (https://forum.okse.io/tags/release-notes) görün
 
-      - Yeniliklerden haberdar olmak, tartışmak ve destek almak için [meta.discourse.org](https://meta.discourse.org) adresini ziyaret edin
+      - Yeniliklerden haberdar olmak, tartışmak ve destek almak için [forum.okse.io](https://forum.okse.io) adresini ziyaret edin
 
       ###Yayınlanmış Notlar
 
@@ -2364,7 +2364,7 @@ tr_TR:
 
          %{role} olarak artık <a href='%{base_url}/admin' target='_blank'>yönetici arayüzüne</a> erişiminiz var.
 
-         Büyük güç büyük sorumluluk getirir. Denetleme konusunda yeniyseniz, lütfen [Denetleme Kılavuzu] 'na bakın (https://meta.discourse.org/t/discourse-moderation-guide/63116).
+         Büyük güç büyük sorumluluk getirir. Denetleme konusunda yeniyseniz, lütfen [Denetleme Kılavuzu] 'na bakın (https://forum.okse.io/t/discourse-moderation-guide/63116).
     welcome_invite:
       title: "Hoşgeldiniz Davet Edin"
       subject_template: "%{site_name} topluluğuna hoş geldiniz!"
@@ -3484,10 +3484,10 @@ tr_TR:
       button: "Kayıt Ol"
       title: "Yönetici Hesabı Oluştur"
       help: "başlamak için yeni bir hesap oluşturun"
-      no_emails: "Ne yazık ki, kurulum sırasında yönetici e-postaları tanımlanmadığından, yapılandırmanın sonlandırılması zor olabilir. Lütfen yapılandırma dosyasına bir geliştirici e-postası ekleyin veya <a href='https://meta.discourse.org/t/create-admin-account-from-console/17274'>konsoldan bir yönetici hesabı oluşturun</a> ."
+      no_emails: "Ne yazık ki, kurulum sırasında yönetici e-postaları tanımlanmadığından, yapılandırmanın sonlandırılması zor olabilir. Lütfen yapılandırma dosyasına bir geliştirici e-postası ekleyin veya <a href='https://forum.okse.io/t/create-admin-account-from-console/17274'>konsoldan bir yönetici hesabı oluşturun</a> ."
     confirm_email:
       title: "E-posta adresinizi doğrulayın"
-      message: "<p> <b>%{email}</b> adresine bir aktivasyon postası gönderdik. Hesabınızı etkinleştirmek için lütfen e-postadaki talimatları izleyin. </p><p> Gelmezse, spam klasörünüzü kontrol edin ve <a href='https://meta.discourse.org/t/troubleshooting-email-on-a-new-discourse-install/16326'>e-postayı doğru bir şekilde ayarladığınızdan emin olun</a> . </p>"
+      message: "<p> <b>%{email}</b> adresine bir aktivasyon postası gönderdik. Hesabınızı etkinleştirmek için lütfen e-postadaki talimatları izleyin. </p><p> Gelmezse, spam klasörünüzü kontrol edin ve <a href='https://forum.okse.io/t/troubleshooting-email-on-a-new-discourse-install/16326'>e-postayı doğru bir şekilde ayarladığınızdan emin olun</a> . </p>"
     resend_email:
       title: "Etkinleştirme E-postasını Tekrar Gönder"
       message: "<p> <b>%{email}</b> adresine etkinleştirme e-postasını tekrar gönderdik"
@@ -3580,7 +3580,7 @@ tr_TR:
         title: "Tema"
       themes_further_reading:
         title: "Temalar"
-        description: "Okse'unuzu özelleştirmek mi istiyorsunuz? Güçlü tema sistemimizden yararlanın: <ul><li> <a href='https://meta.discourse.org/t/63682' target='_blank'>Bir tema veya tema bileşenini nasıl yüklerim?</a> </li><li> <a href='https://meta.discourse.org/t/110448' target='_blank'>Tema Geliştirici Hızlı Başvuru Kılavuzu</a> </li></ul> Popüler tema bileşenleri (daha fazla bilgi için <a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#temaya göz atın</a> )"
+        description: "Okse'unuzu özelleştirmek mi istiyorsunuz? Güçlü tema sistemimizden yararlanın: <ul><li> <a href='https://forum.okse.io/t/63682' target='_blank'>Bir tema veya tema bileşenini nasıl yüklerim?</a> </li><li> <a href='https://forum.okse.io/t/110448' target='_blank'>Tema Geliştirici Hızlı Başvuru Kılavuzu</a> </li></ul> Popüler tema bileşenleri (daha fazla bilgi için <a href='https://forum.okse.io/c/theme/l/latest' target='_blank'>#temaya göz atın</a> )"
       logos:
         title: "Görseller"
         fields:

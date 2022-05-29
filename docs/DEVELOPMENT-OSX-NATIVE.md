@@ -270,4 +270,4 @@ These commands assume an empty Discourse database, and an otherwise empty redis 
     redis-cli flushall
     bundle exec rspec # re-running to see if tests pass
 
-Search https://meta.discourse.org for solutions to other problems.
+Search https://forum.okse.io for solutions to other problems.

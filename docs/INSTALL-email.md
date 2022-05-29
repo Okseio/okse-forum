@@ -35,7 +35,7 @@ Go to [My Account page](https://app.mailjet.com/account) and click on the ["SMTP
     SMTP password?       [Elastic Email API Key]
     SMTP port?           2525
     
-NOTE: By default, Elastic Email will add an additional UNSUBSCRIBE link at the bottom of each sent email. You need to work with them to [disable that link](https://meta.discourse.org/t/remove-or-merge-elastic-email-unsubscribe/70236/39), so that Discourse users can manage their subscription through Discourse.
+NOTE: By default, Elastic Email will add an additional UNSUBSCRIBE link at the bottom of each sent email. You need to work with them to [disable that link](https://forum.okse.io/t/remove-or-merge-elastic-email-unsubscribe/70236/39), so that Discourse users can manage their subscription through Discourse.
 
    [ee]: https://elasticemail.com
   [jet]: https://www.mailjet.com/pricing
@@ -46,4 +46,4 @@ NOTE: By default, Elastic Email will add an additional UNSUBSCRIBE link at the b
 
 ### Bounce Handling
 
-When using a third party email service, you will need to enable VERP, or activate their **webhooks** in order to handle bouncing emails. [Full details here.](https://meta.discourse.org/t/handling-bouncing-e-mails/45343)
+When using a third party email service, you will need to enable VERP, or activate their **webhooks** in order to handle bouncing emails. [Full details here.](https://forum.okse.io/t/handling-bouncing-e-mails/45343)

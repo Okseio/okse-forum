@@ -28,9 +28,9 @@ Browse [lots more notable Discourse instances](https://www.discourse.org/custome
 
 To get your environment setup, follow the community setup guide for your operating system.
 
-1. If you're on macOS, try the [macOS development guide](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-macos-for-development/15772).
-1. If you're on Ubuntu, try the [Ubuntu development guide](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-ubuntu-for-development/14727).
-1. If you're on Windows, try the [Windows 10 development guide](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-windows-10-for-development/75149).
+1. If you're on macOS, try the [macOS development guide](https://forum.okse.io/t/beginners-guide-to-install-discourse-on-macos-for-development/15772).
+1. If you're on Ubuntu, try the [Ubuntu development guide](https://forum.okse.io/t/beginners-guide-to-install-discourse-on-ubuntu-for-development/14727).
+1. If you're on Windows, try the [Windows 10 development guide](https://forum.okse.io/t/beginners-guide-to-install-discourse-on-windows-10-for-development/75149).
 
 If you're familiar with how Rails works and are comfortable setting up your own environment, you can also try out the [**Discourse Advanced Developer Guide**](docs/DEVELOPER-ADVANCED.md), which is aimed primarily at Ubuntu and macOS environments.
 
@@ -77,7 +77,7 @@ Before contributing to Discourse:
 2. Read and sign the [**Electronic Discourse Forums Contribution License Agreement**](https://www.discourse.org/cla).
 3. Dig into [**CONTRIBUTING.MD**](CONTRIBUTING.md), which covers submitting bugs, requesting new features, preparing your code for a pull request, etc.
 4. Always strive to collaborate [with mutual respect](https://github.com/discourse/discourse/blob/master/docs/code-of-conduct.md).
-5. Not sure what to work on? [**We've got some ideas.**](https://meta.discourse.org/t/so-you-want-to-help-out-with-discourse/3823)
+5. Not sure what to work on? [**We've got some ideas.**](https://forum.okse.io/t/so-you-want-to-help-out-with-discourse/3823)
 
 
 We look forward to seeing your pull requests!

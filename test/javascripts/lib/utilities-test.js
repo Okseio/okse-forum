@@ -52,13 +52,13 @@ QUnit.test("emailValid", assert => {
 
 QUnit.test("extractDomainFromUrl", assert => {
   assert.equal(
-    extractDomainFromUrl("http://meta.discourse.org:443/random"),
-    "meta.discourse.org",
+    extractDomainFromUrl("http://forum.okse.io:443/random"),
+    "forum.okse.io",
     "extract domain name from url"
   );
   assert.equal(
-    extractDomainFromUrl("meta.discourse.org:443/random"),
-    "meta.discourse.org",
+    extractDomainFromUrl("forum.okse.io:443/random"),
+    "forum.okse.io",
     "extract domain regardless of scheme presence"
   );
   assert.equal(

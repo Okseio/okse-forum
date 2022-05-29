@@ -35,14 +35,14 @@ export default {
           can_recover: true,
           link_counts: [
             {
-              url: "https://meta.discourse.org/t/language-mirrors/2378/2",
+              url: "https://forum.okse.io/t/language-mirrors/2378/2",
               internal: true,
               reflection: true,
               title: "Language mirrors",
               clicks: 3
             },
             {
-              url: "https://meta.discourse.org/t/translation-workflow/6102",
+              url: "https://forum.okse.io/t/translation-workflow/6102",
               internal: true,
               reflection: true,
               title: "Translation workflow",
@@ -50,7 +50,7 @@ export default {
             },
             {
               url:
-                "https://meta.discourse.org/t/solving-xda-developer-style-forums/4368/4",
+                "https://forum.okse.io/t/solving-xda-developer-style-forums/4368/4",
               internal: true,
               reflection: true,
               title: "Solving XDA-Developer style forums",
@@ -58,7 +58,7 @@ export default {
             },
             {
               url:
-                "https://meta.discourse.org/t/comrades-lets-join-our-efforts-on-ukrainian-and-russian-translations/4403/5",
+                "https://forum.okse.io/t/comrades-lets-join-our-efforts-on-ukrainian-and-russian-translations/4403/5",
               internal: true,
               reflection: true,
               title:
@@ -67,7 +67,7 @@ export default {
             },
             {
               url:
-                "https://meta.discourse.org/t/bookmark-last-read-sometimes-doesn-t-go-to-the-end-of-a-topic/4825/9",
+                "https://forum.okse.io/t/bookmark-last-read-sometimes-doesn-t-go-to-the-end-of-a-topic/4825/9",
               internal: true,
               reflection: true,
               title:
@@ -75,7 +75,7 @@ export default {
               clicks: 0
             },
             {
-              url: "https://meta.discourse.org/t/roadplan-for-discourse/2939/5",
+              url: "https://forum.okse.io/t/roadplan-for-discourse/2939/5",
               internal: true,
               reflection: true,
               title: "Roadplan for Discourse 2013",
@@ -277,7 +277,7 @@ export default {
             },
             {
               url:
-                "https://meta.discourse.org/t/github-onebox-rendering-issue/7616",
+                "https://forum.okse.io/t/github-onebox-rendering-issue/7616",
               internal: true,
               reflection: true,
               title: "GitHub OneBox Rendering Issue",
@@ -373,7 +373,7 @@ export default {
           can_recover: true,
           link_counts: [
             {
-              url: "https://meta.discourse.org/t/hi-support-chinese/4393/6",
+              url: "https://forum.okse.io/t/hi-support-chinese/4393/6",
               internal: true,
               reflection: true,
               title: "Hi, support Chinese?",
@@ -447,7 +447,7 @@ export default {
           uploaded_avatar_id: 5253,
           created_at: "2013-02-07T14:02:07.869Z",
           cooked:
-            '<p><aside class="quote" data-post="3" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/meta.discourse.org/codinghorror/40/5297.png" class="avatar">codinghorror said:</div>\n<blockquote><p>So you could replace that lookup table with the "de" one to get German.</p></blockquote></aside></p>\n\n<p>The problem I see here is that  this file is likely two grow and change massively over the next couple months, and tracking these changes in order to keep a localized file up to date is going to be a <em>bitch</em>. </p>\n\n<p>I wonder where there is a tool that can compare two yml structures and point out which nodes are missing? That would help keep track of new strings.</p>\n\n<p>Re keeping track of <em>changed</em> strings, <a class="mention" href="/users/eviltrout">@eviltrout</a> I found this very interesting: <a href="http://stackoverflow.com/questions/4232922/why-do-people-use-plain-english-as-translation-placeholders" rel="nofollow">http://stackoverflow.com/questions/4232922/why-do-people-use-plain-english-as-translation-placeholders</a> if plain English placeholders were used, any change in strings would lead to a <em>new</em> node in the yml file, making keeping the translation up to date easier. Maybe worth thinking about in the future.</p>',
+            '<p><aside class="quote" data-post="3" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/forum.okse.io/codinghorror/40/5297.png" class="avatar">codinghorror said:</div>\n<blockquote><p>So you could replace that lookup table with the "de" one to get German.</p></blockquote></aside></p>\n\n<p>The problem I see here is that  this file is likely two grow and change massively over the next couple months, and tracking these changes in order to keep a localized file up to date is going to be a <em>bitch</em>. </p>\n\n<p>I wonder where there is a tool that can compare two yml structures and point out which nodes are missing? That would help keep track of new strings.</p>\n\n<p>Re keeping track of <em>changed</em> strings, <a class="mention" href="/users/eviltrout">@eviltrout</a> I found this very interesting: <a href="http://stackoverflow.com/questions/4232922/why-do-people-use-plain-english-as-translation-placeholders" rel="nofollow">http://stackoverflow.com/questions/4232922/why-do-people-use-plain-english-as-translation-placeholders</a> if plain English placeholders were used, any change in strings would lead to a <em>new</em> node in the yml file, making keeping the translation up to date easier. Maybe worth thinking about in the future.</p>',
           post_number: 5,
           post_type: 1,
           updated_at: "2013-02-07T14:05:42.328Z",
@@ -653,7 +653,7 @@ export default {
           uploaded_avatar_id: 5253,
           created_at: "2013-02-07T14:08:17.493Z",
           cooked:
-            '<p>Looks interesting, I\'ll take a peek.</p>\n\n<p>As said on dev, the best tool I can see in terms of giving translators a proper interface <em>and</em> quality control would be something like <a href="http://translate.wordpress.org/projects/bbpress/dev" rel="nofollow">GlotPress</a>. It\'s based on the PO messages format (is that somehow related to ICU?) but looks pretty great.</p>\n\n<p><aside class="quote" data-post="6" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/meta.discourse.org/sam/40/5243.png" class="avatar">sam said:</div>\n<blockquote><p>fuzzy matching for localization</p></blockquote></aside></p>\n\n<p>I\'m not familiar with the term in this context, you mean keeping the English version in the code base (instead of a generic code like <code>message_error_nametooshort</code> ?)</p>',
+            '<p>Looks interesting, I\'ll take a peek.</p>\n\n<p>As said on dev, the best tool I can see in terms of giving translators a proper interface <em>and</em> quality control would be something like <a href="http://translate.wordpress.org/projects/bbpress/dev" rel="nofollow">GlotPress</a>. It\'s based on the PO messages format (is that somehow related to ICU?) but looks pretty great.</p>\n\n<p><aside class="quote" data-post="6" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/forum.okse.io/sam/40/5243.png" class="avatar">sam said:</div>\n<blockquote><p>fuzzy matching for localization</p></blockquote></aside></p>\n\n<p>I\'m not familiar with the term in this context, you mean keeping the English version in the code base (instead of a generic code like <code>message_error_nametooshort</code> ?)</p>',
           post_number: 7,
           post_type: 1,
           updated_at: "2013-02-07T14:12:02.965Z",
@@ -772,7 +772,7 @@ export default {
           link_counts: [
             {
               url:
-                "https://meta.discourse.org/t/what-i-love-about-wordpress-plugins/5697",
+                "https://forum.okse.io/t/what-i-love-about-wordpress-plugins/5697",
               internal: true,
               reflection: true,
               title: "What I love about WordPress plugins",
@@ -851,7 +851,7 @@ export default {
           uploaded_avatar_id: 5253,
           created_at: "2013-02-07T14:14:12.666Z",
           cooked:
-            '<p><aside class="quote" data-post="8" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/meta.discourse.org/sam/40/5243.png" class="avatar">sam said:</div>\n<blockquote><p>one letter change and all your translators need to validate it.</p></blockquote></aside></p>\n\n<p>Yeah, that\'s why I\'ve always been a friend of <code>message_error_nametooshort</code> placeholders, until I asked the SO question linked above. The accepted answer makes a good argument against those placeholders: you <em>want</em> translations to break even on small changes in the English original because the translations will probably need to reflect the change, too.  Maybe that\'s not the case right now as new stuff is being checked in pretty much every couple of hours, but in the long run, it\'ll be overwhelmingly true.</p>',
+            '<p><aside class="quote" data-post="8" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/forum.okse.io/sam/40/5243.png" class="avatar">sam said:</div>\n<blockquote><p>one letter change and all your translators need to validate it.</p></blockquote></aside></p>\n\n<p>Yeah, that\'s why I\'ve always been a friend of <code>message_error_nametooshort</code> placeholders, until I asked the SO question linked above. The accepted answer makes a good argument against those placeholders: you <em>want</em> translations to break even on small changes in the English original because the translations will probably need to reflect the change, too.  Maybe that\'s not the case right now as new stuff is being checked in pretty much every couple of hours, but in the long run, it\'ll be overwhelmingly true.</p>',
           post_number: 9,
           post_type: 1,
           updated_at: "2013-02-07T14:18:09.569Z",
@@ -1122,7 +1122,7 @@ export default {
           uploaded_avatar_id: 5253,
           created_at: "2013-02-07T14:33:38.280Z",
           cooked:
-            '<p><aside class="quote" data-post="11" data-topic="280" data-full="true"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/meta.discourse.org/sam/40/5243.png" class="avatar">sam said:</div>\n<blockquote><p>Yeah, totally, also we could build tools for dev that make introducing string less annoying and make it possible to garbage collect old unused strings, I hate trudging through that file.</p></blockquote></aside></p>\n\n<p>As said, I\'d look into whether WP\'s tools can\'t be reused for this with some tweaking. They seem to be able to scan a code base for new strings, and make them available automatically to translators.</p>\n\n<p>They\'re PHP based which isn\'t ideal, but it looks like they\'ve done a crapload of work to take the hassle out of translations.</p>',
+            '<p><aside class="quote" data-post="11" data-topic="280" data-full="true"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/forum.okse.io/sam/40/5243.png" class="avatar">sam said:</div>\n<blockquote><p>Yeah, totally, also we could build tools for dev that make introducing string less annoying and make it possible to garbage collect old unused strings, I hate trudging through that file.</p></blockquote></aside></p>\n\n<p>As said, I\'d look into whether WP\'s tools can\'t be reused for this with some tweaking. They seem to be able to scan a code base for new strings, and make them available automatically to translators.</p>\n\n<p>They\'re PHP based which isn\'t ideal, but it looks like they\'ve done a crapload of work to take the hassle out of translations.</p>',
           post_number: 12,
           post_type: 1,
           updated_at: "2013-02-07T14:34:39.910Z",
@@ -1296,7 +1296,7 @@ export default {
           uploaded_avatar_id: 8400,
           created_at: "2013-02-07T19:37:06.194Z",
           cooked:
-            '<p><aside class="quote" data-post="12" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/meta.discourse.org/pekka/40/5253.png" class="avatar">pekka said:</div>\n<blockquote><p>As said, I\'d look into whether WP\'s tools can\'t be reused for this with some tweaking. They seem to be able to scan a code base for new strings, and make them available automatically to translators.</p></blockquote></aside></p>\n\n<p>I\'ve had pretty decent luck using Localeapp to localize Rails applications:</p>\n\n<p><a href="http://www.localeapp.com/" class="onebox" target="_blank" rel="nofollow">http://www.localeapp.com/</a></p>\n\n<p>The developer workflow took me about an hour to really get used to, and there were a few minor glitches. But the non-technical translators had very few problems. One limitation: It insists on rewriting all those yaml files full of strings.</p>\n\n<p>Anyway, it\'s worth a look, and it\'s free for open source, if I recall correctly. Certainly easier than doing a whole bunch of toolsmithing from scratch.</p>',
+            '<p><aside class="quote" data-post="12" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/forum.okse.io/pekka/40/5253.png" class="avatar">pekka said:</div>\n<blockquote><p>As said, I\'d look into whether WP\'s tools can\'t be reused for this with some tweaking. They seem to be able to scan a code base for new strings, and make them available automatically to translators.</p></blockquote></aside></p>\n\n<p>I\'ve had pretty decent luck using Localeapp to localize Rails applications:</p>\n\n<p><a href="http://www.localeapp.com/" class="onebox" target="_blank" rel="nofollow">http://www.localeapp.com/</a></p>\n\n<p>The developer workflow took me about an hour to really get used to, and there were a few minor glitches. But the non-technical translators had very few problems. One limitation: It insists on rewriting all those yaml files full of strings.</p>\n\n<p>Anyway, it\'s worth a look, and it\'s free for open source, if I recall correctly. Certainly easier than doing a whole bunch of toolsmithing from scratch.</p>',
           post_number: 14,
           post_type: 1,
           updated_at: "2013-02-07T19:37:06.194Z",
@@ -1392,7 +1392,7 @@ export default {
           uploaded_avatar_id: 5253,
           created_at: "2013-02-07T19:52:13.748Z",
           cooked:
-            '<p><aside class="quote" data-post="14" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/meta.discourse.org/emk/40/8400.png" class="avatar">emk said:</div>\n<blockquote><p>I\'ve had pretty decent luck using Localeapp to localize Rails applications</p></blockquote></aside></p>\n\n<p>Ohhh. Looking sexy. <em>droool</em></p>',
+            '<p><aside class="quote" data-post="14" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/forum.okse.io/emk/40/8400.png" class="avatar">emk said:</div>\n<blockquote><p>I\'ve had pretty decent luck using Localeapp to localize Rails applications</p></blockquote></aside></p>\n\n<p>Ohhh. Looking sexy. <em>droool</em></p>',
           post_number: 15,
           post_type: 1,
           updated_at: "2013-02-07T19:52:13.748Z",
@@ -1479,7 +1479,7 @@ export default {
           uploaded_avatar_id: 8400,
           created_at: "2013-02-07T20:52:22.454Z",
           cooked:
-            '<p><aside class="quote" data-post="15" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/meta.discourse.org/pekka/40/5253.png" class="avatar">pekka said:</div>\n<blockquote><p>Ohhh. Looking sexy. droool</p></blockquote></aside></p>\n\n<p>Yeah, it\'s pretty. <img src="/images/emoji/twitter/smile.png" title=":smile:" class="emoji" alt="smile" width="64" height="64"> But there were still some rough edges as of a few months ago.</p>\n\n<p>Whether or not those rough edges are a deal-breaker will probably depends on whether or not localization is already a source of acute pain. If you\'re already hurting, Localeapp is a pretty useful tool, especially when it comes to enlisting non-technical translators.</p>\n\n<p>But it does require changing how you work with text, and adding one new tool to the mix. So for projects that just don\'t want to know about non-English languages, it\'s not yet seamless the way Unicode is these days.</p>\n\n<p>(Sweet forum software, by the way. I was just testing out Egyptian hieroglyphics on the test server, because they\'re well off the Basic Multilingual Plane, and tend to flush Unicode bugs. Everything worked flawlessly.)</p>',
+            '<p><aside class="quote" data-post="15" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/forum.okse.io/pekka/40/5253.png" class="avatar">pekka said:</div>\n<blockquote><p>Ohhh. Looking sexy. droool</p></blockquote></aside></p>\n\n<p>Yeah, it\'s pretty. <img src="/images/emoji/twitter/smile.png" title=":smile:" class="emoji" alt="smile" width="64" height="64"> But there were still some rough edges as of a few months ago.</p>\n\n<p>Whether or not those rough edges are a deal-breaker will probably depends on whether or not localization is already a source of acute pain. If you\'re already hurting, Localeapp is a pretty useful tool, especially when it comes to enlisting non-technical translators.</p>\n\n<p>But it does require changing how you work with text, and adding one new tool to the mix. So for projects that just don\'t want to know about non-English languages, it\'s not yet seamless the way Unicode is these days.</p>\n\n<p>(Sweet forum software, by the way. I was just testing out Egyptian hieroglyphics on the test server, because they\'re well off the Basic Multilingual Plane, and tend to flush Unicode bugs. Everything worked flawlessly.)</p>',
           post_number: 16,
           post_type: 1,
           updated_at: "2013-02-07T20:52:22.454Z",
@@ -1566,7 +1566,7 @@ export default {
           uploaded_avatar_id: 5253,
           created_at: "2013-02-07T21:04:15.405Z",
           cooked:
-            '<p><aside class="quote" data-post="16" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/meta.discourse.org/emk/40/8400.png" class="avatar">emk said:</div>\n<blockquote><p>But it does require changing how you work with text, and adding one new tool to the mix. So for projects that just don\'t want to know about non-English languages, it\'s not yet seamless the way Unicode is these days.</p></blockquote></aside></p>\n\n<p>Interesting, thanks for the insight. I don\'t think localization is seriously on their table right now, there\'s likely to be many other things on the table before it... but it will become an issue sooner or later.</p>',
+            '<p><aside class="quote" data-post="16" data-topic="280"><div class="title">\n<div class="quote-controls"></div>\n<img width="20" height="20" src="/user_avatar/forum.okse.io/emk/40/8400.png" class="avatar">emk said:</div>\n<blockquote><p>But it does require changing how you work with text, and adding one new tool to the mix. So for projects that just don\'t want to know about non-English languages, it\'s not yet seamless the way Unicode is these days.</p></blockquote></aside></p>\n\n<p>Interesting, thanks for the insight. I don\'t think localization is seriously on their table right now, there\'s likely to be many other things on the table before it... but it will become an issue sooner or later.</p>',
           post_number: 17,
           post_type: 1,
           updated_at: "2013-02-07T21:04:15.405Z",
@@ -2475,14 +2475,14 @@ export default {
           domain: "www.slideshare.net"
         },
         {
-          url: "https://meta.discourse.org/t/language-mirrors/2378/2",
+          url: "https://forum.okse.io/t/language-mirrors/2378/2",
           title: "Language mirrors",
           fancy_title: null,
           internal: true,
           reflection: true,
           clicks: 3,
           user_id: 32,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
           url:
@@ -2528,25 +2528,25 @@ export default {
           domain: "www.youtube.com"
         },
         {
-          url: "https://meta.discourse.org/t/translation-workflow/6102",
+          url: "https://forum.okse.io/t/translation-workflow/6102",
           title: "Translation workflow",
           fancy_title: null,
           internal: true,
           reflection: true,
           clicks: 2,
           user_id: 4702,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
           url:
-            "https://meta.discourse.org/t/solving-xda-developer-style-forums/4368/4",
+            "https://forum.okse.io/t/solving-xda-developer-style-forums/4368/4",
           title: "Solving XDA-Developer style forums",
           fancy_title: null,
           internal: true,
           reflection: true,
           clicks: 2,
           user_id: 639,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
           url: "https://tr8nhub.com",
@@ -2559,14 +2559,14 @@ export default {
           domain: "tr8nhub.com"
         },
         {
-          url: "https://meta.discourse.org/t/roadplan-for-discourse/2939/3",
+          url: "https://forum.okse.io/t/roadplan-for-discourse/2939/3",
           title: "Roadplan for Discourse 2013",
           fancy_title: null,
           internal: true,
           reflection: true,
           clicks: 1,
           user_id: 2540,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
           url: "http://sugarjs.com/dates#date_locales",
@@ -2621,7 +2621,7 @@ export default {
         },
         {
           url:
-            "https://meta.discourse.org/t/comrades-lets-join-our-efforts-on-ukrainian-and-russian-translations/4403/5",
+            "https://forum.okse.io/t/comrades-lets-join-our-efforts-on-ukrainian-and-russian-translations/4403/5",
           title:
             "Comrades let's join our efforts on ukrainian and russian translations",
           fancy_title: null,
@@ -2629,21 +2629,21 @@ export default {
           reflection: true,
           clicks: 1,
           user_id: 3417,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
-          url: "https://meta.discourse.org/t/translation-workflow/6102/6",
+          url: "https://forum.okse.io/t/translation-workflow/6102/6",
           title: "Translation workflow",
           fancy_title: null,
           internal: true,
           reflection: false,
           clicks: 0,
           user_id: 1995,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
           url:
-            "https://meta.discourse.org/t/bookmark-last-read-sometimes-doesn-t-go-to-the-end-of-a-topic/4825/9",
+            "https://forum.okse.io/t/bookmark-last-read-sometimes-doesn-t-go-to-the-end-of-a-topic/4825/9",
           title:
             "Bookmark/last read sometimes doesn't go to the end of a topic",
           fancy_title: null,
@@ -2651,7 +2651,7 @@ export default {
           reflection: true,
           clicks: 0,
           user_id: 3681,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
           url:
@@ -2667,25 +2667,25 @@ export default {
         },
         {
           url:
-            "https://meta.discourse.org/t/what-i-love-about-wordpress-plugins/5697",
+            "https://forum.okse.io/t/what-i-love-about-wordpress-plugins/5697",
           title: "What I love about WordPress plugins",
           fancy_title: null,
           internal: true,
           reflection: true,
           clicks: 0,
           user_id: 1,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
           url:
-            "https://meta.discourse.org/t/github-onebox-rendering-issue/7616",
+            "https://forum.okse.io/t/github-onebox-rendering-issue/7616",
           title: "GitHub OneBox Rendering Issue",
           fancy_title: null,
           internal: true,
           reflection: true,
           clicks: 0,
           user_id: 5372,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
           url:
@@ -2700,25 +2700,25 @@ export default {
           domain: "github.com"
         },
         {
-          url: "https://meta.discourse.org/t/roadplan-for-discourse/2939/5",
+          url: "https://forum.okse.io/t/roadplan-for-discourse/2939/5",
           title: "Roadplan for Discourse 2013",
           fancy_title: null,
           internal: true,
           reflection: true,
           clicks: 0,
           user_id: 32,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
           url:
-            "https://meta.discourse.org/t/translation-tools-transifex-localeapp/7763",
+            "https://forum.okse.io/t/translation-tools-transifex-localeapp/7763",
           title: "Translation Tools: Transifex? Localeapp?",
           fancy_title: null,
           internal: true,
           reflection: true,
           clicks: 0,
           user_id: 2,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
           url: "http://guides.rubyonrails.org/i18n.html#the-public-i18n-api",
@@ -2731,25 +2731,25 @@ export default {
           domain: "guides.rubyonrails.org"
         },
         {
-          url: "https://meta.discourse.org/t/hi-support-chinese/4393/6",
+          url: "https://forum.okse.io/t/hi-support-chinese/4393/6",
           title: "Hi, support Chinese?",
           fancy_title: null,
           internal: true,
           reflection: true,
           clicks: 0,
           user_id: 2014,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         },
         {
           url:
-            "https://meta.discourse.org/t/translation-tools-transifex-localeapp/7763/41",
+            "https://forum.okse.io/t/translation-tools-transifex-localeapp/7763/41",
           title: "Translation Tools: Transifex? Localeapp?",
           fancy_title: null,
           internal: true,
           reflection: false,
           clicks: 0,
           user_id: 6626,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         }
       ],
       notification_level: 2,
@@ -3002,7 +3002,7 @@ export default {
           uploaded_avatar_id: 40071,
           created_at: "2015-05-14T20:18:17.954Z",
           cooked:
-            '<p>Normally, actions such as Liking are rate-limited, and when you hit the limit, you get a message telling you you\'ve hit the limit. However, in 1.3.0beta9, it seems those popups are no longer appearing.</p>\n\n<p>Edit: Possibly linked to <a href="https://meta.discourse.org/t/post-reply-on-different-topic-no-longer-works/28825?u=raceprouk">this issue</a>?</p>',
+            '<p>Normally, actions such as Liking are rate-limited, and when you hit the limit, you get a message telling you you\'ve hit the limit. However, in 1.3.0beta9, it seems those popups are no longer appearing.</p>\n\n<p>Edit: Possibly linked to <a href="https://forum.okse.io/t/post-reply-on-different-topic-no-longer-works/28825?u=raceprouk">this issue</a>?</p>',
           post_number: 1,
           post_type: 1,
           updated_at: "2015-05-14T20:21:42.825Z",
@@ -3025,7 +3025,7 @@ export default {
           link_counts: [
             {
               url:
-                "https://meta.discourse.org/t/post-reply-on-different-topic-no-longer-works/28825",
+                "https://forum.okse.io/t/post-reply-on-different-topic-no-longer-works/28825",
               internal: true,
               reflection: false,
               title: "Post reply on different topic no longer works",
@@ -3220,7 +3220,7 @@ export default {
           uploaded_avatar_id: 33015,
           created_at: "2015-05-14T21:23:09.562Z",
           cooked:
-            '<aside class="quote" data-post="3" data-topic="28830" data-full="true"><div class="title">\n<div class="quote-controls"></div>\n<img alt="" width="20" height="20" src="/user_avatar/meta.discourse.org/riking/40/40212.png" class="avatar">riking:</div>\n<blockquote><p>I\'m going to guess that the bootbox library got broken somehow?</p></blockquote></aside>\n\n<p>You mean the popup box library, guessing by the name? Still shows up when you want to cancel a post, so it\'s not <em>all</em> popups it seems.</p>',
+            '<aside class="quote" data-post="3" data-topic="28830" data-full="true"><div class="title">\n<div class="quote-controls"></div>\n<img alt="" width="20" height="20" src="/user_avatar/forum.okse.io/riking/40/40212.png" class="avatar">riking:</div>\n<blockquote><p>I\'m going to guess that the bootbox library got broken somehow?</p></blockquote></aside>\n\n<p>You mean the popup box library, guessing by the name? Still shows up when you want to cancel a post, so it\'s not <em>all</em> popups it seems.</p>',
           post_number: 5,
           post_type: 1,
           updated_at: "2015-05-14T21:23:09.562Z",
@@ -3538,14 +3538,14 @@ export default {
       links: [
         {
           url:
-            "https://meta.discourse.org/t/post-reply-on-different-topic-no-longer-works/28825",
+            "https://forum.okse.io/t/post-reply-on-different-topic-no-longer-works/28825",
           title: "Post reply on different topic no longer works",
           fancy_title: null,
           internal: true,
           reflection: false,
           clicks: 6,
           user_id: 14169,
-          domain: "meta.discourse.org"
+          domain: "forum.okse.io"
         }
       ],
       notification_level: 1,

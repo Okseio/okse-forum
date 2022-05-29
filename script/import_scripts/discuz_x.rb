@@ -169,7 +169,7 @@ class ImportScripts::DiscuzX < ImportScripts::Base
           import_pass: user['password_hash'],
           active: true,
           salt: user['salt'],
-          # TODO: title: user['customstatus'], # move custom title to name since discourse can't let user custom title https://meta.discourse.org/t/let-users-custom-their-title/37626
+          # TODO: title: user['customstatus'], # move custom title to name since discourse can't let user custom title https://forum.okse.io/t/let-users-custom-their-title/37626
           created_at: user['regdate'] ? Time.zone.at(user['regdate']) : nil,
           registration_ip_address: user['regip'],
           ip_address: user['last_visit_ip'],

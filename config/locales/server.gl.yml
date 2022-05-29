@@ -165,7 +165,7 @@ gl:
       second_factor_cannot_be_enforced_with_disabled_local_login: "Non podes aplicar 2FA se os inicios de sesión locais estás deshabilitados."
       local_login_cannot_be_disabled_if_second_factor_enforced: "Non podes deshabilitar o inicio de sesión local se se aplica 2FA. Deshabilita 2FA antes de deshabilitar os inicios de sesión locais."
       cannot_enable_s3_uploads_when_s3_enabled_globally: "Non podes habilitar as cargas S3 porque xa están habilitadas globalmente e habilitar este nivel de sitio podería provocar problemas críticos coas cargas."
-    conflicting_google_user_id: 'A ID de Google para esta conta cambiou; requírese a intervención do equipo por razóns de seguridade. Contacta con el e envíalle esta referencia <br><a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'A ID de Google para esta conta cambiou; requírese a intervención do equipo por razóns de seguridade. Contacta con el e envíalle esta referencia <br><a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors
@@ -1225,7 +1225,7 @@ gl:
     sidekiq_warning: 'Sidekiq non está a funcionar. Moitas tarefas, caso do envío de correos electrónicos, están a ser realizadas de forma asíncrona por sidekiq. Asegúrate de que, ao menos un proceso de sidekiq está funcionando. <a href="https://github.com/mperham/sidekiq" target="_blank">Aprende máis sobre Sidekiq aquí</a>.'
     queue_size_warning: "O número de tarefas na cola é %{queue_size}, que é unha cifra alta. Isto pode indicar un problema co(s) proceso(s) de Sidekiq ou tes que engadir máis traballadores de Sidekiq."
     memory_warning: "O teu servidor estase a executar con menos de 1 GB da memoria total. Recoméndase ao menos unha memoria de 1 GB."
-    google_oauth2_config_warning: 'O servidor está configurado para permitir o rexistro de inicio sesión mediante Google OAuth2 (enable_google_oauth2_logins), pero os valores ID do cliente e do cliente secreto non foron establecidos. Vai a <a href="%{base_path}/admin/site_settings">Axustes do sitio</a> e actualiza a configuración. <a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">Revisa esta guía para saber máis</a>.'
+    google_oauth2_config_warning: 'O servidor está configurado para permitir o rexistro de inicio sesión mediante Google OAuth2 (enable_google_oauth2_logins), pero os valores ID do cliente e do cliente secreto non foron establecidos. Vai a <a href="%{base_path}/admin/site_settings">Axustes do sitio</a> e actualiza a configuración. <a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">Revisa esta guía para saber máis</a>.'
     image_magick_warning: 'O servidor está configurado para crear miniaturas de imaxes grandes, pero ImageMagick non está instalado. Instálao utilizando o teu administrador de paquetes favorito ou <a href="https://www.imagemagick.org/script/download.php" target="_blank"> descarga a última versión</a>.'
     failing_emails_warning: 'Hai %{num_failed_jobs} tarefas de correo electrónico que fallaron. Comproba o teu app.yml e asegúrate de que os axustes do servidor de correo son correctos. <a href="%{base_path}/sidekiq/retries" target="_blank">Mira as tarefas que fallaron en Sidekiq</a>.'
     subfolder_ends_in_slash: "A configuración do subcartafol non é correcta; o campo DISCOURSE_RELATIVE_URL_ROOT remata cunha barra."
@@ -1966,7 +1966,7 @@ gl:
       help: "rexistrar unha nova conta para comezar"
     confirm_email:
       title: "Confirma o teu correo electrónico"
-      message: "<p>Enviámosche un correo de activación a <b>%{email}</b>. Sigue as instrucións para activar a túa conta.</p><p>Se non che chega, comproba o cartafol de correo lixo e <a href='https://meta.discourse.org/t/troubleshooting-email-on-a-new-discourse-install/16326'>asegúrate de configurar correctamente o teu correo</a>.</p>"
+      message: "<p>Enviámosche un correo de activación a <b>%{email}</b>. Sigue as instrucións para activar a túa conta.</p><p>Se non che chega, comproba o cartafol de correo lixo e <a href='https://forum.okse.io/t/troubleshooting-email-on-a-new-discourse-install/16326'>asegúrate de configurar correctamente o teu correo</a>.</p>"
     resend_email:
       title: "Reenviar correo electrónico de activación"
       message: "<p>Volvímosche enviar o correo de activación a <b>%{email}</b>"

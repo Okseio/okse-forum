@@ -43,11 +43,11 @@ QUnit.test("displayEdit", async function(assert) {
 <aside class="onebox whitelistedgeneric">
   <header class="source">
     <img src="/uploads/default/original/1X/1b0984d7ee08bce90572f46a1950e1ced436d028.png" class="site-icon" width="32" height="32">
-    <a href="https://meta.discourse.org/t/discourse-version-2-5/125302">Discourse Meta – 9 Aug 19</a>
+    <a href="https://forum.okse.io/t/discourse-version-2-5/125302">Discourse Meta – 9 Aug 19</a>
   </header>
   <article class="onebox-body">
     <img src="/uploads/default/optimized/1X/ecc92a52ee7353e03d5c0d1ea6521ce4541d9c25_2_500x500.png" class="thumbnail onebox-avatar d-lazyload" width="500" height="500">
-    <h3><a href="https://meta.discourse.org/t/discourse-version-2-5/125302" target="_blank">Discourse Version 2.5</a></h3>
+    <h3><a href="https://forum.okse.io/t/discourse-version-2-5/125302" target="_blank">Discourse Version 2.5</a></h3>
     <div style="clear: both"></div>
   </article>
 </aside>
@@ -72,11 +72,11 @@ QUnit.test("displayEdit", async function(assert) {
 <aside class="onebox whitelistedgeneric">
   <header class="source">
     <img src="/uploads/default/original/1X/1b0984d7ee08bce90572f46a1950e1ced436d028.png" class="site-icon" width="32" height="32">
-    <a href="https://meta.discourse.org/t/discourse-version-2-5/125302">Discourse Meta – 9 Aug 19</a>
+    <a href="https://forum.okse.io/t/discourse-version-2-5/125302">Discourse Meta – 9 Aug 19</a>
   </header>
   <article class="onebox-body">
     <img src="/uploads/default/optimized/1X/ecc92a52ee7353e03d5c0d1ea6521ce4541d9c25_2_500x500.png" class="thumbnail onebox-avatar d-lazyload" width="500" height="500">
-    <h3><a href="https://meta.discourse.org/t/discourse-version-2-5/125302" target="_blank">Discourse Version 2.5</a></h3>
+    <h3><a href="https://forum.okse.io/t/discourse-version-2-5/125302" target="_blank">Discourse Version 2.5</a></h3>
     <div style="clear: both"></div>
   </article>
 </aside>

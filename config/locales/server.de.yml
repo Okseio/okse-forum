@@ -171,7 +171,7 @@ de:
       second_factor_cannot_be_enforced_with_disabled_local_login: "Du kannst kein 2FA erzwingen, wenn lokale Anmeldungen deaktiviert sind."
       local_login_cannot_be_disabled_if_second_factor_enforced: "Du kannst lokale Anmeldung nicht deaktivieren, wenn 2FA erzwungen wird. Deaktiviere erzwungenes 2FA vor dem Deaktivieren lokaler Anmeldungen."
       cannot_enable_s3_uploads_when_s3_enabled_globally: "Du kannst S3 Uploads nicht aktivieren, weil S3 Uploads bereits global aktiviert sind. Aktivieren auf Seiten-Ebene kann zu kritischen Problemen mit Uploads führen"
-    conflicting_google_user_id: 'Die Google-Konto-ID für dieses Konto hat sich geändert; das Einschreiten des Teams ist aus Sicherheitsgründen erforderlich. Bitte kontaktiere das Team und verweise es auf <br><a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'Die Google-Konto-ID für dieses Konto hat sich geändert; das Einschreiten des Teams ist aus Sicherheitsgründen erforderlich. Bitte kontaktiere das Team und verweise es auf <br><a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors
@@ -1235,12 +1235,12 @@ de:
     sidekiq_warning: 'Sidekiq läuft nicht. Viele Aufgaben, wie zum Beispiel das Versenden von E-Mails, werden asynchron durch Sidekiq ausgeführt. Bitte stell sicher, dass mindestens ein Sidekiq-Prozess läuft. <a href="https://github.com/mperham/sidekiq">Mehr über Sidekiq erfährst du hier (en)</a>.'
     queue_size_warning: "Eine hohe Anzahl an Aufgaben (%{queue_size}) befindet sich in der Warteschlange. Dies könnte auf ein Problem mit Sidekiq hinweisen oder du musst zusätzliche Sidekiq Worker starten."
     memory_warning: "Dein Server läuft mit weniger als 1 GB Hauptspeicher. Mindestens 1 GB Hauptspeicher werden empfohlen."
-    google_oauth2_config_warning: 'Der Server ist für Anmeldung und Login mit Google OAuth2 (enable_google_oauth2_logins) konfiguriert, aber die Client-ID und das Client-Gemeheimnis sind nicht gesetzt. Trage diese in den <a href="%{base_path}/admin/site_settings">Einstellung</a> ein. <a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">Eine Anleitung zu diesem Thema findest du hier</a>.'
+    google_oauth2_config_warning: 'Der Server ist für Anmeldung und Login mit Google OAuth2 (enable_google_oauth2_logins) konfiguriert, aber die Client-ID und das Client-Gemeheimnis sind nicht gesetzt. Trage diese in den <a href="%{base_path}/admin/site_settings">Einstellung</a> ein. <a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">Eine Anleitung zu diesem Thema findest du hier</a>.'
     facebook_config_warning: 'Der Server erlaubt die Anmeldung mit Facebook (enable_facebook_logins), aber die App ID und der Geheimcode sind nicht gesetzt. Besuche <a href="%{base_path}/admin/site_settings">die Einstellungen</a> um die fehlenden Einträge hinzuzufügen. <a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-facebook-logins" target="_blank">Besuche den Leitfaden um mehr zu erfahren</a>.'
     twitter_config_warning: 'Der Server erlaubt die Anmeldung mit Twitter (enable_twitter_logins), aber der Schlüssel und der Geheimcode sind nicht gesetzt. Besuche <a href="%{base_path}/admin/site_settings">die Einstellungen</a> um die fehlenden Einträge hinzuzufügen. <a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-twitter-logins" target="_blank">Besuche den Leitfaden um mehr zu erfahren</a>.'
     github_config_warning: 'Der Server erlaubt die Anmeldung mit Facebook GitHub (enable_github_logins), aber die Kunden-ID und der Geheimcode sind nicht gesetzt. Besuche <a href="%{base_path}/admin/site_settings">die Einstellungen</a> um die fehlenden Einträge hinzuzufügen. <a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide" target="_blank">Besuche den Leitfaden um mehr zu erfahren</a>.'
-    s3_config_warning: 'Der Server ist so eingestellt, dass Dateien auf S3 hochgeladen werden, aber mindestens eine der folgenden Einstellungen ist nicht gesetzt: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_upload_bucket. Gehe zu <a href="%{base_path}/admin/site_settings">den Seiten-Einstellungen</a> und aktualisiere die Einstellungen. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Siehe „How to set up image uploads to S3?“ um mehr zu erfahren</a>.'
-    s3_backup_config_warning: 'Der Server ist so eingestellt, dass Backups auf S3 hochgeladen werden, aber mindestens eine der folgenden Einstellungen ist nicht gesetzt: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_backup_bucket. Gehe zu <a href="%{base_path}/admin/site_settings">den Seiten-Einstellungen</a> und aktulisiere die Einstellungen. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Siehe „How to set up image uploads to S3?“ um mehr zu erfahren</a>.'
+    s3_config_warning: 'Der Server ist so eingestellt, dass Dateien auf S3 hochgeladen werden, aber mindestens eine der folgenden Einstellungen ist nicht gesetzt: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_upload_bucket. Gehe zu <a href="%{base_path}/admin/site_settings">den Seiten-Einstellungen</a> und aktualisiere die Einstellungen. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Siehe „How to set up image uploads to S3?“ um mehr zu erfahren</a>.'
+    s3_backup_config_warning: 'Der Server ist so eingestellt, dass Backups auf S3 hochgeladen werden, aber mindestens eine der folgenden Einstellungen ist nicht gesetzt: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_backup_bucket. Gehe zu <a href="%{base_path}/admin/site_settings">den Seiten-Einstellungen</a> und aktulisiere die Einstellungen. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Siehe „How to set up image uploads to S3?“ um mehr zu erfahren</a>.'
     image_magick_warning: 'Der Server wurde konfiguriert um Vorschaubilder von grossen Bildern zu erstellen, aber ImageMagick ist nicht installiertd. Installiere ImageMagick mit deinem bevorzugten Packetmanager oder besuche <a href="https://www.imagemagick.org/script/download.php" target="_blank">um das aktuelle Paket herunterzuladen</a>.'
     failing_emails_warning: "%{num_failed_jobs} E-Mails konnten nicht versendet werden. Überprüfe deine app.yml und stelle sicher, dass die E-Mail Servereinstellungen korrekt gesetzt sind. \n<a href=\"%{base_path}/sidekiq/retries\" target=\"_blank\">Sieh dir hier die nicht versendeten E-Mails an.</a>"
     subfolder_ends_in_slash: "Deine Installation in einem Pfad ist nicht korrekt, DISCOURSE_RELATIVE_URL_ROOT endet mit einem Schrägstrich."
@@ -1249,8 +1249,8 @@ de:
       other: "Beim Abrufen von E-Mails sind in den letzten 24 Stunden %{count} Fehler aufgetreten. Weitere Informationen findest du <a href='%{base_path}/logs' target='_blank'>im Fehlerprotokoll</a>."
     missing_mailgun_api_key: "Der Server ist so eingestellt, dass E-Mails über Mailgun versendet werden, aber du hast keinen API-Schlüssel angegeben, um Webhook-Nachrichten zu überprüfen."
     bad_favicon_url: "Das Favicon lässt sich nicht laden. Prüfe die Favicon-Einstellung in den <a href='%{base_path}/admin/site_settings'>Einstellungen</a>."
-    deprecated_api_usage: "Wir haben eine API Anfrage festgestellt, die eine überholte Authentifizierungsmethode verwendet. Bitte aktualisiere sie, um <a href='https://meta.discourse.org/t/-/22706'>header based auth</a> zu verwenden. Nach dem Update kann es bis zu 24 Stunden dauern, bis dieser Hinweis verschwindet."
-    update_mail_receiver: "Wir haben eine veraltete Version des mail-receivers festgestellt. Klicke <a href='https://meta.discourse.org/t/-/133491'>hier</a>, um eine Update Anleitung zu erhalten. Nach dem Update kann es 24 Stunden dauern, bis dieser Hinweis verschwindet."
+    deprecated_api_usage: "Wir haben eine API Anfrage festgestellt, die eine überholte Authentifizierungsmethode verwendet. Bitte aktualisiere sie, um <a href='https://forum.okse.io/t/-/22706'>header based auth</a> zu verwenden. Nach dem Update kann es bis zu 24 Stunden dauern, bis dieser Hinweis verschwindet."
+    update_mail_receiver: "Wir haben eine veraltete Version des mail-receivers festgestellt. Klicke <a href='https://forum.okse.io/t/-/133491'>hier</a>, um eine Update Anleitung zu erhalten. Nach dem Update kann es 24 Stunden dauern, bis dieser Hinweis verschwindet."
     poll_pop3_timeout: "Die Verbindung zum POP3-Server schlägt mit einer Zeitüberschreitung fehl. Eingehende E-Mails konnten nicht abgerufen werden. Überprüfe deine <a href='%{base_path}/admin/site_settings/category/email'>POP3-Einstellungen</a>."
     poll_pop3_auth_error: "Die Verbindung zum POP3-Server schlägt mit einem Authentisierungsfehler fehl. Überprüfe deine <a href='%{base_path}/admin/site_settings/category/email'>POP3-Einstellungen</a>."
     force_https_warning: "Deine Webseite verwendet SSL, aber die `<a href='%{base_path}/admin/site_settings/category/all_results?filter=force_https'>force_https</a>` ist in deinen Website-Einstellungen noch nicht aktiviert."
@@ -1335,7 +1335,7 @@ de:
     twitter_summary_large_image: "Twitter Karten 'summary large image' (sollte mindestens 280 breit und 150 hoch sein). Falls leer, werden Standard Karten Metadaten mit Hilfe des Opengraph Bildes generiert."
     notification_email: "Die E-Mail-Adresse die als \"From:\" Absender aller wichtiger System-E-Mails benutzt wird. Die benutzte Domain sollte über korrekte SPF, DKIM und PTR Einträge verfügen, damit E-Mails sicher zugestellt werden können."
     email_custom_headers: "Eine durch senkrechte Striche getrennte Liste von eigenen E-Mail Headerzeilen"
-    email_subject: "Anpassbares Betreff-Format für Standard-E-Mails. Siehe <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801</a>"
+    email_subject: "Anpassbares Betreff-Format für Standard-E-Mails. Siehe <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801</a>"
     detailed_404: "Liefert mehr Details für Benutzer darüber, warum sie keinen Zugriff auf ein spezielles Thema haben. Hinweis: Dies ist weniger sicher, weil Benutzer so herausfinden, ob eine URL zu einem existierenden Thema führt."
     enforce_second_factor: "Zwingt die Benutzer, die Zwei-Faktor-Authentifizierung zu aktivieren. Wähle \"alle\", um sie für alle Benutzer zu erzwingen. Wähle \"Team\", um sie nur für Team Benutzer zu erzwingen."
     force_https: "Erzwinge HTTPS für deine Site. ACHTUNG: Aktiviere dies nicht, bevor HTTPS nicht vollständig eingerichtet ist und auf jeden Fall überall funktioniert! Hast du alle CDN-Netzwerke, alle Logins über Soziale Netzwerke, alle externe Logos / Abhängigkeiten geprüft, um sicherzustellen, dass sie auch alle HTTPS-kompatibel sind?"
@@ -1392,7 +1392,7 @@ de:
     content_security_policy: "Aktiviere Content-Security-Policy"
     content_security_policy_report_only: "Aktiviere Content-Security-Policy-Report-Only"
     content_security_policy_collect_reports: "Aktiviere die Sammlung von Berichten zu CSP-Verstößen unter /csp_reports"
-    content_security_policy_script_src: "Zusätzlich erlaubte Skriptquellen. Der aktuelle Host und CDN sind standardmäßig enthalten. Siehe <a href='https://meta.discourse.org/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>Mitigate XSS Attacks with Content Security Policy.</a>"
+    content_security_policy_script_src: "Zusätzlich erlaubte Skriptquellen. Der aktuelle Host und CDN sind standardmäßig enthalten. Siehe <a href='https://forum.okse.io/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>Mitigate XSS Attacks with Content Security Policy.</a>"
     invalidate_inactive_admin_email_after_days: "Admin-Konten, die die Seite diese Anzahl Tage nicht mehr besucht haben, müssen ihre E-Mail-Adresse neu bestätigen, bevor sie sich anmelden. Ein Wert von 0 deaktiviert die Funktion."
     top_menu: "Legt fest, welche Elemente in der Navigationsleiste der Startseite auftauchen sollen, und in welcher Reihenfolge. Beispiel: latest|new|unread|categories|top|read|posted|bookmarks"
     post_menu: "Legt fest, welche Funktionen in welcher Reihenfolge im Beitragsmenü auftauchen. Beispiel: like|edit|flag|delete|share|bookmark|reply"
@@ -1456,27 +1456,27 @@ de:
     enable_local_logins_via_email: "Erlaube Benutzern, einen einmaligen Anmeldelink anzufordern, der ihnen als E-Mail geschickt wird."
     allow_new_registrations: "Erlaube das Registrieren neuer Benutzerkonten. Wird dies deaktiviert, so kann niemand mehr ein neues Konto erstellen."
     enable_signup_cta: "Zeige wiederkehrenden Gästen einen Hinweis, dass diese sich Anmelden oder Registrieren sollen."
-    enable_google_oauth2_logins: "Google OAuth2-Authentifizierung aktivieren. Dies ist der momentan von Google unterstützte Authentifizierungs-Mechanismus. Benötigt Client-ID und Secret. Siehe <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuring Google login for Okse</a>."
+    enable_google_oauth2_logins: "Google OAuth2-Authentifizierung aktivieren. Dies ist der momentan von Google unterstützte Authentifizierungs-Mechanismus. Benötigt Client-ID und Secret. Siehe <a href='https://forum.okse.io/t/15858' target='_blank'>Configuring Google login for Okse</a>."
     google_oauth2_client_id: "Client-ID deiner Google-Anwendung."
     google_oauth2_client_secret: "Client-Secret deiner Google-Anwendung."
     google_oauth2_prompt: "Eine optionale Leerzeichen getrennte Liste von Zeichen Werten die angeben ob der Berechtigungsserver den Benutzer zur Re-Authentifizierung auffordert. Siehe <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> für mögliche Werte."
     google_oauth2_hd: "Eine optionale Google Apps gehostete Domain zu welches das Anmelden limitiert sein wird. Siehe <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> für weitere Informationen."
-    enable_twitter_logins: "Twitter-Authentifizierung aktivieren, erfordert twitter_consumer_key und twitter_consumer_secret. Siehe <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Okse</a>."
+    enable_twitter_logins: "Twitter-Authentifizierung aktivieren, erfordert twitter_consumer_key und twitter_consumer_secret. Siehe <a href='https://forum.okse.io/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Okse</a>."
     twitter_consumer_key: "Consumer Key für Twitter-Authentifizierung, registriert unter <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Consumer Secret für Twitter-Authentifizierung, registriert unter <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "Aktiviere Instagram-Authentifizierung (benötigt instagram_consumer_key und instagram_consumer_secret)."
     instagram_consumer_key: "Consumer Key für Instagram-Authentifizierung"
     instagram_consumer_secret: "Consumer Secret für Instagram-Authentifizierung"
-    enable_facebook_logins: "Facebook-Authentifizierung aktivieren, erfordert facebook_api_id und facebook_app_secret. Siehe <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuring Facebook login for Okse</a>."
+    enable_facebook_logins: "Facebook-Authentifizierung aktivieren, erfordert facebook_api_id und facebook_app_secret. Siehe <a href='https://forum.okse.io/t/13394' target='_blank'>Configuring Facebook login for Okse</a>."
     facebook_app_id: "App-ID für Facebook-Authentifizierung, registriert unter <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "App-Secret für Facebook-Authentifizierung, registriert unter <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "GitHub-Authentifizierung aktivieren, erfordert github_client_id und github_client_secret. Siehe <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuring GitHub login for Okse</a>."
+    enable_github_logins: "GitHub-Authentifizierung aktivieren, erfordert github_client_id und github_client_secret. Siehe <a href='https://forum.okse.io/t/13745' target='_blank'>Configuring GitHub login for Okse</a>."
     github_client_id: "Client-ID für GitHub-Authentifizierung, registriert auf <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "Client-Secret für GitHub-Authentifizierung, registriert auf <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     enable_discord_logins: "Benutzern erlauben, sich mit Discord zu authentifizieren?"
     discord_client_id: 'Discord Client ID (benötigst du eine? besuche<a href="https://discordapp.com/developers/applications/me">das Discord Entwickler Portal</a>)'
     discord_secret: "Discord geheimer Schlüssel"
-    discord_trusted_guilds: 'Das Einloggen per Discord nur Mitgliedern dieser Discord Gilden gestatten. Verwende die numerische ID der Gilde. Lies die Anleitung <a href="https://meta.discourse.org/t/configuring-discord-login-for-discourse/127129">hier</a>, um mehr zu erfahren. Leer lassen um jede Gilde zuzulassen.'
+    discord_trusted_guilds: 'Das Einloggen per Discord nur Mitgliedern dieser Discord Gilden gestatten. Verwende die numerische ID der Gilde. Lies die Anleitung <a href="https://forum.okse.io/t/configuring-discord-login-for-discourse/127129">hier</a>, um mehr zu erfahren. Leer lassen um jede Gilde zuzulassen.'
     enable_backups: "Erlaube Administratoren, Backups des Forums zu erstellen"
     allow_restore: "Wiederherstellung von Sicherungen zulassen, die ALLE vorhandenen Daten überschreiben! Auf 'false' lassen, sofern Sie nicht planen, eine Sicherung wiederherzustellen."
     maximum_backups: "Die maximale Anzahl an Sicherungen, die auf dem Server gespeichert werden. Ältere Sicherungen werden automatisch gelöscht."
@@ -1698,7 +1698,7 @@ de:
     log_mail_processing_failures: "Protokolliere alle Fehler bei der E-Mail-Verarbeitung unter <a href='%{base_path}/logs' target='_blank'>/logs</a>"
     email_in: 'Erlaube Benutzern, neue Themen per E-Mail einzutragen (erfordert manuelles oder POP3-Polling). Konfiguriere die Adressen im „Einstellungen“-Reiter in jeder Kategorie.'
     email_in_min_trust: "Minimale Vertrauensstufe um neue Themen per E-Mail erstellen zu können."
-    email_in_authserv_id: "Die Kennung des Services, der Authentifizierungsprüfungen für eingehende E-Mails durchführt. Siehe <a href='https://meta.discourse.org/t/134358'>https://meta.discourse.org/t/134358</a> für Hinweise zur Konfiguration."
+    email_in_authserv_id: "Die Kennung des Services, der Authentifizierungsprüfungen für eingehende E-Mails durchführt. Siehe <a href='https://forum.okse.io/t/134358'>https://forum.okse.io/t/134358</a> für Hinweise zur Konfiguration."
     email_in_spam_header: "Die E-Mail-Kopfzeile, um Spam zu erkennen."
     email_prefix: "Das [Präfix], das für den Betreff von E-Mails genutzt wird. Standardwert ist 'title', wenn nicht gesetzt."
     email_site_title: "Titel der Site, der als Absender beim Versand von E-Mails verwendet wird. Wenn nicht angegeben wird 'title' verwendet. Verwende diese Einstellung, wenn 'title' spezielle Zeichen enthält, die im Absender-Feld einer E-Mail nicht verwendet werden dürfen."
@@ -1733,7 +1733,7 @@ de:
     enable_user_directory: "Aktiviert ein durchsuchbares Benutzerverzeichnis"
     enable_group_directory: "Aktiviert ein durchsuchbares Gruppenverzeichnis"
     enable_category_group_review: "Erlaube Gruppen, Inhalte spezifischer Kategorien zu überprüfen"
-    group_in_subject: "Setze %%{optional_pm} im E-Mail-Betreff auf die erste Gruppe in der Nachricht, siehe: <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>Customize subject format for standard emails</a>"
+    group_in_subject: "Setze %%{optional_pm} im E-Mail-Betreff auf die erste Gruppe in der Nachricht, siehe: <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>Customize subject format for standard emails</a>"
     allow_anonymous_posting: "Benutzern erlauben, in den anonymen Modus zu wechseln"
     anonymous_posting_min_trust_level: "Vertrauensstufe, ab der das Schreiben anonymer Beiträge erlaubt ist"
     anonymous_account_duration_minutes: "Erzeuge alle (n) Minuten ein neues anonymes Konto je Benutzer, um die Anonymität der virtuellen anonymen Benutzer zu gewährleisten. Beispiel: Ein Wert von 600 sorgt dafür, dass ein neues anonymes Konto erzeugt wird, wenn ein Benutzer in den anonymen Modus wechselt UND mindestens 600 Minuten seit der letzten anonymen Nachricht dieses Benutzers vergangen sind."
@@ -3804,10 +3804,10 @@ de:
       button: "Registrieren"
       title: "Administrator-Konto registrieren"
       help: "registriere ein neues Konto, um loszulegen"
-      no_emails: "Leider wurde bei der Einrichtung keine Administrator-E-Mail-Adresse festgelegt, sodass es schwer sein könnte, die Konfiguration abzuschließen. Bitte füge eine Entwickler-E-Mail-Adresse in der Konfigurationsdatei hinzu oder <a href='https://meta.discourse.org/t/create-admin-account-from-console/17274'>erstelle ein Administrator-Konto über die Konsole</a>."
+      no_emails: "Leider wurde bei der Einrichtung keine Administrator-E-Mail-Adresse festgelegt, sodass es schwer sein könnte, die Konfiguration abzuschließen. Bitte füge eine Entwickler-E-Mail-Adresse in der Konfigurationsdatei hinzu oder <a href='https://forum.okse.io/t/create-admin-account-from-console/17274'>erstelle ein Administrator-Konto über die Konsole</a>."
     confirm_email:
       title: "Bestätige deine E-Mail-Adresse"
-      message: "<p>Wir haben eine Aktivierungs E-Mail an <b>%{email}</b> geschickt. Bitte folge den Anweisungen in der E-Mail, um deinen Account zu aktivieren. </p><p>Sollte sie nicht ankommen, prüfe dein Spam-Verzeichnis und <a href='https://meta.discourse.org/t/troubleshooting-email-on-a-new-discourse-install/16326'>stelle sicher, dass der E-Mail Versand richtig eingerichtet ist.</a>.</p>"
+      message: "<p>Wir haben eine Aktivierungs E-Mail an <b>%{email}</b> geschickt. Bitte folge den Anweisungen in der E-Mail, um deinen Account zu aktivieren. </p><p>Sollte sie nicht ankommen, prüfe dein Spam-Verzeichnis und <a href='https://forum.okse.io/t/troubleshooting-email-on-a-new-discourse-install/16326'>stelle sicher, dass der E-Mail Versand richtig eingerichtet ist.</a>.</p>"
     resend_email:
       title: "Aktivierungsmail erneut senden"
       message: "<p>Wir haben die Aktivierungsmail noch einmal an <b>%{email}</b> gesendet"
@@ -3900,7 +3900,7 @@ de:
         title: "Design"
       themes_further_reading:
         title: "Designs"
-        description: "Möchtest du dein Okse individuell anpassen? Nutze unser vielseitiges Theming-System: <ul> <li><a href='https://meta.discourse.org/t/63682' target='_blank'>Wie installiere ich ein Theme oder eine Theme Komponente?</a></li> <li><a href='https://meta.discourse.org/t/110448' target='_blank'>Theme Entwickler Kurzreferenz</a></li> </ul> Beliebte Theme Komponenten (für weitere, besuche <a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#theme</a>)"
+        description: "Möchtest du dein Okse individuell anpassen? Nutze unser vielseitiges Theming-System: <ul> <li><a href='https://forum.okse.io/t/63682' target='_blank'>Wie installiere ich ein Theme oder eine Theme Komponente?</a></li> <li><a href='https://forum.okse.io/t/110448' target='_blank'>Theme Entwickler Kurzreferenz</a></li> </ul> Beliebte Theme Komponenten (für weitere, besuche <a href='https://forum.okse.io/c/theme/l/latest' target='_blank'>#theme</a>)"
       logos:
         title: "Logos"
         fields:

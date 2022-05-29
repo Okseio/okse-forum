@@ -1224,7 +1224,7 @@ it:
           max_redemptions_allowed_label: "Quante persone sono autorizzate a registrarsi utilizzando questo link?"
           expires_at: "Quando scadrà questo link di invito?"
         bulk_invite:
-          none: "Non hai ancora invitato nessuno. Puoi inviare degli inviti individuali o più persone alla volta <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>caricando un file CSV</a>."
+          none: "Non hai ancora invitato nessuno. Puoi inviare degli inviti individuali o più persone alla volta <a href='https://forum.okse.io/t/send-bulk-invites/16468'>caricando un file CSV</a>."
           text: "Inviti di gruppo"
           success: "Il file è stato caricato con successo, riceverai un messaggio di notifica quando il processo sarà completato."
           error: "Spiacenti, il file deve essere in formato CSV."

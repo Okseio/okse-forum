@@ -262,8 +262,8 @@ QUnit.test("Links", assert => {
   );
 
   assert.cooked(
-    "1. View @eviltrout's profile here: http://meta.discourse.org/u/eviltrout/activity<br/>next line.",
-    `<ol>\n<li>View <span class="mention">@eviltrout</span>\'s profile here: <a href="http://meta.discourse.org/u/eviltrout/activity" class="inline-onebox-loading">http://meta.discourse.org/u/eviltrout/activity</a><br>next line.</li>\n</ol>`,
+    "1. View @eviltrout's profile here: http://forum.okse.io/u/eviltrout/activity<br/>next line.",
+    `<ol>\n<li>View <span class="mention">@eviltrout</span>\'s profile here: <a href="http://forum.okse.io/u/eviltrout/activity" class="inline-onebox-loading">http://forum.okse.io/u/eviltrout/activity</a><br>next line.</li>\n</ol>`,
     "allows autolinking within a list without inserting a paragraph."
   );
 

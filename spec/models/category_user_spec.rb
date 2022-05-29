@@ -167,7 +167,7 @@ describe CategoryUser do
 
     it "does not delete TopicUser record when topic category is changed, and new category has same notification level" do
       # this is done so as to maintain topic notification state when topic category is changed and the new category has same notification level for the user
-      # see: https://meta.discourse.org/t/changing-topic-from-one-watched-category-to-another-watched-category-makes-topic-new-again/36517/15
+      # see: https://forum.okse.io/t/changing-topic-from-one-watched-category-to-another-watched-category-makes-topic-new-again/36517/15
 
       watched_category_1 = Fabricate(:category)
       watched_category_2 = Fabricate(:category)

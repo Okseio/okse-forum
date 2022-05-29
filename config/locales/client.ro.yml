@@ -889,7 +889,7 @@ ro:
         invite_link:
           success: "Link de invitare generat cu succes!"
         bulk_invite:
-          none: "Încă nu ai invitat pe nimeni. Trimite invitații indivituale sau invită mai multe persoane odată <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>uploadând un fișier CSV</a>."
+          none: "Încă nu ai invitat pe nimeni. Trimite invitații indivituale sau invită mai multe persoane odată <a href='https://forum.okse.io/t/send-bulk-invites/16468'>uploadând un fișier CSV</a>."
           success: "Fișier încărcat cu succes, vei fi înștiințat printr-un mesaj când procesarea este completă."
           error: "Scuze, fișierul trebuie să fie în format CSV."
       password:

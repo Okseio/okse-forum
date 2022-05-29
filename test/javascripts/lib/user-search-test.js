@@ -49,7 +49,7 @@ QUnit.module("lib:user-search", {
             username: "kudos",
             name: "Team Blogeto.com",
             avatar_template:
-              "/user_avatar/meta.discourse.org/kudos/{size}/62185_1.png"
+              "/user_avatar/forum.okse.io/kudos/{size}/62185_1.png"
           },
           {
             username: "RosieLinda",

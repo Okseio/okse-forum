@@ -7,7 +7,7 @@ describe SuggestedTopicSerializer do
   let(:admin) { Fabricate(:admin) }
 
   describe '#featured_link and #featured_link_root_domain' do
-    let(:featured_link) { 'http://meta.discourse.org' }
+    let(:featured_link) { 'http://forum.okse.io' }
     let(:topic) { Fabricate(:topic, featured_link: featured_link, category: Fabricate(:category, topic_featured_link_allowed: true)) }
     subject(:json) { SuggestedTopicSerializer.new(topic, scope: Guardian.new(user), root: false).as_json }
 

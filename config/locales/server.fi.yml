@@ -173,7 +173,7 @@ fi:
       second_factor_cannot_be_enforced_with_disabled_local_login: "Et voi pakottaa kaksivaiheista tunnistautumista, jos paikallinen kirjautuminen on pois käytöstä."
       local_login_cannot_be_disabled_if_second_factor_enforced: "Et voi ottaa paikallista kirjautumista käytöstä, jos kaksivaiheinen tunnistautuminen on pakollinen. Kun otat kaksivaiheisen tunnistautumisen pakollisuuden käytöstä, voit ottaa käytöstä paikallisen kirjautumisen."
       cannot_enable_s3_uploads_when_s3_enabled_globally: "Et voi ottaa S3-latauksia käyttöön, koska S3-lataukset ovat käytössä globaalisti. Päälle kytkeminen sivustonlaajuisesti voisi aiheuttaa kriittisiä latauksiin liittyviä ongelmia"
-    conflicting_google_user_id: 'Tämän käyttäjätilin Google Account ID on muuttunut. Henkilökunnan toimenpiteet ovat tarpeen tietoturvasyistä. Ota yhteyttä henkilökuntaan ja ohjaa heidät osoitteeseen<br><a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'Tämän käyttäjätilin Google Account ID on muuttunut. Henkilökunnan toimenpiteet ovat tarpeen tietoturvasyistä. Ota yhteyttä henkilökuntaan ja ohjaa heidät osoitteeseen<br><a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors
@@ -1273,12 +1273,12 @@ fi:
     sidekiq_warning: 'Sidekiq ei ole käynnissä. Monet tehtävät, kuten sähköpostien lähettäminen, suoritetaan asynkronisesti sidekiqin avulla. Varmista, että vähintään yksi sidekiq prosessi on käynnissä. <a href="https://github.com/mperham/sidekiq" target="_blank">Opiskele lisää Sidekiqista täältä</a>.'
     queue_size_warning: "Jonossa olevien tehtävien määrä on %{queue_size}, joka on korkea. Tämä voi olla merkki ongelmista Sidekiq prosess(e)issa tai sinun voi täytyä lisätä Sidekiq workerien määrää."
     memory_warning: "Palvelimella on alle 1GB muistia. Vähintään 1 GB muistia on suositeltavaa."
-    google_oauth2_config_warning: 'Palvelin on konfiguroitu hyväksymään liittyminen ja kirjautuminen Google OAuth2:n kautta (enable_google_oauth2_logins), mutta client id- ja client secret -arvoja ei ole asetettu. Päivitä arvot <a href="%{base_path}/admin/site_settings">sivuston asetuksissa</a. <a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">Voit lukea lisää tästä oppaasta</a>.'
-    facebook_config_warning: 'Palvelin on konfiguroitu hyväksymään liittyminen ja kirjautuminen Facebookin kautta (enable_facebook_logins), mutta app id- ja app secret -arvoja ei ole asetettu. Päivitä arvot <a href="%{base_path}/admin/site_settings">sivuston asetuksissa</a>. <a href="https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394" target="_blank">Voit lukea lisää tästä oppaasta</a>.'
-    twitter_config_warning: 'Palvelin on konfiguroitu hyväksymään liittyminen ja kirjautuminen Twitterin kautta (enable_twitter_logins), mutta key- ja secret-salausarvoja ei ole asetettu. Päivitä arvot <a href="%{base_path}/admin/site_settings">sivuston asetuksissa</a>. <a href="https://meta.discourse.org/t/configuring-twitter-login-for-discourse/13395" target="_blank">Voit lukea lisää tästä oppaasta</a>.'
-    github_config_warning: 'Palvelin on konfiguroitu hyväksymään liittyminen ja kirjautuminen GitHubin kautta (enable_github_logins), mutta client id- ja app secret -arvoja ei ole asetettu. Päivitä arvot <a href="%{base_path}/admin/site_settings">sivuston asetuksissa</a>. <a href="https://meta.discourse.org/t/configuring-github-login-for-discourse/13745" target="_blank">Voit lukea lisää tästä oppaasta</a>.'
-    s3_config_warning: 'Palvelin on konfiguroitu tallentamaan sivustolle ladatut tiedostot S3:een, mutta vähintään yksi tiedoista on asettamatta: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile tai s3_upload_bucket. Päivitä ne <a href="/admin/site_settings">sivuston asetuksissa</a>. Lisätietoa englanninkielisestä ketjusta <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">"How to set up image uploads to S3?"</a>.'
-    s3_backup_config_warning: 'Palvelin on konfiguroitu tallentamaan varmuuskopiot S3:een, mutta vähintään yksi tiedoista on asettamatta: s3_access_key_id, s3_secret_access_key tai s3_upload_bucket . Päivitä ne <a href="/admin/site_settings">sivuston asetuksissa</a>. Lisätietoa englanninkielisestä ketjusta <a href="http://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">"How to set up image uploads to S3?"</a>.'
+    google_oauth2_config_warning: 'Palvelin on konfiguroitu hyväksymään liittyminen ja kirjautuminen Google OAuth2:n kautta (enable_google_oauth2_logins), mutta client id- ja client secret -arvoja ei ole asetettu. Päivitä arvot <a href="%{base_path}/admin/site_settings">sivuston asetuksissa</a. <a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">Voit lukea lisää tästä oppaasta</a>.'
+    facebook_config_warning: 'Palvelin on konfiguroitu hyväksymään liittyminen ja kirjautuminen Facebookin kautta (enable_facebook_logins), mutta app id- ja app secret -arvoja ei ole asetettu. Päivitä arvot <a href="%{base_path}/admin/site_settings">sivuston asetuksissa</a>. <a href="https://forum.okse.io/t/configuring-facebook-login-for-discourse/13394" target="_blank">Voit lukea lisää tästä oppaasta</a>.'
+    twitter_config_warning: 'Palvelin on konfiguroitu hyväksymään liittyminen ja kirjautuminen Twitterin kautta (enable_twitter_logins), mutta key- ja secret-salausarvoja ei ole asetettu. Päivitä arvot <a href="%{base_path}/admin/site_settings">sivuston asetuksissa</a>. <a href="https://forum.okse.io/t/configuring-twitter-login-for-discourse/13395" target="_blank">Voit lukea lisää tästä oppaasta</a>.'
+    github_config_warning: 'Palvelin on konfiguroitu hyväksymään liittyminen ja kirjautuminen GitHubin kautta (enable_github_logins), mutta client id- ja app secret -arvoja ei ole asetettu. Päivitä arvot <a href="%{base_path}/admin/site_settings">sivuston asetuksissa</a>. <a href="https://forum.okse.io/t/configuring-github-login-for-discourse/13745" target="_blank">Voit lukea lisää tästä oppaasta</a>.'
+    s3_config_warning: 'Palvelin on konfiguroitu tallentamaan sivustolle ladatut tiedostot S3:een, mutta vähintään yksi tiedoista on asettamatta: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile tai s3_upload_bucket. Päivitä ne <a href="/admin/site_settings">sivuston asetuksissa</a>. Lisätietoa englanninkielisestä ketjusta <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">"How to set up image uploads to S3?"</a>.'
+    s3_backup_config_warning: 'Palvelin on konfiguroitu tallentamaan varmuuskopiot S3:een, mutta vähintään yksi tiedoista on asettamatta: s3_access_key_id, s3_secret_access_key tai s3_upload_bucket . Päivitä ne <a href="/admin/site_settings">sivuston asetuksissa</a>. Lisätietoa englanninkielisestä ketjusta <a href="http://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">"How to set up image uploads to S3?"</a>.'
     image_magick_warning: 'Palvelin on konfiguroitu luomaan esikatselukuvia suurista kuvista, mutta ImageMagickia ei ole asennettu. Asenna ImageMagick paketinhallinnasta tai <a href="http://www.imagemagick.org/script/binary-releases.php" target="_blank">lataa uusin versio</a>.'
     failing_emails_warning: '%{num_failed_jobs} sähköpostitehtävää on epäonnistunut. Tarkista app.yml ja varmista, että sähköpostipalvelimen asetukset ovat kunnossa. <a href="/sidekiq/retries" target="_blank">Katsele epäonnistuneita tehtäviä Sidekiqissa</a>.'
     subfolder_ends_in_slash: "Alihakemiston asetuksesi ei kelpaa; DISCOURSE_RELATIVE_URL_ROOT päättyy vinoviivaan."
@@ -1287,8 +1287,8 @@ fi:
       other: "Sähköpostin pollaus aiheutti %{count} virhettä edellisen 24 tunnin aikana. Tarkastele <a href='%{base_path}/logs' target='_blank'>lokeja</a> saadaksesi lisätietoja."
     missing_mailgun_api_key: "Palvelin on määritelty lähettämään sähköpostit Mailgunin avulla, muttet ole määritellyt rajapinta-avainta, jolla varmistetaan webhook-viestien aitous."
     bad_favicon_url: "Favicon ei lataudu. Tarkista favicon-asetus <a href='%{base_path}/admin/site_settings'>sivuston asetuksissa</a>."
-    deprecated_api_usage: "Havaitsimme rajapintapyynnön, joka käytti vanhentunutta todennusmenetelmää. Päivitä se käyttämään  <a href='https://meta.discourse.org/t/-/22706'>headeriin perustuvaa todennusta</a>.  Kun olet päivittänyt, voi mennä 24 tuntia ennen kuin tämä viesti katoaa."
-    update_mail_receiver: "Huomasimme, että sähköpostipalvelin (mail-receiver) on vanhentunut. Klikkaa <a href='https://meta.discourse.org/t/-/133491'>tästä</a> päivitysohjeet. Kun olet päivittänyt, voi mennä 24 tuntia ennen kuin tämä viesti katoaa."
+    deprecated_api_usage: "Havaitsimme rajapintapyynnön, joka käytti vanhentunutta todennusmenetelmää. Päivitä se käyttämään  <a href='https://forum.okse.io/t/-/22706'>headeriin perustuvaa todennusta</a>.  Kun olet päivittänyt, voi mennä 24 tuntia ennen kuin tämä viesti katoaa."
+    update_mail_receiver: "Huomasimme, että sähköpostipalvelin (mail-receiver) on vanhentunut. Klikkaa <a href='https://forum.okse.io/t/-/133491'>tästä</a> päivitysohjeet. Kun olet päivittänyt, voi mennä 24 tuntia ennen kuin tämä viesti katoaa."
     poll_pop3_timeout: "Yhteyttä POP3-palvelimelle aikakatkaistaan ja saapuvaa sähköpostia ei voitu hakea. Tarkista <a href='%{base_path}/admin/site_settings/category/email'>POP3-asetukset</a> ja palveluntarjoaja."
     poll_pop3_auth_error: "Yhteys POP3-palvelimelle epäonnistuu autentikaatiovirheen vuoksi. Tarkista <a href='%{base_path}/admin/site_settings/category/email'>POP3-asetukset</a>."
     force_https_warning: "Sivusto käyttää SSL-salausta, mutta `<a href='%{base_path}/admin/site_settings/category/all_results?filter=force_https'>force_https</a>` ei ole valittuna asetuksissa."
@@ -1372,7 +1372,7 @@ fi:
     twitter_summary_large_image: "Twitter-tiivistelmäkortin \"summary large image\" (leveyttä tulisi olla ainakin 280 ja korkeutta ainakin 150). Jos jätetty tyhjäksi, tavallisen kortin metadata luodaan opengraph_image -kuvakkeen avulla."
     notification_email: "Sähköpostiosoite, josta kaikki tärkeät järjestelmän lähettämät sähköpostiviestit lähetetään. Verkkotunnuksen SPF, DKIM ja reverse PTR tietueiden täytyy olla kunnossa, jotta sähköpostit menevät perille."
     email_custom_headers: "Pystyviivalla eroteltu lista mukautetuista sähköpostin tunnisteista"
-    email_subject: "Mukauta sähköpostiviestien otsikon muoto. Katso englanninkielinen ohje: <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801</a>"
+    email_subject: "Mukauta sähköpostiviestien otsikon muoto. Katso englanninkielinen ohje: <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801</a>"
     detailed_404: "Kertoo käyttäjälle tarkemmin, miksi hän ei pääse tiettyyn ketjuun. Huomioi: tämä vaarantaa tietoturvaa, koska käyttäjä saa tietää, että URL osoittaa olemassa olevaan ketjuun."
     enforce_second_factor: "Pakottaa käyttäjiä ottamaan kaksivaiheisen tunnistautumisen käyttöön. Voit pakottaa sen kaikille valitsemalla \"kaikki\". Vaihtoehto \"henkilökunta\" pakottaa sen vain henkilökunnalle."
     force_https: "Pakota sivusto käyttämään vain HTTPS:ää. VAROITUS: älä ota tätä käyttöön ennen kuin HTTPS on täysin käytössä ja toimii täysin kaikkialla! Tarkastitko käyttämäsi CDN, kaikki sosiaaliset kirjautumiset ja kaikki ulkoiset logot / muut riippuvuudet ovat myös HTTPS-yhteensopivia?"
@@ -1427,7 +1427,7 @@ fi:
     content_security_policy: "Ota käyttöön epäilyttävän sisällön seulonta (Content-Security-Policy)"
     content_security_policy_report_only: "Ota käyttöön epäilyttävästä sisällöstä raportointi (Content-Security-Policy-Report-Only)"
     content_security_policy_collect_reports: "Ota käyttöön CSP-seulontojen kerääminen lokiin /csp_reports"
-    content_security_policy_script_src: "Muut sallitut skriptien lähteet. Nykyinen webhotelli ja CDN ovat sallittuja oletuksena. Ks. <a href='https://meta.discourse.org/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>Mitigate XSS Attacks with Content Security Policy.</a>"
+    content_security_policy_script_src: "Muut sallitut skriptien lähteet. Nykyinen webhotelli ja CDN ovat sallittuja oletuksena. Ks. <a href='https://forum.okse.io/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>Mitigate XSS Attacks with Content Security Policy.</a>"
     invalidate_inactive_admin_email_after_days: "Ylläpitäjätunnukset jotka eivät ole vierailleet sivustolla näin moneen päivään joutuvat vahvistamaan sähköpostiosoitteensa uudelleen ennen sisäänkirjautumista. Aseta 0 poistaaksesi käytöstä."
     top_menu: "Mitkä painikkeet näytetään kotisivun navigointipalkissa, ja missä järjestyksessä. Esimerkiksi latest|new|unread|categories|top|read|posted|bookmarks"
     post_menu: "Mitkä painikkeet näytetään viestin valikossa, ja missä järjestyksessä. Esimerkiksi like|edit|flag|delete|share|bookmark|reply"
@@ -1489,26 +1489,26 @@ fi:
     enable_local_logins_via_email: "Salli käyttäjän pyytää klikattava kirjautumislinkki, joka lähetetään hänen sähköpostiinsa."
     allow_new_registrations: "Salli uusien käyttäjien rekisteröityminen. Ota tämä asetus pois käytöstä estääksesi uusien käyttäjätilien luomisen."
     enable_signup_cta: "Näytä palaaville kirjautumattomille käyttäjille ilmoitus, jossa kehotetaan heitä luomaan tili."
-    enable_google_oauth2_logins: "Ota käyttöön Google Oauth2 -tunnistautuminen. Tämä on tunnistautumistapa, jota Google nykyisellään tulee. Key ja secret vaaditaan. Katso <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuring Google login for Okse</a>."
+    enable_google_oauth2_logins: "Ota käyttöön Google Oauth2 -tunnistautuminen. Tämä on tunnistautumistapa, jota Google nykyisellään tulee. Key ja secret vaaditaan. Katso <a href='https://forum.okse.io/t/15858' target='_blank'>Configuring Google login for Okse</a>."
     google_oauth2_client_id: "Google-applikaatiosi Client ID."
     google_oauth2_client_secret: "Google-applikaatiosi Client secret."
     google_oauth2_prompt: "Ei-pakollinen välilyönneillä eroteltu lista string-arvoja, jotka määräävät kysyykö todennuspalvelin käyttäjää uudelleentunnistautumista ja suostumusta. Ks. käyvät arvot: <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a>"
-    enable_twitter_logins: "Ota käyttöön Twitter-tunnistautuminen, vaaditaan twitter_consumer_key ja twitter_consumer_secret. Katso <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Okse</a>."
+    enable_twitter_logins: "Ota käyttöön Twitter-tunnistautuminen, vaaditaan twitter_consumer_key ja twitter_consumer_secret. Katso <a href='https://forum.okse.io/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Okse</a>."
     twitter_consumer_key: "Twitter-tunnistautumisen consumer key, joka rekisteröidään palvelussa <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Twitter-tunnistautumisen consumer secret, joka rekisteröidään palvelussa <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "Ota Instagram-autentikaatio käyttöön, vaatimuksena instagram_consumer_key ja instagram_consumer_secret"
     instagram_consumer_key: "Consumer key Instagram-autentikaatioon"
     instagram_consumer_secret: "Consumer secret Instagram-autentikaatioon"
-    enable_facebook_logins: "Ota käyttöön Facebook-tunnistautuminen, vaaditaan facebook_app_id ja facebook_app_secret. Katso <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuring Facebook login for Okse</a>."
+    enable_facebook_logins: "Ota käyttöön Facebook-tunnistautuminen, vaaditaan facebook_app_id ja facebook_app_secret. Katso <a href='https://forum.okse.io/t/13394' target='_blank'>Configuring Facebook login for Okse</a>."
     facebook_app_id: "Facebook-tunnistautumisen app id, joka rekisteröidään palvelussa <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "Facebook-tunnistautumisen app secret, joka rekisteröidään palvelussa <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "Ota käyttöön Facebook-tunnistautuminen, vaaditaan github_client_id ja github_client_secret. Katso <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuring GitHub login for Okse</a>."
+    enable_github_logins: "Ota käyttöön Facebook-tunnistautuminen, vaaditaan github_client_id ja github_client_secret. Katso <a href='https://forum.okse.io/t/13745' target='_blank'>Configuring GitHub login for Okse</a>."
     github_client_id: "GitHub-tunnistautumisen client id, joka rekisteröidään palvelussa <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "GitHub-tunnistautumisen client secret, joka rekisteröidään palvelussa <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     enable_discord_logins: "Salli käyttäjien kirjautua Discordin avulla?"
     discord_client_id: 'Discordin Client ID (Tarvitsetko? Käy Discordin <a href="https://discordapp.com/developers/applications/me">kehittäjäportaalissa</a>)'
     discord_secret: "Discordin Secret Key"
-    discord_trusted_guilds: 'Salli vain näiden Discord-kiltojen jäsenten kirjautua Discordin avulla. Käytä killan numeerista ID:tä. Jos tarvitset lisätietoa, ohjeet löytyy <a href="https://meta.discourse.org/t/configuring-discord-login-for-discourse/127129">täältä</a>. Jätä tyhjäksi, jos et halua rajoittaa killan perusteella.'
+    discord_trusted_guilds: 'Salli vain näiden Discord-kiltojen jäsenten kirjautua Discordin avulla. Käytä killan numeerista ID:tä. Jos tarvitset lisätietoa, ohjeet löytyy <a href="https://forum.okse.io/t/configuring-discord-login-for-discourse/127129">täältä</a>. Jätä tyhjäksi, jos et halua rajoittaa killan perusteella.'
     enable_backups: "Salli ylläpitäjien tehdä varmuuskopioita palstasta"
     allow_restore: "Salli palautus, joka korvaa KAIKEN sivuston datan! Jätä valitsematta, jos et aio palauttaa sivuston varmuuskopiota"
     maximum_backups: "Tallennettuna pidettävien varmuuskopioiden maksimimäärä. Vanhemmat varmuuskopiot poistetaan automaattisesti"
@@ -2258,9 +2258,9 @@ fi:
 
       - Päivitä käyttäen helppoa **[yhden klikkauksen päivitystä selaimessa](%{base_url}/admin/upgrade)**
 
-      - Katso mikä on uutta [julkaisutiedoista](https://meta.discourse.org/tag/release-notes) tai tutki [raakaa GitHubin muutoslokia](https://github.com/discourse/discourse/commits/master)
+      - Katso mikä on uutta [julkaisutiedoista](https://forum.okse.io/tag/release-notes) tai tutki [raakaa GitHubin muutoslokia](https://github.com/discourse/discourse/commits/master)
 
-      - Käy osoitteessa [meta.discourse.org](https://meta.discourse.org) lukemassa uutisia ja keskustelua, tai hae apua Discourseen liittyen
+      - Käy osoitteessa [forum.okse.io](https://forum.okse.io) lukemassa uutisia ja keskustelua, tai hae apua Discourseen liittyen
   new_version_mailer_with_notes:
     title: "Uusi versio julkaisumuistiolla"
     subject_template: "[%{email_prefix}] päivitys saatavilla"
@@ -2272,9 +2272,9 @@ fi:
 
       - Päivitä käyttäen helppoa **[yhden klikkauksen päivitystä selaimessa](%{base_url}/admin/upgrade)**
 
-      - Katso mikä on uutta [julkaisutiedoista](https://meta.discourse.org/tag/release-notes) tai tutki [raakaa GitHubin muutoslokia](https://github.com/discourse/discourse/commits/master)
+      - Katso mikä on uutta [julkaisutiedoista](https://forum.okse.io/tag/release-notes) tai tutki [raakaa GitHubin muutoslokia](https://github.com/discourse/discourse/commits/master)
 
-      - Käy osoitteessa [meta.discourse.org](https://meta.discourse.org) lukemassa uutisia ja keskustelua, tai hae apua Discourseen liittyen
+      - Käy osoitteessa [forum.okse.io](https://forum.okse.io) lukemassa uutisia ja keskustelua, tai hae apua Discourseen liittyen
 
       ### Julkaisutiedot
 
@@ -2393,7 +2393,7 @@ fi:
 
         %{role}-status tuo pääsyn <a href='%{base_url}/admin' target='_blank'>ylläpitokäyttöliittymään</a>.
 
-        Suuri voima tuo mukanaan suuren vastuun. Jos valvonta on sinulle uutta, tutustu [Valvontaoppaaseen](https://meta.discourse.org/t/discourse-moderation-guide/63116).
+        Suuri voima tuo mukanaan suuren vastuun. Jos valvonta on sinulle uutta, tutustu [Valvontaoppaaseen](https://forum.okse.io/t/discourse-moderation-guide/63116).
     welcome_invite:
       title: "Tervetuloa kutsuttu"
       subject_template: "Tervetuloa sivustolle %{site_name}!"
@@ -3766,10 +3766,10 @@ fi:
       button: "Rekisteröidy"
       title: "Rekisteröi ylläpitäjätunnus"
       help: "aloita rekisteröimällä uusi tunnus"
-      no_emails: "Valitettavasti ylläpitäjän sähköpostiosoitetta ei määritetty asennuksen aikana, joten asennuksen viimeistely voi olla vaikeaa. Lisää kehittäjäsähköposti konfiguraatiotiedostoon tai <a href='https://meta.discourse.org/t/how-to-create-an-administrator-account-after-install/14046'>luo ylläpitäjätili konsolissa</a>."
+      no_emails: "Valitettavasti ylläpitäjän sähköpostiosoitetta ei määritetty asennuksen aikana, joten asennuksen viimeistely voi olla vaikeaa. Lisää kehittäjäsähköposti konfiguraatiotiedostoon tai <a href='https://forum.okse.io/t/how-to-create-an-administrator-account-after-install/14046'>luo ylläpitäjätili konsolissa</a>."
     confirm_email:
       title: "Vahvista sähköpostisi"
-      message: "<p>Lähetimme aktivointiviestin sähköpostiosoitteeseen <b>%{email}</b>. Ota tili käyttöön seuraamalla sähköpostiviestin ohjeita.</p><p>Jos viesti ei saavu, tarkista roskapostikansio ja <a href='https://meta.discourse.org/t/troubleshooting-email-on-a-new-discourse-install/16326'>varmistu että asensit sähköpostipalvelun oikein</a>.</p>"
+      message: "<p>Lähetimme aktivointiviestin sähköpostiosoitteeseen <b>%{email}</b>. Ota tili käyttöön seuraamalla sähköpostiviestin ohjeita.</p><p>Jos viesti ei saavu, tarkista roskapostikansio ja <a href='https://forum.okse.io/t/troubleshooting-email-on-a-new-discourse-install/16326'>varmistu että asensit sähköpostipalvelun oikein</a>.</p>"
     resend_email:
       title: "Lähetä vahvistusviesti uudelleen"
       message: "Lähetimme uuden vahvistusviestin osoitteeseen <b>%{email}</b>"
@@ -3862,7 +3862,7 @@ fi:
         title: "Värimaailma"
       themes_further_reading:
         title: "Teemat"
-        description: "Yritätkö mukauttaa Discourseasi? Hyödynnä vahvaa teemajärjestelmäämme: <ul> <li><a href='https://meta.discourse.org/t/63682' target='_blank'>How do I install a theme or theme component?</a></li> <li><a href='https://meta.discourse.org/t/110448' target='_blank'>Theme Developer Quick Reference Guide</a></li> </ul> Suosittuja teemakomponentteja (lisää löydät selailemalla aluetta <a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#theme</a>)"
+        description: "Yritätkö mukauttaa Discourseasi? Hyödynnä vahvaa teemajärjestelmäämme: <ul> <li><a href='https://forum.okse.io/t/63682' target='_blank'>How do I install a theme or theme component?</a></li> <li><a href='https://forum.okse.io/t/110448' target='_blank'>Theme Developer Quick Reference Guide</a></li> </ul> Suosittuja teemakomponentteja (lisää löydät selailemalla aluetta <a href='https://forum.okse.io/c/theme/l/latest' target='_blank'>#theme</a>)"
       logos:
         title: "Logot"
         fields:

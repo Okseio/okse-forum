@@ -67,7 +67,7 @@ describe SiteController do
 
   describe '.selectable_avatars' do
     before do
-      SiteSetting.selectable_avatars = "https://www.discourse.org\nhttps://meta.discourse.org"
+      SiteSetting.selectable_avatars = "https://www.discourse.org\nhttps://forum.okse.io"
     end
 
     it 'returns empty array when selectable avatars is disabled' do
@@ -87,7 +87,7 @@ describe SiteController do
       json = response.parsed_body
 
       expect(response.status).to eq(200)
-      expect(json).to contain_exactly("https://www.discourse.org", "https://meta.discourse.org")
+      expect(json).to contain_exactly("https://www.discourse.org", "https://forum.okse.io")
     end
   end
 end

@@ -1191,7 +1191,7 @@ bs_BA:
         invite_link:
           success: "Link pozivnice je uspješno generisan!"
         bulk_invite:
-          none: "Niste još uvijek nikoga pozvali. Šaljite individualne pozivnice, ili šaljite ka više osoba od jednom <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>učitavanjem liste iz CSV fajla</a>."
+          none: "Niste još uvijek nikoga pozvali. Šaljite individualne pozivnice, ili šaljite ka više osoba od jednom <a href='https://forum.okse.io/t/send-bulk-invites/16468'>učitavanjem liste iz CSV fajla</a>."
           success: "Fajl je uspješno učitan, dobit će te ukratko obavijest o progresu."
           error: "Oprostite, vaš fajl bi trebao biti u CSV formatu."
           confirmation_message: "Upravo ćete poslati e-poštom pozivnice svima u prenesenoj datoteci."

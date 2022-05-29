@@ -8,7 +8,7 @@ prettier_offenses = `yarn --silent prettier --list-different "app/assets/stylesh
 
 unless prettier_offenses.empty?
   fail(%{
-This PR doesn't match our required code formatting standards, as enforced by prettier.io. <a href='https://meta.discourse.org/t/prettier-code-formatting-tool/93212'>Here's how to set up prettier in your code editor.</a>\n
+This PR doesn't match our required code formatting standards, as enforced by prettier.io. <a href='https://forum.okse.io/t/prettier-code-formatting-tool/93212'>Here's how to set up prettier in your code editor.</a>\n
 #{prettier_offenses.map { |o| github.html_link(o) }.join("\n")}
   })
 end
@@ -17,7 +17,7 @@ locales_changes = git.modified_files.grep(%r{config/locales})
 has_non_en_locales_changes = locales_changes.grep_v(%r{config/locales/(?:client|server)\.(?:en|en_US)\.yml}).any?
 
 if locales_changes.any? && has_non_en_locales_changes
-  fail("Please submit your non-English translation updates via [Transifex](https://www.transifex.com/discourse/discourse-org/). You can read more on how to contribute translations [here](https://meta.discourse.org/t/contribute-a-translation-to-discourse/14882).")
+  fail("Please submit your non-English translation updates via [Transifex](https://www.transifex.com/discourse/discourse-org/). You can read more on how to contribute translations [here](https://forum.okse.io/t/contribute-a-translation-to-discourse/14882).")
 end
 
 files = (git.added_files + git.modified_files)

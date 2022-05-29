@@ -1197,7 +1197,7 @@ es:
         invite_link:
           success: "¡Enlace de invitación generado satisfactoriamente!"
         bulk_invite:
-          none: "No has invitado a nadie aún. Puedes enviar invitaciones individuales o invitar a varias personas a la vez <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>subiendo un archivo CVS</a>."
+          none: "No has invitado a nadie aún. Puedes enviar invitaciones individuales o invitar a varias personas a la vez <a href='https://forum.okse.io/t/send-bulk-invites/16468'>subiendo un archivo CVS</a>."
           success: "Archivo subido correctamente, se te notificará mediante un mensaje cuando se complete el proceso."
           error: "Lo sentimos, el formato del archivo debe ser CSV. "
           confirmation_message: "Estás a punto de enviar invitaciones por correo electrónico a todas las direcciones en el archivo subido."

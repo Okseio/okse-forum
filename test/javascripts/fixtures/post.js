@@ -66,7 +66,7 @@ export default {
     id: 398,
     name: "Uwe Keim",
     username: "uwe_keim",
-    avatar_template: "/user_avatar/meta.discourse.org/uwe_keim/{size}/5697.png",
+    avatar_template: "/user_avatar/forum.okse.io/uwe_keim/{size}/5697.png",
     uploaded_avatar_id: 5697,
     created_at: "2013-02-05T21:29:00.280Z",
     cooked:

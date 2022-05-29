@@ -10,7 +10,7 @@
 #
 #   tx push -s
 #
-# Read more here: https://meta.discourse.org/t/contribute-a-translation-to-discourse/14882
+# Read more here: https://forum.okse.io/t/contribute-a-translation-to-discourse/14882
 #
 # To validate this YAML file after you change it, please paste it into http://yamllint.com/
 
@@ -1334,7 +1334,7 @@ en:
           max_redemptions_allowed_label: "How many people are allowed to register using this link?"
           expires_at: "When will this invite link expire?"
         bulk_invite:
-          none: "You haven't invited anyone here yet. Send individual invites, or invite many people at once by <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>uploading a CSV file</a>."
+          none: "You haven't invited anyone here yet. Send individual invites, or invite many people at once by <a href='https://forum.okse.io/t/send-bulk-invites/16468'>uploading a CSV file</a>."
           text: "Bulk Invite"
           success: "File uploaded successfully, you will be notified via message when the process is complete."
           error: "Sorry, file should be CSV format."
@@ -1470,13 +1470,13 @@ en:
       read and reply to – we recommend at least {requiredPosts, plural, one {<strong>#</strong> post} other {<strong>#</strong> posts}}.
       Only staff can see this message.
     logs_error_rate_notice:
-      # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
+      # keys ending with _MF use message format, see https://forum.okse.io/t/message-format-support-for-localization/7035 for details
       reached_hour_MF: "<b>{relativeAge}</b> – <a href='{url}' target='_blank'>{rate, plural, one {# error/hour} other {# errors/hour}}</a> reached site setting limit of {limit, plural, one {# error/hour} other {# errors/hour}}."
-      # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
+      # keys ending with _MF use message format, see https://forum.okse.io/t/message-format-support-for-localization/7035 for details
       reached_minute_MF: "<b>{relativeAge}</b> – <a href='{url}' target='_blank'>{rate, plural, one {# error/minute} other {# errors/minute}}</a> reached site setting limit of {limit, plural, one {# error/minute} other {# errors/minute}}."
-      # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
+      # keys ending with _MF use message format, see https://forum.okse.io/t/message-format-support-for-localization/7035 for details
       exceeded_hour_MF: "<b>{relativeAge}</b> – <a href='{url}' target='_blank'>{rate, plural, one {# error/hour} other {# errors/hour}}</a> exceeded site setting limit of {limit, plural, one {# error/hour} other {# errors/hour}}."
-      # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
+      # keys ending with _MF use message format, see https://forum.okse.io/t/message-format-support-for-localization/7035 for details
       exceeded_minute_MF: "<b>{relativeAge}</b> – <a href='{url}' target='_blank'>{rate, plural, one {# error/minute} other {# errors/minute}}</a> exceeded site setting limit of {limit, plural, one {# error/minute} other {# errors/minute}}."
 
     learn_more: "learn more..."
@@ -2187,7 +2187,7 @@ en:
       group_request_sent: "Your group membership request has been sent. You will be informed when it's accepted."
       unread_indicator: "No member has read the last post of this topic yet."
 
-      # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
+      # keys ending with _MF use message format, see https://forum.okse.io/t/message-format-support-for-localization/7035 for details
       read_more_MF: "There {
         UNREAD, plural,
         =0 {}
@@ -2936,7 +2936,7 @@ en:
       official_warning: "Official Warning"
       delete_spammer: "Delete Spammer"
 
-      # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
+      # keys ending with _MF use message format, see https://forum.okse.io/t/message-format-support-for-localization/7035 for details
       delete_confirm_MF: "You are about to delete {POSTS, plural, one {<b>1</b> post} other {<b>#</b> posts}} and {TOPICS, plural, one {<b>1</b> topic} other {<b>#</b> topics}} from this user, remove their account, block signups from their IP address <b>{ip_address}</b>, and add their email address <b>{email}</b> to a permanent block list. Are you sure this user is really a spammer?"
       yes_delete_spammer: "Yes, Delete Spammer"
       ip_address_missing: "(N/A)"
@@ -3009,7 +3009,7 @@ en:
     posts: "Posts"
     posts_long: "there are %{number} posts in this topic"
 
-    # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
+    # keys ending with _MF use message format, see https://forum.okse.io/t/message-format-support-for-localization/7035 for details
     posts_likes_MF: |
       This topic has {count, plural, one {1 reply} other {# replies}} {ratio, select,
         low {with a high like to post ratio}
@@ -4358,7 +4358,7 @@ en:
           title: "Clear Penalty History"
           description: "users with penalties cannot reach TL3"
 
-        # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
+        # keys ending with _MF use message format, see https://forum.okse.io/t/message-format-support-for-localization/7035 for details
         delete_all_posts_confirm_MF: "You are about to delete {POSTS, plural, one {1 post} other {# posts}} and {TOPICS, plural, one {1 topic} other {# topics}}. Are you sure?"
         silence: "Silence"
         unsilence: "Unsilence"

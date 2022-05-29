@@ -31,4 +31,4 @@ We take security very seriously at Discourse, and all our code is 100% open sour
 
 [basic]: https://github.com/discourse/discourse/blob/master/docs/INSTALL-cloud.md
 [advanced]: https://github.com/discourse/discourse_docker
-[swap]: https://meta.discourse.org/t/create-a-swapfile-for-your-linux-server/13880
+[swap]: https://forum.okse.io/t/create-a-swapfile-for-your-linux-server/13880

@@ -974,7 +974,7 @@ cs:
         invite_link:
           success: "Odkaz pozvánky byl úspěšně vygenerován!"
         bulk_invite:
-          none: "Nikoho jste zatím nepozval. Můžete poslat individuální pozvánky, případně <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>nahrát CSV soubor</a> a pozvat tak několik lidí najednou."
+          none: "Nikoho jste zatím nepozval. Můžete poslat individuální pozvánky, případně <a href='https://forum.okse.io/t/send-bulk-invites/16468'>nahrát CSV soubor</a> a pozvat tak několik lidí najednou."
           success: "Nahrání souboru proběhlo úspěšně. O dokončení celého procesu budete informování pomocí zprávy."
           error: "Omlouváme se, soubor by měl být ve formátu CSV."
       password:

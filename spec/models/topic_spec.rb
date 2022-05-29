@@ -15,14 +15,14 @@ describe Topic do
     context "#featured_link" do
       describe 'when featured_link contains more than a URL' do
         it 'should not be valid' do
-          topic.featured_link = 'http://meta.discourse.org TEST'
+          topic.featured_link = 'http://forum.okse.io TEST'
           expect(topic).to_not be_valid
         end
       end
 
       describe 'when featured_link is a valid URL' do
         it 'should be valid' do
-          topic.featured_link = 'http://meta.discourse.org'
+          topic.featured_link = 'http://forum.okse.io'
           expect(topic).to be_valid
         end
       end
@@ -2523,10 +2523,10 @@ describe Topic do
     let(:topic) { Fabricate.build(:topic) }
 
     [
-      "https://meta.discourse.org",
-      "https://meta.discourse.org/",
-      "https://meta.discourse.org/?filter=test",
-      "https://meta.discourse.org/t/中國/1",
+      "https://forum.okse.io",
+      "https://forum.okse.io/",
+      "https://forum.okse.io/?filter=test",
+      "https://forum.okse.io/t/中國/1",
     ].each do |featured_link|
       it "should extract the root domain from #{featured_link} correctly" do
         topic.featured_link = featured_link

@@ -328,14 +328,14 @@ describe Jobs::PullHotlinkedImages do
     describe 'when url is invalid' do
       it 'should return false' do
         expect(subject.should_download_image?("null")).to eq(false)
-        expect(subject.should_download_image?("meta.discourse.org")).to eq(false)
+        expect(subject.should_download_image?("forum.okse.io")).to eq(false)
       end
     end
 
     describe 'when url is valid' do
       it 'should return true' do
-        expect(subject.should_download_image?("http://meta.discourse.org")).to eq(true)
-        expect(subject.should_download_image?("//meta.discourse.org")).to eq(true)
+        expect(subject.should_download_image?("http://forum.okse.io")).to eq(true)
+        expect(subject.should_download_image?("//forum.okse.io")).to eq(true)
       end
     end
 
@@ -398,7 +398,7 @@ describe Jobs::PullHotlinkedImages do
       end
 
       it 'returns false for valid remote URLs' do
-        expect(subject.should_download_image?("http://meta.discourse.org")).to eq(false)
+        expect(subject.should_download_image?("http://forum.okse.io")).to eq(false)
       end
     end
   end

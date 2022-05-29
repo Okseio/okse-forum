@@ -1020,7 +1020,7 @@ zh_TW:
         invite_link:
           success: "邀請連結生成成功！"
         bulk_invite:
-          none: "你尚未邀請任何人。你可以發送個別邀請，或者透過<a href='https://meta.discourse.org/t/send-bulk-invites/16468'>上傳大量邀請檔</a>一次邀請一群人。"
+          none: "你尚未邀請任何人。你可以發送個別邀請，或者透過<a href='https://forum.okse.io/t/send-bulk-invites/16468'>上傳大量邀請檔</a>一次邀請一群人。"
           success: "檔案已上傳成功，處理完畢後將以私人訊息通知你。"
           error: "上傳的檔案必須是 csv 格式。"
           confirmation_message: "您即將寄email邀請給上傳文件中的所有人。"

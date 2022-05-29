@@ -174,7 +174,7 @@ sv:
       second_factor_cannot_be_enforced_with_disabled_local_login: "Du kan inte genomdriva 2FA om lokala inloggningar är inaktiverade."
       local_login_cannot_be_disabled_if_second_factor_enforced: "Du kan inte inaktivera lokal inloggning om 2FA har genomdrivits. Inaktivera genomdriven 2FA innan du inaktiverar lokala inloggningar."
       cannot_enable_s3_uploads_when_s3_enabled_globally: "Du kan inte aktivera S3-uppladdningar eftersom S3-uppladdningar redan är aktiverade globalt, och aktivering av denna webbplatsnivå kan orsaka kritiska problem med uppladdningar"
-    conflicting_google_user_id: 'Google-konto-ID:et för det här kontot har ändrats och av säkerhetsskäl krävs personalens ingripande. Kontakta personalen och skicka dem till <br><a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'Google-konto-ID:et för det här kontot har ändrats och av säkerhetsskäl krävs personalens ingripande. Kontakta personalen och skicka dem till <br><a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors
@@ -1269,12 +1269,12 @@ sv:
     sidekiq_warning: 'Sidekiq körs inte. Många uppgifter, sm att skicka e-post, utförs asynkront av sidekiq. Var vänlig se till att minst en sidekiqprocess körs. <a href="https://github.com/mperham/sidekiq">Läs mer om Sidekiq här</a>.'
     queue_size_warning: "Antal köade jobb är %{queue_size}, vilket är ganska högt. Det kan indikera ett problem med Sidekiq process(er), eller så kanske du behöver lägga till fler Sidekiqarbetare."
     memory_warning: "Din server körs med mindre än 1 GB minne. Minne på minst 1 GB är rekommenderat."
-    google_oauth2_config_warning: 'Servern är konfigurerad till att tillåta registrering och inloggning med Google OAuth2 (enable_google_oauth2_logins), men klient-id och klienthemlighetsvärden har inte ställts in. Gå till <a href="%{base_path}/admin/site_settings">Webbplatsinställningarna</a> och uppdatera inställningarna. <a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">Läs den här guiden för att lära dig mer</a>.'
-    facebook_config_warning: 'Servern är konfigurerad till att tillåta registrering och inloggning med Facebook (enable_facebook_logins), men app-id och appens hemlighetsvärden är inte satta. Gå till <a href="%{base_path}/admin/site_settings">Webbplatsinställningarna</a> och uppdatera inställningarna. <a href="https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394" target="_blank">Läs den här guiden för att lära dig mer</a>.'
-    twitter_config_warning: 'Servern är konfigurerad till att tillåta registrering och inloggning med Twitter (enable_twitter_logins), men nyckel och hemlighetsvärden är inte satta. Gå till <a href="%{base_path}/admin/site_settings">Webbplatsinställningarna</a> och uppdatera inställningarna. <a href="https://meta.discourse.org/t/configuring-twitter-login-for-discourse/13395" target="_blank">Läs den här guiden för att lära dig mer</a>.'
-    github_config_warning: 'Servern är konfigurerad till att tillåta registrering och inloggning med GitHub (enable_github_logins), men klient-id och hemlighetsvärden är inte satta. Gå till <a href="%{base_path}/admin/site_settings">Webbplatsinställningarna</a> och uppdatera inställningarna. <a href="https://meta.discourse.org/t/configuring-github-login-for-discourse/13745" target="_blank">Läs den här guiden för att lära dig mer</a>.'
-    s3_config_warning: 'Servern är konfigurerad till att ladda upp filer till S3, men minst en av följande inställningar är inte satt: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, eller s3_upload_bucket. Gå till <a href="%{base_path}/admin/site_settings">Inställningar</a> och uppdatera dem. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Se "How to set up image uploads to S3?" för att lära dig mer</a>.'
-    s3_backup_config_warning: 'Servern är konfigurerad till att ladda upp reservfiler till S3, men minst en av följande inställningar är inte satt: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, eller s3_backup_bucket. Gå till <a href="%{base_path}/admin/site_settings">Inställningar</a> och uppdatera dem. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Se "How to set up image uploads to S3?" för att lära dig mer</a>.'
+    google_oauth2_config_warning: 'Servern är konfigurerad till att tillåta registrering och inloggning med Google OAuth2 (enable_google_oauth2_logins), men klient-id och klienthemlighetsvärden har inte ställts in. Gå till <a href="%{base_path}/admin/site_settings">Webbplatsinställningarna</a> och uppdatera inställningarna. <a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">Läs den här guiden för att lära dig mer</a>.'
+    facebook_config_warning: 'Servern är konfigurerad till att tillåta registrering och inloggning med Facebook (enable_facebook_logins), men app-id och appens hemlighetsvärden är inte satta. Gå till <a href="%{base_path}/admin/site_settings">Webbplatsinställningarna</a> och uppdatera inställningarna. <a href="https://forum.okse.io/t/configuring-facebook-login-for-discourse/13394" target="_blank">Läs den här guiden för att lära dig mer</a>.'
+    twitter_config_warning: 'Servern är konfigurerad till att tillåta registrering och inloggning med Twitter (enable_twitter_logins), men nyckel och hemlighetsvärden är inte satta. Gå till <a href="%{base_path}/admin/site_settings">Webbplatsinställningarna</a> och uppdatera inställningarna. <a href="https://forum.okse.io/t/configuring-twitter-login-for-discourse/13395" target="_blank">Läs den här guiden för att lära dig mer</a>.'
+    github_config_warning: 'Servern är konfigurerad till att tillåta registrering och inloggning med GitHub (enable_github_logins), men klient-id och hemlighetsvärden är inte satta. Gå till <a href="%{base_path}/admin/site_settings">Webbplatsinställningarna</a> och uppdatera inställningarna. <a href="https://forum.okse.io/t/configuring-github-login-for-discourse/13745" target="_blank">Läs den här guiden för att lära dig mer</a>.'
+    s3_config_warning: 'Servern är konfigurerad till att ladda upp filer till S3, men minst en av följande inställningar är inte satt: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, eller s3_upload_bucket. Gå till <a href="%{base_path}/admin/site_settings">Inställningar</a> och uppdatera dem. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Se "How to set up image uploads to S3?" för att lära dig mer</a>.'
+    s3_backup_config_warning: 'Servern är konfigurerad till att ladda upp reservfiler till S3, men minst en av följande inställningar är inte satt: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, eller s3_backup_bucket. Gå till <a href="%{base_path}/admin/site_settings">Inställningar</a> och uppdatera dem. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">Se "How to set up image uploads to S3?" för att lära dig mer</a>.'
     image_magick_warning: 'Servern är konfigurerad att skapa ikoner av stora bilder, men ImageMagick är inte installerad. Installera ImageMagick med din föredragna pakethanterare eller <a href="https://www.imagemagick.org/script/download.php" target="_blank">ladda hem den senaste utgåvan</a>.'
     failing_emails_warning: 'Det finns %{num_failed_jobs} e-postutskick som har misslyckats. Kontrollera din app.yml för att säkerställa att serverinställningarna för e-post är korrekta. <a href="%{base_path}/sidekiq/retries" target="_blank">Se alla misslyckade utskick i Sidekiq</a>.'
     subfolder_ends_in_slash: "Inställningarna för dina undermappar är inte korrekt; DISCOURSE_RELATIV_URL_ROOT slutar med ett snedstreck."
@@ -1283,8 +1283,8 @@ sv:
       other: "E-postpolling har genererat %{count} fel de senaste 24 timmarna. Se <a href='%{base_path}/logs' target='_blank'>loggarna</a> för mer detaljer."
     missing_mailgun_api_key: "Servern är konfigurerad att skicka e-post via Mailgun men du har inte tillhandahållit en API-nyckel att använda för verifiera webbkroks-meddelanden. "
     bad_favicon_url: "Favoritikonen misslyckas att laddas. Kontrollera dina inställningar för favoritikonen i <a href='%{base_path}/admin/site_settings'>webbplatsinställningarna</a>."
-    deprecated_api_usage: "Vi upptäckte en API-begäran genom en utfasad autentiseringsmetod. Vänligen uppdatera den att använda <a href='https://meta.discourse.org/t/-/22706'>rubrikbaserade autentisering</a>. Det kan ta upp till 24 timmar innan detta meddelande försvinner efter att du har uppdaterat. "
-    update_mail_receiver: "Vi upptäckte en utgången version av e-postmottagare. Klicka <a href='https://meta.discourse.org/t/-/133491'>här</a> för att uppdatera instruktioner. Det kan ta upp till 24 timmar innan detta meddelande försvinner efter att du har uppdaterat. "
+    deprecated_api_usage: "Vi upptäckte en API-begäran genom en utfasad autentiseringsmetod. Vänligen uppdatera den att använda <a href='https://forum.okse.io/t/-/22706'>rubrikbaserade autentisering</a>. Det kan ta upp till 24 timmar innan detta meddelande försvinner efter att du har uppdaterat. "
+    update_mail_receiver: "Vi upptäckte en utgången version av e-postmottagare. Klicka <a href='https://forum.okse.io/t/-/133491'>här</a> för att uppdatera instruktioner. Det kan ta upp till 24 timmar innan detta meddelande försvinner efter att du har uppdaterat. "
     poll_pop3_timeout: "Anslutningen till POP3-servern har nått tidsgränsen. Inkommande e-postmeddelanden kunde inte mottas. Var vänlig kontrollera dina <a href='%{base_path}/admin/site_settings/category/email'>POP3-inställningar</a> och tjänsteleverantör."
     poll_pop3_auth_error: "Anslutning till POP3-servern misslyckas med ett autentiseringsfel. Var vänlig kontrollera dina <a href='%{base_path}/admin/site_settings/category/email'>POP3-inställningar</a>."
     force_https_warning: "Din webbplats använder SSL, men  `<a href='%{base_path}/admin/site_settings/category/all_results?filter=force_https'>force_https</a>` är inte aktiverat i inställningarna för din webbplats."
@@ -1372,7 +1372,7 @@ sv:
     twitter_summary_large_image: "Twitter-korts 'sammanfattande storbild' (ska vara minst 280 i bredd och minst 150 i höjd). Om den lämnas tom genereras vanliga metadata för kort genom opengraph_image."
     notification_email: "Avsändaradressen som används vid utskick av system e-post. Domänen som specifieras här måste ha en SPF, DKIM och reverse PTR record korrekt inställt för att e-post ska levereras."
     email_custom_headers: "En pipe-avgränsad lista av anpassade e-postrubriker"
-    email_subject: "Anpassningsbart ämnesformat för vanliga e-postmeddelanden. Se <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801</a>"
+    email_subject: "Anpassningsbart ämnesformat för vanliga e-postmeddelanden. Se <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801</a>"
     detailed_404: "Ger mer information till användarna om varför de inte kan komma åt ett visst ämne. Notera: Det här är mindre säkert eftersom användare vet om att en URL länkar till ett giltigt ämne."
     enforce_second_factor: "Tvingar användare att aktivera tvåfaktorautentisering. Välj 'alla' för att kräva det för alla användare. Välj 'personal' för att bara kräva det av personal."
     force_https: "Tvinga din webbplats att endast använda HTTPS. VARNING: bocka INTE i det här innan du kan verifiera att HTTPS verkligen fungerar överallt! Har du kontrollerat din CDN, alla sociala inloggningar och alla externa logotyper / beroenden för att säkerställa att de alla också är HTTPS-kompatibla?"
@@ -1433,7 +1433,7 @@ sv:
     content_security_policy: "Aktivera säkerhetspolicy för innehåll"
     content_security_policy_report_only: "Aktivera enbart säkerhetspolicy för innehåll"
     content_security_policy_collect_reports: "Aktivera insamling av CSP-överträdelserapporter på /csp_reports"
-    content_security_policy_script_src: "Ytterligare vitlistade skriptkällor. Den aktuella värden och CDN ingår som standard. Se <a href='https://meta.discourse.org/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>Minska XSS-attacker genom policy för innehållssäkerhet.</a>"
+    content_security_policy_script_src: "Ytterligare vitlistade skriptkällor. Den aktuella värden och CDN ingår som standard. Se <a href='https://forum.okse.io/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>Minska XSS-attacker genom policy för innehållssäkerhet.</a>"
     invalidate_inactive_admin_email_after_days: "Administratörskonton som inte har besökt webbplatsen under detta antal dagar kommer att behöva validera sin e-postadress innan de loggar in. Sätt till 0 för att inaktivera."
     top_menu: "Bestäm vilka objekt som visas i hemsidans navigation, och i vilken ordning. Exempel: latest|new|unread|categories|top|read|posted|bookmarks"
     post_menu: "Bestäm vilka objekt som visas i inläggsmenyn och i vilken ordning. Exempel: like|edit|flag|delete|share|bookmark|reply"
@@ -1501,27 +1501,27 @@ sv:
     enable_local_logins_via_email: "Tillåt användare att begära en engångs inloggningslänk, att skickas till dem via e-post."
     allow_new_registrations: "Tillåt nya användarregistreringar. Avbocka det här för att förhindra vem som helst från att skapa ett nytt konto."
     enable_signup_cta: "Visa en notis för återvändande anonyma användare för att förmå dem att registrera ett nytt konto."
-    enable_google_oauth2_logins: "Aktivera Google Oauth2-autentisering. Detta är den autentiseringsmetod som Google för närvarande stöder. Kräver nyckel och hemlighet. Se <a href='https://meta.discourse.org/t/15858' target='_blank'>Konfigurera Google-inloggning för Okse</a>."
+    enable_google_oauth2_logins: "Aktivera Google Oauth2-autentisering. Detta är den autentiseringsmetod som Google för närvarande stöder. Kräver nyckel och hemlighet. Se <a href='https://forum.okse.io/t/15858' target='_blank'>Konfigurera Google-inloggning för Okse</a>."
     google_oauth2_client_id: "Klient-ID för din Google-applikation."
     google_oauth2_client_secret: "Klienthemlighet för din Google-applikation."
     google_oauth2_prompt: "En valfri mellanrumsavgränsad lista över strängvärden som anger om auktoriseringsservern ber användaren om omautentisering och samtycke. Se möjliga värden i <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a>."
     google_oauth2_hd: "En valfri Google Apps Hosted-domän som inloggningen kommer att begränsas till. Se mer information på <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a>."
-    enable_twitter_logins: "Aktivera Twitter-autentisering, kräver twitter_consumer_key och twitter_consumer_secret. Se <a href='https://meta.discourse.org/t/13395' target='_blank'>Konfigurera Twitter-inloggning (och utförliga inbäddningar) för Okse</a>."
+    enable_twitter_logins: "Aktivera Twitter-autentisering, kräver twitter_consumer_key och twitter_consumer_secret. Se <a href='https://forum.okse.io/t/13395' target='_blank'>Konfigurera Twitter-inloggning (och utförliga inbäddningar) för Okse</a>."
     twitter_consumer_key: "Konsumentnyckel för Twitter-autentisering, registrerad på <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Konsumenthemlighet för Twitter-autentisering, registrerad på <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "Tillåt Instagramautentisering, kräver instagram_consumer_key och instagram_consumer_secret"
     instagram_consumer_key: "Konsumentnyckel för Instagram-autentisering"
     instagram_consumer_secret: "Konsumenthemlighet för Instagram-autentisering"
-    enable_facebook_logins: "Aktivera Facebook-autentisering, kräver facebook_app_id och facebook_app_secret. Se <a href='https://meta.discourse.org/t/13394' target='_blank'>Konfigurera Facebook-inloggning för Okse</a>."
+    enable_facebook_logins: "Aktivera Facebook-autentisering, kräver facebook_app_id och facebook_app_secret. Se <a href='https://forum.okse.io/t/13394' target='_blank'>Konfigurera Facebook-inloggning för Okse</a>."
     facebook_app_id: "App-id för Facebook-autentisering, registrerad på <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "App-hemlighet för Facebook-autentisering, registrerad på <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "Aktivera Github-autentisering, kräver github_client_id och github_client_secret. Se <a href='https://meta.discourse.org/t/13745' target='_blank'>Konfigurera GitHub-inloggning för Okse</a>."
+    enable_github_logins: "Aktivera Github-autentisering, kräver github_client_id och github_client_secret. Se <a href='https://forum.okse.io/t/13745' target='_blank'>Konfigurera GitHub-inloggning för Okse</a>."
     github_client_id: "Klient-ID för Github-autentisering, registrerad på <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/applications</a>"
     github_client_secret: "Klienthemlighet för Github autentisering, registrerad på <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/applications</a>"
     enable_discord_logins: "Tillåta användare att autentisera genom Discord?"
     discord_client_id: 'Discord Klient-ID (behöver du ett? Besök <a href="https://discordapp.com/developers/applications/me">utvecklarportalen för Discord</a>)'
     discord_secret: "Discord hemlig nyckel"
-    discord_trusted_guilds: 'Tillåt bara medlemmar i dessa Discord-grupperingar att logga in via Discord. Använd det numeriska ID för grupperingen. För mer information, se instruktionerna <a href="https://meta.discourse.org/t/configuring-discord-login-for-discourse/127129">här</a>. Lämna tomt för att tilllåta alla grupperingar.'
+    discord_trusted_guilds: 'Tillåt bara medlemmar i dessa Discord-grupperingar att logga in via Discord. Använd det numeriska ID för grupperingen. För mer information, se instruktionerna <a href="https://forum.okse.io/t/configuring-discord-login-for-discourse/127129">här</a>. Lämna tomt för att tilllåta alla grupperingar.'
     enable_backups: " Tillåt administratörer att skapa säkerhetskopior av forumet"
     allow_restore: "Tillåt återställning, vilket kan ersätta ALL data på webbplatsen! Lämna avbockad om du inte planerar att återställa en säkerhetskopia"
     maximum_backups: "Högsta antal säkerhetskopior att spara på disken. Äldre säkerhetskopior raderas automatiskt"
@@ -1748,7 +1748,7 @@ sv:
     log_mail_processing_failures: "Logga alla behandlingsfel för e-post till <a href='%{base_path}/logs' target='_blank'>/logs</a>"
     email_in: 'Tillåt användare lägga upp nya ämnen via e-post (kräver manuell eller pop3-val). Konfigurera adresserna på fliken "Inställningar" för varje kategori.'
     email_in_min_trust: "Minsta förtroendenivå en användare behöver för att tillåtas skapa nya ämnen via e-post."
-    email_in_authserv_id: "Identifieraren för tjänsten som utför autentiserings kontroller av inkommande e-postmeddelanden. Se <a href='https://meta.discourse.org/t/134358'>https://meta.discourse.org/t/134358</a> för instruktioner om hur du konfigurerar detta."
+    email_in_authserv_id: "Identifieraren för tjänsten som utför autentiserings kontroller av inkommande e-postmeddelanden. Se <a href='https://forum.okse.io/t/134358'>https://forum.okse.io/t/134358</a> för instruktioner om hur du konfigurerar detta."
     email_in_spam_header: "E-postrubrik för att upptäcka skräppost."
     email_prefix: "[label] används i ämnesraden för e-post. Om ej ifylld sätts standardrubriken 'title'."
     email_site_title: "Webbplatsens titel som används som avsändare för e-post från webbplatsen. Om ej ifylld sätts standardtiteln 'title'. Använd det alternativet om din titel innehåller tecken som inte tillåts i e-post avsändarsträngar."
@@ -1784,7 +1784,7 @@ sv:
     enable_user_directory: "Tillhandahåll en bläddringsbar användarkatalog"
     enable_group_directory: "Tillhandahåll en bläddringsbar gruppkatalog"
     enable_category_group_review: " Tillåt grupper att granska innehåll i specifika kategorier"
-    group_in_subject: "Sätt ämnet %%{optional_pm} i e-post till namnet på den första gruppen i PM, se: <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>Anpassa ämnesformat för standardmeddelanden</a>"
+    group_in_subject: "Sätt ämnet %%{optional_pm} i e-post till namnet på den första gruppen i PM, se: <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>Anpassa ämnesformat för standardmeddelanden</a>"
     allow_anonymous_posting: "Tillåt användare att växla till anonymt läge"
     anonymous_posting_min_trust_level: "Lägsta förtroendenivå som krävs för att aktivera anonyma inlägg"
     anonymous_account_duration_minutes: "Skapa ett nytt anonymt konto var N minut för varje användare för att skydda anonymiteten. Exempel: om satt till 600: så snart som 600 minuter har gått sedan senaste inlägget OCH användaren väljer anon, så skapas ett nytt anonymt konto. "
@@ -1849,7 +1849,7 @@ sv:
     delete_drafts_older_than_n_days: "Ta bort utkast som är äldre än (n) dagar."
     bootstrap_mode_min_users: "Minsta antal användare som krävs för att inaktivera bootstrap-läget (ange 0 för att inaktivera)"
     prevent_anons_from_downloading_files: "Förhindra anonyma användare från att ladda ned bilagor. VARNING: det kommer att förhindra alla webbplatsens tillgångar som inte är bilder och som lagts upp som bilagor från att fungera."
-    secure_media: 'Begränsar åtkomst för ALLA uppladdningar (bilder, video, ljud, text, pdf:er, zipp med flera). Om "inloggning krävs" har aktiverats kan endast inloggade användare komma åt uppladdningar. Annars begränsas åtkomst endast till uppladdning av media i privata meddelanden samt privata kategorier. VARNING: Den här inställningen är komplex och kräver djupa administrativa kunskaper. Besök <a target="_blank" href="https://meta.discourse.org/t/secure-media-uploads/140017">ämnet för säkra media i Meta</a> för detaljer.'
+    secure_media: 'Begränsar åtkomst för ALLA uppladdningar (bilder, video, ljud, text, pdf:er, zipp med flera). Om "inloggning krävs" har aktiverats kan endast inloggade användare komma åt uppladdningar. Annars begränsas åtkomst endast till uppladdning av media i privata meddelanden samt privata kategorier. VARNING: Den här inställningen är komplex och kräver djupa administrativa kunskaper. Besök <a target="_blank" href="https://forum.okse.io/t/secure-media-uploads/140017">ämnet för säkra media i Meta</a> för detaljer.'
     slug_generation_method: "Välj en genereringsmetod för etiketter. Ange 'none' för att inaktivera generering av etiketter. "
     enable_emoji: "Aktivera emoji"
     enable_emoji_shortcuts: "Vanlig smileytext som :): p :( kommer att konverteras till emojier"
@@ -2331,7 +2331,7 @@ sv:
   new_version_mailer:
     title: "Ny version mail skrivare"
     subject_template: "[%{email_prefix}] Ny version av Okse, uppdatering tillgänglig"
-    text_body_template: "Hurra, en ny version av [Okse](http://www.discourse.org) är tillgänglig!\n\nDin version: %{installed_version}\nNy version: **%{new_version}**\n\n- Uppgradera genom att använda den enkla **[uppgraderingsknappen](%{base_url}/admin/upgrade)** \n\n- Se vad som är nytt i [uppdaterings noteringarna](https://meta.discourse.org/tag/release-notes) eller läs i [GitHubs råa ändringslogg](https://github.com/discourse/discourse/commits/master)\n\n- Besök [meta.discourse.org](http://meta.discourse.org) för att läsa de senaste nyheterna, diskutera eller få hjälp angående Okse\n"
+    text_body_template: "Hurra, en ny version av [Okse](http://www.discourse.org) är tillgänglig!\n\nDin version: %{installed_version}\nNy version: **%{new_version}**\n\n- Uppgradera genom att använda den enkla **[uppgraderingsknappen](%{base_url}/admin/upgrade)** \n\n- Se vad som är nytt i [uppdaterings noteringarna](https://forum.okse.io/tag/release-notes) eller läs i [GitHubs råa ändringslogg](https://github.com/discourse/discourse/commits/master)\n\n- Besök [forum.okse.io](http://forum.okse.io) för att läsa de senaste nyheterna, diskutera eller få hjälp angående Okse\n"
   new_version_mailer_with_notes:
     title: "Ny version mail skrivare med anteckningar"
     subject_template: "[%{email_prefix}] uppdatering tillgänglig"
@@ -2343,9 +2343,9 @@ sv:
 
       - Uppgradera genom att använda den enkla **[uppgraderingsknappen](%{base_url}/admin/upgrade)**
 
-      - Se vad som är nytt i [uppdaterings noteringarna](https://meta.discourse.org/tag/release-notes) eller läs i [GitHubs råa ändringslogg](https://github.com/discourse/discourse/commits/master)
+      - Se vad som är nytt i [uppdaterings noteringarna](https://forum.okse.io/tag/release-notes) eller läs i [GitHubs råa ändringslogg](https://github.com/discourse/discourse/commits/master)
 
-      - Besök [meta.discourse.org](http://meta.discourse.org) för att läsa de senaste nyheterna, diskutera eller få hjälp angående Okse
+      - Besök [forum.okse.io](http://forum.okse.io) för att läsa de senaste nyheterna, diskutera eller få hjälp angående Okse
 
       ### Uppdaterings noteringar
 
@@ -2465,7 +2465,7 @@ sv:
 
         Som en %{role} har du nu tillträde till <a href='%{base_url}/admin' target='_blank'>administratörspanelen</a>.
 
-        Med stor makt kommer stort ansvar. Om du är ny med att moderera, se [Moderationsguiden](https://meta.discourse.org/t/discourse-moderation-guide/63116).
+        Med stor makt kommer stort ansvar. Om du är ny med att moderera, se [Moderationsguiden](https://forum.okse.io/t/discourse-moderation-guide/63116).
     welcome_invite:
       title: "Välkomst invitation"
       subject_template: "Välkommen till %{site_name}!"
@@ -3612,10 +3612,10 @@ sv:
       button: "Registrera"
       title: "Registrera ett admin konto"
       help: "registrera en nytt konto för att kunna starta"
-      no_emails: "Olyckligtvis har inga administratörers e-post angetts under installation, så att slutföra konfigureringen kan bli svårt. Vänligen lägg till en utvecklares e-post i konfigurationsfilen eller <a href='https://meta.discourse.org/t/create-admin-account-from-console/17274'>skapa ett administratörskonto från konsolen</a>."
+      no_emails: "Olyckligtvis har inga administratörers e-post angetts under installation, så att slutföra konfigureringen kan bli svårt. Vänligen lägg till en utvecklares e-post i konfigurationsfilen eller <a href='https://forum.okse.io/t/create-admin-account-from-console/17274'>skapa ett administratörskonto från konsolen</a>."
     confirm_email:
       title: "Bekräfta er email"
-      message: "<p>Vi skickade ett e-post med aktivering till <b>%{email}</b>. Var god följ instruktionerna i e-postmeddelandet för att aktivera ditt konto.</p><p>Om du inte mottog e-posten, kontrollera skräpposten, och <a href='https://meta.discourse.org/t/troubleshooting-email-on-a-new-discourse-install/16326'>försäkra dig om att du har satt upp e-posten korrekt</a>.</p>"
+      message: "<p>Vi skickade ett e-post med aktivering till <b>%{email}</b>. Var god följ instruktionerna i e-postmeddelandet för att aktivera ditt konto.</p><p>Om du inte mottog e-posten, kontrollera skräpposten, och <a href='https://forum.okse.io/t/troubleshooting-email-on-a-new-discourse-install/16326'>försäkra dig om att du har satt upp e-posten korrekt</a>.</p>"
     resend_email:
       title: "Återsänd aktiverings emial"
       message: "<p>Vi har sänt om aktiveringsbrevet till <b>%{email}</b>"
@@ -3708,7 +3708,7 @@ sv:
         title: "Tema"
       themes_further_reading:
         title: "Teman"
-        description: "Letar du efter möjligheter att anpassa din Discource? Ta fördel av vårt kraftfullt temasystem: <ul> <li><a href='https://meta.discourse.org/t/63682' target='_blank'>Hur installerar jag ett tema eller en temakomponent?</a></li> <li><a href='https://meta.discourse.org/t/110448' target='_blank'>Snabbreferensguide för Temautvecklare</a></li> </ul> Populära temakomponenter (för mer, besök<a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#theme</a>)"
+        description: "Letar du efter möjligheter att anpassa din Discource? Ta fördel av vårt kraftfullt temasystem: <ul> <li><a href='https://forum.okse.io/t/63682' target='_blank'>Hur installerar jag ett tema eller en temakomponent?</a></li> <li><a href='https://forum.okse.io/t/110448' target='_blank'>Snabbreferensguide för Temautvecklare</a></li> </ul> Populära temakomponenter (för mer, besök<a href='https://forum.okse.io/c/theme/l/latest' target='_blank'>#theme</a>)"
       logos:
         title: "Logotyper"
         fields:

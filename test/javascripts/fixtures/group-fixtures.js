@@ -58,13 +58,13 @@ export default {
         id: 2,
         username: "bruce1",
         avatar_template:
-          "/user_avatar/meta.discourse.org/bruce1/{size}/5245.png"
+          "/user_avatar/forum.okse.io/bruce1/{size}/5245.png"
       },
       {
         id: 1,
         username: "bruce0",
         avatar_template:
-          "/user_avatar/meta.discourse.org/bruce0/{size}/5245.png"
+          "/user_avatar/forum.okse.io/bruce0/{size}/5245.png"
       }
     ],
     primary_groups: [],
@@ -168,7 +168,7 @@ export default {
         username: "awesomerobot",
         uploaded_avatar_id: 33872,
         avatar_template:
-          "/user_avatar/meta.discourse.org/awesomerobot/{size}/33872.png",
+          "/user_avatar/forum.okse.io/awesomerobot/{size}/33872.png",
         name: "",
         last_seen_at: "2015-01-23T15:53:17.844Z"
       },
@@ -177,7 +177,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png",
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png",
         name: "Jeff Atwood",
         last_seen_at: "2015-01-23T06:05:25.457Z"
       },
@@ -186,7 +186,7 @@ export default {
         username: "eviltrout",
         uploaded_avatar_id: 5275,
         avatar_template:
-          "/user_avatar/meta.discourse.org/eviltrout/{size}/5275.png",
+          "/user_avatar/forum.okse.io/eviltrout/{size}/5275.png",
         name: "Robin Ward",
         last_seen_at: "2015-01-23T16:03:45.098Z"
       },
@@ -194,7 +194,7 @@ export default {
         id: 2,
         username: "neil",
         uploaded_avatar_id: 5245,
-        avatar_template: "/user_avatar/meta.discourse.org/neil/{size}/5245.png",
+        avatar_template: "/user_avatar/forum.okse.io/neil/{size}/5245.png",
         name: "Neil Lalonde",
         last_seen_at: "2015-01-23T15:22:10.244Z"
       },
@@ -202,7 +202,7 @@ export default {
         id: 1,
         username: "sam",
         uploaded_avatar_id: 5243,
-        avatar_template: "/user_avatar/meta.discourse.org/sam/{size}/5243.png",
+        avatar_template: "/user_avatar/forum.okse.io/sam/{size}/5243.png",
         name: "Sam Saffron",
         last_seen_at: "2015-01-23T11:07:06.233Z"
       },
@@ -211,7 +211,7 @@ export default {
         username: "supermathie",
         uploaded_avatar_id: 34097,
         avatar_template:
-          "/user_avatar/meta.discourse.org/supermathie/{size}/34097.png",
+          "/user_avatar/forum.okse.io/supermathie/{size}/34097.png",
         name: "Michael Brown",
         last_seen_at: "2015-01-22T05:16:42.254Z"
       },
@@ -220,7 +220,7 @@ export default {
         username: "zogstrip",
         uploaded_avatar_id: 8630,
         avatar_template:
-          "/user_avatar/meta.discourse.org/zogstrip/{size}/8630.png",
+          "/user_avatar/forum.okse.io/zogstrip/{size}/8630.png",
         name: "Régis Hanol",
         last_seen_at: "2015-01-23T15:45:34.196Z"
       }
@@ -280,7 +280,7 @@ export default {
         username: "awesomerobot",
         uploaded_avatar_id: 33872,
         avatar_template:
-          "/user_avatar/meta.discourse.org/awesomerobot/{size}/33872.png"
+          "/user_avatar/forum.okse.io/awesomerobot/{size}/33872.png"
       }
     },
     {
@@ -331,7 +331,7 @@ export default {
         username: "awesomerobot",
         uploaded_avatar_id: 33872,
         avatar_template:
-          "/user_avatar/meta.discourse.org/awesomerobot/{size}/33872.png"
+          "/user_avatar/forum.okse.io/awesomerobot/{size}/33872.png"
       }
     },
     {
@@ -382,7 +382,7 @@ export default {
         username: "awesomerobot",
         uploaded_avatar_id: 33872,
         avatar_template:
-          "/user_avatar/meta.discourse.org/awesomerobot/{size}/33872.png"
+          "/user_avatar/forum.okse.io/awesomerobot/{size}/33872.png"
       }
     },
     {
@@ -434,7 +434,7 @@ export default {
         username: "zogstrip",
         uploaded_avatar_id: 8630,
         avatar_template:
-          "/user_avatar/meta.discourse.org/zogstrip/{size}/8630.png"
+          "/user_avatar/forum.okse.io/zogstrip/{size}/8630.png"
       }
     },
     {
@@ -486,7 +486,7 @@ export default {
         username: "zogstrip",
         uploaded_avatar_id: 8630,
         avatar_template:
-          "/user_avatar/meta.discourse.org/zogstrip/{size}/8630.png"
+          "/user_avatar/forum.okse.io/zogstrip/{size}/8630.png"
       }
     },
     {
@@ -538,7 +538,7 @@ export default {
         username: "zogstrip",
         uploaded_avatar_id: 8630,
         avatar_template:
-          "/user_avatar/meta.discourse.org/zogstrip/{size}/8630.png"
+          "/user_avatar/forum.okse.io/zogstrip/{size}/8630.png"
       }
     },
     {
@@ -592,7 +592,7 @@ export default {
         username: "zogstrip",
         uploaded_avatar_id: 8630,
         avatar_template:
-          "/user_avatar/meta.discourse.org/zogstrip/{size}/8630.png"
+          "/user_avatar/forum.okse.io/zogstrip/{size}/8630.png"
       }
     },
     {
@@ -644,7 +644,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -696,7 +696,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -748,7 +748,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -800,7 +800,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -852,7 +852,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -878,7 +878,7 @@ export default {
         topics_week: 1,
         slug: "meta",
         description:
-          "Discussion about meta.discourse.org itself, the organization of this forum about Discourse, how it works, and how we can improve this site.",
+          "Discussion about forum.okse.io itself, the organization of this forum about Discourse, how it works, and how we can improve this site.",
         text_color: "FFFFFF",
         read_restricted: false,
         auto_close_hours: null,
@@ -904,7 +904,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -956,7 +956,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -1008,7 +1008,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -1060,7 +1060,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -1114,7 +1114,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -1166,7 +1166,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -1218,7 +1218,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     },
     {
@@ -1270,7 +1270,7 @@ export default {
         username: "codinghorror",
         uploaded_avatar_id: 5297,
         avatar_template:
-          "/user_avatar/meta.discourse.org/codinghorror/{size}/5297.png"
+          "/user_avatar/forum.okse.io/codinghorror/{size}/5297.png"
       }
     }
   ]

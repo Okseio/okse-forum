@@ -672,7 +672,7 @@ kbd {
   // don't allow more than 3 nested elements to prevent FF from crashing
   // cf. http://what.thedailywtf.com/t/nested-elements/7927
   // 3 levels are needed to prevent highlighted words being hidden
-  // cf. https://meta.discourse.org/t/word-disappears-when-searched-and-in-details-summary-kbd-b/25741
+  // cf. https://forum.okse.io/t/word-disappears-when-searched-and-in-details-summary-kbd-b/25741
   * * * {
     display: none;
   }

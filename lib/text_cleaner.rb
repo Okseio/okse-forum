@@ -10,7 +10,7 @@ require 'active_support/core_ext/string/multibyte'
 class TextCleaner
 
   def self.title_options
-    # cf. http://meta.discourse.org/t/should-we-have-auto-replace-rules-in-titles/5687
+    # cf. http://forum.okse.io/t/should-we-have-auto-replace-rules-in-titles/5687
     {
       deduplicate_exclamation_marks: SiteSetting.title_prettify,
       deduplicate_question_marks: SiteSetting.title_prettify,

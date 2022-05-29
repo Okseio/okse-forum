@@ -15,12 +15,12 @@ For example:
 
 ## Installation
 
-Follow our [Install a Plugin](https://meta.discourse.org/t/install-a-plugin/19157) howto, using
+Follow our [Install a Plugin](https://forum.okse.io/t/install-a-plugin/19157) howto, using
 `git clone https://github.com/discourse/discourse-details.git` as the plugin command.
 
 ## Issues
 
-If you have issues or suggestions for the plugin, please bring them up on [Discourse Meta](https://meta.discourse.org).
+If you have issues or suggestions for the plugin, please bring them up on [Discourse Meta](https://forum.okse.io).
 
 ## License
 

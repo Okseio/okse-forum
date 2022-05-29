@@ -29,12 +29,12 @@ To add additional staff members:
 
 Users can log in with traditional local username and password accounts. You may want to add:
 
-- [Google logins](https://meta.discourse.org/t/configuring-google-oauth2-login-for-discourse/15858)
-- [Twitter logins](https://meta.discourse.org/t/configuring-twitter-login-for-discourse/13395)
-- [Facebook logins](https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394)
-- [GitHub logins](https://meta.discourse.org/t/configuring-github-login-for-discourse/13745)
+- [Google logins](https://forum.okse.io/t/configuring-google-oauth2-login-for-discourse/15858)
+- [Twitter logins](https://forum.okse.io/t/configuring-twitter-login-for-discourse/13395)
+- [Facebook logins](https://forum.okse.io/t/configuring-facebook-login-for-discourse/13394)
+- [GitHub logins](https://forum.okse.io/t/configuring-github-login-for-discourse/13745)
 
-You can also [set up single-sign on](https://meta.discourse.org/t/official-single-sign-on-for-discourse/13045), or even [build your own login method](https://meta.discourse.org/t/login-to-discourse-with-custom-oauth2-provider/14717).
+You can also [set up single-sign on](https://forum.okse.io/t/official-single-sign-on-for-discourse/13045), or even [build your own login method](https://forum.okse.io/t/login-to-discourse-with-custom-oauth2-provider/14717).
 
 ### Test Your Email
 
@@ -44,13 +44,13 @@ Email is required for new account signups and notifications. **Test your email t
 - You didn't get the test email? This means your users probably aren't getting any signup or notification emails either.
 - Email deliverability can be hard. Read [**Email Service Configuration**](https://github.com/discourse/discourse/blob/master/docs/INSTALL-email.md).
 
-If you'd like to enable *replying* to topics via email, [see this howto](https://meta.discourse.org/t/set-up-reply-via-email-support/14003).
+If you'd like to enable *replying* to topics via email, [see this howto](https://forum.okse.io/t/set-up-reply-via-email-support/14003).
 
 ### Categories
 
 You have three default categories:
 
-1. [Site Feedback](/category/site-feedback) – general discussion about the site itself. [It's important!](https://meta.discourse.org/t/5249)
+1. [Site Feedback](/category/site-feedback) – general discussion about the site itself. [It's important!](https://forum.okse.io/t/5249)
 2. [Lounge](/category/lounge) – a perk for users at trust level 3 and higher
 3. [Staff](/category/staff) – visible only to staff (admins and moderators)
 
@@ -111,7 +111,7 @@ One way to get people to visit your site is to invite them via email. You can do
 - The Invite button at the bottom of the topic.
 - The Invite area on your profile page.
 
-The invite area on your profile page also includes advanced Staff methods of [sending bulk invites](https://meta.discourse.org/t/sending-bulk-user-invites/16468), and [inviting users into groups](https://meta.discourse.org/t/invite-individual-users-to-a-group/15544).
+The invite area on your profile page also includes advanced Staff methods of [sending bulk invites](https://forum.okse.io/t/sending-bulk-user-invites/16468), and [inviting users into groups](https://forum.okse.io/t/invite-individual-users-to-a-group/15544).
 
 ### Maintenance
 
@@ -122,21 +122,21 @@ The invite area on your profile page also includes advanced Staff methods of [se
 - You should get an email notification when new versions of Discourse are released. To update your instance via our easy one click upgrade process, visit [/admin/upgrade](/admin/upgrade).
 
 - Some other things you might eventually want to set up:
-   - [Automatic daily backups](https://meta.discourse.org/t/configure-automatic-backups-for-discourse/14855)
-   - [HTTPS support](https://meta.discourse.org/t/allowing-ssl-for-your-discourse-docker-setup/13847)
-   - [Content Delivery Network support](https://meta.discourse.org/t/enable-a-cdn-for-your-discourse/14857)
-   - [Reply via Email](https://meta.discourse.org/t/set-up-reply-via-email-support/14003)
-   - [Import and Export your data](https://meta.discourse.org/t/move-your-discourse-instance-to-a-different-server/15721)
-   - [Change the domain name](https://meta.discourse.org/t/how-do-i-change-the-domain-name/16098)
-   - [Multiple Discourse instances on the same server](https://meta.discourse.org/t/multisite-configuration-with-docker/14084)
+   - [Automatic daily backups](https://forum.okse.io/t/configure-automatic-backups-for-discourse/14855)
+   - [HTTPS support](https://forum.okse.io/t/allowing-ssl-for-your-discourse-docker-setup/13847)
+   - [Content Delivery Network support](https://forum.okse.io/t/enable-a-cdn-for-your-discourse/14857)
+   - [Reply via Email](https://forum.okse.io/t/set-up-reply-via-email-support/14003)
+   - [Import and Export your data](https://forum.okse.io/t/move-your-discourse-instance-to-a-different-server/15721)
+   - [Change the domain name](https://forum.okse.io/t/how-do-i-change-the-domain-name/16098)
+   - [Multiple Discourse instances on the same server](https://forum.okse.io/t/multisite-configuration-with-docker/14084)
    - [Import old content from vBulletin, PHPbb, Vanilla, Drupal, BBPress, etc](https://github.com/discourse/discourse/tree/master/script/import_scripts)
-   - A firewall on your server? [Configure firewall](https://meta.discourse.org/t/configure-a-firewall-for-discourse/20584).
-   - A user friendly [offline page when rebuilding or upgrading?](https://meta.discourse.org/t/adding-an-offline-page-when-rebuilding/45238)
-   - Embed Discourse [in your WordPress install](https://github.com/discourse/wp-discourse), or [on your static HTML site](https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963)
+   - A firewall on your server? [Configure firewall](https://forum.okse.io/t/configure-a-firewall-for-discourse/20584).
+   - A user friendly [offline page when rebuilding or upgrading?](https://forum.okse.io/t/adding-an-offline-page-when-rebuilding/45238)
+   - Embed Discourse [in your WordPress install](https://github.com/discourse/wp-discourse), or [on your static HTML site](https://forum.okse.io/t/embedding-discourse-comments-via-javascript/31963)
 
 ### Need more Help?
 
-For more assistance on configuring and running your Discourse forum, see [meta.discourse.org](https://meta.discourse.org).
+For more assistance on configuring and running your Discourse forum, see [forum.okse.io](https://forum.okse.io).
 
 ----
 

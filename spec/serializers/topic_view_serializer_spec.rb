@@ -19,7 +19,7 @@ describe TopicViewSerializer do
   fab!(:admin) { Fabricate(:admin) }
 
   describe '#featured_link and #featured_link_root_domain' do
-    let(:featured_link) { 'http://meta.discourse.org' }
+    let(:featured_link) { 'http://forum.okse.io' }
 
     describe 'when topic featured link is disable' do
       it 'should return the right attributes' do

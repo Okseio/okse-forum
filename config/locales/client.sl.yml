@@ -1125,7 +1125,7 @@ sl:
         invite_link:
           success: "Povezava s povabilom ustvarjena!"
         bulk_invite:
-          none: "Niste povabili še nikogar. Pošljite posamična povabila ali povabite več oseb naenkrat tako da <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>naložite CSV datoteko</a>."
+          none: "Niste povabili še nikogar. Pošljite posamična povabila ali povabite več oseb naenkrat tako da <a href='https://forum.okse.io/t/send-bulk-invites/16468'>naložite CSV datoteko</a>."
           success: "Datoteka uspešno prenešena. Obveščeni boste, ko je postopek zaključen."
           error: "Datoteka mora biti v CSV obliki."
           confirmation_message: "Poslali boste povabila preko e-pošte vsem iz naložene datoteke."

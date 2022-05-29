@@ -13,7 +13,7 @@ RSpec.describe UrlValidator do
     "http://google/",
     "ftp://ftp.google.com",
     "http:///what.is.this",
-    'http://meta.discourse.org TEST'
+    'http://forum.okse.io TEST'
   ].each do |invalid_url|
     it "#{invalid_url} should not be valid" do
       record.website = invalid_url

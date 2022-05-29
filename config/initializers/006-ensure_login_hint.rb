@@ -10,7 +10,7 @@ begin
 
     notice =
       if GlobalSetting.developer_emails.blank?
-        "Congratulations, you installed Okse forum! Unfortunately, no administrator emails were defined during setup, so finalizing the configuration <a href='https://meta.discourse.org/t/create-admin-account-from-console/17274'>may be difficult</a>."
+        "Congratulations, you installed Okse forum! Unfortunately, no administrator emails were defined during setup, so finalizing the configuration <a href='https://forum.okse.io/t/create-admin-account-from-console/17274'>may be difficult</a>."
       else
         emails = GlobalSetting.developer_emails.split(",")
         if emails.length > 1

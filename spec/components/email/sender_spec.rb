@@ -92,7 +92,7 @@ describe Email::Sender do
     end
 
     it "parses hosts from urls" do
-      expect(Email::Sender.host_for("http://meta.discourse.org")).to eq("meta.discourse.org")
+      expect(Email::Sender.host_for("http://forum.okse.io")).to eq("forum.okse.io")
     end
 
     it "downcases hosts" do

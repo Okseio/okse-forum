@@ -9,7 +9,7 @@
 #
 #   tx push -s
 #
-# Read more here: https://meta.discourse.org/t/contribute-a-translation-to-discourse/14882
+# Read more here: https://forum.okse.io/t/contribute-a-translation-to-discourse/14882
 #
 # To validate this YAML file after you change it, please paste it into
 # http://yamllint.com/
@@ -211,7 +211,7 @@ en:
       second_factor_cannot_be_enforced_with_disabled_local_login: "You cannot enforce 2FA if local logins are disabled."
       local_login_cannot_be_disabled_if_second_factor_enforced: "You cannot disable local login if 2FA is enforced. Disable enforced 2FA before disabling local logins."
       cannot_enable_s3_uploads_when_s3_enabled_globally: "You cannot enable S3 uploads because S3 uploads are already globally enabled, and enabling this site-level could cause critical issues with uploads"
-    conflicting_google_user_id: 'The Google Account ID for this account has changed; staff intervention is required for security reasons. Please contact staff and point them to <br><a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'The Google Account ID for this account has changed; staff intervention is required for security reasons. Please contact staff and point them to <br><a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
 
   activemodel:
     errors:
@@ -1394,12 +1394,12 @@ en:
     sidekiq_warning: 'Sidekiq is not running. Many tasks, like sending emails, are executed asynchronously by sidekiq. Please ensure at least one sidekiq process is running. <a href="https://github.com/mperham/sidekiq" target="_blank">Learn about Sidekiq here</a>.'
     queue_size_warning: "The number of queued jobs is %{queue_size}, which is high. This could indicate a problem with the Sidekiq process(es), or you may need to add more Sidekiq workers."
     memory_warning: "Your server is running with less than 1 GB of total memory. At least 1 GB of memory is recommended."
-    google_oauth2_config_warning: 'The server is configured to allow signup and log in with Google OAuth2 (enable_google_oauth2_logins), but the client id and client secret values are not set. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">See this guide to learn more</a>.'
-    facebook_config_warning: 'The server is configured to allow signup and log in with Facebook (enable_facebook_logins), but the app id and app secret values are not set. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394" target="_blank">See this guide to learn more</a>.'
-    twitter_config_warning: 'The server is configured to allow signup and log in with Twitter (enable_twitter_logins), but the key and secret values are not set. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://meta.discourse.org/t/configuring-twitter-login-for-discourse/13395" target="_blank">See this guide to learn more</a>.'
-    github_config_warning: 'The server is configured to allow signup and log in with GitHub (enable_github_logins), but the client id and secret values are not set. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://meta.discourse.org/t/configuring-github-login-for-discourse/13745" target="_blank">See this guide to learn more</a>.'
-    s3_config_warning: 'The server is configured to upload files to S3, but at least one the following setting is not set: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_upload_bucket. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">See "How to set up image uploads to S3?" to learn more</a>.'
-    s3_backup_config_warning: 'The server is configured to upload backups to S3, but at least one the following setting is not set: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_backup_bucket. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">See "How to set up image uploads to S3?" to learn more</a>.'
+    google_oauth2_config_warning: 'The server is configured to allow signup and log in with Google OAuth2 (enable_google_oauth2_logins), but the client id and client secret values are not set. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">See this guide to learn more</a>.'
+    facebook_config_warning: 'The server is configured to allow signup and log in with Facebook (enable_facebook_logins), but the app id and app secret values are not set. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://forum.okse.io/t/configuring-facebook-login-for-discourse/13394" target="_blank">See this guide to learn more</a>.'
+    twitter_config_warning: 'The server is configured to allow signup and log in with Twitter (enable_twitter_logins), but the key and secret values are not set. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://forum.okse.io/t/configuring-twitter-login-for-discourse/13395" target="_blank">See this guide to learn more</a>.'
+    github_config_warning: 'The server is configured to allow signup and log in with GitHub (enable_github_logins), but the client id and secret values are not set. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://forum.okse.io/t/configuring-github-login-for-discourse/13745" target="_blank">See this guide to learn more</a>.'
+    s3_config_warning: 'The server is configured to upload files to S3, but at least one the following setting is not set: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_upload_bucket. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">See "How to set up image uploads to S3?" to learn more</a>.'
+    s3_backup_config_warning: 'The server is configured to upload backups to S3, but at least one the following setting is not set: s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, or s3_backup_bucket. Go to <a href="%{base_path}/admin/site_settings">the Site Settings</a> and update the settings. <a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">See "How to set up image uploads to S3?" to learn more</a>.'
     image_magick_warning: 'The server is configured to create thumbnails of large images, but ImageMagick is not installed. Install ImageMagick using your favorite package manager or <a href="https://www.imagemagick.org/script/download.php" target="_blank">download the latest release</a>.'
     failing_emails_warning: 'There are %{num_failed_jobs} email jobs that failed. Check your app.yml and ensure that the mail server settings are correct. <a href="%{base_path}/sidekiq/retries" target="_blank">See the failed jobs in Sidekiq</a>.'
     subfolder_ends_in_slash: "Your subfolder setup is incorrect; the DISCOURSE_RELATIVE_URL_ROOT ends in a slash."
@@ -1408,8 +1408,8 @@ en:
       other: "Email polling has generated %{count} errors in the past 24 hours. Look at <a href='%{base_path}/logs' target='_blank'>the logs</a> for more details."
     missing_mailgun_api_key: "The server is configured to send emails via Mailgun but you haven't provided an API key used to verify the webhook messages."
     bad_favicon_url: "The favicon is failing to load. Check your favicon setting in <a href='%{base_path}/admin/site_settings'>Site Settings</a>."
-    deprecated_api_usage: "We detected an API request using a deprecated authentication method. Please update it to use <a href='https://meta.discourse.org/t/-/22706'>header based auth</a>. After updating this message may take 24 hours to disappear."
-    update_mail_receiver: "We detected an outdated version of mail-receiver. Click <a href='https://meta.discourse.org/t/-/133491'>here</a> for update instructions. After updating this message may take 24 hours to disappear."
+    deprecated_api_usage: "We detected an API request using a deprecated authentication method. Please update it to use <a href='https://forum.okse.io/t/-/22706'>header based auth</a>. After updating this message may take 24 hours to disappear."
+    update_mail_receiver: "We detected an outdated version of mail-receiver. Click <a href='https://forum.okse.io/t/-/133491'>here</a> for update instructions. After updating this message may take 24 hours to disappear."
     poll_pop3_timeout: "Connection to the POP3 server is timing out. Incoming email could not be retrieved. Please check your <a href='%{base_path}/admin/site_settings/category/email'>POP3 settings</a> and service provider."
     poll_pop3_auth_error: "Connection to the POP3 server is failing with an authentication error. Please check your <a href='%{base_path}/admin/site_settings/category/email'>POP3 settings</a>."
     force_https_warning: "Your website is using SSL. But `<a href='%{base_path}/admin/site_settings/category/all_results?filter=force_https'>force_https</a>` is not yet enabled in your site settings."
@@ -1501,7 +1501,7 @@ en:
 
     notification_email: "The from: email address used when sending all essential system emails. The domain specified here must have SPF, DKIM and reverse PTR records set correctly for email to arrive."
     email_custom_headers: "A pipe-delimited list of custom email headers"
-    email_subject: "Customizable subject format for standard emails. See <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801</a>"
+    email_subject: "Customizable subject format for standard emails. See <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801</a>"
     detailed_404: "Provides more details to users about why they can’t access a particular topic. Note: This is less secure because users will know if a URL links to a valid topic."
     enforce_second_factor: "Forces users to enable second factor authentication. Select 'all' to enforce it to all users. Select 'staff' to enforce it to staff users only."
     force_https: "Force your site to use HTTPS only. WARNING: do NOT enable this until you verify HTTPS is fully set up and working absolutely everywhere! Did you check your CDN, all social logins, and any external logos / dependencies to make sure they are all HTTPS compatible, too?"
@@ -1568,7 +1568,7 @@ en:
     content_security_policy: "Enable Content-Security-Policy"
     content_security_policy_report_only: "Enable Content-Security-Policy-Report-Only"
     content_security_policy_collect_reports: "Enable CSP violation report collection at /csp_reports"
-    content_security_policy_script_src: "Additional whitelisted script sources. The current host and CDN are included by default. See <a href='https://meta.discourse.org/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>Mitigate XSS Attacks with Content Security Policy.</a>"
+    content_security_policy_script_src: "Additional whitelisted script sources. The current host and CDN are included by default. See <a href='https://forum.okse.io/t/mitigate-xss-attacks-with-content-security-policy/104243' target='_blank'>Mitigate XSS Attacks with Content Security Policy.</a>"
     invalidate_inactive_admin_email_after_days: "Admin accounts that have not visited the site in this number of days will need to re-validate their email address before logging in. Set to 0 to disable."
     top_menu: "Determine which items appear in the homepage navigation, and in what order. Example latest|new|unread|categories|top|read|posted|bookmarks"
     post_menu: "Determine which items appear on the post menu, and in what order. Example like|edit|flag|delete|share|bookmark|reply"
@@ -1648,13 +1648,13 @@ en:
     allow_new_registrations: "Allow new user registrations. Uncheck this to prevent anyone from creating a new account."
     enable_signup_cta: "Show a notice to returning anonymous users prompting them to sign up for an account."
 
-    enable_google_oauth2_logins: "Enable Google Oauth2 authentication. This is the method of authentication that Google currently supports. Requires key and secret. See <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuring Google login for Okse</a>."
+    enable_google_oauth2_logins: "Enable Google Oauth2 authentication. This is the method of authentication that Google currently supports. Requires key and secret. See <a href='https://forum.okse.io/t/15858' target='_blank'>Configuring Google login for Okse</a>."
     google_oauth2_client_id: "Client ID of your Google application."
     google_oauth2_client_secret: "Client secret of your Google application."
     google_oauth2_prompt: "An optional space-delimited list of string values that specifies whether the authorization server prompts the user for reauthentication and consent. See <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> for the possible values."
     google_oauth2_hd: "An optional Google Apps Hosted domain that the sign-in will be limited to. See <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> for more details."
 
-    enable_twitter_logins: "Enable Twitter authentication, requires twitter_consumer_key and twitter_consumer_secret. See <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Okse</a>."
+    enable_twitter_logins: "Enable Twitter authentication, requires twitter_consumer_key and twitter_consumer_secret. See <a href='https://forum.okse.io/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Okse</a>."
     twitter_consumer_key: "Consumer key for Twitter authentication, registered at <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Consumer secret for Twitter authentication, registered at <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
 
@@ -1662,18 +1662,18 @@ en:
     instagram_consumer_key: "Consumer key for Instagram authentication"
     instagram_consumer_secret: "Consumer secret Instagram authentication"
 
-    enable_facebook_logins: "Enable Facebook authentication, requires facebook_app_id and facebook_app_secret. See <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuring Facebook login for Okse</a>."
+    enable_facebook_logins: "Enable Facebook authentication, requires facebook_app_id and facebook_app_secret. See <a href='https://forum.okse.io/t/13394' target='_blank'>Configuring Facebook login for Okse</a>."
     facebook_app_id: "App id for Facebook authentication, registered at <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "App secret for Facebook authentication, registered at <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
 
-    enable_github_logins: "Enable Github authentication, requires github_client_id and github_client_secret. See <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuring GitHub login for Okse</a>."
+    enable_github_logins: "Enable Github authentication, requires github_client_id and github_client_secret. See <a href='https://forum.okse.io/t/13745' target='_blank'>Configuring GitHub login for Okse</a>."
     github_client_id: "Client id for Github authentication, registered at <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "Client secret for Github authentication, registered at <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
 
     enable_discord_logins: "Allow users to authenticate using Discord?"
     discord_client_id: 'Discord Client ID (need one? visit <a href="https://discordapp.com/developers/applications/me">the Discord developer portal</a>)'
     discord_secret: "Discord Secret Key"
-    discord_trusted_guilds: 'Only allow members of these Discord guilds to login via Discord. Use the numeric ID for the guild. For more information, check the instructions <a href="https://meta.discourse.org/t/configuring-discord-login-for-discourse/127129">here</a>. Leave blank to allow any guild.'
+    discord_trusted_guilds: 'Only allow members of these Discord guilds to login via Discord. Use the numeric ID for the guild. For more information, check the instructions <a href="https://forum.okse.io/t/configuring-discord-login-for-discourse/127129">here</a>. Leave blank to allow any guild.'
 
     enable_backups: "Allow administrators to create backups of the forum"
     allow_restore: "Allow restore, which can replace ALL site data! Leave false unless you plan to restore a backup"
@@ -1962,7 +1962,7 @@ en:
     log_mail_processing_failures: "Log all email processing failures to <a href='%{base_path}/logs' target='_blank'>/logs</a>"
     email_in: 'Allow users to post new topics via email (requires manual or pop3 polling). Configure the addresses in the "Settings" tab of each category.'
     email_in_min_trust: "The minimum trust level a user needs to have to be allowed to post new topics via email."
-    email_in_authserv_id: "The identifier of the service doing authentication checks on incoming emails. See <a href='https://meta.discourse.org/t/134358'>https://meta.discourse.org/t/134358</a> for instructions on how to configure this."
+    email_in_authserv_id: "The identifier of the service doing authentication checks on incoming emails. See <a href='https://forum.okse.io/t/134358'>https://forum.okse.io/t/134358</a> for instructions on how to configure this."
     email_in_spam_header: "The email header to detect spam."
     email_prefix: "The [label] used in the subject of emails. It will default to 'title' if not set."
     email_site_title: "The title of the site used as the sender of emails from the site. Default to 'title' if not set. If your 'title' contains characters that are not allowed in email sender strings, use this setting."
@@ -2003,7 +2003,7 @@ en:
     enable_user_directory: "Provide a directory of users for browsing"
     enable_group_directory: "Provide a directory of groups for browsing"
     enable_category_group_review: "Allow groups to review content in specific categories"
-    group_in_subject: "Set %%{optional_pm} in email subject to name of first group in PM, see: <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>Customize subject format for standard emails</a>"
+    group_in_subject: "Set %%{optional_pm} in email subject to name of first group in PM, see: <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>Customize subject format for standard emails</a>"
     allow_anonymous_posting: "Allow users to switch to anonymous mode"
     anonymous_posting_min_trust_level: "Minimum trust level required to enable anonymous posting"
     anonymous_account_duration_minutes: "To protect anonymity create a new anonymous account every N minutes for each user. Example: if set to 600, as soon as 600 minutes elapse from last post AND user switches to anon, a new anonymous account is created."
@@ -2105,7 +2105,7 @@ en:
     bootstrap_mode_min_users: "Minimum number of users required to disable bootstrap mode (set to 0 to disable)"
 
     prevent_anons_from_downloading_files: "Prevent anonymous users from downloading attachments. WARNING: this will prevent any non-image site assets posted as attachments from working."
-    secure_media: 'Limits access to ALL uploads (images, video, audio, text, pdfs, zips, and others). If “login required” is enabled, only logged-in users can access uploads. Otherwise, access will be limited only for media uploads in private messages and private categories. WARNING: This setting is complex and requires deep administrative understanding. See <a target="_blank" href="https://meta.discourse.org/t/secure-media-uploads/140017">the secure media topic on Meta</a> for details.'
+    secure_media: 'Limits access to ALL uploads (images, video, audio, text, pdfs, zips, and others). If “login required” is enabled, only logged-in users can access uploads. Otherwise, access will be limited only for media uploads in private messages and private categories. WARNING: This setting is complex and requires deep administrative understanding. See <a target="_blank" href="https://forum.okse.io/t/secure-media-uploads/140017">the secure media topic on Meta</a> for details.'
     slug_generation_method: "Choose a slug generation method. 'encoded' will generate percent encoding string. 'none' will disable slug at all."
 
     enable_emoji: "Enable emoji"
@@ -2659,9 +2659,9 @@ en:
 
       - Upgrade using our easy **[one-click browser upgrade](%{base_url}/admin/upgrade)**
 
-      - See what's new in the [release notes](https://meta.discourse.org/tag/release-notes) or view the [raw GitHub changelog](https://github.com/discourse/discourse/commits/master)
+      - See what's new in the [release notes](https://forum.okse.io/tag/release-notes) or view the [raw GitHub changelog](https://github.com/discourse/discourse/commits/master)
 
-      - Visit [meta.discourse.org](https://meta.discourse.org) for news, discussion, and support for Okse
+      - Visit [forum.okse.io](https://forum.okse.io) for news, discussion, and support for Okse
 
   new_version_mailer_with_notes:
     title: "New Version Mailer with Notes"
@@ -2674,9 +2674,9 @@ en:
 
       - Upgrade using our easy **[one-click browser upgrade](%{base_url}/admin/upgrade)**
 
-      - See what's new in the [release notes](https://meta.discourse.org/tag/release-notes) or view the [raw GitHub changelog](https://github.com/discourse/discourse/commits/master)
+      - See what's new in the [release notes](https://forum.okse.io/tag/release-notes) or view the [raw GitHub changelog](https://github.com/discourse/discourse/commits/master)
 
-      - Visit [meta.discourse.org](https://meta.discourse.org) for news, discussion, and support for Okse
+      - Visit [forum.okse.io](https://forum.okse.io) for news, discussion, and support for Okse
 
       ### Release notes
 
@@ -2807,7 +2807,7 @@ en:
 
         As a %{role}, you now have access to the <a href='%{base_url}/admin' target='_blank'>admin interface</a>.
 
-        With great power comes great responsibility. If you’re new to moderating, please refer to the [Moderation Guide](https://meta.discourse.org/t/discourse-moderation-guide/63116).
+        With great power comes great responsibility. If you’re new to moderating, please refer to the [Moderation Guide](https://forum.okse.io/t/discourse-moderation-guide/63116).
     welcome_invite:
       title: "Welcome Invite"
       subject_template: "Welcome to %{site_name}!"
@@ -4532,10 +4532,10 @@ en:
       button: "Register"
       title: "Register Admin Account"
       help: "register a new account to get started"
-      no_emails: "Unfortunately, no administrator emails were defined during setup, so finalizing the configuration may be difficult. Please add a developer email in the configuration file or <a href='https://meta.discourse.org/t/create-admin-account-from-console/17274'>create an administrator account from console</a>."
+      no_emails: "Unfortunately, no administrator emails were defined during setup, so finalizing the configuration may be difficult. Please add a developer email in the configuration file or <a href='https://forum.okse.io/t/create-admin-account-from-console/17274'>create an administrator account from console</a>."
     confirm_email:
       title: "Confirm your Email"
-      message: "<p>We sent an activation mail to <b>%{email}</b>. Please follow the instructions in the email to activate your account.</p><p>If it doesn't arrive, check your spam folder, and <a href='https://meta.discourse.org/t/troubleshooting-email-on-a-new-discourse-install/16326'>ensure you set up email correctly</a>.</p>"
+      message: "<p>We sent an activation mail to <b>%{email}</b>. Please follow the instructions in the email to activate your account.</p><p>If it doesn't arrive, check your spam folder, and <a href='https://forum.okse.io/t/troubleshooting-email-on-a-new-discourse-install/16326'>ensure you set up email correctly</a>.</p>"
     resend_email:
       title: "Resend Activation Email"
       message: "<p>We've re-sent the activation email to <b>%{email}</b>"
@@ -4655,10 +4655,10 @@ en:
         description:
           "Looking to customize your Okse? Take advantage of our powerful theming system:
           <ul>
-          <li><a href='https://meta.discourse.org/t/63682' target='_blank'>How do I install a theme or theme component?</a></li>
-          <li><a href='https://meta.discourse.org/t/110448' target='_blank'>Theme Developer Quick Reference Guide</a></li>
+          <li><a href='https://forum.okse.io/t/63682' target='_blank'>How do I install a theme or theme component?</a></li>
+          <li><a href='https://forum.okse.io/t/110448' target='_blank'>Theme Developer Quick Reference Guide</a></li>
           </ul>
-          Popular theme components (for more, browse <a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#theme</a>)"
+          Popular theme components (for more, browse <a href='https://forum.okse.io/c/theme/l/latest' target='_blank'>#theme</a>)"
 
       logos:
         title: "Logos"

@@ -152,7 +152,7 @@ zh_TW:
       enable_s3_uploads_is_required: "您無法啟用資料庫到 S3，除非您已啟用了 S3 的上傳檔案。"
       s3_backup_requires_s3_settings: "您無法使用 S3 作為備份地址，除非您提供了 '%{setting_name}'。"
       s3_bucket_reused: "不能把同一個 Amazon bucket 同時使用 ‘s3_upload_bucket’ 及 ‘s3_backup_bucket’。請選擇不同的 bucket 或指定將每個 bucket 設定不同的路徑。"
-    conflicting_google_user_id: '此 Google 帳戶 ID 出於安全原因已更改，請聯絡管理人員並將其<br><a href="https://meta.discourse.org/t/76575">指向 https://meta.discourse.org/t/76575 </a>'
+    conflicting_google_user_id: '此 Google 帳戶 ID 出於安全原因已更改，請聯絡管理人員並將其<br><a href="https://forum.okse.io/t/76575">指向 https://forum.okse.io/t/76575 </a>'
   activemodel:
     errors:
       <<: *errors
@@ -484,7 +484,7 @@ zh_TW:
 
       （想瞭解關於信任等級的更多信息，[參見這個主題][trust]。請注意成員需要在將來也維持一定的選擇條件的成員才能保持在常規。）
 
-      [trust]: https://meta.discourse.org/t/what-do-user-trust-levels-do/4924
+      [trust]: https://forum.okse.io/t/what-do-user-trust-levels-do/4924
   admin_quick_start_title: "請先閱讀這個：管理員快速啟用導覽"
   category:
     topic_prefix: "對於分類：%{category} 的定義"
@@ -1120,12 +1120,12 @@ zh_TW:
     sidekiq_warning: 'Sidekiq 未有執行。很多程序, 如發送電子郵件, 需要 sidekiq 非同步 (asynchronous) 執行的。請確保至少運行一個 sidekiq 程序。<a href="https://github.com/mperham/sidekiq">瞭解 Sidekiq</a>。'
     queue_size_warning: "隊列中有較多任務，為 %{queue_size} 個。這可能是因為 Sidekiq 進程的問題導致，或者需要更多的 Sidekiq 進程。"
     memory_warning: "伺服器記憶體少於 1GB，建議配置至少 1GB 記憶體"
-    google_oauth2_config_warning: '伺服器設定為允許使用 Google Oauth2 註冊以及登入 (enable_google_oauth2_logins)，但未設定客戶端 id 和客戶端 secret 值。請至<a href="/admin/site_settings">網站設定</a>裡更改設定。<a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">參閱教學指南以了解更多資訊</a>。'
+    google_oauth2_config_warning: '伺服器設定為允許使用 Google Oauth2 註冊以及登入 (enable_google_oauth2_logins)，但未設定客戶端 id 和客戶端 secret 值。請至<a href="/admin/site_settings">網站設定</a>裡更改設定。<a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">參閱教學指南以了解更多資訊</a>。'
     facebook_config_warning: '伺服器允許使用 Facebook 帳號登入 (enable_facebook_logins), 但未有設定 app id 及 app secret values 。 請在 <a href="/admin/site_settings">網站設定</a> 裡更改設定。 <a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-facebook-logins" target="_blank">參閱設定教學指南，以了解更多資訊</a>。'
     twitter_config_warning: '伺服器允許使用 Twitter 帳號登入 (enable_twitter_logins), 但未有設定 key 和 secret values 。 請在 <a href="/admin/site_settings">網站設定</a> 裡更改設定。 <a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-twitter-logins" target="_blank">參閱設定教學指南以了解更多資訊</a>。'
     github_config_warning: '伺服器允許使用 GitHub 帳號登入 (enable_github_logins), 但未有設定 client id 和 secret values。 請在 <a href="/admin/site_settings">網站設定</a> 裡更改設定。 <a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide" target="_blank">參閱設定教學指南以了解更多資訊</a>。'
-    s3_config_warning: '伺服器被設定為上傳文件到 s3，但是至少有一個值未被設定： s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, s3_upload_bucket。到<a href="%{base_path}/admin/site_settings">網站設定</a>更新此設定。<a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">請查閱「如何設置圖片上傳至 S3」</a>.'
-    s3_backup_config_warning: '伺服器被設置為上傳備份到 s3，但是至少有一個值未被設定： s3_access_key_id, s3_secret_access_key 或 s3_upload_bucket。到<a href="%{base_path}/admin/site_settings">設定</a>更新此設定。<a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">參考如何設置圖片上傳至 S3</a>。'
+    s3_config_warning: '伺服器被設定為上傳文件到 s3，但是至少有一個值未被設定： s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, s3_upload_bucket。到<a href="%{base_path}/admin/site_settings">網站設定</a>更新此設定。<a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">請查閱「如何設置圖片上傳至 S3」</a>.'
+    s3_backup_config_warning: '伺服器被設置為上傳備份到 s3，但是至少有一個值未被設定： s3_access_key_id, s3_secret_access_key 或 s3_upload_bucket。到<a href="%{base_path}/admin/site_settings">設定</a>更新此設定。<a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">參考如何設置圖片上傳至 S3</a>。'
     image_magick_warning: '伺服器被設置為給尺寸較大的圖片縮圖，但是 ImageMagick 沒有被安裝。使用你喜愛的包裝管理器安裝 ImageMagick 或<a href="https://www.imagemagick.org/script/download.php" target="_blank">下載最新版</a>。'
     failing_emails_warning: '有 %{num_failed_jobs} 個郵件任務失敗。請檢查 app.yml 檔案是否正確配置了郵件伺服器。<a href="%{base_path}/sidekiq/retries" target="_blank">查看 Sidekiq 中失敗的任務</a>。'
     subfolder_ends_in_slash: "你的子目錄設置不正確；DISCOURSE_RELATIVE_URL_ROOT以斜杠結尾。"
@@ -1212,7 +1212,7 @@ zh_TW:
     twitter_summary_large_image: "Twitter卡 摘要大尺寸圖片卡（寬度至少應為280，高度至少為150）。 如果留空，則使用opengraph_image以生成卡片（metadata）。"
     notification_email: "這個表格：被用於發送所有重要系統郵件的郵箱地址。指定的域名必須正確設置 SPF、DKIM 和反向 PTR 記錄以發送郵件。"
     email_custom_headers: "自定義的電子郵件標題的管道分隔列表"
-    email_subject: "客製化自訂郵件標題格式，請參閱 <a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801</a>"
+    email_subject: "客製化自訂郵件標題格式，請參閱 <a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801</a>"
     enforce_second_factor: "強制使用者啟用身份驗證。選擇 \"全部\" 將對所有使用者強制實施。選擇 \"工作人員\" 僅對工作人員使用者強制執行。"
     force_https: "強制使用 https。警告：開啟前必須確認 HTTPS 已經配置並能夠正常使用！你檢查了 CDN、第三方登錄和站外的 logo / 依賴是否支持 HTTPS 了嗎？"
     same_site_cookies: "使用同一網站的Cookie，它們消除所有載體上支持的瀏覽器（LAX或嚴格模式）跨站請求偽造。警告：嚴格只會在強制登錄和使用SSO的網站執行。"
@@ -1323,21 +1323,21 @@ zh_TW:
     enable_local_logins_via_email: "允許使用者用電子郵件來快速登入，Email內會包含一鍵登入連結。"
     allow_new_registrations: "允許新使用者註冊，如果取消選取，則沒有人能夠註冊"
     enable_signup_cta: "顯示推薦創建賬戶的提示給那些回訪的未註冊使用者。"
-    enable_google_oauth2_logins: "啟用Google Oauth2身份驗證。 這是Google目前支持的身份驗證方法，若啟用將可以讓使用者使用 Google帳號登入，需要額外設定key和鑰匙（secret）。 請參閱<a href='https://meta.discourse.org/t/15858' target='_blank'>設定Google Login for Okse</a>。"
+    enable_google_oauth2_logins: "啟用Google Oauth2身份驗證。 這是Google目前支持的身份驗證方法，若啟用將可以讓使用者使用 Google帳號登入，需要額外設定key和鑰匙（secret）。 請參閱<a href='https://forum.okse.io/t/15858' target='_blank'>設定Google Login for Okse</a>。"
     google_oauth2_client_id: "你的 Google 應用程式的客戶端 ID"
     google_oauth2_client_secret: "你的 Google 應用程式的客戶端 secret"
     google_oauth2_prompt: "選項以空格字串分隔，指定授權服務器是否提示用戶進行重新認證和同意。 有關更多資訊，請參閱Google開發者手冊OpenIDConnect<a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a>。"
     google_oauth2_hd: "登入將受限於的Google Apps Hosted。更多資訊，請參閱Google開發者手冊：<a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a>。"
-    enable_twitter_logins: "啟用Twitter身份驗證，需要twitter_consumer_key和twitter_consumer_secret。 請參閱<a href='https://meta.discourse.org/t/13395' target='_blank'>使用Discourse設置Twitter登入（和其他豐富功能）</a>。"
+    enable_twitter_logins: "啟用Twitter身份驗證，需要twitter_consumer_key和twitter_consumer_secret。 請參閱<a href='https://forum.okse.io/t/13395' target='_blank'>使用Discourse設置Twitter登入（和其他豐富功能）</a>。"
     twitter_consumer_key: "Twitter身份驗證的使用者密鑰，在<a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>上取得"
     twitter_consumer_secret: "Twitter身份驗證的密鑰，在<a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>上取得"
     enable_instagram_logins: "啟用 Instagram 驗證，需要 instagram_consumer_key 和 instagram_consumer_secret"
     instagram_consumer_key: "Instagram 驗證的 Consumer key"
     instagram_consumer_secret: "Instagram 驗證的 Consumer secret"
-    enable_facebook_logins: "啟用 Facebook 身份驗證，需要facebook_app_id和facebook_app_secret。 請參閱設定<a href='https://meta.discourse.org/t/13394' target='_blank'>在Discourse 設定 Facebook登錄</a>。"
+    enable_facebook_logins: "啟用 Facebook 身份驗證，需要facebook_app_id和facebook_app_secret。 請參閱設定<a href='https://forum.okse.io/t/13394' target='_blank'>在Discourse 設定 Facebook登錄</a>。"
     facebook_app_id: "Facebook身份驗證需要App ID，在<a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>上取得"
     facebook_app_secret: "Facebook身份驗證需要App 鑰匙（App Secret），在<a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>上取得"
-    enable_github_logins: "開啟 Github 登入驗證，需要填寫 github_client_id 及 github_client_secret。參閱<a href='https://meta.discourse.org/t/13745' target='_blank'>設定 在Discourse Github 登入官方文件</a>\b"
+    enable_github_logins: "開啟 Github 登入驗證，需要填寫 github_client_id 及 github_client_secret。參閱<a href='https://forum.okse.io/t/13745' target='_blank'>設定 在Discourse Github 登入官方文件</a>\b"
     github_client_id: "Github 帳號驗證的使用者端帳號（Client id），到 <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/applications </a>來註冊取得 Client id"
     github_client_secret: "Github 帳號驗證的使用者端密碼（Client secret），到 <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers </a>來註冊取得 Client secret"
     enable_backups: "允許管理員建立備份"
@@ -1584,7 +1584,7 @@ zh_TW:
     enable_user_directory: "提供可供瀏覽的使用者目錄"
     enable_group_directory: "提供可供瀏覽的群組目錄"
     enable_category_group_review: "允許群組查看特定類別中的內容"
-    group_in_subject: "在電子郵件中設定%%{optional_pm} ，取決於私訊中第一個群組的名稱，請參閱：<a href='https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801' target='_blank'>客製化標準電子郵件的格式</a>"
+    group_in_subject: "在電子郵件中設定%%{optional_pm} ，取決於私訊中第一個群組的名稱，請參閱：<a href='https://forum.okse.io/t/customize-subject-format-for-standard-emails/20801' target='_blank'>客製化標準電子郵件的格式</a>"
     allow_anonymous_posting: "允許使用者切換至匿名模式"
     anonymous_posting_min_trust_level: "啟用匿名發帖所需的最小信任等級"
     anonymous_account_duration_minutes: "為了匿名性，為每個使用者每 N 分鐘創建一個匿名賬戶。例如：如果設置為 600，只要發帖後 600 分鐘到了，並且使用者切換至了匿名模式，就會創建一個新的匿名賬戶。"
@@ -2053,7 +2053,7 @@ zh_TW:
       text_body_template: |
         提供給新手使用者的操作技巧查看，[部落格文章（英文）](http://blog.discourse.org/2016/12/discourse-new-user-tips-and-tricks/)。
 
-        只要你參與，我們將更瞭解你，並且新使用者的臨時限制將被移除。隨着時間，你會提供[信任等級](https://meta.discourse.org/t/what-do-user-trust-levels-do/4924)，這將提供一些特殊功能來幫助我們更好地管理社群。
+        只要你參與，我們將更瞭解你，並且新使用者的臨時限制將被移除。隨着時間，你會提供[信任等級](https://forum.okse.io/t/what-do-user-trust-levels-do/4924)，這將提供一些特殊功能來幫助我們更好地管理社群。
     welcome_user:
       title: "歡迎使用者"
       subject_template: "歡迎來到 %{site_name}！"
@@ -3298,10 +3298,10 @@ zh_TW:
       button: "註冊"
       title: "註冊管理員賬戶"
       help: "註冊新賬戶以開始"
-      no_emails: "遺憾的是，在嚮導過程中你沒有設定管理員的電子郵件，所以完善設定可能有點困難。請在設定檔案中加入開發人員的電子郵件，或<a href='https://meta.discourse.org/t/create-admin-account-from-console/17274'>從控制台（console）建立一個管理員帳號</a> 。"
+      no_emails: "遺憾的是，在嚮導過程中你沒有設定管理員的電子郵件，所以完善設定可能有點困難。請在設定檔案中加入開發人員的電子郵件，或<a href='https://forum.okse.io/t/create-admin-account-from-console/17274'>從控制台（console）建立一個管理員帳號</a> 。"
     confirm_email:
       title: "配置你的郵件"
-      message: "<p>我們發送了啟用帳號郵件至<b>%{email}</b> 。請按照電子郵件中的說明，並啟用您的帳戶。 </p><p>如果沒有收到信件，請檢查您的垃圾郵件匣，並<a href='https://meta.discourse.org/t/troubleshooting-email-on-a-new-discourse-install/16326'>確保正確填寫您的電子郵件地址</a> 。 </p>"
+      message: "<p>我們發送了啟用帳號郵件至<b>%{email}</b> 。請按照電子郵件中的說明，並啟用您的帳戶。 </p><p>如果沒有收到信件，請檢查您的垃圾郵件匣，並<a href='https://forum.okse.io/t/troubleshooting-email-on-a-new-discourse-install/16326'>確保正確填寫您的電子郵件地址</a> 。 </p>"
     resend_email:
       title: "重發啟用信件"
       message: "<p>我們已重發啟用信件至 <b>%{email}</b>"

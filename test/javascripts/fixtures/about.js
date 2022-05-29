@@ -30,7 +30,7 @@ export default {
           username: "sam",
           name: "Sam Saffron",
           avatar_template:
-            "/user_avatar/meta.discourse.org/sam/{size}/102149_2.png",
+            "/user_avatar/forum.okse.io/sam/{size}/102149_2.png",
           title: "co-founder",
           last_seen_at: "2030-01-15T13:30:43.272Z"
         },
@@ -39,7 +39,7 @@ export default {
           username: "codinghorror",
           name: "Jeff Atwood",
           avatar_template:
-            "/user_avatar/meta.discourse.org/codinghorror/{size}/110067_2.png",
+            "/user_avatar/forum.okse.io/codinghorror/{size}/110067_2.png",
           title: "co-founder",
           last_seen_at: "2030-01-15T13:21:56.592Z"
         },
@@ -48,7 +48,7 @@ export default {
           username: "eviltrout",
           name: "Robin Ward",
           avatar_template:
-            "/user_avatar/meta.discourse.org/eviltrout/{size}/5275_2.png",
+            "/user_avatar/forum.okse.io/eviltrout/{size}/5275_2.png",
           title: "co-founder",
           last_seen_at: "2030-01-14T18:03:08.232Z"
         }
@@ -59,7 +59,7 @@ export default {
           username: "sam",
           name: "Sam Saffron",
           avatar_template:
-            "/user_avatar/meta.discourse.org/sam/{size}/102149_2.png",
+            "/user_avatar/forum.okse.io/sam/{size}/102149_2.png",
           title: "co-founder",
           last_seen_at: "2030-01-15T13:30:43.272Z"
         },
@@ -68,7 +68,7 @@ export default {
           username: "codinghorror",
           name: "Jeff Atwood",
           avatar_template:
-            "/user_avatar/meta.discourse.org/codinghorror/{size}/110067_2.png",
+            "/user_avatar/forum.okse.io/codinghorror/{size}/110067_2.png",
           title: "co-founder",
           last_seen_at: "2030-01-15T13:21:56.592Z"
         },
@@ -77,7 +77,7 @@ export default {
           username: "eviltrout",
           name: "Robin Ward",
           avatar_template:
-            "/user_avatar/meta.discourse.org/eviltrout/{size}/5275_2.png",
+            "/user_avatar/forum.okse.io/eviltrout/{size}/5275_2.png",
           title: "co-founder",
           last_seen_at: "2030-01-14T18:03:08.232Z"
         }

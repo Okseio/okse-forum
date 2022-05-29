@@ -265,7 +265,7 @@ describe Jobs::EmitWebHookEvent do
       event = WebHookEvent.last
       headers = MultiJson.load(event.headers)
       expect(headers['Content-Length']).to eq(13)
-      expect(headers['Host']).to eq("meta.discourse.org")
+      expect(headers['Host']).to eq("forum.okse.io")
       expect(headers['X-Discourse-Event-Id']).to eq(event.id)
       expect(headers['X-Discourse-Event-Type']).to eq(described_class::PING_EVENT)
       expect(headers['X-Discourse-Event']).to eq(described_class::PING_EVENT)
@@ -289,7 +289,7 @@ describe Jobs::EmitWebHookEvent do
       event = WebHookEvent.last
       headers = MultiJson.load(event.headers)
       expect(headers['Content-Length']).to eq(13)
-      expect(headers['Host']).to eq("meta.discourse.org")
+      expect(headers['Host']).to eq("forum.okse.io")
       expect(headers['X-Discourse-Event-Id']).to eq(event.id)
       expect(headers['X-Discourse-Event-Type']).to eq(described_class::PING_EVENT)
       expect(headers['X-Discourse-Event']).to eq(described_class::PING_EVENT)

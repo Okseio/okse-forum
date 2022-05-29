@@ -939,7 +939,7 @@ describe Post do
       PostReply.create!(post: p2, reply: p6) # simulates p6 quoting p2
       PostReply.create!(post: p3, reply: p5) # simulates p5 quoting p3
       PostReply.create!(post: p4, reply: p5)
-      PostReply.create!(post: p6, reply: p6) # https://meta.discourse.org/t/topic-quoting-itself-displays-reply-indicator/76085
+      PostReply.create!(post: p6, reply: p6) # https://forum.okse.io/t/topic-quoting-itself-displays-reply-indicator/76085
     }
 
     it "returns the reply ids and their level" do

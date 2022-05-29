@@ -957,7 +957,7 @@ pt:
         invite_link:
           success: "Hiperligação do convite gerada com sucesso!"
         bulk_invite:
-          none: "Ainda não convidou ninguém aqui. Envie convites individuais, ou convide muitas pessoas de uma vez só, <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>enviando um ficheiro CSV</a>."
+          none: "Ainda não convidou ninguém aqui. Envie convites individuais, ou convide muitas pessoas de uma vez só, <a href='https://forum.okse.io/t/send-bulk-invites/16468'>enviando um ficheiro CSV</a>."
           success: "Ficheiro enviado corretamente, será notificado via mensagem quando o processo estiver concluído."
           error: "Desculpe, o ficheiro deverá estar no formato CSV."
           confirmation_message: "Está prestes a enviar convites por email a todos os incluídos no ficheiro que enviou."

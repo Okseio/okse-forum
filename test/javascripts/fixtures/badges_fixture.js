@@ -71,7 +71,7 @@ export default {
         id: 118,
         name: "Plugin Author",
         description:
-          'Developed a <a href="https://meta.discourse.org/c/plugin">plugin</a> for Discourse ',
+          'Developed a <a href="https://forum.okse.io/c/plugin">plugin</a> for Discourse ',
         grant_count: 10,
         allow_title: true,
         multiple_grant: false,
@@ -114,7 +114,7 @@ export default {
         id: 116,
         name: "Tester",
         description:
-          'Reported 10 bugs that were liked by the <a href="https://meta.discourse.org/g/discourse">Discourse team</a>',
+          'Reported 10 bugs that were liked by the <a href="https://forum.okse.io/g/discourse">Discourse team</a>',
         grant_count: 9,
         allow_title: true,
         multiple_grant: false,
@@ -157,7 +157,7 @@ export default {
         id: 114,
         name: "Bug Reporter",
         description:
-          'Reported a bug that was liked by the <a href="https://meta.discourse.org/g/discourse">Discourse team</a>',
+          'Reported a bug that was liked by the <a href="https://forum.okse.io/g/discourse">Discourse team</a>',
         grant_count: 183,
         allow_title: false,
         multiple_grant: false,

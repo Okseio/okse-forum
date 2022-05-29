@@ -114,7 +114,7 @@ sw:
       load_from_remote: "Hitilafu imetokea wakati wa kupakua taarifa."
     site_settings:
       default_categories_already_selected: "Hauwezi kuchagua kikundi kinachotumika kwenye orodha nyingine."
-    conflicting_google_user_id: 'Utambulisho wa Akaunti ya Google imebadilishwa; msaidizi ataipitia kwa ajili ya sababu za ulinzi. Tafadhali wasiliana na msaidizi na waonyeshe <br><a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'Utambulisho wa Akaunti ya Google imebadilishwa; msaidizi ataipitia kwa ajili ya sababu za ulinzi. Tafadhali wasiliana na msaidizi na waonyeshe <br><a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors

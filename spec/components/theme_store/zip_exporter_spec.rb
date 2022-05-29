@@ -101,7 +101,7 @@ describe ThemeStore::ZipExporter do
           }
         },
         "modifiers": {},
-        "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+        "learn_more": "https://forum.okse.io/t/beginners-guide-to-using-discourse-themes/91966"
       )
 
       expect(File.read("common/body_tag.html")).to eq("<b>testtheme1</b>")

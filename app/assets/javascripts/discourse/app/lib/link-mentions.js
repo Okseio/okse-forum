@@ -78,7 +78,7 @@ export function linkSeenMentions($elem, siteSettings) {
 }
 
 // 'Create a New Topic' scenario is not supported (per conversation with codinghorror)
-// https://meta.discourse.org/t/taking-another-1-7-release-task/51986/7
+// https://forum.okse.io/t/taking-another-1-7-release-task/51986/7
 export function fetchUnseenMentions(usernames, topic_id) {
   return ajax(userPath("is_local_username"), {
     data: { usernames, topic_id }

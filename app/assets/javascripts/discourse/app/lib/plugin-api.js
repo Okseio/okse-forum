@@ -658,7 +658,7 @@ class PluginApi {
    * ```
    *
    * For more information on connector classes, see:
-   * https://meta.discourse.org/t/important-changes-to-plugin-outlets-for-ember-2-10/54136
+   * https://forum.okse.io/t/important-changes-to-plugin-outlets-for-ember-2-10/54136
    **/
   registerConnectorClass(outletName, connectorName, klass) {
     extraConnectorClass(`${outletName}/${connectorName}`, klass);

@@ -4,17 +4,17 @@ import { emojiUrlFor } from "discourse/lib/text";
 const externalResources = [
   {
     key: "admin.customize.theme.beginners_guide_title",
-    link: "https://meta.discourse.org/t/91966",
+    link: "https://forum.okse.io/t/91966",
     icon: "book"
   },
   {
     key: "admin.customize.theme.developers_guide_title",
-    link: "https://meta.discourse.org/t/93648",
+    link: "https://forum.okse.io/t/93648",
     icon: "book"
   },
   {
     key: "admin.customize.theme.browse_themes",
-    link: "https://meta.discourse.org/c/theme",
+    link: "https://forum.okse.io/c/theme",
     icon: "paint-brush"
   }
 ];

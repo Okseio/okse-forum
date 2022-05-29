@@ -1225,7 +1225,7 @@ nl:
           max_redemptions_allowed_label: "Hoeveel mensen mogen zich via deze koppeling registreren?"
           expires_at: "Wanneer verloopt deze uitnodigingskoppeling?"
         bulk_invite:
-          none: "U hebt hier nog niemand uitgenodigd. Stuur individuele uitnodigingen of nodig meerdere mensen tegelijk uit door <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>een CSV-bestand te uploaden</a>."
+          none: "U hebt hier nog niemand uitgenodigd. Stuur individuele uitnodigingen of nodig meerdere mensen tegelijk uit door <a href='https://forum.okse.io/t/send-bulk-invites/16468'>een CSV-bestand te uploaden</a>."
           text: "Bulkuitnodiging"
           success: "Het bestand is geüpload. U ontvangt een melding via een bericht zodra het proces is voltooid."
           error: "Sorry, bestand dient de CSV-indeling te hebben."

@@ -1184,7 +1184,7 @@ de:
         invite_link:
           success: "Der Einladungslink wurde erfolgreich generiert!"
         bulk_invite:
-          none: "Du hast noch niemanden eingeladen. Verschicke eine individuelle Einladung, oder lade gleich mehrere Leute auf einmal durch <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>Hochladen einer CSV-Datei</a> ein."
+          none: "Du hast noch niemanden eingeladen. Verschicke eine individuelle Einladung, oder lade gleich mehrere Leute auf einmal durch <a href='https://forum.okse.io/t/send-bulk-invites/16468'>Hochladen einer CSV-Datei</a> ein."
           success: "Die Datei wurde erfolgreich hochgeladen. Du erhältst eine Nachricht, sobald der Vorgang abgeschlossen ist."
           error: "Die Datei sollte im CSV Format vorliegen."
           confirmation_message: "Du bist dabei, E-Mail-Einladungen an jeden in der hochgeladenen Datei zu verschicken."

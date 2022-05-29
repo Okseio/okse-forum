@@ -63,7 +63,7 @@ export default {
           topic_count: 122,
           post_count: 1023,
           description:
-            "Discussion about meta.discourse.org itself, the organization of this forum about Discourse, how it works, and how we can improve this site.",
+            "Discussion about forum.okse.io itself, the organization of this forum about Discourse, how it works, and how we can improve this site.",
           topic_url: "/t/category-definition-for-meta/24",
           read_restricted: false,
           permission: 1,

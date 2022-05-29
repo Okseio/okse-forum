@@ -1224,7 +1224,7 @@ fr:
           max_redemptions_allowed_label: "Combien de personnes peuvent s'inscrire en utilisant ce lien ?"
           expires_at: "Quand ce lien va-t-il expirer ?"
         bulk_invite:
-          none: "Vous n'avez encore invité personne. Envoyez des invitations individuelles ou à plusieurs personnes en même temps en <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>envoyant un fichier CSV.</a>"
+          none: "Vous n'avez encore invité personne. Envoyez des invitations individuelles ou à plusieurs personnes en même temps en <a href='https://forum.okse.io/t/send-bulk-invites/16468'>envoyant un fichier CSV.</a>"
           text: "Invitation en masse"
           success: "Le fichier a été correctement importé. Vous serez notifié par message direct lorsque le traitement sera terminé."
           error: "Désolé, le fichier doit être au format CSV."

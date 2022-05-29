@@ -1008,7 +1008,7 @@ gl:
           max_redemptions_allowed_label: "Cantas persoas poden rexistrarse con esta ligazón?"
           expires_at: "Cando caduca a ligazón deste convite?"
         bulk_invite:
-          none: "Aínda non convidaches a ninguén. Podes enviar convites individuais ou en grupo se <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>subes un ficheiro CSV</a>."
+          none: "Aínda non convidaches a ninguén. Podes enviar convites individuais ou en grupo se <a href='https://forum.okse.io/t/send-bulk-invites/16468'>subes un ficheiro CSV</a>."
           text: "Convite en grupo"
           success: "O ficheiro enviouse correctamente, notificaráseche por mensaxe cando remate o proceso."
           error: "O ficheiro ten que ter formato CSV."

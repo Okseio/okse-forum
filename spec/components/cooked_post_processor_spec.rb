@@ -40,7 +40,7 @@ describe CookedPostProcessor do
     end
 
     describe 'when post contains oneboxes and inline oneboxes' do
-      let(:url_hostname) { 'meta.discourse.org' }
+      let(:url_hostname) { 'forum.okse.io' }
 
       let(:url) do
         "https://#{url_hostname}/t/mini-inline-onebox-support-rfc/66400"
@@ -160,15 +160,15 @@ describe CookedPostProcessor do
 
       describe 'external links' do
         let(:url_with_path) do
-          'https://meta.discourse.org/t/mini-inline-onebox-support-rfc/66400'
+          'https://forum.okse.io/t/mini-inline-onebox-support-rfc/66400'
         end
 
         let(:url_with_query_param) do
-          'https://meta.discourse.org?a'
+          'https://forum.okse.io?a'
         end
 
         let(:url_no_path) do
-          'https://meta.discourse.org/'
+          'https://forum.okse.io/'
         end
 
         let(:urls) do

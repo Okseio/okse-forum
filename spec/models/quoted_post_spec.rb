@@ -45,7 +45,7 @@ describe QuotedPost do
       <aside class="quote" data-post="#{post.post_number}" data-topic="#{post.topic_id}">
         <div class="title">
           <div class="quote-controls"></div>
-          <img width="20" height="20" src="/user_avatar/meta.discourse.org/techapj/20/3281.png" class="avatar">techAPJ:
+          <img width="20" height="20" src="/user_avatar/forum.okse.io/techapj/20/3281.png" class="avatar">techAPJ:
         </div>
         <blockquote><p>When the user will v</p></blockquote>
       </aside>
@@ -65,7 +65,7 @@ describe QuotedPost do
       <aside class="quote" data-post="#{post1.post_number}" data-topic="#{post1.topic_id}">
         <div class="title">
           <div class="quote-controls"></div>
-          <img width="20" height="20" src="/user_avatar/meta.discourse.org/techapj/20/3281.png" class="avatar">techAPJ:
+          <img width="20" height="20" src="/user_avatar/forum.okse.io/techapj/20/3281.png" class="avatar">techAPJ:
         </div>
         <blockquote><p>When the user will v</p></blockquote>
       </aside>

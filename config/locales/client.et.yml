@@ -871,7 +871,7 @@ et:
         invite_link:
           success: "Kutse link edukalt genereeritud!"
         bulk_invite:
-          none: "Sa pole veel kedagi siia kutsunud. Saada üksikuid kutseid või paljudele korraga <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>laadides üles CSV faili</a>."
+          none: "Sa pole veel kedagi siia kutsunud. Saada üksikuid kutseid või paljudele korraga <a href='https://forum.okse.io/t/send-bulk-invites/16468'>laadides üles CSV faili</a>."
           success: "Fail edukalt üles laetud. Sulle saabub teade, kui protsess on lõpule jõudnud."
           error: "Vabandust, fail peab olema CSV vormingus."
       password:

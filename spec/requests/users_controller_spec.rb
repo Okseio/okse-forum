@@ -2267,7 +2267,7 @@ describe UsersController do
 
   describe '#select_avatar' do
     it 'raises an error when not logged in' do
-      put "/u/asdf/preferences/avatar/select.json", params: { url: "https://meta.discourse.org" }
+      put "/u/asdf/preferences/avatar/select.json", params: { url: "https://forum.okse.io" }
       expect(response.status).to eq(403)
     end
 

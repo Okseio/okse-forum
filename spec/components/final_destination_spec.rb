@@ -52,11 +52,11 @@ describe FinalDestination do
   end
 
   it 'correctly parses ignored hostnames' do
-    fd = FinalDestination.new('https://meta.discourse.org',
-      ignore_redirects: ['http://google.com', 'youtube.com', 'https://meta.discourse.org', '://bing.com']
+    fd = FinalDestination.new('https://forum.okse.io',
+      ignore_redirects: ['http://google.com', 'youtube.com', 'https://forum.okse.io', '://bing.com']
     )
 
-    expect(fd.ignored).to eq(['test.localhost', 'google.com', 'meta.discourse.org'])
+    expect(fd.ignored).to eq(['test.localhost', 'google.com', 'forum.okse.io'])
   end
 
   describe '.resolve' do

@@ -140,7 +140,7 @@ nb_NO:
         other: "Du spesifiserte de ugyldige valgene %{name}"
       default_categories_already_selected: "Du kan ikke velge en annen kategori brukt i en annen liste."
       s3_upload_bucket_is_required: "Du kan ikke aktivere opplasting til S3 hvis ikke du har satt innstillingen 's3_upload_bucket'."
-    conflicting_google_user_id: 'Google Account ID for denne kontoen har endret seg; staben må manuelt godkjenne endringen av sikkerhetshensyn. Vennligst kontakt staben og pek dem til <br><a href="https://meta.discourse.org/t/76575">https://meta.discourse.org/t/76575</a>'
+    conflicting_google_user_id: 'Google Account ID for denne kontoen har endret seg; staben må manuelt godkjenne endringen av sikkerhetshensyn. Vennligst kontakt staben og pek dem til <br><a href="https://forum.okse.io/t/76575">https://forum.okse.io/t/76575</a>'
   activemodel:
     errors:
       <<: *errors

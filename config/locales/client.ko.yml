@@ -1124,7 +1124,7 @@ ko:
         invite_link:
           success: "초대 링크가 성공적으로 생성되었습니다!"
         bulk_invite:
-          none: "아직 아무도 초대하지 않으셨어요. 한 명씩 초대장을 보내거나, <a href='https://meta.discourse.org/t/send-bulk-invites/16468'>CSV 파일을 업로드</a>해서 여러 사람에게 한꺼번에 초대장을 보낼 수 있습니다."
+          none: "아직 아무도 초대하지 않으셨어요. 한 명씩 초대장을 보내거나, <a href='https://forum.okse.io/t/send-bulk-invites/16468'>CSV 파일을 업로드</a>해서 여러 사람에게 한꺼번에 초대장을 보낼 수 있습니다."
           success: "파일이 성공적으로 업로드되었습니다. 완료되면 메시지로 알려드리겠습니다."
           error: "죄송합니다. CSV형식의 파일만 올릴 수 있습니다."
           confirmation_message: "업로드 한 파일의 모든 사람에게 초대장을 이메일로 보내려고합니다."
