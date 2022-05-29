@@ -24,11 +24,11 @@ ca:
     <<: *datetime_formats
     am: "am"
     pm: "pm"
-  title: "Discourse"
+  title: "Okse"
   topics: "Temes"
   posts: "publicacions"
   loading: "Carregant"
-  powered_by_html: 'Funciona gràcies a <a href="https://www.discourse.org">Discourse</a>. Per a una millor experiència visiteu-nos amb JavaScript activat.'
+  powered_by_html: 'Funciona gràcies a <a href="https://www.discourse.org">Okse</a>. Per a una millor experiència visiteu-nos amb JavaScript activat.'
   sign_up: "Registre"
   log_in: "Inicia la sessió"
   submit: "Envia"
@@ -49,7 +49,7 @@ ca:
       git: "S'ha produït un error clonant el dipòsit git, s'ha denegat l'accés o no s'ha trobat el dipòsit."
       unpack_failed: "Error en desempaquetar el fitxer"
       file_too_big: "El fitxer sense comprimir és massa gran."
-      unknown_file_type: "El fitxer que heu pujat no sembla una aparença de Discourse vàlid."
+      unknown_file_type: "El fitxer que heu pujat no sembla una aparença de Okse vàlid."
     errors:
       component_no_user_selectable: "Els components de l'aparença no poden ser seleccionables per l'usuari."
       component_no_default: "Els components de l'aparença no poden ser de l'aparença per defecte."
@@ -205,7 +205,7 @@ ca:
   provider_not_enabled: "No teniu permís per a veure el recurs sol·licitat. El proveïdor d'autenticació no està habilitat."
   provider_not_found: "No teniu permís per a veure el recurs sol·licitat. El proveïdor d'autenticació no existeix."
   read_only_mode_enabled: "El lloc web és mode només de lectura. Les interaccions estan desactivades."
-  invalid_grant_badge_reason_link: "En el motiu de la insígnia no es permeten enllaços externs o enllaços no vàlids a Discourse."
+  invalid_grant_badge_reason_link: "En el motiu de la insígnia no es permeten enllaços externs o enllaços no vàlids a Okse."
   email_template_cant_be_modified: "Aquesta plantilla de correu no es pot modificar."
   invalid_whisper_access: "O bé els xiuxiuejos no estan activats o bé no teniu permís per a crear-ne."
   not_in_group:
@@ -488,7 +488,7 @@ ca:
   staff_category_name: "Equip responsable"
   staff_category_description: "Categoria privada per a converses de l'equip responsable. Els temes només seran visibles per a discussions entre moderadors i administradors."
   discourse_welcome_topic:
-    title: "Benvingut a Discourse"
+    title: "Benvingut a Okse"
     body: |2
 
       El primer paràgraf d'aquest tema afixat serà visible com a missatge de benvinguda per a totes les noves visites a la vostra pàgina principal. És important!
@@ -1252,7 +1252,7 @@ ca:
   site_settings:
     censored_words: "Paraules que es reemplaçaran automàticament amb &#9632;&#9632;&#9632;&#9632;"
     delete_old_hidden_posts: "Suprimeix automàticament qualsevol publicació que resti oculta durant més de 30 dies."
-    default_locale: "L'idioma per defecte d'aquesta instància de Discourse. Podeu substituir el text de les categories i els temes generats pel sistema en <a href='%{base_path}/admin/customize/site_texts' target='_blank'>Personalitza / Text</a>."
+    default_locale: "L'idioma per defecte d'aquesta instància de Okse. Podeu substituir el text de les categories i els temes generats pel sistema en <a href='%{base_path}/admin/customize/site_texts' target='_blank'>Personalitza / Text</a>."
     allow_user_locale: "Permet que els usuaris triïn la seva preferència de llengua d'interfície"
     set_locale_from_accept_language_header: "configura la llengua d'interfície per a usuaris anònims des de les capçaleres dels seus navegadors. (EXPERIMENTAL, no funciona amb memòria cau anònima)"
     support_mixed_text_direction: "Permet direccions de text mixtes d'esquerra a dreta i de dreta a esquerra."
@@ -1309,7 +1309,7 @@ ca:
     post_excerpt_maxlength: "Longitud màxima en caràcters d'un resum/extracte de publicació."
     show_pinned_excerpt_mobile: "Mostra l'extracte en els temes afixats en la vista per a mòbils."
     show_pinned_excerpt_desktop: "Mostra l'extracte en els temes afixats en la vista d'escriptori."
-    post_onebox_maxlength: "Longitud màxima en caràcters d'una publicació en onebox de Discourse."
+    post_onebox_maxlength: "Longitud màxima en caràcters d'una publicació en onebox de Okse."
     onebox_domains_blacklist: "Llista de dominis que no es posaran mai en onebox."
     inline_onebox_domains_whitelist: "Llista de dominis que es mostraran en miniatura 'onebox' si s'enllacen sense títol"
     enable_inline_onebox_on_all_domains: "Ignora el paràmetre del lloc web inline_onebox_domain_whitelist i permet la caixa onebox en línia per a tots els dominis. "
@@ -1374,9 +1374,9 @@ ca:
     moderators_create_categories: "Permet als moderadors crear categories noves"
     cors_origins: "Orígens permesos per a peticions d'origen encreuat (CORS). Cada origen ha d'incloure http:// o https://. La variable DISCOURSE_ENABLE_CORS ha de ser \"true\" per a habilitar CORS."
     use_admin_ip_whitelist: "Els administradors sols poden iniciar la sessió des d'una adreça IP definida en la llista d'IPs sota supervisió (Administració > Registres > IPs sota supervisió)."
-    blacklist_ip_blocks: "Una llista de blocs d'IP privades que no han de ser rastrejats mai per Discourse"
-    whitelist_internal_hosts: "Llista d'amfitrions interns que Discourse pot rastrejar de manera segura per a onebox i altres finalitats."
-    allowed_iframes: "Llista dels prefixos de domini en el codi d'iframe que Discourse pot permetre de manera segura en les publicacions"
+    blacklist_ip_blocks: "Una llista de blocs d'IP privades que no han de ser rastrejats mai per Okse"
+    whitelist_internal_hosts: "Llista d'amfitrions interns que Okse pot rastrejar de manera segura per a onebox i altres finalitats."
+    allowed_iframes: "Llista dels prefixos de domini en el codi d'iframe que Okse pot permetre de manera segura en les publicacions"
     whitelisted_crawler_user_agents: "Agents d'usuari dels rastrejadors web als quals es permet accedir al lloc web. ATENCIÓ! ESTABLIR AIXÒ IMPEDIRÀ ACTUAR A TOTS ELS RASTREJADORS NO LLISTATS AQUÍ!"
     blacklisted_crawler_user_agents: "Paraula única insensible a majúscules i minúscules en la cadena de l'agent d'usuari que identifica els rastrejadors web als quals no s'ha de permetre accedir al lloc web. No s'aplica si es defineix una llista blanca."
     slow_down_crawler_user_agents: "Agents d'usuari dels rastrejadors web que haurien de ser limitats en robots.txt utilitzant la directiva de retard (Crawl-delay)."
@@ -1413,8 +1413,8 @@ ca:
     email_domains_whitelist: "Llista de dominis de correu delimitada amb barres verticals amb els quals els usuaris HAN DE registrar els comptes. ATENCIÓ: Els usuaris amb dominis de correu diferents dels llistats no són autoritzats!"
     hide_email_address_taken: "No informis els usuaris que hi ha un compte amb una adreça de correu determinada durant el registre i des del formulari de contrasenya oblidada."
     log_out_strict: "Quan es tanca la sessió, tanca TOTES les sessions de l'usuari en tots els dispositius"
-    version_checks: "Fes ping al Discourse Hub per a actualitzacions de versions i per a mostrar missatges de versió nova en el tauler <a href='%{base_path}/admin' target='_blank'>/admin</a>."
-    new_version_emails: "Envia un correu a contact_email address quan hi hagi una nova versió del Discourse disponible."
+    version_checks: "Fes ping al Okse Hub per a actualitzacions de versions i per a mostrar missatges de versió nova en el tauler <a href='%{base_path}/admin' target='_blank'>/admin</a>."
+    new_version_emails: "Envia un correu a contact_email address quan hi hagi una nova versió del Okse disponible."
     invite_expiry_days: "Quant de temps és vàlida la clau d'invitació a un usuari, en dies"
     invite_only: "Tots els usuaris nous han de ser convidats explícitament per usuaris de confiança o per l'equip responsable. El registre públic és desactivat."
     login_required: "Exigeix l'autenticació per a llegir el contingut del lloc web. Impedeix l'accés anònim."
@@ -1429,16 +1429,16 @@ ca:
     block_common_passwords: "No permetis contrasenyes que siguin de les 10.000 més comunes."
     enable_sso: "Activa l'autenticació única des d'un lloc web extern (ATENCIÓ: LES ADRECES DE CORREU *HAN* DE SER VALIDADES PER UN LLOC EXTERN!)"
     verbose_sso_logging: "Registres detallats de diagnòstics relacionats amb SSO en <a href='%{base_path}/logs' target='_blank'>/logs</a>"
-    enable_sso_provider: "Implementeu el protocol de proveïdor SSO de Discourse en el punt final /session/sso_provider. Requereix que sso_provider_secrets estigui establert."
+    enable_sso_provider: "Implementeu el protocol de proveïdor SSO de Okse en el punt final /session/sso_provider. Requereix que sso_provider_secrets estigui establert."
     sso_url: "Adreça URL d'autenticació única en el punt final (ha d'incloure http:// o https://)"
     sso_secret: "Cadena secreta emprada per a autenticar criptogràficament la informació SSO. Assegureu-vos que té 10 caràcters o més."
-    sso_provider_secrets: "Llista de parells domini-secret que utilitzen Discourse com a proveïdor SSO. Assegureu-vos que el secret SSO tingui 10 caràcters o més. El símbol de comodí * es pot utilitzar per a fer coincidir qualsevol domini o només una part d'aquest (p. ex. *.example.com)."
+    sso_provider_secrets: "Llista de parells domini-secret que utilitzen Okse com a proveïdor SSO. Assegureu-vos que el secret SSO tingui 10 caràcters o més. El símbol de comodí * es pot utilitzar per a fer coincidir qualsevol domini o només una part d'aquest (p. ex. *.example.com)."
     sso_overrides_bio: "Sobreescriu la biografia d'usuari en el perfil i impedeix que es pugui canviar"
     sso_overrides_groups: "Sincronitza totes les afiliacions de grup manuals amb els grups especificats en l'atribut SSO de grups (ADVERTÈNCIA: Si no especifiqueu grups, s'eliminaran totes les afiliacions de grup manuals per a l'usuari)"
     sso_overrides_email: "Sobreescriu el correu local amb un correu del lloc web extern des de la càrrega SSO en cada inici de sessió, i impedeix canvis locals. (ATENCIÓ: poden haver-hi discrepàncies a causa de la normalització dels correus locals.)"
     sso_overrides_username: "Sobreescriu el nom d'usuari local amb el nom d'usuari del lloc web extern des de la càrrega SSO en cada inici de sessió, i impedeix els canvis locals. (ATENCIÓ: poden haver-hi discrepàncies a causa de diferències en la longitud i els requisits dels noms d'usuari.)"
     sso_overrides_name: "Sobreescriu el nom complet local amb el nom complet del lloc web extern des de la càrrega SSO en cada inici de sessió, i impedeix els canvis locals."
-    sso_overrides_avatar: "Substitueix l'avatar de l'usuari amb l'avatar del lloc web extern de la càrrega útil SSO. Si està activat, els usuaris no podran pujar avatars a Discourse."
+    sso_overrides_avatar: "Substitueix l'avatar de l'usuari amb l'avatar del lloc web extern de la càrrega útil SSO. Si està activat, els usuaris no podran pujar avatars a Okse."
     sso_overrides_profile_background: "Sobreescriu el fons del perfil d'usuari amb un avatar d'un lloc web extern de la càrrega útil SSO."
     sso_overrides_card_background: "Substitueix el fons de la targeta d'usuari amb un avatar de lloc web extern de la càrrega útil SSO."
     sso_not_approved_url: "Redirigeix els comptes SSO no aprovats a aquest URL"
@@ -1447,21 +1447,21 @@ ca:
     enable_local_logins_via_email: "Permet als usuaris sol·licitar un enllaç d'inici de sessió d'un sol clic que se'ls enviarà per correu electrònic."
     allow_new_registrations: "Permet nous registres d'usuari. Desmarqueu-ho per a evitar que qualsevol pugui crear un compte nou."
     enable_signup_cta: "Mostra un avís als usuaris anònims que tornin convidant-los a registrar-se amb un compte."
-    enable_google_oauth2_logins: "Habilita l'autenticació de Google Oauth2. Aquest és el mètode d'autenticació que actualment admet Google. Requereix clau i secret. Vegeu <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuració de l'inici de sessió de Google per a Discourse</a>."
+    enable_google_oauth2_logins: "Habilita l'autenticació de Google Oauth2. Aquest és el mètode d'autenticació que actualment admet Google. Requereix clau i secret. Vegeu <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuració de l'inici de sessió de Google per a Okse</a>."
     google_oauth2_client_id: "ID de client de  la vostra aplicació Google."
     google_oauth2_client_secret: "Client secret de la vostra aplicació Google."
     google_oauth2_prompt: "Llista opcional delimitada per espais de valors de cadena que especifiquen si el servidor d'autoritzacions sol·licita a l'usuari la reautenticació i el consentiment. Consulteu <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> per als valors possibles."
     google_oauth2_hd: "Un domini de Google Apps opcional al qual es limitarà l'accés. Consulteu <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> per a obtenir més detalls."
-    enable_twitter_logins: "Activa l'autenticació de Twitter, requereix twitter_consumer_key i twitter_consumer_secret. Consulteu <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuració de l'inici de sessió de Twitter (i incrustacions riques) per a Discourse</a>."
+    enable_twitter_logins: "Activa l'autenticació de Twitter, requereix twitter_consumer_key i twitter_consumer_secret. Consulteu <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuració de l'inici de sessió de Twitter (i incrustacions riques) per a Okse</a>."
     twitter_consumer_key: "Clau del consumidor per a l'autenticació de Twitter, registrada en <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Secret del consumidor per a l'autenticació de Twitter, registrat en <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "Activa l'autenticació amb Instagram, necessita instagram_consumer_key i instagram_consumer_secret"
     instagram_consumer_key: "Clau de consum per a l'autenticació amb Instagram"
     instagram_consumer_secret: "Secret de consum per a l'autenticació amb Instagram"
-    enable_facebook_logins: "Activa l'autenticació de Facebook. Requereix facebook_app_id i facebook_app_secret. Vegeu <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuració de l'inici de sessió Facebook per a Discourse</a> ."
+    enable_facebook_logins: "Activa l'autenticació de Facebook. Requereix facebook_app_id i facebook_app_secret. Vegeu <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuració de l'inici de sessió Facebook per a Okse</a> ."
     facebook_app_id: "Identificador d'aplicació per a l'autenticació de Facebook, registrat en <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "Secret d'aplicació per a l'autenticació de Facebook, registrada en <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "Activa l'autenticació GitHub. Requereix github_client_id i github_client_secret. Vegeu <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuració de l'inici de sessió de GitHub per a Discourse</a>."
+    enable_github_logins: "Activa l'autenticació GitHub. Requereix github_client_id i github_client_secret. Vegeu <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuració de l'inici de sessió de GitHub per a Okse</a>."
     github_client_id: "Identificador del client per a l'autenticació GitHub, registrat en <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "Secret del client per a l'autenticació GitHub, registrat en <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     enable_discord_logins: "S'ha de permetre als usuaris autenticar-se mitjançant Discord?"
@@ -1518,7 +1518,7 @@ ca:
     purge_deleted_uploads_grace_period_days: "Període de gràcia (en dies) abans que s'esborri un fitxer carregat suprimit."
     purge_unactivated_users_grace_period_days: "Període de gràcia (en dies) abans de suprimir un usuari que no hagi activat el seu compte. Estableix a 0 per a no purgar mai els usuaris no activats."
     enable_s3_uploads: "Emmagatzema els fitxers carregats en un servei Amazon S3. IMPORTANT: Calen credencials vàlides S3 (tant l'id de clau d'accés com la clau secreta d'accés)."
-    s3_use_iam_profile: 'Utilitza un <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">perfil d''instància AWS EC2</a> per a concedir accés al bucket S3. NOTA: per a habilitar-ho cal que Discourse s''executi en una instància EC2 configurada adequadament, i això sobreescriu les configuracions "s3 access key id" and "s3 secret access key". '
+    s3_use_iam_profile: 'Utilitza un <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">perfil d''instància AWS EC2</a> per a concedir accés al bucket S3. NOTA: per a habilitar-ho cal que Okse s''executi en una instància EC2 configurada adequadament, i això sobreescriu les configuracions "s3 access key id" and "s3 secret access key". '
     s3_upload_bucket: "El nom del dipòsit Amazon S3 on es carregaran els fitxers. ATENCIÓ: ha de ser en minúscula, sense comes, ni guions."
     s3_access_key_id: "L'identificador de la clau d'accés d'Amazon S3 que es farà servir per a carregar imatges, fitxers adjunts i còpies de seguretat."
     s3_secret_access_key: "La clau d'accés secret d'Amazon S3 que es farà servir per a carregar imatges, fitxers adjunts i còpies de seguretat."
@@ -1648,7 +1648,7 @@ ca:
     alternative_reply_by_email_addresses: "Llista de plantilles alternatives per a les adreces de resposta per correu. Per exemple: %%{reply_key}@reply.example.com|replies+%%{reply_key}@example.com"
     incoming_email_prefer_html: "Utilitza HTML en comptes de text per al correu electrònic entrant."
     strip_incoming_email_lines: "Elimina els espais en blanc al principi i al final de cada línia de correu electrònic entrant."
-    disable_emails: "Evita que Discourse enviï cap mena de correu electrònic. Seleccioneu \"sí\" per a inhabilitar els correus per a tots els usuaris. Seleccioneu \"no equip responsable\" per a inhabilitar els correus sols per a usuaris fora de l'equip responsable."
+    disable_emails: "Evita que Okse enviï cap mena de correu electrònic. Seleccioneu \"sí\" per a inhabilitar els correus per a tots els usuaris. Seleccioneu \"no equip responsable\" per a inhabilitar els correus sols per a usuaris fora de l'equip responsable."
     strip_images_from_short_emails: "Elimina imatges de correus amb una mida inferior a 2800 bytes"
     short_email_length: "Longitud de correu breu en bytes"
     display_name_on_email_from: "Mostra noms complets en els camps de remitent dels correus"
@@ -1669,7 +1669,7 @@ ca:
     reset_bounce_score_after_days: "Restableix automàticament la puntuació de rebot després de X dies."
     attachment_content_type_blacklist: "Llista de paraules clau emprades per a blocar adjunts basant-se en el tipus de contingut."
     attachment_filename_blacklist: "Llista de paraules clau emprades per a blocar adjunts basant-se en el nom de fitxer."
-    forwarded_emails_behaviour: "Com s'ha de tractar un correu electrònic reenviat a Discourse"
+    forwarded_emails_behaviour: "Com s'ha de tractar un correu electrònic reenviat a Okse"
     always_show_trimmed_content: "Mostra sempre la part retallada dels correus entrants. AVÍS: Pot revelar adreces de correu."
     private_email: "No incloguis contingut de publicacions o temes en el títol o el cos del correu electrònic. NOTA: també desactiva els correus electrònics de resum."
     email_total_attachment_size_limit_kb: "Mida total màxima dels fitxers adjuntats als correus sortints. 0 per a inhabilitar l’enviament d'adjunts."
@@ -1718,7 +1718,7 @@ ca:
     email_accent_fg_color: "El color del text emprat en el fons dels correus en HTML. Introduïu el nom d'un color en anglès ('white') o un valor hex ('#FFFFFF')."
     email_link_color: "Color dels enllaços en els correus en HTML. Introduïu el nom d'un color en anglès ('blue') o un valor hexadecimal ('#0000FF')."
     detect_custom_avatars: "Si s'ha de comprovar o no que els usuaris han carregat imatges personalitzades de perfil."
-    max_daily_gravatar_crawls: "Nombre màxim de vegades al dia que Discourse revisarà Gravatar per a personalitzar els avatars."
+    max_daily_gravatar_crawls: "Nombre màxim de vegades al dia que Okse revisarà Gravatar per a personalitzar els avatars."
     public_user_custom_fields: "Llista de camps personalitzats d'usuari que es poden recuperar mitjançant l'API."
     staff_user_custom_fields: "Una llista de camps personalitzats d'usuari que poden ser recuperats pels membres de l'equip responsable amb l'API."
     enable_user_directory: "Proporciona un directori d'usuaris per a navegar-hi"
@@ -2144,7 +2144,7 @@ ca:
     subject_template: "[%{email_prefix}] Test de lliurament de correu electrònic"
   new_version_mailer:
     title: "Nova versió"
-    subject_template: "[%{email_prefix}] Nova versió de Discourse, actualització disponible"
+    subject_template: "[%{email_prefix}] Nova versió de Okse, actualització disponible"
   new_version_mailer_with_notes:
     title: "Nova versió amb notes"
     subject_template: "[%{email_prefix}] actualització disponible"
@@ -3125,7 +3125,7 @@ ca:
       other: "Heu d’incloure com a mínim %{count} etiquetes %{tag_group_name}."
   rss_by_tag: "Temes etiquetats amb %{tag}"
   finish_installation:
-    congratulations: "Enhorabona, heu instal·lat Discourse!"
+    congratulations: "Enhorabona, heu instal·lat Okse!"
     register:
       button: "Registre"
       title: "Registra un compte d'administració"
@@ -3146,10 +3146,10 @@ ca:
     enter: "Entra en mode segur"
     must_select: "Cal seleccionar almenys una opció per a entrar en mode segur."
   wizard:
-    title: "Instal·lació de Discourse"
+    title: "Instal·lació de Okse"
     step:
       locale:
-        title: "Benvingut al vostre Discourse!"
+        title: "Benvingut al vostre Okse!"
         fields:
           default_locale:
             description: "Quin és l'idioma predeterminat de la comunitat?"
@@ -3208,7 +3208,7 @@ ca:
             description: "Pàgina web general de contacte per a vós o la vostra organització. Es mostrarà en <a href='%{base_path}/about' target='_blank'>la vostra pàgina 'quant a'</a>."
           site_contact:
             label: "Missatges automàtics"
-            description: "Tots els missatges personals automatitzats de Discourse s'enviaran des d'aquest usuari, com ara avisos de bandera i avisos de finalització de còpies de seguretat."
+            description: "Tots els missatges personals automatitzats de Okse s'enviaran des d'aquest usuari, com ara avisos de bandera i avisos de finalització de còpies de seguretat."
       corporate:
         title: "Organització"
         description: "Aquesta informació s'introduirà en les vostres <a href='%{base_path}/tos' target='blank'>Condicions del servei</a>, que és un tema que podeu editar en la categoria Equip responsable. Si no teniu una empresa, no dubteu a ometre aquest pas de moment."
@@ -3226,7 +3226,7 @@ ca:
         title: "Aparença"
       themes_further_reading:
         title: "Aparences"
-        description: "Voleu personalitzar Discourse? Aprofiteu el nostre potent sistema d'aparences (themes): <ul><li> <a href='https://meta.discourse.org/t/63682' target='_blank'>Com puc instal·lar una aparença o un component d'aparença?</a> </li><li> <a href='https://meta.discourse.org/t/110448' target='_blank'>Guia de referència ràpida per al desenvolupador d'aparences</a> </li></ul> Components d'aparença populars (per a més informació navegueu per <a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#theme</a>)"
+        description: "Voleu personalitzar Okse? Aprofiteu el nostre potent sistema d'aparences (themes): <ul><li> <a href='https://meta.discourse.org/t/63682' target='_blank'>Com puc instal·lar una aparença o un component d'aparença?</a> </li><li> <a href='https://meta.discourse.org/t/110448' target='_blank'>Guia de referència ràpida per al desenvolupador d'aparences</a> </li></ul> Components d'aparença populars (per a més informació navegueu per <a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#theme</a>)"
       logos:
         title: "Logos"
         fields:
@@ -3273,7 +3273,7 @@ ca:
         description: "Esteu a punt d'acabar! Convidem unes quantes persones a ajudar a <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>generar les discussions</a> amb temes i respostes interessants per a posar en marxa la comunitat."
         disabled: "Atès que els inicis de sessió locals no estan habilitats, no és possible enviar invitacions a ningú. Procediu al pas següent."
       finished:
-        title: "El vostre Discourse està a punt!"
+        title: "El vostre Okse està a punt!"
         description: |
           <p> Si mai us ve de gust canviar aquests paràmetres, <b>torneu a executar l'assistent en qualsevol moment</b> o visiteu <a href='%{base_path}/admin' target='_blank'>la secció d'administració</a>; la trobareu vora la icona de clau anglesa en el menú del lloc web. </p><p>Divertiu-vos i bona sort construint la vostra nova comunitat!</a> </p>
   search_logs:

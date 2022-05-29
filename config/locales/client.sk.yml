@@ -181,7 +181,7 @@ sk:
       banner:
         enabled: "Téma je odteraz baner %{when} Bude sa zobrazovať navrchu každej stránky, pokiaľ ju používateľ nezavrie."
         disabled: "odstránil(a) tento oznam %{when}. Už sa viac nebude zobrazovať navrchu každej stránky."
-    wizard_required: "Vitajte vo vašom novom Discourse! Začnime so <a href='%{url}' data-auto-route='true'>sprievodcom nastavením</a>✨ "
+    wizard_required: "Vitajte vo vašom novom Okse! Začnime so <a href='%{url}' data-auto-route='true'>sprievodcom nastavením</a>✨ "
     emails_are_disabled: "Odosielanie emailov bolo globálne vypnuté administrátorom. Žiadne emailové notifikácie nebudú odoslané."
     bootstrap_mode_enabled: "Pre zjednodušenie spustenia Vašej novej stránky sa nachádzate v zavádzacom režime. Všetci noví používatelia budú mať pridelený stupeň dôvery 1 a budú mať zapnutý denný emailový výber aktualít. Toto bude automaticky vypnuté keď celkový počet používateľov presiahne %{min_users}."
     bootstrap_mode_disabled: "Zavádzací režim bude zrušený v priebehu nasledujúcich 24 hodín."
@@ -2281,7 +2281,7 @@ sk:
   admin_js:
     type_to_filter: "zadajte, čo chcete filtrovať ..."
     admin:
-      title: "Administrátor Discourse"
+      title: "Administrátor Okse"
       moderator: "Moderátor"
       tags:
         remove_muted_tags_from_latest:
@@ -2312,7 +2312,7 @@ sk:
         traffic_short: "Vyťaženie"
         traffic: "Požiadavky webových aplikácií"
         show_traffic_report: "Zobraziť detaily vyťaženia"
-        whats_new_in_discourse: "Čo je nové v Discourse?"
+        whats_new_in_discourse: "Čo je nové v Okse?"
         all_reports: "Všetky hlásenia"
         general_tab: "Všeobecné"
         security_tab: "Bezpečnosť"
@@ -3084,9 +3084,9 @@ sk:
         image: "Obrázok"
         delete_confirm: "Ste si istý, že chcete zmazať: %{name}: emoji?"
       embedding:
-        get_started: "Pokiaľ chcete vložiť Discourse na inú stránku, začnite pridaním jej hostiteľa."
+        get_started: "Pokiaľ chcete vložiť Okse na inú stránku, začnite pridaním jej hostiteľa."
         confirm_delete: "Ste si istý, že chcete zmazať tohoto hostiteľa?"
-        sample: "Použite nasledovný HTML kód vo Vašej stránke pre vytvorenie vloženej témy Discourse. Nahraďte <b>REPLACE_ME</b> kanonickou URL adresou stránky, do ktorej to vkladáte."
+        sample: "Použite nasledovný HTML kód vo Vašej stránke pre vytvorenie vloženej témy Okse. Nahraďte <b>REPLACE_ME</b> kanonickou URL adresou stránky, do ktorej to vkladáte."
         title: "Vkladám"
         host: "Povolení hostitelia"
         edit: "uprav"
@@ -3094,7 +3094,7 @@ sk:
         add_host: "Pridať hostiteľa"
         settings: "Nastavenia vkladania"
         crawling_settings: "Nastavenia vyhľadávača"
-        crawling_description: "Ak Discourse vytvorí tému pre Váš príspevok a neexistuje žiadny RSS/ATOM kanál tak sa pokúsime získať Váš obsah z HTML. Získanie obsahu môže byt niekedy výzva a preto poskytujeme možnosť špecifikovať CSS pravidlá na uľahčenie získania obsahu."
+        crawling_description: "Ak Okse vytvorí tému pre Váš príspevok a neexistuje žiadny RSS/ATOM kanál tak sa pokúsime získať Váš obsah z HTML. Získanie obsahu môže byt niekedy výzva a preto poskytujeme možnosť špecifikovať CSS pravidlá na uľahčenie získania obsahu."
         embed_by_username: "Používateľské meno pre vytváranie tém"
         embed_post_limit: "Maximálny počet vložených príspevkov"
         embed_truncate: "Skrátiť vložené príspevky"

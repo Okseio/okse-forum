@@ -2994,7 +2994,7 @@ sl:
   admin_js:
     type_to_filter: "vnesite za filter..."
     admin:
-      title: "Discourse Admin"
+      title: "Okse Admin"
       moderator: "Moderator"
       tags:
         remove_muted_tags_from_latest:
@@ -3005,7 +3005,7 @@ sl:
       dashboard:
         title: "Nadzorna plošča"
         last_updated: "Nadzorna plošča posodobljena:"
-        discourse_last_updated: "Discourse posodobljen:"
+        discourse_last_updated: "Okse posodobljen:"
         version: "Verzija"
         up_to_date: "Imate zadnjo verzijo!"
         critical_available: "Nujna posodobitev je na voljo."
@@ -3044,7 +3044,7 @@ sl:
         show_traffic_report: "Pokaži podrobno poročilo prometa"
         community_health: Stanje skupnosti
         moderators_activity: Aktivnosti moderatorjev
-        whats_new_in_discourse: "Kaj je novega v Discourse?"
+        whats_new_in_discourse: "Kaj je novega v Okse?"
         activity_metrics: Metrike aktivnosti
         all_reports: "Vsa poročila"
         general_tab: "Splošno"

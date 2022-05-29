@@ -3102,7 +3102,7 @@ fi:
   admin_js:
     type_to_filter: "kirjoita suodattaaksesi..."
     admin:
-      title: "Discourse ylläpitäjä"
+      title: "Okse ylläpitäjä"
       moderator: "Valvoja"
       tags:
         remove_muted_tags_from_latest:
@@ -3114,7 +3114,7 @@ fi:
       dashboard:
         title: "Hallintapaneeli"
         last_updated: "Hallintapaneeli päivitetty:"
-        discourse_last_updated: "Discourse päivitetty:"
+        discourse_last_updated: "Okse päivitetty:"
         version: "Versio"
         up_to_date: "Sivusto on ajan tasalla!"
         critical_available: "Kriittinen päivitys on saatavilla."
@@ -3298,7 +3298,7 @@ fi:
       web_hooks:
         title: "Webhookit"
         none: "Webhookeja ei ole nyt."
-        instruction: "Webhookien kautta Discourse ilmoittaa ulkoiselle palvelulle, kun sivustollasi tapahtuu määrätty tapahtuma. Kun webhook laukeaa, POST-pyyntö lähetetään annettuihin URL:eihin."
+        instruction: "Webhookien kautta Okse ilmoittaa ulkoiselle palvelulle, kun sivustollasi tapahtuu määrätty tapahtuma. Kun webhook laukeaa, POST-pyyntö lähetetään annettuihin URL:eihin."
         detailed_instruction: "POST-pyyntö lähetetään annettuun URL:ään, kun valittu tapahtuma tapahtuu."
         new: "Uusi Webhook"
         create: "Luo"
@@ -3506,8 +3506,8 @@ fi:
           component_name: "Komponentin nimi"
           themes_intro: "Aloita valitsemalla olemassa oleva teema tai asenna uusi."
           themes_intro_emoji: "naistaiteilijaemoji"
-          beginners_guide_title: "Aloittelijan opas Discourse-teemojen käyttämiseen"
-          developers_guide_title: "Kehittäjän opas Discourse-teemoihin"
+          beginners_guide_title: "Aloittelijan opas Okse-teemojen käyttämiseen"
+          developers_guide_title: "Kehittäjän opas Okse-teemoihin"
           browse_themes: "Selaile yhteisön kehittämiä teemoja"
           customize_desc: "Mukauta:"
           title: "Teemat"
@@ -3594,9 +3594,9 @@ fi:
           disabled: "Tämä komponentti ei ole käytössä."
           disabled_by: "Komponentin on ottanut käytöstä"
           required_version:
-            error: "Teema poistettiin automaattisesti käytöstä, koska se ei ole yhteensopiva tämän Discourse-version kanssa."
-            minimum: "Vaatii Discourse-version %{version}tai uudemman."
-            maximum: "Vaatii Discourse-version %{version}tai vanhemman."
+            error: "Teema poistettiin automaattisesti käytöstä, koska se ei ole yhteensopiva tämän Okse-version kanssa."
+            minimum: "Vaatii Okse-version %{version}tai uudemman."
+            maximum: "Vaatii Okse-version %{version}tai vanhemman."
           component_of: "Teemojen komponentti:"
           update_to_latest: "Päivitä tuoreimpaan"
           check_for_updates: "Hae päivityksiä"
@@ -3702,7 +3702,7 @@ fi:
         preview_digest: "Esikatsele tiivistelmä"
         advanced_test:
           title: "Edistynyt testi"
-          desc: "Tarkastele kuinka Discourse prosessoi saapuvia sähköposteja. Jotta prosessointi tapahtuu oikein, liitä alle sähköpostiviesti kokonaisuudessaan."
+          desc: "Tarkastele kuinka Okse prosessoi saapuvia sähköposteja. Jotta prosessointi tapahtuu oikein, liitä alle sähköpostiviesti kokonaisuudessaan."
           email: "Alkuperäinen viesti"
           run: "Aja testi"
           text: "Valittu leipäteksti"
@@ -4409,7 +4409,7 @@ fi:
         add_host: "Lisää isäntä"
         settings: "Upotuksen asetukset"
         crawling_settings: "Crawlerin asetukset"
-        crawling_description: "Kun Discourse aloittaa ketjuja kirjoituksistasi, se yrittää jäsentää kirjoitustesi sisältöä HTML:stä, jos RSS/ATOM-syötettä ei ole tarjolla, Joskus kirjoitusten sisällön poimiminen on haastavaa, joten tarjoamme mahdollisuuden määrittää CSS-sääntöjä sen helpottamiseksi."
+        crawling_description: "Kun Okse aloittaa ketjuja kirjoituksistasi, se yrittää jäsentää kirjoitustesi sisältöä HTML:stä, jos RSS/ATOM-syötettä ei ole tarjolla, Joskus kirjoitusten sisällön poimiminen on haastavaa, joten tarjoamme mahdollisuuden määrittää CSS-sääntöjä sen helpottamiseksi."
         embed_by_username: "Käyttäjänimi, jonka nimissä ketjut aloitetaan"
         embed_post_limit: "Upotettavien viestien maksimimäärä"
         embed_title_scrubber: "Säännöllinen lauseke, jolla riisutaan viestien otsikkoja"

@@ -24,11 +24,11 @@ pt_BR:
     <<: *datetime_formats
     am: "am"
     pm: "pm"
-  title: "Discourse"
+  title: "Okse"
   topics: "Tópicos"
   posts: "mensagens"
   loading: "Carregando"
-  powered_by_html: 'Desenvolvido por <a href="https://www.discourse.org">Discourse</a>, melhor visualizado com JavaScript habilitado'
+  powered_by_html: 'Desenvolvido por <a href="https://www.discourse.org">Okse</a>, melhor visualizado com JavaScript habilitado'
   sign_up: "Cadastrar-se"
   log_in: "Entrar"
   submit: "Enviar"
@@ -49,7 +49,7 @@ pt_BR:
       git: "Erro ao clonar o repositório git, o acesso foi negado ou o repositório não foi encontrado"
       unpack_failed: "Falha ao descompactar o arquivo"
       file_too_big: "O arquivo não-comprimido é muito grande."
-      unknown_file_type: "O arquivo que você enviou não parece ser um tema válido do Discourse."
+      unknown_file_type: "O arquivo que você enviou não parece ser um tema válido do Okse."
     errors:
       component_no_user_selectable: "Componentes do tema não podem ser selecionados pelo usuário"
       component_no_default: "Componentes do tema não podem ser o tema padrão"
@@ -209,7 +209,7 @@ pt_BR:
   provider_not_enabled: "Você não tem permissão para visualizar o recurso solicitado. O provedor de autenticação não está ativado."
   provider_not_found: "Você não tem permissão para visualizar o recurso solicitado. O provedor de autenticação não existe."
   read_only_mode_enabled: "O site está em modo somente leitura. As interações estão desativadas."
-  invalid_grant_badge_reason_link: "Link de um Discourse externo ou inválido não é permitido no motivo do emblema"
+  invalid_grant_badge_reason_link: "Link de um Okse externo ou inválido não é permitido no motivo do emblema"
   email_template_cant_be_modified: "Este modelo de e-mail não pode ser modificado"
   invalid_whisper_access: "Os sussurros não estão habilitados ou você não tem acesso para criar postagens de sussurro"
   not_in_group:
@@ -501,7 +501,7 @@ pt_BR:
   staff_category_name: "Equipe"
   staff_category_description: "Categoria particular para as discussões da equipe. Tópicos só são visíveis para os administradores e moderadores."
   discourse_welcome_topic:
-    title: "Bem vindo ao Discourse"
+    title: "Bem vindo ao Okse"
     body: |2
 
       O primeiro parágrafo deste tópico fixo será visto como uma mensagem de boas vindas a todos os novos visitantes em sua página inicial. É muito importante!
@@ -1370,7 +1370,7 @@ pt_BR:
     moderators_create_categories: "Permitir a criação de categorias por moderadores"
     cors_origins: "Origens permitidas para pedidos de origem-cruzada (CORS). Cada origem deve incluir http:// ou https://. A variável de ambiente DISCOURSE_ENABLE_CORS deve ser definida como true para habilitar CORS."
     use_admin_ip_whitelist: "Administradores só podem logar se estiverem na lista de IPs Filtrados (Administração > Logs > IPs Filtrados)."
-    blacklist_ip_blocks: "Uma lista de blocos IP privados que nunca devem ser rastreados pelo Discourse"
+    blacklist_ip_blocks: "Uma lista de blocos IP privados que nunca devem ser rastreados pelo Okse"
     whitelist_internal_hosts: "Uma lista de hosts internos que o discurso pode rastrear com segurança para o oneboxing e outros fins"
     allowed_iframes: "Uma lista de prefixos de domínio iframe src que o discurso pode permitir com segurança em postagens"
     whitelisted_crawler_user_agents: "Agentes de usuário de crawlers da Web que devem ter permissão para acessar o site. AVISO! ESTA CONFIGURAÇÃO NEGARÁ ACESSO A TODOS OS CRAWLERS NÃO LISTADOS AQUI!"
@@ -1408,8 +1408,8 @@ pt_BR:
     email_domains_whitelist: "Lista separada por barra (|) de domínios de email que usuários DEVEM usar para registrar contas. CUIDADO: Usuário com domínio de email diferentes da lista não serão permitidos!"
     hide_email_address_taken: "Não informe os usuários de que existe uma conta com um determinado endereço de e-mail durante a inscrição e o formulário de senha esquecida."
     log_out_strict: "Quando deslogando, deslogar TODAS as sessões do usuário em todos os dispositivos"
-    version_checks: "Verificar no Hub do Discourse por atualizações de versão e mostre novas mensagens de versão no painel <a href='%{base_path}/admin' target='_blank'>/admin</a>"
-    new_version_emails: "Enviar um email para o endereço contact_email quando uma nova versão do Discourse estiver disponível."
+    version_checks: "Verificar no Hub do Okse por atualizações de versão e mostre novas mensagens de versão no painel <a href='%{base_path}/admin' target='_blank'>/admin</a>"
+    new_version_emails: "Enviar um email para o endereço contact_email quando uma nova versão do Okse estiver disponível."
     invite_expiry_days: "Quantos dias as chaves de convite são válidas."
     invite_only: "Todos os novos usuários precisam ser convidados explicitamente por usuários confiáveis ou pela staff. O cadastro público está desabilitado."
     login_required: "Exigir autenticação para ler conteúdo neste site, desabilitar acesso anônimo."
@@ -1424,16 +1424,16 @@ pt_BR:
     block_common_passwords: "Não permitir senhas que estiverem entre as 10,000 senhas mais comuns."
     enable_sso: "Permite autenticação única atráves de site externo (AVISO: OS ENDEREÇOS DE E-MAIL *DEVEM* SER VALIDADOS PELO SITE EXTERNO!)"
     verbose_sso_logging: "Registrar diagnósticos detalhados relacionados a SSO em <a href='%{base_path}/logs' target='_blank'>/logs</a>"
-    enable_sso_provider: "Implementar o protocolo do provedor Discourse SSO no terminal /session/sso_provider, requer que sso_provider_secrets seja definido"
+    enable_sso_provider: "Implementar o protocolo do provedor Okse SSO no terminal /session/sso_provider, requer que sso_provider_secrets seja definido"
     sso_url: "URL do ponto final do logon único (SSO) (deve incluir http:// ou https://)"
     sso_secret: "String secreta usada para autenticar criptograficamente informação de SSO, esteja certo de que possui 10 ou mais caracteres"
-    sso_provider_secrets: "Uma lista de pares de domínio-segredo que estão usando o Discourse como um provedor de SSO. Certifique-se de que o segredo de SSO tenha 10 caracteres ou mais. O símbolo curinga * pode ser usado para corresponder a qualquer domínio ou apenas parte dele (por exemplo, *.example.com)."
+    sso_provider_secrets: "Uma lista de pares de domínio-segredo que estão usando o Okse como um provedor de SSO. Certifique-se de que o segredo de SSO tenha 10 caracteres ou mais. O símbolo curinga * pode ser usado para corresponder a qualquer domínio ou apenas parte dele (por exemplo, *.example.com)."
     sso_overrides_bio: "Sobrescreve a bio de usuário e impede o usuário de mudá-la."
     sso_overrides_groups: "Sincronize todos os membros do grupo manual com grupos especificados no atributo sso do grupo (ATENÇÃO: se você não especificar grupos, todos os membros do grupo manual serão limpos para o usuário)"
     sso_overrides_email: "Substitui endereço de e-mail local pelo fornecido no site externo através de cada informação de login, e previne mudanças locais. (AVISO: discrepâncias podem ocorrer devido a normalização de e-mails locais)"
     sso_overrides_username: "Substitui nome de usuário local com o fornecido pelo site externo através da informação de cada login, e previne mudanças locais. (AVISO: discrepâncias podem ocorrer devido a diferenças ao tamanho e pré-requisitos de nomes de usuário)"
     sso_overrides_name: "Substitui nome completo local com nome completo do site externo através da informação de login, e previne mudanças locais."
-    sso_overrides_avatar: "Substitui o avatar do usuário pelo avatar do site externo do payload do SSO. Se habilitado, os usuários não poderão fazer upload de avatares no Discourse."
+    sso_overrides_avatar: "Substitui o avatar do usuário pelo avatar do site externo do payload do SSO. Se habilitado, os usuários não poderão fazer upload de avatares no Okse."
     sso_overrides_profile_background: "Substitui o plano de fundo do perfil do usuário pelo avatar do site externo da carga útil do SSO."
     sso_overrides_card_background: "Substitui o plano de fundo do cartão do usuário pelo avatar do site externo da carga útil do SSO."
     sso_not_approved_url: "Redireciona contas não aprovadas no login externo para este endereço"
@@ -1442,21 +1442,21 @@ pt_BR:
     enable_local_logins_via_email: "Permitir que os usuários solicitem um link de login com um clique para serem enviados por e-mail."
     allow_new_registrations: "Permitir registro de novos usuários. Desmarque isso para prevenir quem quer que seja de criar uma nova conta."
     enable_signup_cta: "Mostra um aviso aos usuários anônimos que retornem, solicitando que criem uma conta."
-    enable_google_oauth2_logins: "Habilitar a autenticação do Google Oauth2. Este é o método de autenticação que o Google atualmente suporta. Requer chave e segredo. Consulte <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuring Google login for Discourse</a>."
+    enable_google_oauth2_logins: "Habilitar a autenticação do Google Oauth2. Este é o método de autenticação que o Google atualmente suporta. Requer chave e segredo. Consulte <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuring Google login for Okse</a>."
     google_oauth2_client_id: "Client ID da sua aplicação Google."
     google_oauth2_client_secret: "Client secret da sua aplicação Google."
     google_oauth2_prompt: "Uma lista delimitada por espaço opcional de valores de cadeia que especifica se o servidor de autorização solicita ao usuário reautenticação e consentimento. Consulte <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> para os valores possíveis."
     google_oauth2_hd: "Um domínio hospedado pelo Google Apps opcional ao qual o login será limitado. Consulte <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> para mais detalhes."
-    enable_twitter_logins: "Habilitar a autenticação do Twitter, requer twitter_consumer_key e twitter_consumer_secret. Consulte <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Discourse</a>."
+    enable_twitter_logins: "Habilitar a autenticação do Twitter, requer twitter_consumer_key e twitter_consumer_secret. Consulte <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Okse</a>."
     twitter_consumer_key: "Chave do consumidor para autenticação do Twitter, registrada em <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Segredo do consumidor para autenticação do Twitter, registrado em <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "Habilitar autenticação via Instagram. Requer instagram_consumer_key e instagram_consumer_secret"
     instagram_consumer_key: "Chave de consumidor para autenticação via Instagram"
     instagram_consumer_secret: "Segredo de consumidor para autenticação via Instagram"
-    enable_facebook_logins: "Habilitar a autenticação do Facebook, requer facebook_app_id e facebook_app_secret. Consulte <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuring Facebook login for Discourse</a>."
+    enable_facebook_logins: "Habilitar a autenticação do Facebook, requer facebook_app_id e facebook_app_secret. Consulte <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuring Facebook login for Okse</a>."
     facebook_app_id: "ID do aplicativo para autenticação do Facebook, registrado em <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "Segredo do aplicativo para autenticação do Facebook, registrado em <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "Habilitar a autenticação do Github, requer github_client_id e github_client_secret. Veja <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuring GitHub login for Discourse</a>."
+    enable_github_logins: "Habilitar a autenticação do Github, requer github_client_id e github_client_secret. Veja <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuring GitHub login for Okse</a>."
     github_client_id: "ID do cliente para autenticação do Github, registrado em <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "Segredo do cliente para autenticação do Github, registrado em <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     discord_secret: "Chave Secreta do Discord"
@@ -1509,7 +1509,7 @@ pt_BR:
     purge_deleted_uploads_grace_period_days: "Carência (em dias) antes que um upload excluído seja apagado."
     purge_unactivated_users_grace_period_days: "Período de carência (em dias) antes que um usuário que não tenha ativado sua conta seja excluído. Defina como 0 para nunca eliminar usuários não ativados."
     enable_s3_uploads: "Colocar uploads no armazenamento da Amazon S3. IMPORTANTE: exige credenciais válidas da S3 (ambos id da chave de acesso & segredo da chave de acesso)."
-    s3_use_iam_profile: 'Use um <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">AWS EC2 instance profile</a> para conceder acesso ao bucket S3. NOTA: habilitar isso requer que o Discourse esteja sendo executado em uma instância EC2 apropriadamente configurada, e sobrescreve as configurações "s3 access key key" e "s3 secret access key".'
+    s3_use_iam_profile: 'Use um <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">AWS EC2 instance profile</a> para conceder acesso ao bucket S3. NOTA: habilitar isso requer que o Okse esteja sendo executado em uma instância EC2 apropriadamente configurada, e sobrescreve as configurações "s3 access key key" e "s3 secret access key".'
     s3_upload_bucket: "Nome do bucket da Amazon S3 no qual os arquivos serão enviados. AVISO: precisa ser em minúsculas, sem pontos, sem underscores."
     s3_access_key_id: "O ID da chave de acesso do Amazon S3 que será usado para fazer upload de imagens, anexos e backups."
     s3_secret_access_key: "A chave de acesso secreta do Amazon S3 que será usada para fazer upload de imagens, anexos e backups."
@@ -1700,7 +1700,7 @@ pt_BR:
     email_accent_fg_color: "A cor do texto renderizado na cor do e-mail bg em emails HTML. Digite um nome de cor ('branco') ou valor hexadecimal ('#FFFFFF')."
     email_link_color: "A cor dos links em e-mails HTML. Digite um nome de cor ('azul') ou valor hexadecimal ('# 0000FF')."
     detect_custom_avatars: "Se deve ou não verificar se os usuários enviaram imagens de perfil personalizadas."
-    max_daily_gravatar_crawls: "Número máximo de vezes que o Discourse irá checar o Gravatar por avatares personalizados em um dia"
+    max_daily_gravatar_crawls: "Número máximo de vezes que o Okse irá checar o Gravatar por avatares personalizados em um dia"
     public_user_custom_fields: "Uma lista de campos personalizados do usuário que podem ser recuperados com a API."
     staff_user_custom_fields: "Uma lista de campos personalizados do usuário que podem ser recuperados para membros da staff com a API."
     enable_user_directory: "Fornece um diretório de usuários para navegar"
@@ -3531,7 +3531,7 @@ pt_BR:
     synonyms_exist: "não é permitido pois existem sinônimos"
   rss_by_tag: "Tópicos marcados com %{tag}"
   finish_installation:
-    congratulations: "Parabéns, você instalou o Discourse!"
+    congratulations: "Parabéns, você instalou o Okse!"
     register:
       button: "Registro"
       title: "Registro da Conta Administradora"
@@ -3552,10 +3552,10 @@ pt_BR:
     enter: "Entre no modo de segurança"
     must_select: "Você deve selecionar pelo menos uma opção para entrar no modo de segurança."
   wizard:
-    title: "Configuração do Discourse"
+    title: "Configuração do Okse"
     step:
       locale:
-        title: "Bem-vindo ao seu Discourse!"
+        title: "Bem-vindo ao seu Okse!"
         fields:
           default_locale:
             description: "Qual é o idioma padrão para sua comunidade?"
@@ -3614,7 +3614,7 @@ pt_BR:
             description: "Página de contato geral para você ou sua organização. Será exibido no <a href='%{base_path}/about' target='_blank'>sua sobre a página</a>."
           site_contact:
             label: "Mensagens Automatizadas"
-            description: "Todas as mensagens pessoais do Discourse automatizadas serão enviadas a partir desse usuário, como avisos de sinalização e avisos de conclusão de backup."
+            description: "Todas as mensagens pessoais do Okse automatizadas serão enviadas a partir desse usuário, como avisos de sinalização e avisos de conclusão de backup."
       corporate:
         title: "Organização"
         description: "Estas informações serão inseridas nos seus <a href='%{base_path}/tos' target='blank'>Termos de Serviço</a>, que é um tópico que você pode editar na categoria da staff. Se você não tem uma empresa, sinta-se à vontade para pular esta etapa por enquanto."
@@ -3632,7 +3632,7 @@ pt_BR:
         title: "Tema"
       themes_further_reading:
         title: "Temas"
-        description: "Quer personalizar seu Discourse? Aproveite o nosso poderoso sistema de temas: <ul> <li><a href='https://meta.discourse.org/t/63682' target='_blank'>How do I install a theme or theme component?</a></li> <li><a href='https://meta.discourse.org/t/110448' target='_blank'>Theme Developer Quick Reference Guide</a></li> </ul> Popular theme components (para mais, visite <a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#theme</a>)"
+        description: "Quer personalizar seu Okse? Aproveite o nosso poderoso sistema de temas: <ul> <li><a href='https://meta.discourse.org/t/63682' target='_blank'>How do I install a theme or theme component?</a></li> <li><a href='https://meta.discourse.org/t/110448' target='_blank'>Theme Developer Quick Reference Guide</a></li> </ul> Popular theme components (para mais, visite <a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#theme</a>)"
       logos:
         title: "Logotipos"
         fields:
@@ -3679,7 +3679,7 @@ pt_BR:
         description: "Você está quase pronto! Vamos convidar algumas pessoas para ajudar <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>\nsemear suas discussões</a> com tópicos e respostas interessantes para iniciar sua comunidade."
         disabled: "Como os logins locais estão desabilitados, não é possível enviar convites para ninguém. Por favor, prossiga para o próximo passo."
       finished:
-        title: "Seu Discourse está pronto!"
+        title: "Seu Okse está pronto!"
         description: |
           <p>Se você sentir vontade de alterar estas configurações, <b>execute novamente este assistente a qualquer momento</b> ou visite <a href='%{base_path}/admin' target='_blank'>a seção de administradores</a>; encontre-a ao lado do ícone de chave inglesa no menu do site.</p>
           <p>Divirta-se e boa sorte <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='_blank'>construindo sua nova comunidade!</a></p>

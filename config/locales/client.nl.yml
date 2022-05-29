@@ -156,7 +156,7 @@ nl:
         disabled: "heeft deze banner verwijderd op %{when}. De banner zal niet meer bovenaan elke pagina verschijnen."
       forwarded: "heeft de bovenstaande e-mail doorgestuurd"
     topic_admin_menu: "topicacties"
-    wizard_required: "Welkom bij uw nieuwe Discourse! Laten we beginnen met <a href='%{url}' data-auto-route='true'>de configuratiewizard</a> ✨"
+    wizard_required: "Welkom bij uw nieuwe Okse! Laten we beginnen met <a href='%{url}' data-auto-route='true'>de configuratiewizard</a> ✨"
     emails_are_disabled: "Alle uitgaande e-mail is uitgeschakeld door een beheerder. Er wordt geen enkele e-mailmelding verstuurd."
     bootstrap_mode_enabled: "Om het opzetten van uw nieuwe website makkelijker te maken, bevindt u zich in bootstrapmodus. Aan alle nieuwe gebruikers wordt vertrouwensniveau 1 toegekend, en dagelijkse e-mailsamenvattingen zijn voor hen ingeschakeld. Dit wordt automatisch uitgeschakeld zodra %{min_users} gebruikers lid zijn geworden."
     bootstrap_mode_disabled: "De bootstrapmodus wordt binnen 24 uur uitgeschakeld."
@@ -3110,7 +3110,7 @@ nl:
   admin_js:
     type_to_filter: "typ om te filteren..."
     admin:
-      title: "Discourse-beheer"
+      title: "Okse-beheer"
       moderator: "Moderator"
       tags:
         remove_muted_tags_from_latest:
@@ -3122,7 +3122,7 @@ nl:
       dashboard:
         title: "Dashboard"
         last_updated: "Dashboard bijgewerkt:"
-        discourse_last_updated: "Discourse bijgewerkt:"
+        discourse_last_updated: "Okse bijgewerkt:"
         version: "Versie"
         up_to_date: "U bent up-to-date!"
         critical_available: "Er is een kritieke update beschikbaar."
@@ -3159,7 +3159,7 @@ nl:
         show_traffic_report: "Gedetailleerd verkeersrapport tonen"
         community_health: Status van gemeenschap
         moderators_activity: Moderator-activiteit
-        whats_new_in_discourse: "Wat is er nieuw in Discourse?"
+        whats_new_in_discourse: "Wat is er nieuw in Okse?"
         activity_metrics: Activiteitsgegevens
         all_reports: "Alle rapporten"
         general_tab: "Algemeen"
@@ -3306,7 +3306,7 @@ nl:
       web_hooks:
         title: "Webhooks"
         none: "Er zijn op dit moment geen webhooks."
-        instruction: "Via webhooks kan Discourse externe services waarschuwen wanneer bepaalde gebeurtenissen op uw website plaatsvinden. Zodra de webhook wordt geactiveerd, wordt een POST-aanvraag naar opgegeven URL's verstuurd."
+        instruction: "Via webhooks kan Okse externe services waarschuwen wanneer bepaalde gebeurtenissen op uw website plaatsvinden. Zodra de webhook wordt geactiveerd, wordt een POST-aanvraag naar opgegeven URL's verstuurd."
         detailed_instruction: "Zodra de gekozen gebeurtenis plaatsvindt, wordt een POST-aanvraag naar de opgegeven URL verstuurd."
         new: "Nieuwe webhook"
         create: "Aanmaken"
@@ -3514,8 +3514,8 @@ nl:
           component_name: "Onderdeelnaam"
           themes_intro: "Selecteer een bestaand of installeer een nieuw thema om te beginnen"
           themes_intro_emoji: "kunstenares-emoji"
-          beginners_guide_title: "Beginnersgids voor het gebruik van Discourse-thema's"
-          developers_guide_title: "Ontwikkelaarsgids voor Discourse-thema's"
+          beginners_guide_title: "Beginnersgids voor het gebruik van Okse-thema's"
+          developers_guide_title: "Ontwikkelaarsgids voor Okse-thema's"
           browse_themes: "Gemeenschapsthema's verkennen"
           customize_desc: "Aanpassen:"
           title: "Thema's"
@@ -3606,9 +3606,9 @@ nl:
           disabled: "Dit onderdeel is uitgeschakeld."
           disabled_by: "Dit onderdeel is uitgeschakeld door"
           required_version:
-            error: "Dit thema is automatisch uitgeschakeld, omdat het niet compatibel is met deze versie van Discourse."
-            minimum: "Vereist Discourse-versie %{version} of hoger."
-            maximum: "Vereist Discourse-versie %{version} of lager."
+            error: "Dit thema is automatisch uitgeschakeld, omdat het niet compatibel is met deze versie van Okse."
+            minimum: "Vereist Okse-versie %{version} of hoger."
+            maximum: "Vereist Okse-versie %{version} of lager."
           component_of: "Onderdeel van:"
           update_to_latest: "Bijwerken naar nieuwste"
           check_for_updates: "Controleren op updates"
@@ -3663,7 +3663,7 @@ nl:
           undo: "ongedaan maken"
           undo_title: "Uw wijzigingen aan deze kleur sinds de laatste keer dat deze is opgeslagen ongedaan maken."
           revert: "terugzetten"
-          revert_title: "Deze kleur terugzetten naar het standaardkleurenpalet van Discourse."
+          revert_title: "Deze kleur terugzetten naar het standaardkleurenpalet van Okse."
           primary:
             name: "primaire"
             description: "Meeste tekst, pictogrammen en randen."
@@ -3714,7 +3714,7 @@ nl:
         preview_digest: "Voorbeeld van samenvatting"
         advanced_test:
           title: "Geavanceerde test"
-          desc: "Bekijken hoe Discourse ontvangen e-mails verwerkt. Plak hieronder het volledige oorspronkelijke e-mailbericht om de e-mail goed te kunnen laten verwerken."
+          desc: "Bekijken hoe Okse ontvangen e-mails verwerkt. Plak hieronder het volledige oorspronkelijke e-mailbericht om de e-mail goed te kunnen laten verwerken."
           email: "Oorspronkelijke bericht"
           run: "Test uitvoeren"
           text: "Hoofdtekst van geselecteerde tekst"
@@ -4416,9 +4416,9 @@ nl:
         alt: "voorbeeld van eigen emoji"
         delete_confirm: "Weet u zeker dat u de emoji :%{name}: wilt verwijderen?"
       embedding:
-        get_started: "Als u Discourse in een andere website wilt inbedden, begin dan door de host ervan toe te voegen."
+        get_started: "Als u Okse in een andere website wilt inbedden, begin dan door de host ervan toe te voegen."
         confirm_delete: "Weet u zeker dat u die host wilt verwijderen?"
-        sample: "Gebruik de volgende HTML-code in uw website om Discourse-topics te maken en in te bedden. Vervang <b>REPLACE_ME</b> door de canonieke URL van de pagina waarin u het topic wilt inbedden."
+        sample: "Gebruik de volgende HTML-code in uw website om Okse-topics te maken en in te bedden. Vervang <b>REPLACE_ME</b> door de canonieke URL van de pagina waarin u het topic wilt inbedden."
         title: "Inbedding"
         host: "Toegestane hosts"
         class_name: "Klassenaam"
@@ -4428,7 +4428,7 @@ nl:
         add_host: "Host toevoegen"
         settings: "Inbeddingsinstellingen"
         crawling_settings: "Crawlerinstellingen"
-        crawling_description: "Als Discourse topics voor uw berichten aanmaakt en er geen RSS/ATOM-feed aanwezig is, wordt geprobeerd uw inhoud vanuit HTML te parsen. Omdat het soms een uitdaging kan zijn om inhoud te extraheren, bieden we de mogelijkheid voor het opgeven van CSS-regels om de extractie makkelijker te maken."
+        crawling_description: "Als Okse topics voor uw berichten aanmaakt en er geen RSS/ATOM-feed aanwezig is, wordt geprobeerd uw inhoud vanuit HTML te parsen. Omdat het soms een uitdaging kan zijn om inhoud te extraheren, bieden we de mogelijkheid voor het opgeven van CSS-regels om de extractie makkelijker te maken."
         embed_by_username: "Gebruikersnaam voor het maken van topics"
         embed_post_limit: "Maximale aantal berichten om in te bedden"
         embed_title_scrubber: "Reguliere expressie voor het afleiden van de titels van berichten"

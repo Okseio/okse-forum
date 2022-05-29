@@ -200,7 +200,7 @@ he:
         disabled: "באנר זה הוסר ב־%{when}. הוא לא יופיע יותר בראש כל דף."
       forwarded: "העברת ההודעה שלעיל"
     topic_admin_menu: "פעולות על נושא"
-    wizard_required: "ברוך בואך ל־Discourse החדש שלך! נתחיל עם <a href='%{url}' data-auto-route='true'>אשף ההתקנה</a> ✨"
+    wizard_required: "ברוך בואך ל־Okse החדש שלך! נתחיל עם <a href='%{url}' data-auto-route='true'>אשף ההתקנה</a> ✨"
     emails_are_disabled: "כל הדוא״ל היוצא נוטרל באופן גורף על ידי מנהל אתר. שום הודעת דוא״ל, מכל סוג שהוא, לא תשלח."
     bootstrap_mode_enabled: "כדי להקל על הקמת האתר החדש שלך, כרגע המערכת במצב אתחול ראשוני. לכל המשתמשים החדשים תוענק דרגת האמון 1 ויישלח אליהם תמצות יומי בדוא״ל. אפשרות זו תכבה אוטומטית לאחר הצטרפות של למעלה מ־%{min_users} משתמשים."
     bootstrap_mode_disabled: "מצב Bootstrap יבוטל תוך 24 שעות."
@@ -3355,7 +3355,7 @@ he:
   admin_js:
     type_to_filter: "הקלידו לסינון..."
     admin:
-      title: "ניהול Discourse"
+      title: "ניהול Okse"
       moderator: "מפקח"
       tags:
         remove_muted_tags_from_latest:
@@ -3367,7 +3367,7 @@ he:
       dashboard:
         title: "לוח בקרה"
         last_updated: "עדכון לוח המחוונים:"
-        discourse_last_updated: "עדכון Discourse:"
+        discourse_last_updated: "עדכון Okse:"
         version: "גירסה"
         up_to_date: "הכול עדכני!"
         critical_available: "עדכון קריטי מוכן להתקנה."
@@ -3406,7 +3406,7 @@ he:
         show_traffic_report: "הצגת דו\"ח תנועה מפורט"
         community_health: בריאות הקהילה
         moderators_activity: פעילות מפקחים
-        whats_new_in_discourse: "מה חדש ב־Discourse?"
+        whats_new_in_discourse: "מה חדש ב־Okse?"
         activity_metrics: מדדי פעילות
         all_reports: "כל הדיווחים"
         general_tab: "כללי"
@@ -3553,7 +3553,7 @@ he:
       web_hooks:
         title: "Webhooks"
         none: "אין כרגע webhooks."
-        instruction: "התליות (Webhooks) מאפשרות ל־Discourse להודיע לשירותים חיצוניים מתי מתרחש אירוע מסוים באתר שלך. כאשר ההתליה מתרחשת, תישלח בקשת POST לכתובות שצוינו."
+        instruction: "התליות (Webhooks) מאפשרות ל־Okse להודיע לשירותים חיצוניים מתי מתרחש אירוע מסוים באתר שלך. כאשר ההתליה מתרחשת, תישלח בקשת POST לכתובות שצוינו."
         detailed_instruction: "בקשת POST תישלח ל URL שמוגדר כאשר מתרחש האירוע שנבחר."
         new: "Webhook חדש"
         create: "יצירה"
@@ -3765,8 +3765,8 @@ he:
           component_name: "שם רכיב"
           themes_intro: "נא לבחור בערכת עיצוב קיימת או להתקין חדשה כדי להתחיל"
           themes_intro_emoji: "אמוג׳י של אומנית"
-          beginners_guide_title: "המדריך למתחילים בערכות העיצוב של Discourse"
-          developers_guide_title: "המדריך למפתחי ערכות עיצוב של Discourse"
+          beginners_guide_title: "המדריך למתחילים בערכות העיצוב של Okse"
+          developers_guide_title: "המדריך למפתחי ערכות עיצוב של Okse"
           browse_themes: "עיון בערכות העיצוב של הקהילה"
           customize_desc: "התאמה אישית:"
           title: "ערכות עיצוב"
@@ -3857,9 +3857,9 @@ he:
           disabled: "הרכיב הזה נוטרל."
           disabled_by: "הרכיב הזה נוטרל ע״י"
           required_version:
-            error: "ערכת עיצוב זו נוטרלה אוטומטית כיוון שאינה תואמת לגרסה זו של Discourse."
-            minimum: "נדרש Discourse בגרסה %{version} ומעלה."
-            maximum: "נדרש Discourse בגרסה %{version} ומטה."
+            error: "ערכת עיצוב זו נוטרלה אוטומטית כיוון שאינה תואמת לגרסה זו של Okse."
+            minimum: "נדרש Okse בגרסה %{version} ומעלה."
+            maximum: "נדרש Okse בגרסה %{version} ומטה."
           component_of: "רכיב של:"
           update_to_latest: "עדכון לגרסה אחרונה"
           check_for_updates: "בדיקת עדכונים"
@@ -3916,7 +3916,7 @@ he:
           undo: "ביטול (Unfo)"
           undo_title: "ביטול השינויים לצבע זה מאז הפעם שעברה שהוא נשמר."
           revert: "לחזור"
-          revert_title: "לאפס את הצבע הזה למבחר הצבעים כבררת מחדל של Discourse."
+          revert_title: "לאפס את הצבע הזה למבחר הצבעים כבררת מחדל של Okse."
           primary:
             name: "ראשי"
             description: "רוב הטקסט, הייקונים והמסגרות."
@@ -3967,7 +3967,7 @@ he:
         preview_digest: "תצוגה מקדימה של תמצית"
         advanced_test:
           title: "בדיקה מתקדמת"
-          desc: "הצגה כיצד Discourse מעבד הודעות שהתקבלו. כדי לאפשר עיבוד נכון של הודעת הדוא״ל נא להדביק את הודעת הדוא״ל במלואה."
+          desc: "הצגה כיצד Okse מעבד הודעות שהתקבלו. כדי לאפשר עיבוד נכון של הודעת הדוא״ל נא להדביק את הודעת הדוא״ל במלואה."
           email: "הודעה מקורית"
           run: "הרצת בדיקות"
           text: "גוף ההודעה נבחר"
@@ -4681,9 +4681,9 @@ he:
         alt: "תצוגה מקדימה של אמוג׳י מותאם"
         delete_confirm: "להסיר את האמוג׳י :%{name}:?"
       embedding:
-        get_started: "כדי להטמיע את Discourse באתר אחר, יש להתחיל בהוספת השרת שלו."
+        get_started: "כדי להטמיע את Okse באתר אחר, יש להתחיל בהוספת השרת שלו."
         confirm_delete: "האם ברצונכם להסיר את הhost הזה? "
-        sample: "יש להשתמש בקוד ה־HTML הבא באתר שלך כדי ליצור ולהטמיע נושאים של Discourse. עליך להחליף את <b>REPLACE_ME</b> בכתובת היחסית של העמוד בו תתבצע ההטמעה."
+        sample: "יש להשתמש בקוד ה־HTML הבא באתר שלך כדי ליצור ולהטמיע נושאים של Okse. עליך להחליף את <b>REPLACE_ME</b> בכתובת היחסית של העמוד בו תתבצע ההטמעה."
         title: "שילוב (embedding)"
         host: "שרתים מורשים"
         class_name: "שם מחלקה"
@@ -4693,7 +4693,7 @@ he:
         add_host: "הוספת שרת"
         settings: "הגדרות הטמעה"
         crawling_settings: "הגדרות זחלן"
-        crawling_description: "כאשר Discourse יוצר נושאים חדשים עבור פוסטים שלך, אם לא קיים RSS/ATOM הוא ינסה לפענח את התוכן מתוך ה־HTML שלך. לפעמים מדובר באתגר רציני לחלץ את התכנים שלך אז אנחנו מספקים את האפשרות להגדיר כללי CSS כדי שהחילוץ יהיה קל יותר."
+        crawling_description: "כאשר Okse יוצר נושאים חדשים עבור פוסטים שלך, אם לא קיים RSS/ATOM הוא ינסה לפענח את התוכן מתוך ה־HTML שלך. לפעמים מדובר באתגר רציני לחלץ את התכנים שלך אז אנחנו מספקים את האפשרות להגדיר כללי CSS כדי שהחילוץ יהיה קל יותר."
         embed_by_username: "שם משתמש ליצירת נושא"
         embed_post_limit: "מספר מקסימלי של פרסומים להטמעה."
         embed_title_scrubber: "ביטוי רגולרי שמשמש כדי לנקות את הכותרת של פוסטים"

@@ -21,7 +21,7 @@ id:
     <<: *datetime_formats
   time:
     <<: *datetime_formats
-  title: "Discourse"
+  title: "Okse"
   topics: "Topik"
   posts: "post"
   loading: "Memuat"

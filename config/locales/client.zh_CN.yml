@@ -134,7 +134,7 @@ zh_CN:
         disabled: "于%{when}移除了该横幅。横幅将不再显示在每一页的顶部。"
       forwarded: "转发上述邮件"
     topic_admin_menu: "管理主题"
-    wizard_required: "欢迎来到你新安装的 Discourse！让我们开始<a href='%{url}' data-auto-route='true'>设置向导</a>✨"
+    wizard_required: "欢迎来到你新安装的 Okse！让我们开始<a href='%{url}' data-auto-route='true'>设置向导</a>✨"
     emails_are_disabled: "出站邮件已经被管理员全局禁用。将不会发送任何邮件提醒。"
     bootstrap_mode_enabled: "为方便新站点的冷启动，现正处于初始化模式中。所有新用户将被授予信任等级 1，并为他们启用每日邮件摘要。初始化模式会在用户数超过%{min_users}个时关闭。"
     bootstrap_mode_disabled: "初始化模式将会在24小时内关闭。"
@@ -2992,7 +2992,7 @@ zh_CN:
   admin_js:
     type_to_filter: "输入以筛选…"
     admin:
-      title: "Discourse 管理员"
+      title: "Okse 管理员"
       moderator: "版主"
       tags:
         remove_muted_tags_from_latest:
@@ -3187,7 +3187,7 @@ zh_CN:
       web_hooks:
         title: "Webhooks"
         none: "当前没有 Webhooks。"
-        instruction: "Webhooks 让 Discourse 可以在特定事件发生时通知外部服务。当 webhook 事件触发时，一个 POST 请求将发向指定地址。"
+        instruction: "Webhooks 让 Okse 可以在特定事件发生时通知外部服务。当 webhook 事件触发时，一个 POST 请求将发向指定地址。"
         detailed_instruction: "一个 POST 请求将在选定事件发生时发至指定 URL。"
         new: "新建 Webhook"
         create: "创建"
@@ -3541,7 +3541,7 @@ zh_CN:
           undo: "重置"
           undo_title: "撤销你对这个颜色的编辑至上一次保存的状态。"
           revert: "撤销"
-          revert_title: "重置颜色至 Discourse 的默认调色板。"
+          revert_title: "重置颜色至 Okse 的默认调色板。"
           primary:
             name: "主要"
             description: "大部分的文字、图标和边框。"
@@ -4019,7 +4019,7 @@ zh_CN:
           other: "不能删除所有帖子。一些帖子发表于 %{count} 天前。（设置项：delete_user_max_post_age）"
         cant_delete_all_too_many_posts:
           other: "不能删除所有帖子，因为用户有超过 %{count} 个帖子。（delete_all_posts_max）"
-        delete_confirm: "通常最好匿名用户而不是删除它们，以避免删除 Discourse 的现有内容。<br><br>您确定要删除此用户吗？这项操作是不可逆的！"
+        delete_confirm: "通常最好匿名用户而不是删除它们，以避免删除 Okse 的现有内容。<br><br>您确定要删除此用户吗？这项操作是不可逆的！"
         delete_and_block: "删除并<b>封禁</b>该邮件地址和IP地址"
         delete_dont_block: "仅删除"
         deleting_user: "删除用户"
@@ -4288,9 +4288,9 @@ zh_CN:
         alt: "自定义表情符号预览"
         delete_confirm: "你确定要删除 :%{name}: emoji 么？"
       embedding:
-        get_started: "如果你想要将 Discourse 嵌入至其他网站，添加他们的主机地址。"
+        get_started: "如果你想要将 Okse 嵌入至其他网站，添加他们的主机地址。"
         confirm_delete: "你确定要删除这个主机吗？"
-        sample: "使用下列 HTML 代码至你的站点创建和嵌入 Discourse 主题。把<b>REPLACE_ME</b> 替换成你将嵌入至的网址。"
+        sample: "使用下列 HTML 代码至你的站点创建和嵌入 Okse 主题。把<b>REPLACE_ME</b> 替换成你将嵌入至的网址。"
         title: "嵌入"
         host: "允许的主机"
         class_name: "类名"
@@ -4300,7 +4300,7 @@ zh_CN:
         add_host: "增加主机"
         settings: "嵌入设置"
         crawling_settings: "爬虫设置"
-        crawling_description: "当 Discourse 为你的帖子创建了主题时，如果没有 RSS/ATOM 流存在，它将尝试从 HTML 中解析内容。有时分离其中的内容时可能是很有挑战性的，所以我们提供了指定 CSS 规则的能力来帮助分离过程。"
+        crawling_description: "当 Okse 为你的帖子创建了主题时，如果没有 RSS/ATOM 流存在，它将尝试从 HTML 中解析内容。有时分离其中的内容时可能是很有挑战性的，所以我们提供了指定 CSS 规则的能力来帮助分离过程。"
         embed_by_username: "主题创建者的用户名"
         embed_post_limit: "嵌入的最大帖子数量。"
         embed_title_scrubber: "从帖子中提取标题的正则表达式"

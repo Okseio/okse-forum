@@ -24,11 +24,11 @@ hu:
     <<: *datetime_formats
     am: "de."
     pm: "du."
-  title: "Discourse"
+  title: "Okse"
   topics: "Témák"
   posts: "Bejegyzések"
   loading: "Betöltés"
-  powered_by_html: 'A motorháztető alatt: <a href="https://www.discourse.org">Discourse</a>, a megtekintése JavaScript engedélyezésével ajánlott'
+  powered_by_html: 'A motorháztető alatt: <a href="https://www.discourse.org">Okse</a>, a megtekintése JavaScript engedélyezésével ajánlott'
   sign_up: "Regisztráció"
   log_in: "Bejelentkezés"
   submit: "Beküldés"
@@ -50,7 +50,7 @@ hu:
       git: "Nem sikerült klónozni a git tárolót, a hozzáférés meg lett tagadva vagy a tároló nem található"
       unpack_failed: "A fájl kibontása sikertelen"
       file_too_big: "A kibontott fájl túl nagy."
-      unknown_file_type: "A feltöltött fájl nem tűnik érvényes Discourse témának."
+      unknown_file_type: "A feltöltött fájl nem tűnik érvényes Okse témának."
     errors:
       component_no_user_selectable: "A téma összetevőit nem választhatja ki a felhasználó"
       component_no_default: "A témaösszetevő nem lehet alapértelmezett téma"
@@ -1200,7 +1200,7 @@ hu:
         other: 'A(z) „%{tag_name}” címke a következő kategóriákra korlátozott: %{category_names}'
   rss_by_tag: "Témák a(z) %{tag} címkével"
   finish_installation:
-    congratulations: "Gratulálunk, telepítette a Discourse-ot!"
+    congratulations: "Gratulálunk, telepítette a Okse-ot!"
     register:
       button: "Regisztráció"
       title: "Adminisztrátori fiók regisztrációja"
@@ -1274,7 +1274,7 @@ hu:
       invites:
         title: "Stáb meghívása"
       finished:
-        title: "A Discourse készen áll!"
+        title: "A Okse készen áll!"
   joined: "Csatlakozott"
   discourse_push_notifications:
     popup:

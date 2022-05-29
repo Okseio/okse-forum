@@ -24,11 +24,11 @@ da:
     <<: *datetime_formats
     am: "am"
     pm: "pm"
-  title: "Discourse"
+  title: "Okse"
   topics: "Emner"
   posts: "indlæg"
   loading: "Indlæser"
-  powered_by_html: 'Drives med brug af <a href="https://www.discourse.org">Discourse</a>, ses bedst med JavaScript slået til'
+  powered_by_html: 'Drives med brug af <a href="https://www.discourse.org">Okse</a>, ses bedst med JavaScript slået til'
   sign_up: "Tilmeld dig"
   log_in: "Log ind"
   submit: "Færdiggør"
@@ -48,7 +48,7 @@ da:
       about_json_values: "about.json indeholder ugyldige værdier: %{errors}"
       git: "Fejl ved kloning af git repo, adgang nægtes, eller depot findes ikke"
       unpack_failed: "Kunne ikke pakke filen ud"
-      unknown_file_type: "Den fil, du uploadede, ser ikke ud til at være et gyldigt Discourse-tema."
+      unknown_file_type: "Den fil, du uploadede, ser ikke ud til at være et gyldigt Okse-tema."
     errors:
       component_no_user_selectable: "Temakomponenter kan ikke vælges af en bruger"
       component_no_default: "Temakomponenter kan ikke være standard temaet"
@@ -435,7 +435,7 @@ da:
   staff_category_name: "Staff"
   staff_category_description: "Privat gruppe for staff diskussioner. Emner er kun synlige for administratorer og moderatorer."
   discourse_welcome_topic:
-    title: "Velkommen til Discourse"
+    title: "Velkommen til Okse"
     body: |2
 
       Det første afsnit af dette fastgjorte emne vil kunne ses som en velkomstbesked for alle nye besøgende på din hjemmeside. Dette er vigtigt!
@@ -955,7 +955,7 @@ da:
     post_excerpt_maxlength: "Max længde på uddrag af indlæg / opsummering."
     show_pinned_excerpt_mobile: "Vis uddrag af fastgjorte emner på mobilen."
     show_pinned_excerpt_desktop: "Vis uddrag af fastgjorte emner i desktop visning"
-    post_onebox_maxlength: "Max længde af Discourse indlæg i tegn"
+    post_onebox_maxlength: "Max længde af Okse indlæg i tegn"
     onebox_domains_blacklist: "En liste af domæner som aldrig vil blive onebox'et."
     max_oneboxes_per_post: "Maksimalt antal onebox-forekomster i et opslag."
     notification_email: "Afsender email adresse, anvendt når der sendes esentielle system emails. Domænet her skal have korrekt opsatte SPF, DKIM og 'PTR records', for succesfuld afskibning af mails."
@@ -993,7 +993,7 @@ da:
     enable_badges: "Aktiver badge systemet"
     enable_whispers: "Tillad at hjælperteamet har private samtaler i emner."
     log_out_strict: "Når brugeren logger af, log da ud af alle sessioner, på alle enheder"
-    new_version_emails: "Send en email til contact_email adressen når der er en ny version af Discourse tilgængelig."
+    new_version_emails: "Send en email til contact_email adressen når der er en ny version af Okse tilgængelig."
     invite_expiry_days: "Hvor længe brugerinvitationsnøgler er gyldige, i dage."
     login_required: "Kræv godkendelse til at læse indhold på dette site, og tillad ikke anonym adgang."
     min_password_length: "Mindste adgangskodelængde."
@@ -1210,7 +1210,7 @@ da:
     title: "Bekræftelse af admin"
     subject_template: "[%{email_prefix}] Bekræft ny admin-konto"
   new_version_mailer:
-    subject_template: "[%{email_prefix}] Ny version af Discourse, opdatering tilgængelig"
+    subject_template: "[%{email_prefix}] Ny version af Okse, opdatering tilgængelig"
   new_version_mailer_with_notes:
     subject_template: "[%{email_prefix}] opdatering tilgængelig"
   flag_reasons:
@@ -1787,7 +1787,7 @@ da:
       invites:
         title: "Inviter hjælpere"
       finished:
-        title: "Discourse er gjort klar til dig!"
+        title: "Okse er gjort klar til dig!"
   joined: "Tilmeldt"
   discourse_push_notifications:
     popup:

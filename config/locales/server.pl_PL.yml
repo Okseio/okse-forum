@@ -24,11 +24,11 @@ pl_PL:
     <<: *datetime_formats
     am: "rano"
     pm: "po południu"
-  title: "Discourse"
+  title: "Okse"
   topics: "Tematy"
   posts: "posty"
   loading: "Ładowanie"
-  powered_by_html: 'Oparte na <a href="https://www.discourse.org">Discourse</a>, najlepiej oglądać z włączonym JavaScriptem'
+  powered_by_html: 'Oparte na <a href="https://www.discourse.org">Okse</a>, najlepiej oglądać z włączonym JavaScriptem'
   sign_up: "Rejestracja"
   log_in: "Logowanie"
   submit: "Prześlij"
@@ -50,7 +50,7 @@ pl_PL:
       git: "Podczas klonowania repozytorium git wystąpił błąd: dostęp jest zabroniony albo repozytorium nie istnieje"
       unpack_failed: "Błąd przy rozpakowywaniu pliku"
       file_too_big: "Nieskompresowany plik jest zbyt duży."
-      unknown_file_type: "Przesłany plik nie spełnia wymagań poprawnego motywu Discourse."
+      unknown_file_type: "Przesłany plik nie spełnia wymagań poprawnego motywu Okse."
     errors:
       component_no_user_selectable: "Komponenty motywu nie mogą być dobieralne przez użytkowników"
       component_no_default: "Komponenty motywu nie mogą być domyślnym motywem"
@@ -534,7 +534,7 @@ pl_PL:
   staff_category_name: "Zespół"
   staff_category_description: "Ukryta kategoria dla rozmów zespołu. Tematy są widoczne tylko dla adminów i moderatorów."
   discourse_welcome_topic:
-    title: "Witaj w Discourse"
+    title: "Witaj w Okse"
     body: |2
 
       Pierwszy paragraf tego przypiętego tematu będzie widoczny jako wiadomość powitalna dla wszystkich odwiedzających stronę główną. Jest bardzo ważny!
@@ -1470,7 +1470,7 @@ pl_PL:
     moderators_create_categories: "Zezwól moderatorom na tworzenie nowych kategorii"
     cors_origins: "Dozwolone źródła dla zapytać cross-origin (CORS). Każde źródło musi zawierać http:// lub https://. Zmienna środowiskowa DISCOURSE_ENABLE_CORS musi być ustawiona na true żeby włączyć CORS."
     use_admin_ip_whitelist: "Administratorzy mogą się logować tylko z adresów IP zdefiniowanych w liście Screened IPs (Admin > Logi > Screened Ips)."
-    blacklist_ip_blocks: "Lista zablokowanych prywatnych adresów IP, które nigdy nie powinny być przeszukiwane przez Discourse."
+    blacklist_ip_blocks: "Lista zablokowanych prywatnych adresów IP, które nigdy nie powinny być przeszukiwane przez Okse."
     whitelist_internal_hosts: "Lista wewnętrznych hostów, które są bezpieczne dla discourse, jeśli chodzi o oneboxing i inne cele"
     allowed_iframes: "Lista prefiksów domeny src iframe, które dyskurs może bezpiecznie dopuścić w postach"
     whitelisted_crawler_user_agents: "Agenty użytkownika dla robotów indeksujących, które powinny mieć dostęp do strony. OSTRZEŻENIE! USTAWIENIE TEGO BĘDZIE NIEWIELKIE WSZYSTKIEGO PRZETWORNICY NIE WYMIENIONE TUTAJ!"
@@ -1511,8 +1511,8 @@ pl_PL:
     auto_approve_email_domains: "Użytkownicy z adresami e-mail z tej listy domen zostaną automatycznie zatwierdzeni."
     hide_email_address_taken: "Nie informuj użytkowników, że istnieje konto z danym adresem e-mail podczas rejestracji i z formularza zapomnianego hasła."
     log_out_strict: "Po wylogowaniu wyloguj WSZYSTKIE sesje użytkownika na wszystkich urządzeniach."
-    version_checks: "Wyślij ping do Discourse Hub w celu uzyskania aktualizacji wersji i pokaż komunikaty o nowej wersji na pulpicie <a href='%{base_path}/admin' target='_blank'>/ admin</a>"
-    new_version_emails: "Wyślij email na adres contact_email, kiedy nowa wersja Discourse będzie dostępna."
+    version_checks: "Wyślij ping do Okse Hub w celu uzyskania aktualizacji wersji i pokaż komunikaty o nowej wersji na pulpicie <a href='%{base_path}/admin' target='_blank'>/ admin</a>"
+    new_version_emails: "Wyślij email na adres contact_email, kiedy nowa wersja Okse będzie dostępna."
     invite_expiry_days: "Jak długo klucz zaproszenie użytkownika jest ważny, w dniach."
     invite_only: "Wszyscy nowi użytkownicy muszą być wyraźnie zaproszeni przez zaufanych użytkowników lub personel. Rejestracja publiczna jest wyłączona."
     login_required: "Wymagaj autoryzacji do wyświetlenia zawartości strony, zablokuj możliwość anonimowego dostępu."
@@ -1527,10 +1527,10 @@ pl_PL:
     block_common_passwords: "Nie zezwalaj na hasła znajdujące się w grupie 10 000 najpopularniejszych haseł."
     enable_sso: "Włącz pojedyncze logowanie przez zewnętrzną stronę (UWAGA: ADRESY E-MAIL UŻYTKOWNIKÓW *MUSZĄ* BYĆ ZATWIERDZONE PRZEZ ZEWNĘTRZNĄ STRONĘ!)"
     verbose_sso_logging: "Rejestruj pełną diagnostykę związaną z jednokrotnym logowaniem do <a href='%{base_path}/logs' target='_blank'>/ logs</a>"
-    enable_sso_provider: "Wdrożenie protokołu dostawcy SSO Discourse w punkcie końcowym / session / sso_provider, wymaga ustawienia sso_provider_secrets"
+    enable_sso_provider: "Wdrożenie protokołu dostawcy SSO Okse w punkcie końcowym / session / sso_provider, wymaga ustawienia sso_provider_secrets"
     sso_url: "URL endpoint pojedynczego logowania (musi zawierać http:// lub https://)"
     sso_secret: "Tajny ciąg znaków używany, aby kryptograficznie uwierzytelnić informacje SSO, powinien mieć 10 lub więcej znaków."
-    sso_provider_secrets: "Lista par tajnych domen, które używają Discourse jako dostawcy SSO. Upewnij się, że klucz SSO ma 10 znaków lub więcej. Symbol wieloznaczny * może być używany do dopasowania dowolnej domeny lub tylko jej części (np. * .Example.com)."
+    sso_provider_secrets: "Lista par tajnych domen, które używają Okse jako dostawcy SSO. Upewnij się, że klucz SSO ma 10 znaków lub więcej. Symbol wieloznaczny * może być używany do dopasowania dowolnej domeny lub tylko jej części (np. * .Example.com)."
     sso_overrides_bio: "Nadpisuje biografię użytkownika w jego profilu i uniemożliwia mu zmianę biografii."
     sso_overrides_groups: "Zsynchronizuj wszystkie ręczne członkostwo w grupach z grupami określonymi w atrybucie sso grup (OSTRZEŻENIE: jeśli nie określisz grup, każde ręczne członkostwo w grupie zostanie usunięte dla użytkownika)"
     sso_overrides_email: "Nadpisuje lokalny email poprzez zewnętrzną witrynę email z SSO przy każdym logowaniu, aby zapobiec lokalnym zmianom. (Ostrzeżenie: rozbieżności mogą pojawić się w związku z normalizacją lokalnym emaili)."
@@ -1769,7 +1769,7 @@ pl_PL:
     reset_bounce_score_after_days: "Automatyczne resetuj licznik odrzucania po X dniach."
     attachment_content_type_blacklist: "Lista słów kluczowych do blokowania załączników w oparciu o typ zawartości."
     attachment_filename_blacklist: "Lista słów kluczowych do blokowania załączników w oparciu o nazwę pliku."
-    forwarded_emails_behaviour: "Jak traktować przesłaną wiadomość e-mail do Discourse"
+    forwarded_emails_behaviour: "Jak traktować przesłaną wiadomość e-mail do Okse"
     always_show_trimmed_content: "Zawsze pokazuj przyciętą część przychodzących maili. Ostrzeżenie: może wyjawiać adresy email."
     private_email: "Nie umieszczaj treści z postów lub tematów w tytule lub treści e-maila. UWAGA: wyłącza także przetrawianie wiadomości e-mail."
     email_total_attachment_size_limit_kb: "Maksymalny całkowity rozmiar plików dołączonych do wychodzących wiadomości e-mail. Ustaw na 0, aby wyłączyć wysyłanie załączników."
@@ -1818,7 +1818,7 @@ pl_PL:
     email_accent_fg_color: "Kolor tekstu wyświetlanego na kolorowym tle w mailach wysyłanych w trybie HTML. Wprowadź angielską nazwę koloru HTML (\"white\") lub wartość szesnastkową (\"#ffffff\")."
     email_link_color: "Kolor linków w mailach wysyłanych w trybie HTML. Wprowadź angielską nazwę koloru HTML (\"blue\") lub wartość szesnastkową (\"#0000ff\")."
     detect_custom_avatars: "Czy sprawdzać, czy użytkownik wgrał własne zdjęcie profilowe?"
-    max_daily_gravatar_crawls: "Maksymalna liczba razy Discourse sprawdzi Gravatar w poszukiwaniu nowych niestandardowych avatorów w czasie jednego dnia"
+    max_daily_gravatar_crawls: "Maksymalna liczba razy Okse sprawdzi Gravatar w poszukiwaniu nowych niestandardowych avatorów w czasie jednego dnia"
     enable_user_directory: "Dostarcz katalog użytkowników do wyszukiwania"
     enable_group_directory: "Dostarcz katalog grup do wyszukiwania"
     allow_anonymous_posting: "Zezwól użytkownikom na przechodzenie w tryb anonimowości."
@@ -2133,7 +2133,7 @@ pl_PL:
     subject_template: "[%{site_name}] Test dostarczania poczty"
   new_version_mailer:
     title: "Nowa wersja powiadomień"
-    subject_template: "[%{site_name}] Aktualizacja do nowej wersji Discourse jest dostępna."
+    subject_template: "[%{site_name}] Aktualizacja do nowej wersji Okse jest dostępna."
   new_version_mailer_with_notes:
     title: "Nowa wersja powiadomień z uwagami"
     subject_template: "[%{site_name}] dostępna aktualizacja"
@@ -2770,7 +2770,7 @@ pl_PL:
 
       Rozmowy, które tutaj się odbywają nadają ton dla każdej nowej osoby. Pomóż nam mieć wpływ na przyszłość tej społeczności poprzez zaangażowanie w dyskusje, które powodują, że to forum jest interesującym miejscem &mdash; i unikaj tych, którzy nie chcą się angażować.
       .
-      Discourse dostarcza narzędzi, które umożliwiają społeczności wspólnie identyfikować najlepszy (i najgorszy) wkład: zakładki, polubienia, flagi, odpowiedzi, edycje itd. Używaj tych narzędzi, aby poprawić ogólne wrażenia z korzystania z tego forum.
+      Okse dostarcza narzędzi, które umożliwiają społeczności wspólnie identyfikować najlepszy (i najgorszy) wkład: zakładki, polubienia, flagi, odpowiedzi, edycje itd. Używaj tych narzędzi, aby poprawić ogólne wrażenia z korzystania z tego forum.
 
       Pozostaw naszą społeczność w lepszym stanie, niż my ją zastaliśmy.
 
@@ -3105,7 +3105,7 @@ pl_PL:
     staff_tag_remove_disallowed: 'Etykieta "%{tag}" może być usunięta przez personel.'
   rss_by_tag: "Tematy otagowane %{tag}"
   finish_installation:
-    congratulations: "Gratulacje, zainstalowałeś Discourse!"
+    congratulations: "Gratulacje, zainstalowałeś Okse!"
     register:
       button: "Zarejestruj"
       title: "Zarejestrowano konto administratora"
@@ -3124,10 +3124,10 @@ pl_PL:
     enter: "Włącz Tryb Bezpieczny"
     must_select: "Musisz wybrać przynajmniej jedną opcję, by wejść do trybu bezpiecznego."
   wizard:
-    title: "Instalacja Discourse"
+    title: "Instalacja Okse"
     step:
       locale:
-        title: "Witaj w Discourse "
+        title: "Witaj w Okse "
         fields:
           default_locale:
             description: "Jaki jest podstawowy język dla twojej społeczności?"
@@ -3184,7 +3184,7 @@ pl_PL:
             description: "Ogólna strona kontaktowa do ciebie i twojej organizacja. Będzie wyświetlane na <a href='%{base_path}/about' target='_blank'>twojej stronie </a>."
           site_contact:
             label: "Automatyczne wiadomości"
-            description: "Wszystkie automatyczne wiadomości prywatne Discourse będą wysyłane z tego użytkownika, jak na przykład ostrzeżenia o flagach i powiadomienia ukończenia backupu."
+            description: "Wszystkie automatyczne wiadomości prywatne Okse będą wysyłane z tego użytkownika, jak na przykład ostrzeżenia o flagach i powiadomienia ukończenia backupu."
       corporate:
         title: "Organizacja"
         fields:
@@ -3236,7 +3236,7 @@ pl_PL:
         title: "Zaproś administrację"
         description: "Już prawie koniec! Teraz zaprośmy trochę ludzi, aby rozwinąć twoją społeczność i pomóc <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>zasiać nowe dyskusje</a> poprzez interesujące tematy i odpowiedzi."
       finished:
-        title: "Twój Discourse jest Gotowy!"
+        title: "Twój Okse jest Gotowy!"
   joined: "Dołączył"
   discourse_push_notifications:
     popup:

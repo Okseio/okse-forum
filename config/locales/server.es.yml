@@ -24,11 +24,11 @@ es:
     <<: *datetime_formats
     am: "am"
     pm: "pm"
-  title: "Discourse"
+  title: "Okse"
   topics: "Temas"
   posts: "publicaciones"
   loading: "Cargando"
-  powered_by_html: 'Creado con <a href="https://www.discourse.org">Discourse</a>, se ve mejor con JavaScript habilitado'
+  powered_by_html: 'Creado con <a href="https://www.discourse.org">Okse</a>, se ve mejor con JavaScript habilitado'
   sign_up: "Registrarse"
   log_in: "Iniciar sesión"
   submit: "Enviar"
@@ -50,7 +50,7 @@ es:
       git: "Error al clonar el repositorio git, se deniega el acceso o no se encuentra el repositorio"
       unpack_failed: "Error al descomprimir el archivo"
       file_too_big: "El archivo sin comprimir es demasiado grande."
-      unknown_file_type: "El archivo que cargaste no parece ser un tema de Discourse válido."
+      unknown_file_type: "El archivo que cargaste no parece ser un tema de Okse válido."
     errors:
       component_no_user_selectable: "Los componentes del tema no pueden ser seleccionables por el usuario"
       component_no_default: "Los componentes del tema no pueden ser tema predeterminado"
@@ -522,7 +522,7 @@ es:
   staff_category_name: "Staff"
   staff_category_description: "Categoría privada para debates entre moderadores y administradores. Los temas solo serán visibles para miembros del staff."
   discourse_welcome_topic:
-    title: "Te damos la bienvenida a Discourse"
+    title: "Te damos la bienvenida a Okse"
     body: |2
 
       El primer párrafo de este tema destacado será visible para todos los usuarios como mensaje de bienvenida en tu página principal. ¡Es importante!
@@ -1299,7 +1299,7 @@ es:
   site_settings:
     censored_words: "Las palabras serán reemplazadas con &#9632;&#9632;&#9632;&#9632;"
     delete_old_hidden_posts: "Eliminar automaticamente cualquier publicación que se mantenga oculta por mas de 30 días."
-    default_locale: "El idioma por defecto de esta instancia de Discourse. Puedes reemplazar el texto de las categorías y temas generados por el sistema en <a href='%{base_path}/admin/customize/site_texts' target='_blank'>Personalizar / Texto</a>."
+    default_locale: "El idioma por defecto de esta instancia de Okse. Puedes reemplazar el texto de las categorías y temas generados por el sistema en <a href='%{base_path}/admin/customize/site_texts' target='_blank'>Personalizar / Texto</a>."
     allow_user_locale: "Permitir que los usuarios escojan su propio idioma para la interfaz"
     set_locale_from_accept_language_header: "establece el idioma de la interfaz para usuarios anónimos a partir del idioma de su navegador web. (EXPERIMENTAL, no funciona con caché anónimo)"
     support_mixed_text_direction: "Admite direcciones mixtas de texto de izquierda a derecha y de derecha a izquierda."
@@ -1356,7 +1356,7 @@ es:
     post_excerpt_maxlength: "Extensión máxima del resumen / extracto de una publicación."
     show_pinned_excerpt_mobile: "Mostrar extracto de temas destacados en la vista móvil."
     show_pinned_excerpt_desktop: "Mostrar extracto de temas destacados en la vista de escritorio."
-    post_onebox_maxlength: "Extensión máxima en caracteres de una publicación de Discourse en formato onebox."
+    post_onebox_maxlength: "Extensión máxima en caracteres de una publicación de Okse en formato onebox."
     onebox_domains_blacklist: "Una lista de dominios que nunca se mostrarán en formato onebox"
     inline_onebox_domains_whitelist: "Lista de dominios que se transformarán en formato onebox en miniatura si son enlazados sin un título"
     enable_inline_onebox_on_all_domains: "Ignorar el ajuste del sitio inline_onebox_domain_whitelist y permitir inline onebox en todos los dominios."
@@ -1425,7 +1425,7 @@ es:
     moderators_create_categories: "Permitir que los moderadores creen nuevas categorías"
     cors_origins: "Orígenes permitidos para las solicitudes de origen cruzado (CORS). Cada origen debe incluir http:// or https://. La variable env DISCOURSE_ENABLE_CORS debe establecerse como verdadero para activar CORS."
     use_admin_ip_whitelist: "Los administradores solo pueden iniciar sesión si están en una dirección IP definida en la lista de direcciones IP revisadas (Administrados > Registros > Direcciones IP)."
-    blacklist_ip_blocks: "Una lista privada de direcciones IP bloqueadas que nunca deberían ser rastreadas por Discourse"
+    blacklist_ip_blocks: "Una lista privada de direcciones IP bloqueadas que nunca deberían ser rastreadas por Okse"
     whitelist_internal_hosts: "Una lista con hosts internos que discourse puede rastrear de forma segura para utilizar con onebox y otros propósitos"
     allowed_iframes: "Una lista de prefijos de dominios para iframe src que discourse puede permitir de forma segura en publicaciones"
     whitelisted_crawler_user_agents: "Agentes de usuario de crawlers a los que se debe permitir el acceso al sitio. ¡ADVERTENCIA! ¡CONFIGURAR ESTO INHABILITARÁ A TODOS LOS CRAWLERS QUE NO SE ENCUENTRAN AQUÍ!"
@@ -1466,8 +1466,8 @@ es:
     auto_approve_email_domains: "Los usuarios con direcciones de email de esta lista de dominios serán aprobados automáticamente."
     hide_email_address_taken: "No informar a los usuarios de la existencia de una cuenta con un correo electrónico dado durante el registro y desde el formulario de contraseña olvidada."
     log_out_strict: "Al cerrar sesión, cierra TODAS las sesiones del usuario en todos los dispositivos"
-    version_checks: "Ping el Discourse Hub para actualizaciones de versión y mostrar mensajes del número de versión en el dashboard <a href='/admin' target='_blank'>/admin</a>."
-    new_version_emails: "Enviar un correo electrónico a la dirección contact_email cuando esté disponible una nueva versión de Discourse."
+    version_checks: "Ping el Okse Hub para actualizaciones de versión y mostrar mensajes del número de versión en el dashboard <a href='/admin' target='_blank'>/admin</a>."
+    new_version_emails: "Enviar un correo electrónico a la dirección contact_email cuando esté disponible una nueva versión de Okse."
     invite_expiry_days: "Tiempo durante el cual las claves de invitación de usuarios son válidas, en días"
     invite_only: "Todos los usuarios nuevos deben ser invitados de forma explícita por usuarios de confianza o un miembro del staff. Los registros públicos están desactivados."
     login_required: "Requerir inicio de sesión para leer el contenido de este sitio, deshabilitar el acceso anónimo."
@@ -1482,16 +1482,16 @@ es:
     block_common_passwords: "No permitir contraseñas que formen parte de las 10.000 contraseñas más comunes."
     enable_sso: "Habilitar el inicio de sesión único a través de un sitio externo (AVISO: ¡LAS DIRECCIONES DE CORREO ELECTRÓNICO DE LOS USUARIOS *TIENEN* QUE SER VALIDADAS EN EL SITIO EXTERNO!)"
     verbose_sso_logging: "Registrar diagnósticos detallados relacionados con SSO en <a href='%{base_path}/logs' target='_blank'>/logs</a>"
-    enable_sso_provider: "Implementar el protocolo del proveedor de SSO de Discourse en el /session/sso_provider endpoint, requiere que se configure sso_provider_secrets"
+    enable_sso_provider: "Implementar el protocolo del proveedor de SSO de Okse en el /session/sso_provider endpoint, requiere que se configure sso_provider_secrets"
     sso_url: "URL del endpoint para inicio de sesión único (debe incluir http:// o https://)"
     sso_secret: "Cadena secreta utilizada para autenticar criptográficamente la información del SSO, asegúrate de que tenga 10 caracteres o más"
-    sso_provider_secrets: "Una lista de pares de dominio secreto que utiliza Discourse como proveedor de SSO. Asegúrate de que la clave secreta SSO tenga de 10 caracteres o más. El símbolo de comodín * se puede usar para hacer coincidir cualquier dominio o solo una parte de él (por ejemplo, * .example.com)."
+    sso_provider_secrets: "Una lista de pares de dominio secreto que utiliza Okse como proveedor de SSO. Asegúrate de que la clave secreta SSO tenga de 10 caracteres o más. El símbolo de comodín * se puede usar para hacer coincidir cualquier dominio o solo una parte de él (por ejemplo, * .example.com)."
     sso_overrides_bio: "Sobrescribe la biografía del usuario en su perfil y deshabilita la posibilidad de cambiarla"
     sso_overrides_groups: "Sincronice todas la membresías manuales de grupo con los grupos especificados en el atributo sso de grupos (ADVERTENCIA: si no especificas grupos, todas la membresías manuales de grupo se eliminarán para el usuario)"
     sso_overrides_email: "Sobrescribe el correo electrónico local con el correo electrónico que provee el sitio externo desde el payload del SSO en cada inicio de sesión y previene cambios locales. (AVISO: pueden ocurrir discrepancias debido a la normalización de los correos electrónicos locales)"
     sso_overrides_username: "Sobrescribe el usuario local con el usuario que provee el payload del SSO en cada registro y previene cambios locales. (AVISO: pueden ocasionarse discrepancias debido a las diferencias en los requirimientos/longitud del usuario)"
     sso_overrides_name: "Sobrescribe el nombre completo con el que provee el payload del SSO en cada inicio de sesión y previene cambios locales."
-    sso_overrides_avatar: "Sobrescribe el avatar del usuario con el avatar del sitio externo del payload del SSO. Si está habilitado, los usuarios no podrán subir avatares en Discourse."
+    sso_overrides_avatar: "Sobrescribe el avatar del usuario con el avatar del sitio externo del payload del SSO. Si está habilitado, los usuarios no podrán subir avatares en Okse."
     sso_overrides_profile_background: "Sobrescribe el fondo del perfil del usuario con el avatar del sitio externo desde el payload del SSO."
     sso_overrides_card_background: "Sobrescribe el fondo de la tarjeta de usuario con el avatar de sitio externo desde el payload del SSO."
     sso_not_approved_url: "Redireccionar cuentas SSO sin aprobar a esta URL"
@@ -1500,21 +1500,21 @@ es:
     enable_local_logins_via_email: "Permitir a los usuarios que soliciten un enlace de inicio de sesión único que se les enviará por correo electrónico."
     allow_new_registrations: "Permitir el registro de usuarios nuevos. Desactiva esta opción para que nadie pueda crear una cuenta nueva."
     enable_signup_cta: "Mostrar un aviso a los usuarios anónimos que vuelvan a visitar el sitio animándoles a registrarse."
-    enable_google_oauth2_logins: "Habilita la autenticación con Google Oauth2. Este es el método de autenticación que Google soporta actualmente. Requiere de una clave de cliente y una clave secreta. Ver <a href='https://meta.discourse.org/t/15858' target='_blank'>configuración del inicio de sesión mediante para Discourse</a>."
+    enable_google_oauth2_logins: "Habilita la autenticación con Google Oauth2. Este es el método de autenticación que Google soporta actualmente. Requiere de una clave de cliente y una clave secreta. Ver <a href='https://meta.discourse.org/t/15858' target='_blank'>configuración del inicio de sesión mediante para Okse</a>."
     google_oauth2_client_id: "ID de cliente de tu aplicación de Google."
     google_oauth2_client_secret: "Clave secreta del cliente de tu aplicación de Google."
     google_oauth2_prompt: "Una lista opcional delimitada por valores de cadena que especifica si el servidor de autorizaciones solicita al usuario la reautenticación y el consentimiento. Ver <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> para los valores posibles."
     google_oauth2_hd: "Un dominio opcional hospedado por Google Apps limitará el inicio de sesión. Ver <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> para más detalles."
-    enable_twitter_logins: "Activar autenticación mediante Twitter, requiere una twitter_consumer_key y un twitter_consumer_secret. Ver <a href='https://meta.discourse.org/t/13395' target='_blank'>configuración del inicio de sesión mediante Twitter (e inserciones) para Discourse</a>."
+    enable_twitter_logins: "Activar autenticación mediante Twitter, requiere una twitter_consumer_key y un twitter_consumer_secret. Ver <a href='https://meta.discourse.org/t/13395' target='_blank'>configuración del inicio de sesión mediante Twitter (e inserciones) para Okse</a>."
     twitter_consumer_key: "Clave del consumidor para la autenticación mediante Twitter, registrado en <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Secreto del consumidor para la autenticación mediante Twitter, registrado en <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "Activar la autenticación por Instagram, requiere instagram_consumer_key y instagram_consumer_secret"
     instagram_consumer_key: "Clave del consumidor para autenticación mediante Instagram"
     instagram_consumer_secret: "Clave secreta del consumidor para autenticación mediante Instagram"
-    enable_facebook_logins: "Activar autenticación mediante Facebook, requiere una facebook_app_id y un facebook_app_secret. Ver <a href='https://meta.discourse.org/t/13394' target='_blank'>configuración del inicio de sesión mediante Facebook para Discourse</a>."
+    enable_facebook_logins: "Activar autenticación mediante Facebook, requiere una facebook_app_id y un facebook_app_secret. Ver <a href='https://meta.discourse.org/t/13394' target='_blank'>configuración del inicio de sesión mediante Facebook para Okse</a>."
     facebook_app_id: "ID de la app para la autenticación mediante Facebook, registrado en <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "Clave secreta de la app para la autenticación mediante Facebook, registrado en <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "Activar autenticación mediante Github, requiere una github_client_id y un github_client_secret. Ver <a href='https://meta.discourse.org/t/13745' target='_blank'>configuración del inicio de sesión mediante GitHub para Discourse</a>."
+    enable_github_logins: "Activar autenticación mediante Github, requiere una github_client_id y un github_client_secret. Ver <a href='https://meta.discourse.org/t/13745' target='_blank'>configuración del inicio de sesión mediante GitHub para Okse</a>."
     github_client_id: "ID del cliente para la autenticación mediante Github, registrado en <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "Clave secreta del cliente para la autenticación mediante Github, registrado en <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     enable_discord_logins: "¿Permitir a los usuarios la autenticación mediante Discord?"
@@ -1571,7 +1571,7 @@ es:
     purge_deleted_uploads_grace_period_days: "Período de gracia (en horas) antes de que un archivo subido huérfano se elimine permanentemente."
     purge_unactivated_users_grace_period_days: "Periodo de gracia (en días) antes de eliminar a un usuario que no ha activado su cuenta. Establecer el valor en 0 para que nunca se purgue a usuarios no activados."
     enable_s3_uploads: "Coloca los archivos subidos en el almacén Amazon S3. IMPORTANTE: requiere credenciales de S3 validas. (tanto clave de acceso y clave de acceso secreta)."
-    s3_use_iam_profile: 'Utilice un <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">perfil de instancia de AWS EC2</a> para otorgar acceso al S3 bucket. NOTA: habilitar esto requiere que Discourse se ejecute en una instancia EC2 configurada apropiadamente, y anula las configuraciones de «clave de acceso s3» y «clave secreta s3».'
+    s3_use_iam_profile: 'Utilice un <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">perfil de instancia de AWS EC2</a> para otorgar acceso al S3 bucket. NOTA: habilitar esto requiere que Okse se ejecute en una instancia EC2 configurada apropiadamente, y anula las configuraciones de «clave de acceso s3» y «clave secreta s3».'
     s3_upload_bucket: "El nombre del bucket Amazon S3 donde se subirán los archivos. AVISO: debe ser en minúsculas, sin puntos ni guiones bajos."
     s3_access_key_id: "La clave secreta de acceso de Amazon S3 que se usará para subir imágenes, archivos adjuntos y copias de respaldo."
     s3_secret_access_key: "La clave secreta de acceso de Amazon S3 que se usará para subir imágenes, adjuntos y copias de seguridad."
@@ -1703,7 +1703,7 @@ es:
     alternative_reply_by_email_addresses: "Lista de plantillas alternativa para las direcciones de respuesta por correo electrónico. Ejemplo: %%{reply_key}@reply.example.com|replies+%%{reply_key}@example.com"
     incoming_email_prefer_html: "Usar el HTML en vez del texto para los correos electrónicos entrantes."
     strip_incoming_email_lines: "Elimina los espacios en blanco iniciales y finales de cada línea de correos electrónicos entrantes."
-    disable_emails: "Evite que el Discourse envíe cualquier clase de correo electrónico. Seleccione «sí» para desactivar los correos electrónicos a todos los usuarios. Seleccione «no staff» para desactivar los correos electrónicos solo para usuarios que no sean del staff."
+    disable_emails: "Evite que el Okse envíe cualquier clase de correo electrónico. Seleccione «sí» para desactivar los correos electrónicos a todos los usuarios. Seleccione «no staff» para desactivar los correos electrónicos solo para usuarios que no sean del staff."
     strip_images_from_short_emails: "Quitar imágenes que tengan un tamaño menor a 2800 Bytes de los correos electrónicos"
     short_email_length: "Longitud de un correo electrónico corto en bytes"
     display_name_on_email_from: "Mostrar nombres completos en los campos de remitente de correos electrónicos"
@@ -1724,7 +1724,7 @@ es:
     reset_bounce_score_after_days: "Restablecer la puntuación de reobte automáticamente luego de X días."
     attachment_content_type_blacklist: "Lista de palabras clave utilizadas para bloquear archivos adjuntos con base en el tipo de contenido."
     attachment_filename_blacklist: "Lista de palabras clave utilizadas para bloquear adjuntos de acuerdo al nombre de archivo."
-    forwarded_emails_behaviour: "Cómo tratar un correo electrónico enviado a Discourse"
+    forwarded_emails_behaviour: "Cómo tratar un correo electrónico enviado a Okse"
     always_show_trimmed_content: "Mostrar siempre la parte recortada de los correos electrónicos entrantes. AVISO: podría revelar direcciones de correo."
     private_email: "No incluir contenido de publicaciones o temas en el título o el cuerpo del correo electrónico. NOTA: también desactiva los boletines por correo electrónico."
     email_total_attachment_size_limit_kb: "Tamaño máximo total de archivos adjuntos a correos electrónicos salientes. Establece el valor en 0 para desactivar el envío de archivos adjuntos."
@@ -1775,7 +1775,7 @@ es:
     email_accent_fg_color: "El color de texto renderizado que irá con el color de fondo en los correos electrónicos HTML. Ingresa un nombre de color («blanco») o un valor hexadecimal («#FFFFFF»)."
     email_link_color: "El color de los enlaces en los correos electrónicos HTML. Ingresa un nombre de color («azul») o un valor hexadecimal («#0000FF»)."
     detect_custom_avatars: "Verificar o no que los usuarios han subido una imagen de perfil."
-    max_daily_gravatar_crawls: "Número máximo de veces que Discourse comprobará Gravatar en busca de avatares personalizados en un día"
+    max_daily_gravatar_crawls: "Número máximo de veces que Okse comprobará Gravatar en busca de avatares personalizados en un día"
     public_user_custom_fields: "Una lista con campos personalizados para el usuario que se pueden recuperar a través de la API."
     staff_user_custom_fields: "Una lista con campos personalizados para el usuario que se pueden recuperar para miembros del staff través de la API."
     enable_user_directory: "Proporcionar un directorio de usuarios que se pueda navegar"
@@ -2315,7 +2315,7 @@ es:
 
       Buena suerte,
 
-      Tus amigos de [Discourse](https://www.discourse.org)
+      Tus amigos de [Okse](https://www.discourse.org)
 
       [0]:%{base_url}
       [1]: https://www.kitterman.com/spf/validate.html
@@ -2331,9 +2331,9 @@ es:
       [mt]: https://www.mail-tester.com/
   new_version_mailer:
     title: "Correo electrónico de nueva versión"
-    subject_template: "[%{email_prefix}] Nueva versión de Discourse, actualización disponible"
+    subject_template: "[%{email_prefix}] Nueva versión de Okse, actualización disponible"
     text_body_template: |
-      ¡Hurra! Una version nueva de [Discourse] (https://www.discourse.org) está disponible.
+      ¡Hurra! Una version nueva de [Okse] (https://www.discourse.org) está disponible.
 
       Tu versión: %{installed_version}
       Versión nueva: **%{new_version}**
@@ -2342,12 +2342,12 @@ es:
 
       - Descubre que hay de nuevo en las [notas de la versión](https://meta.discourse.org/tag/release-notes) o revisa [raw GitHub changelog](https://github.com/discourse/discourse/commits/master)
 
-      - Visita [meta.discourse.org](https://meta.discourse.org) para noticias, discusiones y soporte de Discourse
+      - Visita [meta.discourse.org](https://meta.discourse.org) para noticias, discusiones y soporte de Okse
   new_version_mailer_with_notes:
     title: "Correo electrónico de nueva versión con notas"
     subject_template: "[%{email_prefix}] actualización disponible"
     text_body_template: |
-      Hurra! Una version nueva de [Discourse] (https://www.discourse.org) está disponible.
+      Hurra! Una version nueva de [Okse] (https://www.discourse.org) está disponible.
 
       Tu versión: %{installed_version}
       Versión nueva: **%{new_version}**
@@ -2356,7 +2356,7 @@ es:
 
       - Descubre que hay de nuevo en las [notas de la versión](https://meta.discourse.org/tag/release-notes) o revisa [raw GitHub changelog](https://github.com/discourse/discourse/commits/master)
 
-      - Visita [meta.discourse.org](https://meta.discourse.org) para noticias, discusiones y soporte de Discourse
+      - Visita [meta.discourse.org](https://meta.discourse.org) para noticias, discusiones y soporte de Okse
 
       ### Notas de la versión
 
@@ -4023,7 +4023,7 @@ es:
     synonyms_exist: "no está permitido mientras existan sinónimos"
   rss_by_tag: "Temas con la etiqueta %{tag}"
   finish_installation:
-    congratulations: "¡Enhorabuena, has instalado Discourse!"
+    congratulations: "¡Enhorabuena, has instalado Okse!"
     register:
       button: "Registrarse"
       title: "Registrar cuenta de administrador"
@@ -4044,10 +4044,10 @@ es:
     enter: "Activar modo seguro"
     must_select: "Debes escoger al menos una opción para ingresar al modo seguro."
   wizard:
-    title: "Instalación de Discourse"
+    title: "Instalación de Okse"
     step:
       locale:
-        title: "¡Bienvenido a tu foro de Discourse!"
+        title: "¡Bienvenido a tu foro de Okse!"
         fields:
           default_locale:
             description: "¿Cuál es el idioma por defecto de tu comunidad?"
@@ -4106,7 +4106,7 @@ es:
             description: "Tu página de contacto general o la de tu organización. Se mostrará en la <a href='%{base_path}/about' target='_blank'>página de acerca de</a>."
           site_contact:
             label: "Mensajes automatizados"
-            description: "Todos los mensajes privados automatizados de Discourse serán enviados desde este usuario, tales como reportes de advertencia y notificaciones de respaldos exitosos."
+            description: "Todos los mensajes privados automatizados de Okse serán enviados desde este usuario, tales como reportes de advertencia y notificaciones de respaldos exitosos."
       corporate:
         title: "Organización"
         description: "Esta información será ingresada en tus <a href='%{base_path}/tos' target='blank'>Términos de servicio</a>, las cuales podrás editar en todo momento en la categoría Staff. Si no tienes una empresa, puedes saltarte este paso por ahora."
@@ -4124,7 +4124,7 @@ es:
         title: "Tema"
       themes_further_reading:
         title: "Tema"
-        description: "¿Quieres personalizar tu Discourse? Aprovecha el poderoso sistema de temas: <ul> <li><a href='https://meta.discourse.org/t/63682' target='_blank'>¿Cómo instalo un diseño o un componente de diseño?</a></li> <li><a href='https://meta.discourse.org/t/110448' target='_blank'>Guía rápida de referencia del desarrollador de Diseños</a></li> </ul>Componentes de diseño populares (para más información, explora <a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#theme</a>)"
+        description: "¿Quieres personalizar tu Okse? Aprovecha el poderoso sistema de temas: <ul> <li><a href='https://meta.discourse.org/t/63682' target='_blank'>¿Cómo instalo un diseño o un componente de diseño?</a></li> <li><a href='https://meta.discourse.org/t/110448' target='_blank'>Guía rápida de referencia del desarrollador de Diseños</a></li> </ul>Componentes de diseño populares (para más información, explora <a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>#theme</a>)"
       logos:
         title: "Logos"
         fields:
@@ -4171,7 +4171,7 @@ es:
         description: "¡Ya casi estás listo! Vamos a invitar otras personas para que ayuden a <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>iniciar discusiones</a> con temas interesantes y respuestas para que comience tu comunidad."
         disabled: "Ya que los inicios de sesión locales están desactivados, no es posible enviar invitaciones a nadie. Por favor, ve al siguiente paso."
       finished:
-        title: "¡Tu foro de Discourse está listo!"
+        title: "¡Tu foro de Okse está listo!"
         description: |
           <p>Si en algún momento quieres cambiar alguno de estos ajustes, <b>vuelve a lanzar este ayudante en cualquier momento</b> o visita <a href='%{base_path}/admin' target='_blank'>el panel de administrador</a>; lo encontrarás al lado del icono de la llave inglesa en el menú.</p>
           <p>¡Pásala bien y buena suerte <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='_blank'>construyendo tu nueva comunidad!</a></p>

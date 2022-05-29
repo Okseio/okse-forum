@@ -152,7 +152,7 @@ ca:
         enabled: "convertit en bàner %{when}. Apareixerà a dalt de cada pàgina fins que sigui descartat per l'usuari."
         disabled: "ha suprimit aquest bàner %{when}. No apareixerà més a dalt de cada pàgina."
     topic_admin_menu: "accions del tema"
-    wizard_required: "Us donem la benvinguda al vostre nou Discourse! Comencem amb <a href='%{url}' data-auto-route='true'>l'assistent de configuració</a> ✨"
+    wizard_required: "Us donem la benvinguda al vostre nou Okse! Comencem amb <a href='%{url}' data-auto-route='true'>l'assistent de configuració</a> ✨"
     emails_are_disabled: "Tots els correus sortints han estat globalment inhabilitats per un administrador. No s'enviarà cap notificació de cap mena per correu electrònic."
     bootstrap_mode_enabled: "Per a facilitar el llançament del vostre lloc web nou, esteu en mode d'arrencada. Tots els usuaris nous tindran el nivell de confiança 1 i tindran activitats els correus de resum diari. Això es desactivarà automàticament quan s'hi hagin unit %{min_users} usuaris."
     bootstrap_mode_disabled: "El mode d'arrencada serà desactivat d'aquí a 24 hores."
@@ -1596,7 +1596,7 @@ ca:
           desc: Crea un tema nou enllaçat a aquest tema
         reply_as_private_message:
           label: Missatge nou
-          desc: Crea un missatge personal nou 
+          desc: Crea un missatge personal nou
         reply_to_topic:
           label: Respon al tema
           desc: "Respon al tema, no a cap publicació específica"
@@ -2906,7 +2906,7 @@ ca:
   admin_js:
     type_to_filter: "escriu per a filtrar..."
     admin:
-      title: "Administració de Discourse"
+      title: "Administració de Okse"
       moderator: "Moderador"
       tags:
         remove_muted_tags_from_latest:
@@ -2918,7 +2918,7 @@ ca:
       dashboard:
         title: "Tauler de control"
         last_updated: "Tauler de control actualitzat:"
-        discourse_last_updated: "Discourse actualitzat"
+        discourse_last_updated: "Okse actualitzat"
         version: "Versió"
         up_to_date: "Esteu al dia!"
         critical_available: "Hi ha una actualització crítica."
@@ -2955,7 +2955,7 @@ ca:
         show_traffic_report: "Mostra el report detallat de tràfic"
         community_health: Salut de la comunitat
         moderators_activity: Activitat dels moderadors
-        whats_new_in_discourse: "Què hi ha de nou en Discourse?"
+        whats_new_in_discourse: "Què hi ha de nou en Okse?"
         activity_metrics: Mètrica d'activitats
         all_reports: "Tots els reports"
         general_tab: "General"
@@ -3095,7 +3095,7 @@ ca:
       web_hooks:
         title: "Webhooks"
         none: "Ara no hi ha webhooks."
-        instruction: "Els webhooks permeten a Discourse notificar als serveis externs quan passen alguns esdeveniments en el vostre lloc web. Quan es dispara el webhook, s'envia una petició POST als URLs facilitats."
+        instruction: "Els webhooks permeten a Okse notificar als serveis externs quan passen alguns esdeveniments en el vostre lloc web. Quan es dispara el webhook, s'envia una petició POST als URLs facilitats."
         detailed_instruction: "S'enviarà una petició POST a l'URL facilitat quan passi l'esdeveniment seleccionat."
         new: "Webhook nou"
         create: "Crea"
@@ -3299,8 +3299,8 @@ ca:
           theme_name: "Nom de l'aparença"
           component_name: "Nom del component"
           themes_intro: "Seleccioneu una aparença existent o instal·leu-ne una de nova per a començar"
-          beginners_guide_title: "Guia d'ús de les aparences de Discourse per a principiants"
-          developers_guide_title: "Guia de les aparences de Discourse per a desenvolupadors"
+          beginners_guide_title: "Guia d'ús de les aparences de Okse per a principiants"
+          developers_guide_title: "Guia de les aparences de Okse per a desenvolupadors"
           browse_themes: "Navega per les aparences de la comunitat"
           customize_desc: "Personalitza:"
           title: "Aparences"
@@ -3382,9 +3382,9 @@ ca:
           disabled: "Aquest component s'ha desactivat."
           disabled_by: "Aquest component ha estat desactivat per"
           required_version:
-            error: "Aquesta aparença s'ha desactivat automàticament perquè no és compatible amb aquesta versió de Discourse."
-            minimum: "Requereix una versió de Discourse %{version} o superior."
-            maximum: "Requereix una versió de Discourse %{version} o inferior."
+            error: "Aquesta aparença s'ha desactivat automàticament perquè no és compatible amb aquesta versió de Okse."
+            minimum: "Requereix una versió de Okse %{version} o superior."
+            maximum: "Requereix una versió de Okse %{version} o inferior."
           component_of: "Component de:"
           update_to_latest: "Actualitza al més recent"
           check_for_updates: "Comprova si hi ha actualitzacions"
@@ -3439,7 +3439,7 @@ ca:
           undo: "desfés"
           undo_title: "Desfà els canvis a aquest color des de la darrera vegada que va ser desat."
           revert: "reverteix"
-          revert_title: "Restableix aquest color a la paleta de colors predeterminada de Discourse."
+          revert_title: "Restableix aquest color a la paleta de colors predeterminada de Okse."
           primary:
             name: "primari"
             description: "La majoria de text, icones i vores."
@@ -3490,7 +3490,7 @@ ca:
         preview_digest: "Previsualitza el resum"
         advanced_test:
           title: "Test avançat"
-          desc: "Vegeu com processa els correus rebuts Discourse. Per a poder processar correctament el correu electrònic, enganxeu-lo baix de tot el missatge de correu electrònic original."
+          desc: "Vegeu com processa els correus rebuts Okse. Per a poder processar correctament el correu electrònic, enganxeu-lo baix de tot el missatge de correu electrònic original."
           email: "Missatge original"
           run: "Executa el test"
           text: "Cos de text seleccionat"
@@ -4150,9 +4150,9 @@ ca:
         image: "Imatge"
         delete_confirm: "Esteu segur que voleu suprimir l'emoji :%{name}:?"
       embedding:
-        get_started: "Si voleu incrustar Discourse en un altre web, comenceu afegint-hi l'amfitrió."
+        get_started: "Si voleu incrustar Okse en un altre web, comenceu afegint-hi l'amfitrió."
         confirm_delete: "Esteu segur que voleu suprimir aquest amfitrió?"
-        sample: "Feu servir el següent codi HTML en el vostre lloc web per a crear i incrustar temes de Discourse. Reemplaceu <b>REEMPLAÇA'M</b> amb l'URL canònic de la pàgina en la qual ho esteu incrustant."
+        sample: "Feu servir el següent codi HTML en el vostre lloc web per a crear i incrustar temes de Okse. Reemplaceu <b>REEMPLAÇA'M</b> amb l'URL canònic de la pàgina en la qual ho esteu incrustant."
         title: "Incrustant"
         host: "Amfitrions permesos"
         class_name: "Nom de la classe"
@@ -4162,7 +4162,7 @@ ca:
         add_host: "Afegeix amfitrió"
         settings: "Configuració d'incrustacions"
         crawling_settings: "Configuració del rastrejador"
-        crawling_description: "Quan Discourse crea temes per a les vostres publicacions, si no hi ha sindicació RSS/ATOM, es provarà d'analitzar-ne els continguts a partir del vostre HTML. A vegades pot ser complicat extraure el vostre contingut, i per això oferim la possibilitat d'especificar regles CSS per a fer més fàcil l'extracció."
+        crawling_description: "Quan Okse crea temes per a les vostres publicacions, si no hi ha sindicació RSS/ATOM, es provarà d'analitzar-ne els continguts a partir del vostre HTML. A vegades pot ser complicat extraure el vostre contingut, i per això oferim la possibilitat d'especificar regles CSS per a fer més fàcil l'extracció."
         embed_by_username: "Nom d'usuari per a crear un tema"
         embed_post_limit: "Nombre màxim de publicacions que s'incrusten "
         embed_title_scrubber: "Expressió regular emprada per a depurar el títol de les publicacions"

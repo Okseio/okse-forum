@@ -156,7 +156,7 @@ it:
         disabled: "ha rimosso questo annuncio il %{when}. Non apparirà più in cima ad ogni pagina."
       forwarded: "inoltrato l'email qui sopra"
     topic_admin_menu: "azioni argomento"
-    wizard_required: "Benvenuto al tuo nuovo Discourse! Inizia la <a href='%{url}' data-auto-route='true'>procedura guidata di configurazione</a> ✨"
+    wizard_required: "Benvenuto al tuo nuovo Okse! Inizia la <a href='%{url}' data-auto-route='true'>procedura guidata di configurazione</a> ✨"
     emails_are_disabled: "Tutte le email in uscita sono state disabilitate a livello globale da un amministratore. Non sarà inviato nessun tipo di notifica via email."
     bootstrap_mode_enabled: "Per aiutarti ad avviare il tuo nuovo sito, adesso sei in modalità bootstrap. A tutti i nuovi utenti verrà assegnato il livello di esperienza 1 e le email riepilogative giornaliere saranno abilitate. Questa modalità sarà disattivata automaticamente quando avrai più di %{min_users} utenti iscritti."
     bootstrap_mode_disabled: "La modalità bootstrap sarà disattivata entro 24 ore."
@@ -3095,7 +3095,7 @@ it:
   admin_js:
     type_to_filter: "digita per filtrare..."
     admin:
-      title: "Amministratore Discourse"
+      title: "Amministratore Okse"
       moderator: "Moderatore"
       tags:
         remove_muted_tags_from_latest:
@@ -3107,7 +3107,7 @@ it:
       dashboard:
         title: "Cruscotto"
         last_updated: "Cruscotto aggiornato:"
-        discourse_last_updated: "Discourse aggiornato:"
+        discourse_last_updated: "Okse aggiornato:"
         version: "Versione"
         up_to_date: "Sei aggiornato!"
         critical_available: "È disponibile un aggiornamento essenziale."
@@ -3144,7 +3144,7 @@ it:
         show_traffic_report: "Mostra rapporto di traffico dettagliato"
         community_health: Stato di salute
         moderators_activity: Attività dei Moderatori
-        whats_new_in_discourse: "Novità in Discourse?"
+        whats_new_in_discourse: "Novità in Okse?"
         activity_metrics: Metriche Attività
         all_reports: "Tutti i rapporti"
         general_tab: "Generale"
@@ -3291,7 +3291,7 @@ it:
       web_hooks:
         title: "Webhook"
         none: "Non ci sono webhook disponibili adesso."
-        instruction: "I Webhook consentono a Discourse di notificare i servizi esterni quando sul tuo sito si verificano determinati eventi. Quando un webhook viene innescato, viene inviata una richiesta di tipo POST agli URL forniti."
+        instruction: "I Webhook consentono a Okse di notificare i servizi esterni quando sul tuo sito si verificano determinati eventi. Quando un webhook viene innescato, viene inviata una richiesta di tipo POST agli URL forniti."
         detailed_instruction: "Una richiesta di tipo POST verrà inviata agli URL forniti quando si verifica uno degli eventi scelti."
         new: "Nuovo Webhook"
         create: "Crea"
@@ -3499,8 +3499,8 @@ it:
           component_name: "Nome del Componente"
           themes_intro: "Seleziona un tema esistente o installane uno nuovo per iniziare"
           themes_intro_emoji: "emoji woman artist"
-          beginners_guide_title: "Guida per principianti all'uso dei Temi di Discourse"
-          developers_guide_title: "Guida per sviluppatori ai Temi di Discourse"
+          beginners_guide_title: "Guida per principianti all'uso dei Temi di Okse"
+          developers_guide_title: "Guida per sviluppatori ai Temi di Okse"
           browse_themes: "Sfoglia i temi della comunità"
           customize_desc: "Personalizza:"
           title: "Temi"
@@ -3591,9 +3591,9 @@ it:
           disabled: "Questo componente è stato disabilitato."
           disabled_by: "Questo componente è stato disabilitato da"
           required_version:
-            error: "Questo tema è stato disattivato automaticamente perché non compatibile con questa versione di Discourse."
-            minimum: "Richiede versione %{version} o superiore di Discourse."
-            maximum: "Richiede versione %{version} o inferiore di Discourse."
+            error: "Questo tema è stato disattivato automaticamente perché non compatibile con questa versione di Okse."
+            minimum: "Richiede versione %{version} o superiore di Okse."
+            maximum: "Richiede versione %{version} o inferiore di Okse."
           component_of: "Componente di:"
           update_to_latest: "Aggiorna all'ultima versione"
           check_for_updates: "Controllo Aggiornamenti"
@@ -3648,7 +3648,7 @@ it:
           undo: "annulla"
           undo_title: "Annulla le modifiche effettuate a questo colore dall'ultimo salvataggio."
           revert: "ripristina"
-          revert_title: "Reimposta questo colore alla combinazione colori di default di Discourse."
+          revert_title: "Reimposta questo colore alla combinazione colori di default di Okse."
           primary:
             name: "primario"
             description: "Per la maggior parte del testo, icone e bordi."
@@ -3699,7 +3699,7 @@ it:
         preview_digest: "Anteprima Riepilogo"
         advanced_test:
           title: "Test avanzato"
-          desc: "Vedi come Discourse processa le email ricevute. Per poter processare correttamente le email, per favore incolla qui sotto l'intero messaggio di email originale."
+          desc: "Vedi come Okse processa le email ricevute. Per poter processare correttamente le email, per favore incolla qui sotto l'intero messaggio di email originale."
           email: "Messaggio originale"
           run: "Esegui test"
           text: "Seleziona il corpo del testo"
@@ -4401,9 +4401,9 @@ it:
         alt: "anteprima emoji personalizzata"
         delete_confirm: "Sicuro di voler cancellare l'emoji :%{name}:?"
       embedding:
-        get_started: "Se lo desideri, puoi incorporare Discourse in un altro sito web. Comincia aggiungendo il nome dell'host"
+        get_started: "Se lo desideri, puoi incorporare Okse in un altro sito web. Comincia aggiungendo il nome dell'host"
         confirm_delete: "Sicuro di voler cancellare questo host?"
-        sample: "Utilizza il seguente codice HTML nel tuo sito per creare e incorporare gli argomenti di Discourse. Sostituisci <b>REPLACE_ME</b> con l'URL canonical della pagina in cui lo stai incorporando."
+        sample: "Utilizza il seguente codice HTML nel tuo sito per creare e incorporare gli argomenti di Okse. Sostituisci <b>REPLACE_ME</b> con l'URL canonical della pagina in cui lo stai incorporando."
         title: "Incorporo"
         host: "Host Abilitati"
         class_name: "Nome Classe"
@@ -4413,7 +4413,7 @@ it:
         add_host: "Aggiungi Host"
         settings: "Impostazioni di incorporo"
         crawling_settings: "Impostazioni Crawler"
-        crawling_description: "Quando Discourse crea gli argomenti per i tuoi messaggi, se non è presente nessun feed RSS/ATOM, cercherà di estrarre il contenuto dal codice HTML. Il contenuto può risultate a volte ostico da estrarre e, per semplificare il processo, forniamo la possibilità di specificare le regole CSS."
+        crawling_description: "Quando Okse crea gli argomenti per i tuoi messaggi, se non è presente nessun feed RSS/ATOM, cercherà di estrarre il contenuto dal codice HTML. Il contenuto può risultate a volte ostico da estrarre e, per semplificare il processo, forniamo la possibilità di specificare le regole CSS."
         embed_by_username: "Nome utente per la creazione dell'argomento"
         embed_post_limit: "Numero massimo di messaggi da includere"
         embed_title_scrubber: "Espressione regolare usata per ripulire i titoli dei messaggi"

@@ -184,7 +184,7 @@ lt:
       banner:
         enabled: "padarė šią reklamjuostę %{when}. Ji pasirodys kiekvieno puslapio viršuje, kol jos neišjungs vartotojas."
         disabled: "pašalinta ši reklamjuostė %{when}. Ji nebebus rodomaa kiekvieno puslapio viršuje."
-    wizard_required: "Sveiki, tai jūsų naujasis Discourse! Pradėkime nuo<a href='%{url}' data-auto-route='true'>Instliacijos</a>✨"
+    wizard_required: "Sveiki, tai jūsų naujasis Okse! Pradėkime nuo<a href='%{url}' data-auto-route='true'>Instliacijos</a>✨"
     emails_are_disabled: "Visos išeinančios elektroninės žinutės buvo uždraustos administratoriaus. Jokių papildų įspėjamųjų žinučių nebus išsiųsta"
     bootstrap_mode_enabled: "Norėdami palengvinti naujos svetainės paleidimą, jūs esate paleidimo režime. Visiems naujiems vartotojams bus suteiktas 1 lygio pasitikėjimas ir bus įgalinti kasdieniniai elektroninio pašto santraukos atnaujinimai. Tai bus automatiškai išjungta, kai pasieksite %{min_users} vartotojų ribą."
     bootstrap_mode_disabled: "Paleidimo režimas bus išjungtas per 24 valandas."
@@ -2352,7 +2352,7 @@ lt:
         show_traffic_report: "Show Detailed Traffic Report"
         community_health: Bendruomenės sveikata
         moderators_activity: Moderatorių veikla
-        whats_new_in_discourse: "Kas aujo Discourse?"
+        whats_new_in_discourse: "Kas aujo Okse?"
         activity_metrics: Aktyvumas
         all_reports: "Visi pranešimai"
         general_tab: "Bendrieji"
@@ -3161,7 +3161,7 @@ lt:
         image: "Paveiksliukas"
         delete_confirm: "Ar tikrai nori ištrinti :%{name}: šypsenėlę?"
       embedding:
-        get_started: "Norėčiau pridėti Discourse prie kito puslapio. Pradėk tiesiog pridėdamas valdytoją."
+        get_started: "Norėčiau pridėti Okse prie kito puslapio. Pradėk tiesiog pridėdamas valdytoją."
         confirm_delete: "Ar tikrai nori ištrinti šį šeimininką?"
         sample: "Use the following HTML code into your site to create and embed discourse topics. Replace <b>REPLACE_ME</b> with the canonical URL of the page you are embedding it on."
         title: "Įterpimai"
@@ -3172,7 +3172,7 @@ lt:
         add_host: "Pridėti Šeimininką"
         settings: "Įterpti Nustatymus"
         crawling_settings: "Crawler Nustatymai"
-        crawling_description: "When Discourse creates topics for your posts, if no RSS/ATOM feed is present it will attempt to parse your content out of your HTML. Sometimes it can be challenging to extract your content, so we provide the ability to specify CSS rules to make extraction easier."
+        crawling_description: "When Okse creates topics for your posts, if no RSS/ATOM feed is present it will attempt to parse your content out of your HTML. Sometimes it can be challenging to extract your content, so we provide the ability to specify CSS rules to make extraction easier."
         embed_by_username: "Vartotojo vardas skirtas temų sukūrimui"
         embed_post_limit: "Maskimalus įterpiamų įrašų skaičius"
         embed_truncate: "Truncate the embedded posts"

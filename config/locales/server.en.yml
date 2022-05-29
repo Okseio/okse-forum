@@ -1,5 +1,5 @@
 # encoding: utf-8
-# This file contains content for the server portion of Discourse used by Ruby
+# This file contains content for the server portion of Okse used by Ruby
 #
 # To work with us on translations, see:
 # https://www.transifex.com/projects/p/discourse-org/
@@ -59,11 +59,11 @@ en:
     am: "am"
     pm: "pm"
 
-  title: "Discourse"
+  title: "Okse"
   topics: "Topics"
   posts: "posts"
   loading: "Loading"
-  powered_by_html: 'Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled'
+  powered_by_html: 'Powered by <a href="https://www.discourse.org">Okse</a>, best viewed with JavaScript enabled'
   sign_up: "Sign Up"
   log_in: "Log In"
   submit: "Submit"
@@ -81,13 +81,13 @@ en:
       unrecognized_extension: "Unrecognized file extension: %{extension}"
     import_error:
       generic: An error occured while importing that theme
-      about_json: "Import Error: about.json does not exist, or is invalid. Are you sure this is a Discourse Theme?"
+      about_json: "Import Error: about.json does not exist, or is invalid. Are you sure this is a Okse Theme?"
       about_json_values: "about.json contains invalid values: %{errors}"
       modifier_values: "about.json modifiers contain invalid values: %{errors}"
       git: "Error cloning git repository, access is denied or repository is not found"
       unpack_failed: "Failed to unpack file"
       file_too_big: "The uncompressed file is too big."
-      unknown_file_type: "The file you uploaded does not appear to be a valid Discourse theme."
+      unknown_file_type: "The file you uploaded does not appear to be a valid Okse theme."
     errors:
       component_no_user_selectable: "Theme components can't be user-selectable"
       component_no_default: "Theme components can't be default theme"
@@ -609,7 +609,7 @@ en:
   staff_category_description: "Private category for staff discussions. Topics are only visible to admins and moderators."
 
   discourse_welcome_topic:
-    title: "Welcome to Discourse"
+    title: "Welcome to Okse"
     body: |
 
       The first paragraph of this pinned topic will be visible as a welcome message to all new visitors on your homepage. It's important!
@@ -1421,7 +1421,7 @@ en:
     display_local_time_in_user_card: "Display the local time based on a user's timezone when their user card is opened."
     censored_words: "Words that will be automatically replaced with &#9632;&#9632;&#9632;&#9632;"
     delete_old_hidden_posts: "Auto-delete any hidden posts that stay hidden for more than 30 days."
-    default_locale: "The default language of this Discourse instance. You can replace the text of system generated categories and topics at <a href='%{base_path}/admin/customize/site_texts' target='_blank'>Customize / Text</a>."
+    default_locale: "The default language of this Okse instance. You can replace the text of system generated categories and topics at <a href='%{base_path}/admin/customize/site_texts' target='_blank'>Customize / Text</a>."
     allow_user_locale: "Allow users to choose their own language interface preference"
     set_locale_from_accept_language_header: "set interface language for anonymous users from their web browser's language headers. (EXPERIMENTAL, does not work with anonymous cache)"
     support_mixed_text_direction: "Support mixed left-to-right and right-to-left text directions."
@@ -1481,7 +1481,7 @@ en:
     topic_excerpt_maxlength: "Maximum length of a topic excerpt / summary, generated from the first post in a topic."
     show_pinned_excerpt_mobile: "Show excerpt on pinned topics in mobile view."
     show_pinned_excerpt_desktop: "Show excerpt on pinned topics in desktop view."
-    post_onebox_maxlength: "Maximum length of a oneboxed Discourse post in characters."
+    post_onebox_maxlength: "Maximum length of a oneboxed Okse post in characters."
     onebox_domains_blacklist: "A list of domains that will never be oneboxed."
     inline_onebox_domains_whitelist: "A list of domains that will be oneboxed in miniature form if linked without a title"
     enable_inline_onebox_on_all_domains: "Ignore inline_onebox_domain_whitelist site setting and allow inline onebox on all domains."
@@ -1558,7 +1558,7 @@ en:
     moderators_create_categories: "Allow moderators to create new categories"
     cors_origins: "Allowed origins for cross-origin requests (CORS). Each origin must include http:// or https://. The DISCOURSE_ENABLE_CORS env variable must be set to true to enable CORS."
     use_admin_ip_whitelist: "Admins can only log in if they are at an IP address defined in the Screened IPs list (Admin > Logs > Screened Ips)."
-    blacklist_ip_blocks: "A list of private IP blocks that should never be crawled by Discourse"
+    blacklist_ip_blocks: "A list of private IP blocks that should never be crawled by Okse"
     whitelist_internal_hosts: "A list of internal hosts that discourse can safely crawl for oneboxing and other purposes"
     allowed_iframes: "A list of iframe src domain prefixes that discourse can safely allow in posts"
     whitelisted_crawler_user_agents: "User agents of web crawlers that should be allowed to access the site. WARNING! SETTING THIS WILL DISALLOW ALL CRAWLERS NOT LISTED HERE!"
@@ -1603,8 +1603,8 @@ en:
     auto_approve_email_domains: "Users with email addresses from this list of domains will be automatically approved."
     hide_email_address_taken: "Don't inform users that an account exists with a given email address during signup and from the forgot password form."
     log_out_strict: "When logging out, log out ALL sessions for the user on all devices"
-    version_checks: "Ping the Discourse Hub for version updates and show new version messages on the <a href='%{base_path}/admin' target='_blank'>/admin</a> dashboard"
-    new_version_emails: "Send an email to the contact_email address when a new version of Discourse is available."
+    version_checks: "Ping the Okse Hub for version updates and show new version messages on the <a href='%{base_path}/admin' target='_blank'>/admin</a> dashboard"
+    new_version_emails: "Send an email to the contact_email address when a new version of Okse is available."
 
     invite_expiry_days: "How long user invitation keys are valid, in days"
 
@@ -1626,16 +1626,16 @@ en:
 
     enable_sso: "Enable single sign on via an external site (WARNING: USERS' EMAIL ADDRESSES *MUST* BE VALIDATED BY THE EXTERNAL SITE!)"
     verbose_sso_logging: "Log verbose SSO related diagnostics to <a href='%{base_path}/logs' target='_blank'>/logs</a>"
-    enable_sso_provider: "Implement Discourse SSO provider protocol at the /session/sso_provider endpoint, requires sso_provider_secrets to be set"
+    enable_sso_provider: "Implement Okse SSO provider protocol at the /session/sso_provider endpoint, requires sso_provider_secrets to be set"
     sso_url: "URL of single sign on endpoint (must include http:// or https://)"
     sso_secret: "Secret string used to cryptographically authenticate SSO information, be sure it is 10 characters or longer"
-    sso_provider_secrets: "A list of domain-secret pairs that are using Discourse as an SSO provider. Make sure SSO secret is 10 characters or longer. Wildcard symbol * can be used to match any domain or only a part of it (e.g. *.example.com)."
+    sso_provider_secrets: "A list of domain-secret pairs that are using Okse as an SSO provider. Make sure SSO secret is 10 characters or longer. Wildcard symbol * can be used to match any domain or only a part of it (e.g. *.example.com)."
     sso_overrides_bio: "Overrides user bio in user profile and prevents user from changing it"
     sso_overrides_groups: "Synchronize all manual group membership with groups specified in the groups sso attribute (WARNING: if you do not specify groups all manual group membership will be cleared for user)"
     sso_overrides_email: "Overrides local email with external site email from SSO payload on every login, and prevent local changes. (WARNING: discrepancies can occur due to normalization of local emails)"
     sso_overrides_username: "Overrides local username with external site username from SSO payload on every login, and prevent local changes. (WARNING: discrepancies can occur due to differences in username length/requirements)"
     sso_overrides_name: "Overrides local full name with external site full name from SSO payload on every login, and prevent local changes."
-    sso_overrides_avatar: "Overrides user avatar with external site avatar from SSO payload. If enabled, users will not be allowed to upload avatars on Discourse."
+    sso_overrides_avatar: "Overrides user avatar with external site avatar from SSO payload. If enabled, users will not be allowed to upload avatars on Okse."
     sso_overrides_location: "Overrides user location with external location from SSO payload and prevent local changes."
     sso_overrides_website: "Overrides user website with external location from SSO payload and prevent local changes."
     sso_overrides_profile_background: "Overrides user profile background with external site avatar from SSO payload."
@@ -1648,13 +1648,13 @@ en:
     allow_new_registrations: "Allow new user registrations. Uncheck this to prevent anyone from creating a new account."
     enable_signup_cta: "Show a notice to returning anonymous users prompting them to sign up for an account."
 
-    enable_google_oauth2_logins: "Enable Google Oauth2 authentication. This is the method of authentication that Google currently supports. Requires key and secret. See <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuring Google login for Discourse</a>."
+    enable_google_oauth2_logins: "Enable Google Oauth2 authentication. This is the method of authentication that Google currently supports. Requires key and secret. See <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuring Google login for Okse</a>."
     google_oauth2_client_id: "Client ID of your Google application."
     google_oauth2_client_secret: "Client secret of your Google application."
     google_oauth2_prompt: "An optional space-delimited list of string values that specifies whether the authorization server prompts the user for reauthentication and consent. See <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> for the possible values."
     google_oauth2_hd: "An optional Google Apps Hosted domain that the sign-in will be limited to. See <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> for more details."
 
-    enable_twitter_logins: "Enable Twitter authentication, requires twitter_consumer_key and twitter_consumer_secret. See <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Discourse</a>."
+    enable_twitter_logins: "Enable Twitter authentication, requires twitter_consumer_key and twitter_consumer_secret. See <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Okse</a>."
     twitter_consumer_key: "Consumer key for Twitter authentication, registered at <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Consumer secret for Twitter authentication, registered at <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
 
@@ -1662,11 +1662,11 @@ en:
     instagram_consumer_key: "Consumer key for Instagram authentication"
     instagram_consumer_secret: "Consumer secret Instagram authentication"
 
-    enable_facebook_logins: "Enable Facebook authentication, requires facebook_app_id and facebook_app_secret. See <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuring Facebook login for Discourse</a>."
+    enable_facebook_logins: "Enable Facebook authentication, requires facebook_app_id and facebook_app_secret. See <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuring Facebook login for Okse</a>."
     facebook_app_id: "App id for Facebook authentication, registered at <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "App secret for Facebook authentication, registered at <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
 
-    enable_github_logins: "Enable Github authentication, requires github_client_id and github_client_secret. See <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuring GitHub login for Discourse</a>."
+    enable_github_logins: "Enable Github authentication, requires github_client_id and github_client_secret. See <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuring GitHub login for Okse</a>."
     github_client_id: "Client id for Github authentication, registered at <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "Client secret for Github authentication, registered at <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
 
@@ -1738,7 +1738,7 @@ en:
     purge_deleted_uploads_grace_period_days: "Grace period (in days) before a deleted upload is erased."
     purge_unactivated_users_grace_period_days: "Grace period (in days) before a user who has not activated their account is deleted. Set to 0 to never purge unactivated users."
     enable_s3_uploads: "Place uploads on Amazon S3 storage. IMPORTANT: requires valid S3 credentials (both access key id & secret access key)."
-    s3_use_iam_profile: 'Use an <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">AWS EC2 instance profile</a> to grant access to the S3 bucket. NOTE: enabling this requires Discourse to be running in an appropriately-configured EC2 instance, and overrides the "s3 access key id" and "s3 secret access key" settings.'
+    s3_use_iam_profile: 'Use an <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">AWS EC2 instance profile</a> to grant access to the S3 bucket. NOTE: enabling this requires Okse to be running in an appropriately-configured EC2 instance, and overrides the "s3 access key id" and "s3 secret access key" settings.'
     s3_upload_bucket: "The Amazon S3 bucket name that files will be uploaded into. WARNING: must be lowercase, no periods, no underscores."
     s3_access_key_id: "The Amazon S3 access key id that will be used to upload images, attachments, and backups."
     s3_secret_access_key: "The Amazon S3 secret access key that will be used to upload images, attachments, and backups."
@@ -1913,7 +1913,7 @@ en:
     incoming_email_prefer_html: "Use HTML instead of text for incoming email."
     strip_incoming_email_lines: "Remove leading and trailing whitespaces from each line of incoming emails."
 
-    disable_emails: "Prevent Discourse from sending any kind of emails. Select 'yes' to disable emails for all users. Select 'non-staff' to disable emails for non-staff users only."
+    disable_emails: "Prevent Okse from sending any kind of emails. Select 'yes' to disable emails for all users. Select 'non-staff' to disable emails for non-staff users only."
 
     strip_images_from_short_emails: "Strip images from emails having size less than 2800 Bytes"
     short_email_length: "Short email length in Bytes"
@@ -1940,7 +1940,7 @@ en:
     attachment_content_type_blacklist: "List of keywords used to blacklist attachments based on the content type."
     attachment_filename_blacklist: "List of keywords used to blacklist attachments based on the filename."
 
-    forwarded_emails_behaviour: "How to treat a forwarded email to Discourse"
+    forwarded_emails_behaviour: "How to treat a forwarded email to Okse"
     always_show_trimmed_content: "Always show trimmed part of incoming emails. WARNING: might reveal email addresses."
     private_email: "Don't include content from posts or topics in email title or email body. NOTE: also disables digest emails."
     email_total_attachment_size_limit_kb: "Max total size of files attached to outgoing emails. Set to 0 to disable sending of attachments."
@@ -1997,7 +1997,7 @@ en:
     email_link_color: "The color of links in HTML emails. Enter a color name ('blue') or hex value ('#0000FF')."
 
     detect_custom_avatars: "Whether or not to check that users have uploaded custom profile pictures."
-    max_daily_gravatar_crawls: "Maximum number of times Discourse will check Gravatar for custom avatars in a day"
+    max_daily_gravatar_crawls: "Maximum number of times Okse will check Gravatar for custom avatars in a day"
     public_user_custom_fields: "A list of user custom fields that can be retrieved with the API."
     staff_user_custom_fields: "A list of user custom fields that can be retrieved for staff members with the API."
     enable_user_directory: "Provide a directory of users for browsing"
@@ -2633,7 +2633,7 @@ en:
 
       Good luck,
 
-      Your friends at [Discourse](https://www.discourse.org)
+      Your friends at [Okse](https://www.discourse.org)
 
       [0]: %{base_url}
       [1]: https://www.kitterman.com/spf/validate.html
@@ -2650,9 +2650,9 @@ en:
 
   new_version_mailer:
     title: "New Version Mailer"
-    subject_template: "[%{email_prefix}] New Discourse version, update available"
+    subject_template: "[%{email_prefix}] New Okse version, update available"
     text_body_template: |
-      Hooray, a new version of [Discourse](https://www.discourse.org) is available!
+      Hooray, a new version of [Okse](https://www.discourse.org) is available!
 
       Your version: %{installed_version}
       New version: **%{new_version}**
@@ -2661,13 +2661,13 @@ en:
 
       - See what's new in the [release notes](https://meta.discourse.org/tag/release-notes) or view the [raw GitHub changelog](https://github.com/discourse/discourse/commits/master)
 
-      - Visit [meta.discourse.org](https://meta.discourse.org) for news, discussion, and support for Discourse
+      - Visit [meta.discourse.org](https://meta.discourse.org) for news, discussion, and support for Okse
 
   new_version_mailer_with_notes:
     title: "New Version Mailer with Notes"
     subject_template: "[%{email_prefix}] update available"
     text_body_template: |
-      Hooray, a new version of [Discourse](https://www.discourse.org) is available!
+      Hooray, a new version of [Okse](https://www.discourse.org) is available!
 
       Your version: %{installed_version}
       New version: **%{new_version}**
@@ -2676,7 +2676,7 @@ en:
 
       - See what's new in the [release notes](https://meta.discourse.org/tag/release-notes) or view the [raw GitHub changelog](https://github.com/discourse/discourse/commits/master)
 
-      - Visit [meta.discourse.org](https://meta.discourse.org) for news, discussion, and support for Discourse
+      - Visit [meta.discourse.org](https://meta.discourse.org) for news, discussion, and support for Okse
 
       ### Release notes
 
@@ -3922,7 +3922,7 @@ en:
 
       The conversations we have here set the tone for every new arrival. Help us influence the future of this community by choosing to engage in discussions that make this forum an interesting place to be &mdash; and avoiding those that do not.
 
-      Discourse provides tools that enable the community to collectively identify the best (and worst) contributions: bookmarks, likes, flags, replies, edits, and so forth. Use these tools to improve your own experience, and everyone else’s, too.
+      Okse provides tools that enable the community to collectively identify the best (and worst) contributions: bookmarks, likes, flags, replies, edits, and so forth. Use these tools to improve your own experience, and everyone else’s, too.
 
       Let’s leave our community better than we found it.
 
@@ -4527,7 +4527,7 @@ en:
   rss_by_tag: "Topics tagged %{tag}"
 
   finish_installation:
-    congratulations: "Congratulations, you installed Discourse!"
+    congratulations: "Congratulations, you installed Okse!"
     register:
       button: "Register"
       title: "Register Admin Account"
@@ -4549,10 +4549,10 @@ en:
     enter: "Enter Safe Mode"
     must_select: "You must select at least one option to enter safe mode."
   wizard:
-    title: "Discourse Setup"
+    title: "Okse Setup"
     step:
       locale:
-        title: "Welcome to your Discourse!"
+        title: "Welcome to your Okse!"
         fields:
           default_locale:
             description: "What’s the default language for your community?"
@@ -4630,7 +4630,7 @@ en:
             description: "General contact web page for you or your organization. Will be displayed on <a href='%{base_path}/about' target='_blank'>your about page</a>."
           site_contact:
             label: "Automated Messages"
-            description: "All automated Discourse personal messages will be sent from this user, such as flag warnings and backup completion notices."
+            description: "All automated Okse personal messages will be sent from this user, such as flag warnings and backup completion notices."
 
       corporate:
         title: "Organization"
@@ -4653,7 +4653,7 @@ en:
       themes_further_reading:
         title: "Themes"
         description:
-          "Looking to customize your Discourse? Take advantage of our powerful theming system:
+          "Looking to customize your Okse? Take advantage of our powerful theming system:
           <ul>
           <li><a href='https://meta.discourse.org/t/63682' target='_blank'>How do I install a theme or theme component?</a></li>
           <li><a href='https://meta.discourse.org/t/110448' target='_blank'>Theme Developer Quick Reference Guide</a></li>
@@ -4712,7 +4712,7 @@ en:
         disabled: "Since local logins are disabled, it’s not possible to send invites to anyone. Please proceed to the next step."
 
       finished:
-        title: "Your Discourse is Ready!"
+        title: "Your Okse is Ready!"
         description: |
           <p>If you ever feel like changing these settings, <b>re-run this wizard any time</b>, or visit <a href='%{base_path}/admin' target='_blank'>your admin section</a>; find it next to the wrench icon in the site menu.</p>
           <p>Have fun, and good luck <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='_blank'>building your new community!</a></p>
@@ -4866,9 +4866,9 @@ en:
   old_keys_reminder:
     title: "Reminder about old credentials"
     body: |
-      Hello! This is a routine yearly security reminder from your Discourse instance.
+      Hello! This is a routine yearly security reminder from your Okse instance.
 
-      As a courtesy, we wanted to let you know that the following credentials used on your Discourse instance have not been updated in more than two years:
+      As a courtesy, we wanted to let you know that the following credentials used on your Okse instance have not been updated in more than two years:
 
       %{keys}
 

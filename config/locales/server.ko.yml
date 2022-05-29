@@ -24,11 +24,11 @@ ko:
     <<: *datetime_formats
     am: "오전"
     pm: "오후"
-  title: "Discourse"
+  title: "Okse"
   topics: "토픽"
   posts: "포스트"
   loading: "로딩중"
-  powered_by_html: '<a href="https://www.discourse.org">Discourse</a> 으로 호스팅되고 있습니다. JavaScript 가 활성화되어 있을 때 가장 멋지게 보입니다.'
+  powered_by_html: '<a href="https://www.discourse.org">Okse</a> 으로 호스팅되고 있습니다. JavaScript 가 활성화되어 있을 때 가장 멋지게 보입니다.'
   sign_up: "회원가입"
   log_in: "로그인"
   submit: "제출"
@@ -1196,7 +1196,7 @@ ko:
   site_settings:
     censored_words: "단어는 자동적으로 `&#9632;&#9632;&#9632;&#9632;` 로 대체 됩니다."
     delete_old_hidden_posts: "30일이 지난 숨겨진 글은 자동으로 삭제됩니다."
-    default_locale: "이 Discourse 인스턴스의 기본 언어입니다. <a href='%{base_path}/admin/customize/site_texts' target='_blank'>사용자 정의 / 텍스트</a> 에서 시스템 생성 범주 및 주제의 텍스트를 바꿀 수 있습니다."
+    default_locale: "이 Okse 인스턴스의 기본 언어입니다. <a href='%{base_path}/admin/customize/site_texts' target='_blank'>사용자 정의 / 텍스트</a> 에서 시스템 생성 범주 및 주제의 텍스트를 바꿀 수 있습니다."
     allow_user_locale: "사용자에게 자신이 원하는 언어를 선택 허용"
     set_locale_from_accept_language_header: "익명 사용자의 인터페이스 언어를 웹브라우저 언어 헤더를 기준으로 변경하기(실험적인 기능입니다. 익명 cache와 동작하지 않습니다.)"
     support_mixed_text_direction: "왼쪽에서 오른쪽 및 오른쪽에서 왼쪽으로 혼합 된 텍스트 방향을 지원합니다."
@@ -1253,7 +1253,7 @@ ko:
     post_excerpt_maxlength: "글 인용에 허용되는 최대 글자수"
     show_pinned_excerpt_mobile: "모바일 뷰에서 고정 토픽의 발췌 내용을 보여주기"
     show_pinned_excerpt_desktop: "데스크톱 뷰에서 고정 토픽의 발췌 내용을 보여주기"
-    post_onebox_maxlength: "onebox가 적용된 Discourse 글에 허용되는 최대 글자수"
+    post_onebox_maxlength: "onebox가 적용된 Okse 글에 허용되는 최대 글자수"
     onebox_domains_blacklist: "박스 링크 적용하지 않을 도메인의 목록"
     inline_onebox_domains_whitelist: "제목없이 링크 된 경우 미니어처 형태로 oneboxed 될 도메인 목록"
     enable_inline_onebox_on_all_domains: "inline_onebox_domain_whitelist 사이트 설정을 무시하고 모든 도메인에서 인라인 onebox를 허용하십시오."
@@ -1323,7 +1323,7 @@ ko:
     cors_origins: "Allowed origins cross-origin requests (CORS). 각 origin은 반드시 http:// 나 https:// 를 포함해야합니다. DISCOURSE_ENABLE_CORS 환경 변수를 true로 지정해줘야 CORS를 활성화할 수 있습니다."
     use_admin_ip_whitelist: "관리자는 보호IP 목록에 있는 IP에서만 로그인할 수 있게 하기(관리 > 로그 > 보호 IP)."
     blacklist_ip_blocks: "Discourse가 크롤링하지 않는 차단된 사설 IP 목록"
-    whitelist_internal_hosts: "박스링크나 다른 목적으로 Discourse 가 안전하게 크롤링할 수 있는 내부 호스트의 목록"
+    whitelist_internal_hosts: "박스링크나 다른 목적으로 Okse 가 안전하게 크롤링할 수 있는 내부 호스트의 목록"
     allowed_iframes: "담론이 게시물에서 안전하게 허용 할 수있는 iframe src 도메인 접두사 목록"
     whitelisted_crawler_user_agents: "사이트에 액세스 할 수있는 웹 크롤러의 사용자 에이전트 경고! 이 설정은 여기에 나열되지 않은 모든 크롤러를 허용하지 않습니다!"
     blacklisted_crawler_user_agents: "사이트에 액세스해서는 안되는 웹 크롤러를 식별하는 사용자 에이전트 문자열의 대소 문자를 구분하지 않는 고유 한 단어입니다. 화이트리스트가 정의 된 경우 적용되지 않습니다."
@@ -1363,7 +1363,7 @@ ko:
     auto_approve_email_domains: "이 도메인 목록의 이메일 주소를 가진 사용자는 자동으로 승인됩니다."
     hide_email_address_taken: "가입하는 동안 및 비밀번호를 잊어 버린 양식에서 지정된 이메일 주소로 계정이 존재한다고 사용자에게 알리지 마십시오."
     log_out_strict: "로그아웃 할때, 모든 장치에서 다같이 로그아웃"
-    version_checks: "버전 관리를 위해 Discourse Hub를 핑 (Ping)하여 <a href='%{base_path}/admin' target='_blank'>/ admin</a> 대시 보드에 새 버전 메시지를 표시합니다."
+    version_checks: "버전 관리를 위해 Okse Hub를 핑 (Ping)하여 <a href='%{base_path}/admin' target='_blank'>/ admin</a> 대시 보드에 새 버전 메시지를 표시합니다."
     new_version_emails: "사용가능한 새로운 업데이트가 있으면 등록된 contact_email 주소로 메일을 발송하여 알려줍니다."
     invite_expiry_days: "사용자 초대키 유효 기간, 일"
     invite_only: "모든 신규 사용자는 신뢰할 수있는 사용자 또는 직원이 명시 적으로 초대해야합니다. 공개 등록이 비활성화되었습니다."
@@ -1379,7 +1379,7 @@ ko:
     block_common_passwords: "가장 흔히 사용되는 10,000개 비밀번호 목록에 있는 비밀번호를 사용하는 것을 허용하지 않음."
     enable_sso: "외부사이트 Single Sign On, SSO를 통해 로그인 활성화(경고: 유저의 이메일 주소는 반드시 외부에서 확인해야합니다!)"
     verbose_sso_logging: "자세한 SSO 관련 진단을 <a href='%{base_path}/logs' target='_blank'>/ logs에 기록</a>"
-    enable_sso_provider: "/ session / sso_provider 엔드 포인트에서 Discourse SSO 제공자 프로토콜을 구현하려면 sso_provider_secrets를 설정해야합니다."
+    enable_sso_provider: "/ session / sso_provider 엔드 포인트에서 Okse SSO 제공자 프로토콜을 구현하려면 sso_provider_secrets를 설정해야합니다."
     sso_url: " 싱글 사인 온(SSO)엔드포인트의 URL (http:// 또는 https:// 포함 필수)"
     sso_secret: "SSO 정보 암호화 인증에 사용 될 암호 문자열, 10글자 이상이어야 합니다."
     sso_provider_secrets: "Discourse를 SSO 공급자로 사용하는 도메인 비밀 쌍 목록입니다. SSO 비밀이 10 자 이상인지 확인하십시오. 와일드 카드 기호 *를 사용하면 도메인이나 도메인의 일부만 일치시킬 수 있습니다 (예 : * .example.com)."
@@ -2799,10 +2799,10 @@ ko:
     enter: "안전모드 들어가기"
     must_select: "안전 모드로 들어가려면 하나 이상의 옵션을 선택해야합니다."
   wizard:
-    title: "Discourse Setup"
+    title: "Okse Setup"
     step:
       locale:
-        title: "Welcome to your Discourse!"
+        title: "Welcome to your Okse!"
         fields:
           default_locale:
             description: "What’s the default language for your community?"

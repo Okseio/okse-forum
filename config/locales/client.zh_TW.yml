@@ -2674,7 +2674,7 @@ zh_TW:
         show_traffic_report: "顯示詳細的流量報表"
         community_health: 社群健康度
         moderators_activity: 管理員活動紀錄
-        whats_new_in_discourse: Discourse 新增了什麼？
+        whats_new_in_discourse: Okse 新增了什麼？
         activity_metrics: 活動數值
         all_reports: "所有報告"
         general_tab: "一般"
@@ -2789,7 +2789,7 @@ zh_TW:
       web_hooks:
         title: "Webhooks"
         none: "當前沒有 Webhooks。"
-        instruction: "Webhooks 讓 Discourse 可以在特定事件發生時通知外部服務。當 webhook 事件觸發時，一個 POST 請求將發向指定地址。"
+        instruction: "Webhooks 讓 Okse 可以在特定事件發生時通知外部服務。當 webhook 事件觸發時，一個 POST 請求將發向指定地址。"
         detailed_instruction: "一個 POST 請求將在選定事件發生時發至指定 URL。"
         new: "新建 Webhook"
         create: "創建"
@@ -3067,9 +3067,9 @@ zh_TW:
           enable: "啟用"
           disable: "禁用"
           required_version:
-            error: "由於佈景主題與此版本的 Discourse 不相容，此佈景主題已被自動停用。"
-            minimum: "需要 Discourse%{version} 或更新的版本。"
-            maximum: "需要 Discourse %{version} 或更舊的版本。"
+            error: "由於佈景主題與此版本的 Okse 不相容，此佈景主題已被自動停用。"
+            minimum: "需要 Okse%{version} 或更新的版本。"
+            maximum: "需要 Okse %{version} 或更舊的版本。"
           component_of: "元件："
           update_to_latest: "更新至最新版本"
           check_for_updates: "檢查更新"
@@ -3162,7 +3162,7 @@ zh_TW:
         preview_digest: "預覽文摘"
         advanced_test:
           title: "進階測試"
-          desc: "瀏覽 Discourse 如何處理收到的 email。為了能正確的處理 email，請在下方貼上完整的 email 內容。"
+          desc: "瀏覽 Okse 如何處理收到的 email。為了能正確的處理 email，請在下方貼上完整的 email 內容。"
           email: "原始訊息"
           run: "執行測試"
           text: "已選擇的測試文字"
@@ -3794,9 +3794,9 @@ zh_TW:
         image: "圖片"
         delete_confirm: "你確定要刪除 :%{name}: emoji ?"
       embedding:
-        get_started: "如果你想要將 Discourse 嵌入至其他網站，添加他們的主機地址。"
+        get_started: "如果你想要將 Okse 嵌入至其他網站，添加他們的主機地址。"
         confirm_delete: "你確定要刪除此主機？"
-        sample: "使用下列 HTML 代碼至你的站點開啟和嵌入 Discourse 話題。把<b>REPLACE_ME</b> 替換成你將嵌入至的網址。"
+        sample: "使用下列 HTML 代碼至你的站點開啟和嵌入 Okse 話題。把<b>REPLACE_ME</b> 替換成你將嵌入至的網址。"
         title: "嵌入"
         host: "允許的主機"
         class_name: "階級名稱"
@@ -3806,7 +3806,7 @@ zh_TW:
         add_host: "新增主機"
         settings: "嵌入設定"
         crawling_settings: "爬蟲設定"
-        crawling_description: "當 Discourse 為你的貼文開啟了話題時，如果沒有 RSS/ATOM 流存在，它將嘗試從 HTML 中解析內容。有時分離其中的內容時可能是很有挑戰性的，所以我們提供了指定 CSS 規則的能力來幫助分離過程。"
+        crawling_description: "當 Okse 為你的貼文開啟了話題時，如果沒有 RSS/ATOM 流存在，它將嘗試從 HTML 中解析內容。有時分離其中的內容時可能是很有挑戰性的，所以我們提供了指定 CSS 規則的能力來幫助分離過程。"
         embed_by_username: "話題開啟者的使用者名稱"
         embed_post_limit: "嵌入的最大貼文數量。"
         embed_title_scrubber: "從貼文中提取標題的正則表達式 \"regular expression\""

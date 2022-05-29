@@ -23,7 +23,7 @@ et:
     <<: *datetime_formats
     am: "am"
     pm: "pm"
-  title: "Discourse"
+  title: "Okse"
   topics: "Teemad"
   posts: "postitused"
   loading: "Laetakse"
@@ -288,7 +288,7 @@ et:
   staff_category_name: "Meeskond"
   staff_category_description: "Privaatfoorum meeskonnasisesteks aruteludeks. Teemad on nähtavad vaid adminnidele ja moderaatoritele."
   discourse_welcome_topic:
-    title: "Teretulemast Discourse'i"
+    title: "Teretulemast Okse'i"
     body: |2
 
       Selle märgistatud teema esimene lõik saab olema kõikidele uutele külastajatele nähtav kui tervitustekst sinu avalehel. See on oluline!
@@ -1020,7 +1020,7 @@ et:
     staff_tag_remove_disallowed: 'Sildi "%{tag}" võib eemaldada ainult meeskonna liige.'
   rss_by_tag: "%{tag}-ga sildistatud teemad"
   finish_installation:
-    congratulations: "Palju õnne, Discourse on paigaldatud!"
+    congratulations: "Palju õnne, Okse on paigaldatud!"
     register:
       button: "Registreeru"
       title: "Registreeri adminni konto"
@@ -1033,10 +1033,10 @@ et:
     no_plugins: "Keela kõik pluginad"
     enter: "Sisene turvalisse režiimi"
   wizard:
-    title: "Discourse sätted"
+    title: "Okse sätted"
     step:
       locale:
-        title: "Tere tulemast oma Discourse'i!"
+        title: "Tere tulemast oma Okse'i!"
         fields:
           default_locale:
             description: "Mis on Sinu kogukonna vaikekeel?"
@@ -1108,7 +1108,7 @@ et:
       invites:
         title: "Kutsu meeskonda"
       finished:
-        title: "Sinu Discourse on valmis!"
+        title: "Sinu Okse on valmis!"
   joined: "Liitus"
   discourse_push_notifications:
     popup:

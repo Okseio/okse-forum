@@ -132,7 +132,7 @@ id:
         disabled: "Hilangkan spanduk ini %{when}. Spanduk tidak akan lagi tampil pada bagian teratas di tiap halaman."
       forwarded: "meneruskan email di atas"
     topic_admin_menu: "tindakan topik"
-    wizard_required: "Selamat datang di Discourse baru Anda! Mari kita mulai dengan <a href='%{url}' data-auto-route='true'>wizard pengaturan</a> ✨"
+    wizard_required: "Selamat datang di Okse baru Anda! Mari kita mulai dengan <a href='%{url}' data-auto-route='true'>wizard pengaturan</a> ✨"
     emails_are_disabled: "Semua surel yang keluar telah dinonaktifkan oleh administrator. Tidak ada pemberitahuan email yang akan dikirimkan."
     bootstrap_mode_enabled: "Untuk lebih memudahkan peluncuran situs baru Anda, Anda berada di mode bootstrap. Semua pengguna baru akan mendapat level 1 dan mendapat ringkasan email harian diaktifkan. Hal ini akan otomatis dimatikan ketika pengguna %{min_users} sudah ikut."
     bootstrap_mode_disabled: "Mode bootstrap akan dinonaktifkan dalam 24 jam."
@@ -1551,7 +1551,7 @@ id:
   admin_js:
     type_to_filter: "ketik untuk memfilter..."
     admin:
-      title: "Admin Discourse"
+      title: "Admin Okse"
       moderator: "Moderator"
       tags:
         remove_muted_tags_from_latest:

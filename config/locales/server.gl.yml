@@ -24,11 +24,11 @@ gl:
     <<: *datetime_formats
     am: "am"
     pm: "pm"
-  title: "Discourse"
+  title: "Okse"
   topics: "Temas"
   posts: "publicacións"
   loading: "Cargando"
-  powered_by_html: 'Con tecnoloxía de <a href="https://www.discourse.org">Discourse</a>, vese mellor con Java habilitado'
+  powered_by_html: 'Con tecnoloxía de <a href="https://www.discourse.org">Okse</a>, vese mellor con Java habilitado'
   sign_up: "Crear unha conta"
   log_in: "Iniciar sesión"
   submit: "Enviar"
@@ -45,13 +45,13 @@ gl:
       unrecognized_extension: "Extensión de ficheiro non recoñecida: %{extension}"
     import_error:
       generic: Produciuse un erro mentres se importaba este tema
-      about_json: "Erro importante: about.json non existe ou non é válido. Tes a certeza que este é un tema de Discourse?"
+      about_json: "Erro importante: about.json non existe ou non é válido. Tes a certeza que este é un tema de Okse?"
       about_json_values: "about.json contén valores non válidos: %{errors}"
       modifier_values: "os modificadores about.json coteñen valores non válidos: %{errors}"
       git: "Erro ao clonar o repositorio git; o acceso está denegado ou non se atopou o repositorio"
       unpack_failed: "Erro ao descomprimir o ficheiro"
       file_too_big: "O ficheiro sen comprimir é demasiado grande."
-      unknown_file_type: "O ficheiro que cargaches non semella ser un tema válido de Discourse."
+      unknown_file_type: "O ficheiro que cargaches non semella ser un tema válido de Okse."
     errors:
       component_no_user_selectable: "Os compoñentes do tema non poden ser seleccionados polo usuario"
       component_no_default: "Os compoñentes do tema non poden ser o tema predefinido"
@@ -519,7 +519,7 @@ gl:
   staff_category_name: "Equipo"
   staff_category_description: "Categoría privada para discusións do equipo. Os temas son visibles unicamente para administradores e moderadores."
   discourse_welcome_topic:
-    title: "Benvido/a a Discourse"
+    title: "Benvido/a a Okse"
     body: |2
 
       O primeiro parágrafo deste tema fixado será visible como mensaxe de benvida para todos os novos visitantes na túa páxina de inicio. É, pois, importante!
@@ -1272,7 +1272,7 @@ gl:
     topic_excerpt_maxlength: "Lonxitude máxima dun extracto/resumo dun tema xerado a partir da primeira publicación dun tema."
     show_pinned_excerpt_mobile: "Mostrar o extracto de temas destacados na vista móbil."
     show_pinned_excerpt_desktop: "Mostrar o extracto de temas destacados na vista de escritorio."
-    post_onebox_maxlength: "Lonxitude máxima en caracteres dunha publicación de Discourse en formato onebox."
+    post_onebox_maxlength: "Lonxitude máxima en caracteres dunha publicación de Okse en formato onebox."
     onebox_domains_blacklist: "Unha listaxe de dominios que nunca se mostrarán en formato onebox."
     inline_onebox_domains_whitelist: "Unha listaxe de dominios que se transformarán en formato onebox en miniatura se son ligados sen un título."
     enable_system_message_replies: "Permitirlles aos usuarios responder mensaxes do sistema, mesmo aínda que as mensaxes persoais estean desactivadas."
@@ -1302,8 +1302,8 @@ gl:
     ga_universal_auto_link_domains: "Habilitar o seguimento multidominio de Google Universal Analytics (analytics.js). As ligazóns saíntes destes dominios terán a ID do cliente agregadas. Revisa <a href='https://support.google.com/analytics/answer/1034342?hl=en' target='_blank'>A guía de Google para o seguimento multidominio."
     gtm_container_id: "ID do contedor de Google Tag Manager. ex: GTM-ABCDEF. <br/>Nota: pode ser necesario que os scripts de terceiros cargados a través de GTM se engadan á lista branca en 'content security policy script src'."
     moderators_create_categories: "Permitir que os moderadores cren novas categorías"
-    blacklist_ip_blocks: "Unha listaxe privada de enderezos IP bloqueados que nunca deberían ser rastrexadas por Discourse"
-    whitelist_internal_hosts: "Unha listaxe con hosts internos que Discourse pode rastrexar de forma segura para utilizar con Onebox e outros propósitos."
+    blacklist_ip_blocks: "Unha listaxe privada de enderezos IP bloqueados que nunca deberían ser rastrexadas por Okse"
+    whitelist_internal_hosts: "Unha listaxe con hosts internos que Okse pode rastrexar de forma segura para utilizar con Onebox e outros propósitos."
     site_contact_group_name: "Un nome de grupo válido para ser convidado a todas as mensaxes automatizadas."
     send_welcome_message: "Enviar aos novos usuarios unha mensaxe de benvida cunha guía de acceso rápido."
     send_tl1_welcome_message: "Enviar aos novos usuarios con nivel 1 de confianza unha mensaxe de benvida."
@@ -1959,7 +1959,7 @@ gl:
     synonyms_exist: "non está permitido mentres existan sinónimos"
   rss_by_tag: "Temas etiquetados %{tag}"
   finish_installation:
-    congratulations: "Parabéns! Instalaches Discourse!"
+    congratulations: "Parabéns! Instalaches Okse!"
     register:
       button: "Rexistrarse"
       title: "Rexistrar conta de administrador"
@@ -2027,7 +2027,7 @@ gl:
         description: "Xa está case! Imos convidar outras persoas para axudar a<a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>iniciar discusións</a> con temas e respostas de interese para que comece a túa comunidade."
         disabled: "Como os inicios de sesión locais están desactivados, non é posible enviar invitacións a ninguén. Vai ao seguinte paso."
       finished:
-        title: "O teu Discourse está pronto!"
+        title: "O teu Okse está pronto!"
         description: |
           <p> Se nalgún momento queres cambiar algún axuste, <b>volve lanzar este asistente en calquera momento</b>, ou visita <a href='%{base_path}/admin' target='_blank'>o teu panel de administración</a>; atoparalo ao lado da icona coa chave inglesa no menú.</p>
           <p>Pásao ben e boa sorte <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='_blank'>construíndo a túa nova comunidade!</a></p>

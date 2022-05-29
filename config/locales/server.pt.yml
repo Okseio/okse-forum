@@ -24,11 +24,11 @@ pt:
     <<: *datetime_formats
     am: "am"
     pm: "pm"
-  title: "Discourse"
+  title: "Okse"
   topics: "Tópicos"
   posts: "mensagens"
   loading: "A carregar"
-  powered_by_html: 'Desenvolvido por <a href="https://www.discourse.org">Discourse</a>, e melhor visualização com o JavaScript ativado'
+  powered_by_html: 'Desenvolvido por <a href="https://www.discourse.org">Okse</a>, e melhor visualização com o JavaScript ativado'
   sign_up: "Inscrever-se"
   log_in: "Iniciar Sessão"
   submit: "Submeter"
@@ -48,7 +48,7 @@ pt:
       about_json_values: "about.json possui valores inválidos: %{errors}"
       git: "Erro ao clonar o repositório de git, acesso foi negado ou o repositório não existe"
       unpack_failed: "Falha ao desempacotar o ficheiro"
-      unknown_file_type: "O ficheiro que enviou não parece ser um tema de Discourse válido."
+      unknown_file_type: "O ficheiro que enviou não parece ser um tema de Okse válido."
     errors:
       component_no_user_selectable: "Components de um tema não podem ser seleccionados por um utilizador"
       component_no_default: "Components de um tema não podem ter o tema predefinido"
@@ -374,7 +374,7 @@ pt:
   staff_category_name: "Pessoal"
   staff_category_description: "Categoria privada para discussões do pessoal. Os tópicos estão apenas visíveis para administradores e moderadores."
   discourse_welcome_topic:
-    title: "Bem-vindo ao Discourse"
+    title: "Bem-vindo ao Okse"
   lounge_welcome:
     title: "Bem-vindo ao Salão"
   category:
@@ -871,7 +871,7 @@ pt:
     post_excerpt_maxlength: "Tamanho máximo do excerto/sumário de uma mensagem."
     show_pinned_excerpt_mobile: "Mostrar excerto em publicações afixadas na vista móvel."
     show_pinned_excerpt_desktop: "Mostar excerto em publicações afixadas na vista de desktop."
-    post_onebox_maxlength: "Tamanho máximo de uma mensagem Discourse de caixa única, em caracteres."
+    post_onebox_maxlength: "Tamanho máximo de uma mensagem Okse de caixa única, em caracteres."
     onebox_domains_blacklist: "Uma lista de domínios para a qual nunca serão geradas pré-visualizações."
     max_oneboxes_per_post: "Número máximo de pré-visualizações numa publicação."
     notification_email: "Para: endereço de email usado ao enviar emails essenciais do sistema. O domínio especificado aqui deverá ter SPF, DKIM e registos PTR inversos configurados corretamente para a chegada do email."
@@ -921,7 +921,7 @@ pt:
     email_domains_blacklist: "Lista de domínios de email que os utilizadores não podem usar para registo de contas. Exemplo: mailinator.com|trashmail.net"
     email_domains_whitelist: "Lista de domínios de email que os utilizadores DEVEM usar para registar contas. AVISO: Utilizadores com domínios de email diferentes dos listados não serão permitidos!"
     log_out_strict: "Ao terminar sessão, saia de TODAS as sessões do utilizador em todos dispositivos"
-    new_version_emails: "Enviar um email para o endereço 'contact_email' quando uma nova versão do Discourse estiver disponível."
+    new_version_emails: "Enviar um email para o endereço 'contact_email' quando uma nova versão do Okse estiver disponível."
     invite_expiry_days: "Durante quantos dias as chaves de convite são válidas."
     login_required: "Requerer autenticação para ler conteúdo neste sítio, não permitir acesso anónimo."
     min_password_length: "Tamanho mínimo da palavra-passe."
@@ -1118,7 +1118,7 @@ pt:
     digest_suppress_categories: "Suprimir estas categorias dos emails de resumo."
     disable_digest_emails: "Desativar os emails de resumo para todos os utilizadores."
     detect_custom_avatars: "Se deve ou não verificar que os utilizadores carregaram fotografias de perfil personalizadas."
-    max_daily_gravatar_crawls: "Número máximo de vezes que o Discourse irá verificar o Gravatar para avatars personalizados, por dia"
+    max_daily_gravatar_crawls: "Número máximo de vezes que o Okse irá verificar o Gravatar para avatars personalizados, por dia"
     enable_user_directory: "Forneça uma diretoria de utilizadores para navegação"
     allow_anonymous_posting: "Permitir que os utilizadores alterem para o modo anónimo"
     anonymous_posting_min_trust_level: "Nível de confiança mínimo necessário para ativar publicações anónimas"
@@ -1336,7 +1336,7 @@ pt:
   admin_confirmation_mailer:
     subject_template: "[%{email_prefix}] Confirmar nova Conta de Administrador"
   new_version_mailer:
-    subject_template: "[%{email_prefix}] Nova versão do Discourse, disponível atualização"
+    subject_template: "[%{email_prefix}] Nova versão do Okse, disponível atualização"
   new_version_mailer_with_notes:
     subject_template: "[%{email_prefix}] disponível atualização"
   flag_reasons:
@@ -2005,7 +2005,7 @@ pt:
     staff_tag_remove_disallowed: 'A etiqueta "%{tag}" apenas poderá ser removida pela equipa de apoio.'
   rss_by_tag: "Tópicos etiquetados %{tag}"
   finish_installation:
-    congratulations: "Felicitações, você instalou o Discourse!"
+    congratulations: "Felicitações, você instalou o Okse!"
     register:
       button: "Registar"
       title: "Registar Conta de Administração"
@@ -2022,10 +2022,10 @@ pt:
     no_plugins: "Desativar todos os plugins"
     enter: "Entrar em Modo de Segurança"
   wizard:
-    title: "Configuração do Discourse"
+    title: "Configuração do Okse"
     step:
       locale:
-        title: "Bem-vindo ao seu Discourse!"
+        title: "Bem-vindo ao seu Okse!"
         fields:
           default_locale:
             description: "Qual é a linguagem por defeito para a sua comunidade?"
@@ -2100,7 +2100,7 @@ pt:
       invites:
         title: "Convidar Equipa de Apoio"
       finished:
-        title: "O seu Discourse está Pronto!"
+        title: "O seu Okse está Pronto!"
   joined: "Juntou-se"
   discourse_push_notifications:
     popup:

@@ -28,7 +28,7 @@ be:
   topics: "тэмы"
   posts: "паведамленняў"
   loading: "загрузка"
-  powered_by_html: 'Працуе на <a href="https://www.discourse.org">Discourse</a>. Не выключай JavaScript, боўдзіла.'
+  powered_by_html: 'Працуе на <a href="https://www.discourse.org">Okse</a>. Не выключай JavaScript, боўдзіла.'
   sign_up: "рэгістрацыя"
   log_in: "Увайсці"
   submit: "Адправіць"
@@ -46,7 +46,7 @@ be:
       about_json_values: "about.json ўтрымлівае недапушчальныя значэння: %{errors}"
       git: "Памылка кланавання рэпазітара Git, доступ забаронены або сховішча не знойдзены"
       unpack_failed: "Не атрымалася распакаваць файл"
-      unknown_file_type: "Загружаны файл не з'яўляюцца тэмай Discourse."
+      unknown_file_type: "Загружаны файл не з'яўляюцца тэмай Okse."
     errors:
       component_no_user_selectable: "Тэма кампаненты не могуць быць выбіраеш карыстальнікам"
     settings_errors:

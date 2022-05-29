@@ -28,7 +28,7 @@ zh_TW:
   topics: "討論話題"
   posts: "貼文"
   loading: "載入中"
-  powered_by_html: 'Powered by <a href="https://www.discourse.org">Discourse</a>, 建議開啟 JavaScript 瀏覽'
+  powered_by_html: 'Powered by <a href="https://www.discourse.org">Okse</a>, 建議開啟 JavaScript 瀏覽'
   sign_up: "註冊"
   log_in: "登入"
   submit: "提交"
@@ -46,7 +46,7 @@ zh_TW:
       about_json_values: "about.json 含有無效的數值：%{errors}"
       git: "複製 git 版本庫時發生錯誤，存取被拒或找不到該版本庫"
       unpack_failed: "解壓縮檔案失敗"
-      unknown_file_type: "您上傳的檔案不是一個有效的 Discourse 佈景主題"
+      unknown_file_type: "您上傳的檔案不是一個有效的 Okse 佈景主題"
     errors:
       component_no_user_selectable: "使用者無法選擇佈景主題元件"
       component_no_default: "佈景主題元件不能是預設的佈景主題"
@@ -190,7 +190,7 @@ zh_TW:
   provider_not_enabled: "你不能查看請求的頁面，身份驗證未啟用。"
   provider_not_found: "你不能查看請求的頁面，身份驗證不存在。"
   read_only_mode_enabled: "這個網站目前在唯讀模式，無法進行互動功能。"
-  invalid_grant_badge_reason_link: "不允許外部或無效的 Discourse 連結。"
+  invalid_grant_badge_reason_link: "不允許外部或無效的 Okse 連結。"
   email_template_cant_be_modified: "電子郵件範本無法修改"
   invalid_whisper_access: "沒有啟用私訊，或者您沒有權限發送私人訊息"
   not_in_group:
@@ -447,7 +447,7 @@ zh_TW:
   staff_category_name: "管理員"
   staff_category_description: "讓工作人員進行討論的私人分類。此分類下的討論話題只有管理員與板主才看得到。"
   discourse_welcome_topic:
-    title: "歡迎來到 Discourse"
+    title: "歡迎來到 Okse"
     body: |2
 
       置頂主題的第一段是訪客在主頁看到的歡迎消息。這很重要！
@@ -1121,9 +1121,9 @@ zh_TW:
     queue_size_warning: "隊列中有較多任務，為 %{queue_size} 個。這可能是因為 Sidekiq 進程的問題導致，或者需要更多的 Sidekiq 進程。"
     memory_warning: "伺服器記憶體少於 1GB，建議配置至少 1GB 記憶體"
     google_oauth2_config_warning: '伺服器設定為允許使用 Google Oauth2 註冊以及登入 (enable_google_oauth2_logins)，但未設定客戶端 id 和客戶端 secret 值。請至<a href="/admin/site_settings">網站設定</a>裡更改設定。<a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">參閱教學指南以了解更多資訊</a>。'
-    facebook_config_warning: '伺服器允許使用 Facebook 帳號登入 (enable_facebook_logins), 但未有設定 app id 及 app secret values 。 請在 <a href="/admin/site_settings">網站設定</a> 裡更改設定。 <a href="https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide#enable-facebook-logins" target="_blank">參閱設定教學指南，以了解更多資訊</a>。'
-    twitter_config_warning: '伺服器允許使用 Twitter 帳號登入 (enable_twitter_logins), 但未有設定 key 和 secret values 。 請在 <a href="/admin/site_settings">網站設定</a> 裡更改設定。 <a href="https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide#enable-twitter-logins" target="_blank">參閱設定教學指南以了解更多資訊</a>。'
-    github_config_warning: '伺服器允許使用 GitHub 帳號登入 (enable_github_logins), 但未有設定 client id 和 secret values。 請在 <a href="/admin/site_settings">網站設定</a> 裡更改設定。 <a href="https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide" target="_blank">參閱設定教學指南以了解更多資訊</a>。'
+    facebook_config_warning: '伺服器允許使用 Facebook 帳號登入 (enable_facebook_logins), 但未有設定 app id 及 app secret values 。 請在 <a href="/admin/site_settings">網站設定</a> 裡更改設定。 <a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-facebook-logins" target="_blank">參閱設定教學指南，以了解更多資訊</a>。'
+    twitter_config_warning: '伺服器允許使用 Twitter 帳號登入 (enable_twitter_logins), 但未有設定 key 和 secret values 。 請在 <a href="/admin/site_settings">網站設定</a> 裡更改設定。 <a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-twitter-logins" target="_blank">參閱設定教學指南以了解更多資訊</a>。'
+    github_config_warning: '伺服器允許使用 GitHub 帳號登入 (enable_github_logins), 但未有設定 client id 和 secret values。 請在 <a href="/admin/site_settings">網站設定</a> 裡更改設定。 <a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide" target="_blank">參閱設定教學指南以了解更多資訊</a>。'
     s3_config_warning: '伺服器被設定為上傳文件到 s3，但是至少有一個值未被設定： s3_access_key_id, s3_secret_access_key, s3_use_iam_profile, s3_upload_bucket。到<a href="%{base_path}/admin/site_settings">網站設定</a>更新此設定。<a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">請查閱「如何設置圖片上傳至 S3」</a>.'
     s3_backup_config_warning: '伺服器被設置為上傳備份到 s3，但是至少有一個值未被設定： s3_access_key_id, s3_secret_access_key 或 s3_upload_bucket。到<a href="%{base_path}/admin/site_settings">設定</a>更新此設定。<a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">參考如何設置圖片上傳至 S3</a>。'
     image_magick_warning: '伺服器被設置為給尺寸較大的圖片縮圖，但是 ImageMagick 沒有被安裝。使用你喜愛的包裝管理器安裝 ImageMagick 或<a href="https://www.imagemagick.org/script/download.php" target="_blank">下載最新版</a>。'
@@ -1195,7 +1195,7 @@ zh_TW:
     post_excerpt_maxlength: "貼文摘要的最大文字長度"
     show_pinned_excerpt_mobile: "在行動版置頂主題顯示摘要。"
     show_pinned_excerpt_desktop: "在桌面版置頂主題顯示摘要。"
-    post_onebox_maxlength: "展開連結預覽後的 Discourse 貼文最大字數限制。"
+    post_onebox_maxlength: "展開連結預覽後的 Okse 貼文最大字數限制。"
     onebox_domains_blacklist: "不會展開成連結預覽的網域列表。"
     inline_onebox_domains_whitelist: "如果連結未包含 title，會被展開成連結預覽的網域白名單。"
     enable_inline_onebox_on_all_domains: "忽略 inline_onebox_domain_whitelist 網站設定，允許所有網域的連結預覽。"
@@ -1252,9 +1252,9 @@ zh_TW:
     moderators_create_categories: "允許管理員建立新分類"
     cors_origins: "允許跨來源資源共享（CORS）。每個來源必須包括 http:// 或 https://。DISCOURSE_ENABLE_CORS 環境選項必須設置為 true 才能啟用 CORS 。"
     use_admin_ip_whitelist: "當目前的IP剛好處于IP段禁止名單(Admin > Logs > Screened Ips)中的時候，只有管理員才可登入。"
-    blacklist_ip_blocks: "Discourse 將不會使用爬蟲爬私人IP黑名單清單。"
-    whitelist_internal_hosts: "Discourse 可以安全抓取以用於 Onebox 與其他用途的內部主機列表"
-    allowed_iframes: "允許 Discourse 可以在貼文中安全發布含有 iframe 及 src 網域前綴列表"
+    blacklist_ip_blocks: "Okse 將不會使用爬蟲爬私人IP黑名單清單。"
+    whitelist_internal_hosts: "Okse 可以安全抓取以用於 Onebox 與其他用途的內部主機列表"
+    allowed_iframes: "允許 Okse 可以在貼文中安全發布含有 iframe 及 src 網域前綴列表"
     whitelisted_crawler_user_agents: "使用者代理（User Agents）的網路爬蟲（Web Crawlers）將允許存取網站。警告！設置此將取消未列出的所有網路爬蟲者（Web Crawlers）"
     blacklisted_crawler_user_agents: "不區分大小寫字的使用者代理（User agent）字串，用於識別網路爬蟲不允許進入此網站。如果定義了白名單，則不適用。"
     slow_down_crawler_user_agents: "網路爬蟲的使用者代理，應使用 Crawl-delay 指令在 robots.txt 中進行速率限制"
@@ -1290,7 +1290,7 @@ zh_TW:
     email_domains_whitelist: "用管道符“|”分隔的電子郵箱域名的列表，使用者必須使用這些郵箱域名註冊。警告：使用者使用不包含在這個列表裡的郵箱域名，將無法成功註冊。"
     hide_email_address_taken: "註冊或忘記密碼時，不提示使用者帳號、Email 已存在"
     log_out_strict: "登出時，登出使用者所有設備上的所有時段"
-    version_checks: "當 Discourse 有推新的版本需要更新時，顯示在 <a href='%{base_path}/admin' target='_blank'>/admin/</a>Dashboard 上以提示管理員"
+    version_checks: "當 Okse 有推新的版本需要更新時，顯示在 <a href='%{base_path}/admin' target='_blank'>/admin/</a>Dashboard 上以提示管理員"
     new_version_emails: "當新版本發佈時，將會發送一封新的 EMail 至 contact_email 設定的位址"
     invite_expiry_days: "多少天以內使用者的邀請碼是有效的"
     invite_only: "開放註冊功能已停用，需要註冊的使用者必須由其他使用者或有權限的工作人員邀請。"
@@ -1306,7 +1306,7 @@ zh_TW:
     block_common_passwords: "不允許使用 10,000 個最常用的密碼"
     enable_sso: "啟用外部站點登入 (注意：必須確認外部站點已驗證使用者的電子郵件地址！)"
     verbose_sso_logging: "將 SSO 相關的詳細診斷紀錄到 <a href='%{base_path}/logs' target='_blank'>/logs</a>"
-    enable_sso_provider: "在 /session/sso_provider endpoint 必須設定 sso_secret 以實現 Discourse SSO 提供方協定"
+    enable_sso_provider: "在 /session/sso_provider endpoint 必須設定 sso_secret 以實現 Okse SSO 提供方協定"
     sso_url: "SSO URL endpoint (必須包含 http:// 或 https://)"
     sso_secret: "秘密字符串，用於驗證秘密的 SSO 訊息，請確保由 10 個字或以上組成"
     sso_overrides_bio: "在使用者頁面中覆蓋使用者的個人信息並禁止使用者修改"
@@ -1314,7 +1314,7 @@ zh_TW:
     sso_overrides_email: "每一次登錄時，用單一登入服務提供者訊息中的外部站點的電子郵件地址更新本站郵件地址，並且阻止本站的郵件地址修改。（警告：郵件地址可能會因本站郵件地址規則而有所差異）"
     sso_overrides_username: "每一次登錄，單一登入訊息中的外部站點的使用者名稱會更新本站使用者名稱，並且阻止本站使用者名稱的修改。（警告：因應本站使用者名的長度和其他要求，使用者名可能會有所差異）"
     sso_overrides_name: "每一次登錄時，用單一登入訊息中的外部站點的全名覆蓋本站全名，並且阻止本站全名的修改。"
-    sso_overrides_avatar: "用 SSO payload 中的外部網站的大頭貼覆蓋使用者大頭貼。如果啟用，使用者將被禁用在 Discourse 上傳大頭貼。"
+    sso_overrides_avatar: "用 SSO payload 中的外部網站的大頭貼覆蓋使用者大頭貼。如果啟用，使用者將被禁用在 Okse 上傳大頭貼。"
     sso_overrides_profile_background: "從 SSO payload 覆蓋使用者個人資料的背景及外部網站大頭貼。"
     sso_overrides_card_background: "從 SSO payload 覆蓋使用者卡片的背景及外部網站大頭貼。"
     sso_not_approved_url: "重定向未受許可的單點登錄賬號至這個 URL"
@@ -1323,7 +1323,7 @@ zh_TW:
     enable_local_logins_via_email: "允許使用者用電子郵件來快速登入，Email內會包含一鍵登入連結。"
     allow_new_registrations: "允許新使用者註冊，如果取消選取，則沒有人能夠註冊"
     enable_signup_cta: "顯示推薦創建賬戶的提示給那些回訪的未註冊使用者。"
-    enable_google_oauth2_logins: "啟用Google Oauth2身份驗證。 這是Google目前支持的身份驗證方法，若啟用將可以讓使用者使用 Google帳號登入，需要額外設定key和鑰匙（secret）。 請參閱<a href='https://meta.discourse.org/t/15858' target='_blank'>設定Google Login for Discourse</a>。"
+    enable_google_oauth2_logins: "啟用Google Oauth2身份驗證。 這是Google目前支持的身份驗證方法，若啟用將可以讓使用者使用 Google帳號登入，需要額外設定key和鑰匙（secret）。 請參閱<a href='https://meta.discourse.org/t/15858' target='_blank'>設定Google Login for Okse</a>。"
     google_oauth2_client_id: "你的 Google 應用程式的客戶端 ID"
     google_oauth2_client_secret: "你的 Google 應用程式的客戶端 secret"
     google_oauth2_prompt: "選項以空格字串分隔，指定授權服務器是否提示用戶進行重新認證和同意。 有關更多資訊，請參閱Google開發者手冊OpenIDConnect<a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a>。"
@@ -1346,7 +1346,7 @@ zh_TW:
     automatic_backups_enabled: "按照定義的備份頻率運行自動備份計劃"
     backup_frequency: "備份之間的天數。"
     s3_backup_bucket: "遠端備份 bucket ，注意：請確定是私有的 bucket"
-    s3_endpoint: "Discourse 備份空間有支援其他第三方服務，可修改備份空間存向 DigitalOcean Spaces、Minio或是Amazon S3。警告：如果使用Amazon S3，請留白。"
+    s3_endpoint: "Okse 備份空間有支援其他第三方服務，可修改備份空間存向 DigitalOcean Spaces、Minio或是Amazon S3。警告：如果使用Amazon S3，請留白。"
     s3_configure_tombstone_policy: "啟用上傳的自動刪除功能。重要提醒：如果禁用此功能，在檔案刪除後，不會回收空間。"
     enable_s3_inventory: "使用Amazon S3 清單生成報告並驗證上傳。注意：需要設定Amazon S3 驗證資料（包括Access Key ID、Secret Access Key）。"
     backup_time_of_day: "備份的 UTC 時間"
@@ -1578,7 +1578,7 @@ zh_TW:
     email_accent_fg_color: "HTML 郵件中背景使用的字型顏色。輸入色彩名（“white”）或十六進制值（“#FFFFFF”）。"
     email_link_color: "HTML 郵件中的連結顏色。輸入色彩名字（“blue”）或十六進制值（“#0000FF”）。"
     detect_custom_avatars: "檢測使用者是否上傳了自定義個人頭像。"
-    max_daily_gravatar_crawls: "一天內 Discourse 將自動檢查 Gravatar 自訂個人圖示的次數"
+    max_daily_gravatar_crawls: "一天內 Okse 將自動檢查 Gravatar 自訂個人圖示的次數"
     public_user_custom_fields: "可以使用API搜尋使用者自定義字串列表。"
     staff_user_custom_fields: "可以使用API為工作人員搜尋的使用者自定義字串列表。"
     enable_user_directory: "提供可供瀏覽的使用者目錄"
@@ -2004,7 +2004,7 @@ zh_TW:
     subject_template: "[%{email_prefix}] 電子郵件發送測試"
   new_version_mailer:
     title: "新版本 Mailer"
-    subject_template: "[%{email_prefix}] 有可用的 Discourse 更新"
+    subject_template: "[%{email_prefix}] 有可用的 Okse 更新"
   new_version_mailer_with_notes:
     title: "包含提醒的新版本 Mailer"
     subject_template: "[%{email_prefix}] 有得更新了"
@@ -2890,7 +2890,7 @@ zh_TW:
 
       我們在此的討論都會是新訪客的榜樣，請幫助我們一起影響社群的未來：選擇有意思的主題參與討論—並略過那些負面的。
 
-      Discourse 提供了一些工具，讓社群共同鑒別最棒（或最差）的貢獻：書籤、贊、投訴標記、回覆和編輯等等。使用這些工具不僅能改善你自己的體驗，也能增進他人的體驗。
+      Okse 提供了一些工具，讓社群共同鑒別最棒（或最差）的貢獻：書籤、贊、投訴標記、回覆和編輯等等。使用這些工具不僅能改善你自己的體驗，也能增進他人的體驗。
 
       讓我們創造一個比你加入前更美好的社群。
 
@@ -3293,7 +3293,7 @@ zh_TW:
         other: '「%{tag_name}」只能被「%{category_name}」類別使用。'
   rss_by_tag: "主題標籤 %{tag}"
   finish_installation:
-    congratulations: "祝賀，你已經安裝好了 Discourse！"
+    congratulations: "祝賀，你已經安裝好了 Okse！"
     register:
       button: "註冊"
       title: "註冊管理員賬戶"
@@ -3314,10 +3314,10 @@ zh_TW:
     enter: "進入安全模式"
     must_select: "您必須至少選擇一個選項才能進入安全模式。"
   wizard:
-    title: "Discourse 安裝"
+    title: "Okse 安裝"
     step:
       locale:
-        title: "歡迎來到 Discourse！"
+        title: "歡迎來到 Okse！"
         fields:
           default_locale:
             description: "你的社群主要使用什麼語言？"
@@ -3440,7 +3440,7 @@ zh_TW:
         description: "您就快完成啦！讓我們邀請一些人來幫您<a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>創建一些種子討論話題</a>，好讓您的社群朋友產生興趣並開始回覆。"
         disabled: "由於禁用了本地登入（local logins），因此無法向任何人發送邀請，請繼續下一步。"
       finished:
-        title: "你的 Discourse 已經準備就緒！"
+        title: "你的 Okse 已經準備就緒！"
         description: |
           <p>如果你覺得需要修改這些設定，訪問<b>管理員面板</b>；你可以在網站導覽列找到板手圖示（icon），板手圖示旁找到這些設定。</p>
           <p>祝你玩得開心，還有祝你<a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='_blank'>建設新社群好運！</a></p>

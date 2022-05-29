@@ -2285,7 +2285,7 @@ et:
   admin_js:
     type_to_filter: "filtreerimiseks trüki..."
     admin:
-      title: "Discourse Admin"
+      title: "Okse Admin"
       moderator: "Moderaator"
       tags:
         remove_muted_tags_from_latest:
@@ -2415,7 +2415,7 @@ et:
       web_hooks:
         title: "Veebihaagid"
         none: "Hetkel veebihaagid puuduvad."
-        instruction: "Veebihaagid lubavad Discourse'l teavitada muid teenuseid sündmustest Sinu saidil. Kui veebihaak vallandub, saadetakse etteantud URL-dele POST päring."
+        instruction: "Veebihaagid lubavad Okse'l teavitada muid teenuseid sündmustest Sinu saidil. Kui veebihaak vallandub, saadetakse etteantud URL-dele POST päring."
         detailed_instruction: "Valitud sündmuse toimumisel saadetakse etteantud URL-le POST päring."
         new: "Uus veebihaak"
         create: "Loo"
@@ -3218,7 +3218,7 @@ et:
         image: "Pilt"
         delete_confirm: "Oled Sa kindel, et soovid kustutada :%{name}: emotikoni?"
       embedding:
-        get_started: "Kui Sa soovid lisada Discourse teise veebisaidi sisse ehk sängitada, alusta lisades oma teenusepakkuja"
+        get_started: "Kui Sa soovid lisada Okse teise veebisaidi sisse ehk sängitada, alusta lisades oma teenusepakkuja"
         confirm_delete: "Oled Sa kindel, et soovid kustutada selle teenusepakkuja?"
         sample: "Kasuta järgnevat HTML koodi oma saidil, et luua ja lisada/sängitada discourse teemad oma saidile. Asenda <b>REPLACE_ME</b> kanoonilise lehe URL-viitega, kuhu Sa seda lisad."
         title: "Sängitamine"
@@ -3230,7 +3230,7 @@ et:
         add_host: "Lisa host"
         settings: "Sängitamise sätted"
         crawling_settings: "Ämbliku sätted"
-        crawling_description: "Kui Discourse loob Sinu postitustele teemasid ja RSS/ATOM voogu ei ole, üritab ta sisu Sinu HTML-st välja sõeluda. Mõnikord on sisu eraldamine raskendatud, mistõttu pakume sisu eraldamise hõlbustamiseks võimalust CSS-i reeglid ette anda."
+        crawling_description: "Kui Okse loob Sinu postitustele teemasid ja RSS/ATOM voogu ei ole, üritab ta sisu Sinu HTML-st välja sõeluda. Mõnikord on sisu eraldamine raskendatud, mistõttu pakume sisu eraldamise hõlbustamiseks võimalust CSS-i reeglid ette anda."
         embed_by_username: "Kasutajanimi teema loomiseks"
         embed_post_limit: "Maksimaalne postituste arv, mida sängitada"
         embed_title_scrubber: "Regex postituste päiste puhastamiseks"

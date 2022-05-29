@@ -145,7 +145,7 @@ pt:
       banner:
         enabled: "tornou isto numa faixa %{when}. Esta irá aparecer no topo de cada página até que seja rejeitada pelo utilizador."
         disabled: "removeu esta faixa %{when}. Esta não irá aparecer no topo de cada página."
-    wizard_required: "Bem-vindo ao seu novo Discourse! Vamos começar com <a href='%{url}' data-auto-route='true'>o assistente de configuração</a> ✨"
+    wizard_required: "Bem-vindo ao seu novo Okse! Vamos começar com <a href='%{url}' data-auto-route='true'>o assistente de configuração</a> ✨"
     emails_are_disabled: "Todos os envios de e-mail foram globalmente desativados por um administrador. Nenhum e-mail de notificação será enviado."
     bootstrap_mode_enabled: "Para que o inicio do teu Site seja o mais simples possivél, estás agora em modo de inicialização simples. A todos os novos utilizadores será concedido o Nível de Confiança 1 e o resumo por e-mail enviado diariamente estará ativado. Isto será automaticamente desligado quando %{min_users}utilizadores se tiverem juntado ao fórum."
     bootstrap_mode_disabled: "O modo de inicialização simples será desactivado em 24 horas."
@@ -2480,7 +2480,7 @@ pt:
   admin_js:
     type_to_filter: "digite para filtrar..."
     admin:
-      title: "Administração Discourse"
+      title: "Administração Okse"
       moderator: "Moderador"
       tags:
         remove_muted_tags_from_latest:
@@ -2590,7 +2590,7 @@ pt:
       web_hooks:
         title: "Webhooks"
         none: "Não existem webhooks neste momento."
-        instruction: "Webhooks permitem ao Discourse notificar serviços externos quando certos eventos acontecem no seu site. Quando o webhook é despoletado, um pedido POST será enviado aos URLs fornecidos."
+        instruction: "Webhooks permitem ao Okse notificar serviços externos quando certos eventos acontecem no seu site. Quando o webhook é despoletado, um pedido POST será enviado aos URLs fornecidos."
         detailed_instruction: "Um pedido POST será enviado ao URL fornecido quando o evento escolhido acontecer."
         new: "Novo Webhook"
         create: "Criar"
@@ -3326,7 +3326,7 @@ pt:
         image: "Imagem"
         delete_confirm: "Tem a certeza que deseja eliminar o emoji :%{name}:?"
       embedding:
-        get_started: "Se deseja incorporar o Discourse noutro sítio, comece por adicionar o seu servidor."
+        get_started: "Se deseja incorporar o Okse noutro sítio, comece por adicionar o seu servidor."
         confirm_delete: "Tem certeza que deseja eliminar este servidor?"
         sample: "Utilize o seguinte código HTML no seu sítio para criar e incorporar tópicos do discourse. Substitua <b>REPLACE_ME</b> pelo URL canónico da página onde está a incorporá-los."
         title: "Incorporação"
@@ -3337,7 +3337,7 @@ pt:
         add_host: "Adicionar Servidor"
         settings: "Configurações de Incorporação"
         crawling_settings: "Configurações de Rastreio"
-        crawling_description: "Quando o Discourse cria tópicos para as suas publicações, se nenhum feed RSS/ATOM está presente o Discourse irá tentar analisar o seu conteúdo fora do seu HTML. Algumas vezes pode ser um desafio extrair o seu conteúdo, por isso temos a habilidade de especificar regras CSS para tornar a extração mais fácil. "
+        crawling_description: "Quando o Okse cria tópicos para as suas publicações, se nenhum feed RSS/ATOM está presente o Okse irá tentar analisar o seu conteúdo fora do seu HTML. Algumas vezes pode ser um desafio extrair o seu conteúdo, por isso temos a habilidade de especificar regras CSS para tornar a extração mais fácil. "
         embed_by_username: "Nome de uilizador para criação do tópico"
         embed_post_limit: "Número máximo de publicações a incorporar"
         embed_title_scrubber: "Expressão regular usada para filtrar o título de publicações"

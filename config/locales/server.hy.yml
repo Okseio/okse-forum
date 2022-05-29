@@ -24,11 +24,11 @@ hy:
     <<: *datetime_formats
     am: "առավոտյան"
     pm: "երեկոյան"
-  title: "Discourse"
+  title: "Okse"
   topics: "Թեմաներ"
   posts: "գրառումներ"
   loading: "Բեռնում"
-  powered_by_html: 'Գործարկված է <a href="https://www.discourse.org">Discourse</a>-ի կողմից, լավագույնս աշխատում է, երբ JavaScript-ը միացված է'
+  powered_by_html: 'Գործարկված է <a href="https://www.discourse.org">Okse</a>-ի կողմից, լավագույնս աշխատում է, երբ JavaScript-ը միացված է'
   sign_up: "Գրանցվել"
   log_in: "Մուտք Գործել"
   submit: "Հաստատել"
@@ -46,7 +46,7 @@ hy:
       about_json_values: "about.json -ը պարունակում է անվավեր արժեքներ. %{errors}"
       git: "git ռեպոզիտորիայի կլոնավորման սխալ, հասանելիությունը մերժված է, կամ ռեպոզիտորիան գտնված չէ"
       unpack_failed: "Ֆայլի բացումը ձախողվեց"
-      unknown_file_type: "Ֆայլը, որ Դուք վերբեռնել եք, չի հանդիսանում վավեր Discourse թեմա:"
+      unknown_file_type: "Ֆայլը, որ Դուք վերբեռնել եք, չի հանդիսանում վավեր Okse թեմա:"
     errors:
       component_no_user_selectable: "Թեմայի բաղադրիչները չեն կարող լինել օգտատիրոջ կողմից ընտրվող"
       component_no_default: "Թեմայի բաղադրիչները չեն կարող լինել լռելյայն թեմա"
@@ -442,7 +442,7 @@ hy:
   staff_category_name: "Անձնակազմ"
   staff_category_description: "Մասնավոր կատեգորիա անձնակազմի քննարկումների համար: Թեմաները տեսանելի են միայն ադմիններին և մոդերատորներին: "
   discourse_welcome_topic:
-    title: "Բարի գալուստ Discourse"
+    title: "Բարի գալուստ Okse"
     body: "\nԱյս ամրակցված թեմայի առաջին պարբերությունը տեսանելի կլինի որպես ողջույնի հաղորդագրություն Ձեր գլխավոր էջի բոլոր նոր այցելուներին: Սա կարևոր է!\n\n**Խմբագրեք սա**՝ դարձնելով Ձեր համայնքի համառոտ նկարագրություն՝\n\n- Ո՞ւմ համար է սա:\n- Ի՞նչ կարող են նրանք գտնել այստեղ:\n- Ինչո՞ւ պետք է նրանք գան այստեղ:\n- Որտե՞ղ կարող ենք նրանք կարդալ ավելին (հղումներ, աղբյուրներ և այլն):\n\n<img src=\"%{base_path}/images/welcome/discourse-edit-post-animated.gif\" width=\"508\" height=\"106\">\n\nՀարավոր է՝ Դուք ցանկանաք փակել այս թեման ադմինի միջոցով :wrench: (վերին աջ կողմում և ներքևում), որպեսզի մի հայտարարության վրա պատասխաններ չհավաքվեն: \n"
   lounge_welcome:
     title: "Բարի գալուստ Սպասասրահ"
@@ -1166,7 +1166,7 @@ hy:
     post_excerpt_maxlength: "Գրառման հատվածի / ամփոփման առավելագույն երկարությունը:"
     show_pinned_excerpt_mobile: "Ցուցադրել հատվածը ամրագրված թեմաների վրա հեռախոսային տարբերակում:"
     show_pinned_excerpt_desktop: "Ցուցադրել հատվածը ամրագրված թեմաների վրա համակարգչային տարբերակում:"
-    post_onebox_maxlength: "Սմարթ ներդիրի վերածված Discourse գրառման առավելագույն երկարությունը սիմվոլներով:"
+    post_onebox_maxlength: "Սմարթ ներդիրի վերածված Okse գրառման առավելագույն երկարությունը սիմվոլներով:"
     onebox_domains_blacklist: "Դոմենների ցանկը, որոնք երբեք չեն վերածվի սմարթ-ներդիրի:"
     inline_onebox_domains_whitelist: "Դոմենների ցանկ, որոնք կվերածվեն սմարթ-ներդիրի փոքրացված տեսքով՝ առանց վերնագրի կապակցված լինելու դեպքում"
     enable_inline_onebox_on_all_domains: "Անտեսել inline_onebox_domain_whitelist կայքի կարգավորումը և թույլատրել սմարթ-ներդիրը բոլոր դոմենների համար:"
@@ -1216,7 +1216,7 @@ hy:
     moderators_create_categories: "Թույլատրել մոդերատորներին ստեղծել նոր կատեգորիաներ"
     cors_origins: "Թույլատրելի origin-ներ խաչաձև origin հարցումների համար (CORS): Յուրաքանչյուր origin պետք է ներառի http:// կամ https://: DISCOURSE_ENABLE_CORS env փոփոխականը պետք է սահմանված լինի true ՝ CORS -ի միացման համար:"
     use_admin_ip_whitelist: "Ադմինները կարող են մուտք գործել, եթե միայն ունեն Ցուցադրված IP-ների ցանկում սահմանված IP հասցե (Admin > Logs > Screened Ips):"
-    blacklist_ip_blocks: "Մասնավոր IP արգելափակումների ցանկ, որոնք երբեք չպետք է ենթարկվեն տվյալների հավաքագրման Discourse-ի կողմից:"
+    blacklist_ip_blocks: "Մասնավոր IP արգելափակումների ցանկ, որոնք երբեք չպետք է ենթարկվեն տվյալների հավաքագրման Okse-ի կողմից:"
     whitelist_internal_hosts: "Ներքին հոսթերի ցանկ, որը discourse-ը կարող է ապահով հավաքագրել սմարթ-ներդիրի և այլ նպատակների համար"
     allowed_iframes: "iframe src դոմենի նախամասնիկներ, որ discourse-ը կարող է ապահով թույլատրել գրառումներում"
     blacklisted_crawler_user_agents: "Եզակի հանդիպող աննշան բառ ցանցային տվյալների հավաքագրիչների օգտատերերի գործակալի տողում, որոնք չպետք է թույլատրված լինեն կայքի հասանելիության համար: Չի կիրառվում, եթե սահմանված է մաքրագիր:"
@@ -1253,8 +1253,8 @@ hy:
     email_domains_whitelist: "Էլ. փոստի դոմենների ցանկ՝ բաժանված խողովակի սիմվոլով( | ), որոնցով օգտատերերը ՊԵՏՔ Է գրանցեն հաշիվներ: ՈՒՇԱԴՐՈՒԹՅՈՒՆ՝ այս ցանկի դոմեններից տարբեր էլ. հասցեներ ունեցող օգտատերերին չի թույլատրվի!"
     hide_email_address_taken: "Գրանցման ընթացքում և ՛մոռացել եմ գաղտնաբառը՛ էջում օգտատերերին ցույց չտալ, որ տրված էլ. հասցեով հաշիվ գոյություն ունի:"
     log_out_strict: "Ելքագրվելիս դուրս գալ օգտատիրոջ ԲՈԼՈՐ գործընթացներից բոլոր սարքերի վրա:"
-    version_checks: "Ստուգել Discourse Hub -ը տարբերակի թարմացումների համար և ցուցադրել նոր տարբերակի հաղորդագրությունները <a href='%{base_path}/admin' target='_blank'>/admin</a> կառավարման հարթակում:"
-    new_version_emails: "Ուղարկել էլ. նամակ contact_email հասցեին, երբ հասանելի է Discourse -ի նոր տարբերակ:"
+    version_checks: "Ստուգել Okse Hub -ը տարբերակի թարմացումների համար և ցուցադրել նոր տարբերակի հաղորդագրությունները <a href='%{base_path}/admin' target='_blank'>/admin</a> կառավարման հարթակում:"
+    new_version_emails: "Ուղարկել էլ. նամակ contact_email հասցեին, երբ հասանելի է Okse -ի նոր տարբերակ:"
     invite_expiry_days: "Որքան ժամանակ են հասանելի օգտատիրոջ հրավերի key-երը, օրերով"
     login_required: "Պահանջել նույնականացում՝ այս կայքի նյութերը կարդալու համար, չթույլատրել անանուն մուտքերը:"
     min_username_length: "Օգտանվան նվազագույն երկարությունը սիմվոլներով: ՈՒՇԱԴՐՈՒԹՅՈՒՆ՝ եթե գոյություն ունեցող որևէ օգտատեր կամ խումբ ունի սրանից ավելի կարճ անուն, Ձեր կայքը կդադարի գործել!"
@@ -1266,7 +1266,7 @@ hy:
     block_common_passwords: "Չթույլատրել գաղտնաբառերը, որոնք գտնվում են 10000 ամենատարածված գաղտնաբառերի ցանկում:"
     enable_sso: "Միացնել միասնական մուտքը արտաքին կայքի միջոցով (ՈՒՇԱԴՐՈՒԹՅՈՒՆ՝ ՕԳՏԱՏԵՐԵՐԻ ԷԼ. ՀԱՍՑԵՆԵՐԸ *ՊԵՏՔ Է* ՎԱՎԵՐԱՑՎԵՆ ԱՐՏԱՔԻՆ ԿԱՅՔԻ ԿՈՂՄԻՑ!)"
     verbose_sso_logging: "Գրառել SSO-ի հետ կապված բառային բնորոշումները <a href='%{base_path}/logs' target='_blank'>/logs</a>-ում"
-    enable_sso_provider: "Իրականացնել Discourse SSO մատակարարի պրոտոկոլը /session/sso_provider վերջնակետում. պահանջվում է տեղադրել sso_provider_secrets "
+    enable_sso_provider: "Իրականացնել Okse SSO մատակարարի պրոտոկոլը /session/sso_provider վերջնակետում. պահանջվում է տեղադրել sso_provider_secrets "
     sso_url: "Վերջնակետի եզակի նշանի URL (պետք է պարունակի http:// կամ https://)"
     sso_secret: "Գաղտնի տող, որը օգտագործվում է կրիպտոգրաֆիկ կերպով SSO տեղեկատվությունը նույնականացնելու համար, համոզվեք, որ այն ունի 10 կամ ավելի սիմվոլ"
     sso_overrides_bio: "Վերասահմանում է օգտատիրոջ կենսագրությունը իր պրոֆիլում և կանխարգելում է օգտատիրոջը այն փոփոխելուց"
@@ -1274,7 +1274,7 @@ hy:
     sso_overrides_email: "Վերասահմանում է տեղական էլ. հասցեն արտաքին կայքի էլ. հասցեով SSO տվյալների ուղարկումից յուրաքանչյուր մուտքի ժամանակ և կանխում է տեղական փոփոխությունները: (ՈՒՇԱԴՐՈՒԹՅՈՒՆ՝ անհամապատասխանությունները կարող են տեղի ունենալ տեղական էլ. հասցեների նորմալիզացման պատճառով)"
     sso_overrides_username: "Վերասահմանում է տեղական օգտանունը արտաքին կայքի օգտանվամբ SSO տվյալների ուղարկումից յուրաքանչյուր մուտքի ժամանակ և կանխում է տեղական փոփոխությունները: (ՈՒՇԱԴՐՈՒԹՅՈՒՆ՝ անհամապատասխանությունները կարող են պատահել օգտանվան երկարության/պահանջների տարբերությունների պատճառով)"
     sso_overrides_name: "Վերասահմանում է տեղական լրիվ անունը արտաքին կայքի լրիվ անվամբ SSO տվյալների ուղարկումից յուրաքանչյուր մուտքի ժամանակ և կանխում է տեղական փոփոխությունները:"
-    sso_overrides_avatar: "Վերասահմանում է օգտատիրոջ անձնապատկերը արտաքին կայքի անձնապատկերով SSO-ի տվյալներից: Եթե միացված է, օգտատերերին չի թույլատրվի վերբեռնել անձնապատկեր Discourse -ում:"
+    sso_overrides_avatar: "Վերասահմանում է օգտատիրոջ անձնապատկերը արտաքին կայքի անձնապատկերով SSO-ի տվյալներից: Եթե միացված է, օգտատերերին չի թույլատրվի վերբեռնել անձնապատկեր Okse -ում:"
     sso_overrides_profile_background: "Վերասահմանում է օգտատիրոջ պրոֆիլի ֆոնը SSO տվյալների արտաքին կայքի ավատարով: "
     sso_overrides_card_background: "Վերասահմանում է օգտատիրոջ քարտի ֆոնը SSO տվյալների արտաքին կայքի ավատարով: "
     sso_not_approved_url: "Վերաուղարկել չհաստատված SSO հաշիվները դեպի այս URL"
@@ -1283,21 +1283,21 @@ hy:
     enable_local_logins_via_email: "Թույլատրել օգտատերերին պահանջել մեկ սեղմումով մուտքի հղում, որը կուղարկվի նրանց էլ. նամակի միջոցով:"
     allow_new_registrations: "Թույլատրել նոր օգտատերերի գրանցումները: Հանեք այս նշումը՝ արգելելու նոր հաշիվների ստեղծումը:"
     enable_signup_cta: "Վերադարձող անանուն օգտատերերին ցուցադրել նշում, որը կօգնի նրանց գրանցել հաշիվ:"
-    enable_google_oauth2_logins: "Միացնել Google Oauth2 վավերականացումը: Սա վավերականացման մեթոդ է, որը Google-ը ներկայումս ապահովում է: Պահանջում է բանալի և գաղտնի արժեք: Այցելեք <a href='https://meta.discourse.org/t/15858' target='_blank'>Google-ով մուտքի կարգավորում Discourse -ի համար</a>:"
+    enable_google_oauth2_logins: "Միացնել Google Oauth2 վավերականացումը: Սա վավերականացման մեթոդ է, որը Google-ը ներկայումս ապահովում է: Պահանջում է բանալի և գաղտնի արժեք: Այցելեք <a href='https://meta.discourse.org/t/15858' target='_blank'>Google-ով մուտքի կարգավորում Okse -ի համար</a>:"
     google_oauth2_client_id: "Ձեր Google նույնականացման հաճախորդի ID "
     google_oauth2_client_secret: "Ձեր Google նույնականացման հաճախորդի գաղտնի արժեք"
     google_oauth2_prompt: "Տողերի արժեքների ընտրովի ցանկ՝ բաժանված բացատով, որը սահմանում է, թե արդյոք նույնականացման սերվերը օգնում է օգտատիրոջը վերանույնականացման և համաձայնեցման գործում: Այցելեք <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> հնարավոր արժեքների համար:"
     google_oauth2_hd: "Ընտրովի Google Apps Hosted դոմեն, որով պետք է սահմանափակվի մուտքը: Այցելեք <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> մանրամասների համար:"
-    enable_twitter_logins: "Միացնել Twitter նույնականացումը, պահանջում է requires twitter_consumer_key և twitter_consumer_secret: Այցելեք <a href='https://meta.discourse.org/t/13395' target='_blank'>Twitter մուտքի (և rich զետեղումների) կարգավորում Discourse -ի համար</a>:"
+    enable_twitter_logins: "Միացնել Twitter նույնականացումը, պահանջում է requires twitter_consumer_key և twitter_consumer_secret: Այցելեք <a href='https://meta.discourse.org/t/13395' target='_blank'>Twitter մուտքի (և rich զետեղումների) կարգավորում Okse -ի համար</a>:"
     twitter_consumer_key: "Twitter նույնականացման համարսՍպառողի key, որը գրանցված է այստեղ՝ <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Հաճախորդի գաղտնի արժեքը Twitter-ով վավերականացման համար, որը գտնվում է այստեղ՝ <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "Միացնել Instagram նույնականացումը, պահանջում է instagram_consumer_key և instagram_consumer_secret"
     instagram_consumer_key: "Հաճախորդի բանալին Instagram-ով վավերականացման համար"
     instagram_consumer_secret: "Սպառողի գաղտնի արժեքի Instagram նույնականացում"
-    enable_facebook_logins: "Միացնել Facebook նույնականացումը, պահանջում է facebook_app_id և facebook_app_secret: Այցելեք <a href='https://meta.discourse.org/t/13394' target='_blank'>Facebook մուտքի կարգավորում Discourse-ի համար</a>:"
+    enable_facebook_logins: "Միացնել Facebook նույնականացումը, պահանջում է facebook_app_id և facebook_app_secret: Այցելեք <a href='https://meta.discourse.org/t/13394' target='_blank'>Facebook մուտքի կարգավորում Okse-ի համար</a>:"
     facebook_app_id: "Հավելվածի id Facebook նույնականացման համար, գրանցված այստեղ՝ <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "Հավելվածի գաղտնի արժեք Facebook նույնականացման համար, գրանցված այստեղ՝ <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "Միացնել Github-ով վավերականացումը, պահանջում է github_client_id և github_client_secret: Այցելեք <a href='https://meta.discourse.org/t/13745' target='_blank'>GitHub-ով մուտքի կարգավորումը Discourse -ի համար</a>:"
+    enable_github_logins: "Միացնել Github-ով վավերականացումը, պահանջում է github_client_id և github_client_secret: Այցելեք <a href='https://meta.discourse.org/t/13745' target='_blank'>GitHub-ով մուտքի կարգավորումը Okse -ի համար</a>:"
     github_client_id: "Հաճախորդի id-ն Github-ով վավերականացման համար, որը գտնվում է այստեղ՝ <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "Հաճախորդի գաղտնի արժեքը Github-ով վավերականացման համար, որը գտնվում է այստեղ՝ <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     enable_backups: "Թույլատրել ադմինիստրատորներին ստեղծել ֆորումի պահուստներ"
@@ -1348,7 +1348,7 @@ hy:
     purge_deleted_uploads_grace_period_days: "Արտոնյալ ժամկետը (օրերով) , որից հետո հեռացված վերբեռնումը ջնջվում է:"
     purge_unactivated_users_grace_period_days: "Արտոնյալ ժամկետը (օրերով) , որից հետո իր հաշիվը չակտիվացրած օգտատերը ջնջվում է: Սահմանեք 0՝ չակտիվացված օգտատերերին երբեք չջնջելու համար:"
     enable_s3_uploads: "Տեղադրել վերբեռնումները Amazon S3 պահեստում: ԿԱՐԵՎՈՐ՝ պահանջում է վավեր S3 տվյալներ (access key id և secret access key):"
-    s3_use_iam_profile: 'Օգտագործեք <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">AWS EC2 օրինակ-պրոֆիլ</a> S3 արկղին հասանելիություն շնորհելու համար: ՆԿԱՏԻ ՈՒՆԵՑԵՔ. սա միացնելը պահանջում է Discourse -ի գործարկում ճիշտ կարգավորված EC2 օրինակ և վերասահմանում է "s3 access key id" և "s3 secret access key" կարգավորումները:'
+    s3_use_iam_profile: 'Օգտագործեք <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">AWS EC2 օրինակ-պրոֆիլ</a> S3 արկղին հասանելիություն շնորհելու համար: ՆԿԱՏԻ ՈՒՆԵՑԵՔ. սա միացնելը պահանջում է Okse -ի գործարկում ճիշտ կարգավորված EC2 օրինակ և վերասահմանում է "s3 access key id" և "s3 secret access key" կարգավորումները:'
     s3_upload_bucket: "Amazon S3 արկղի անվանում, որտեղ կվերբեռնվեն ֆայլերը: ՈՒՇԱԴՐՈՒԹՅՈՒՆ՝ պետք է լինի փոքրատառերով, առանց բացերի, առանց գծերի:"
     s3_access_key_id: "Amazon S3 access key id, որը կօգտագործվի նկարներ, կցորդներ և պահուստներ վերբեռնելու համար:"
     s3_secret_access_key: "Amazon S3 secret access key, որը կօգտագործվի նկարներ, կցորդներ և պահուստներ վերբեռնելու համար:"
@@ -1470,7 +1470,7 @@ hy:
     reply_by_email_address: "Էլ. փոստի միջոցով պատասխանի մուտքային էլ. հասցեների ձևանմուշ, օրինակ՝ %%{reply_key}@reply.example.com կամ replies+%%{reply_key}@example.com"
     alternative_reply_by_email_addresses: "Էլ. նամակի միջոցով պատասխանի համար մուտքային հասցեների այլընտրանքային ձևանմուշների ցանկ: Օրինակ՝ %%{reply_key}@reply.example.com|replies+%%{reply_key}@example.com"
     incoming_email_prefer_html: "Մուտքային նամակի համար տեսքտի փոխարեն օգտագործեք HTML:"
-    disable_emails: "Կանխարգելել Discourse-ը՝ ցանկացած տիպի նամակ ուղարկելուց: Ընտրեք 'այո' ՝ բոլոր օգտատերերի համար էլ. նամակներն անջատելու համար: Ընտրեք 'ոչ-անձնակազմ' ՝ միայն ոչ-անձնակազմի օգտատերերի համար էլ. նամակներն անջատելու համար:"
+    disable_emails: "Կանխարգելել Okse-ը՝ ցանկացած տիպի նամակ ուղարկելուց: Ընտրեք 'այո' ՝ բոլոր օգտատերերի համար էլ. նամակներն անջատելու համար: Ընտրեք 'ոչ-անձնակազմ' ՝ միայն ոչ-անձնակազմի օգտատերերի համար էլ. նամակներն անջատելու համար:"
     strip_images_from_short_emails: "Էլ. նամակներից առանձնացնել 2800 Բայթից քիչ չափ ունեցող նկարները"
     short_email_length: "Կարճ նամակի երկարությունը Բայթերով"
     display_name_on_email_from: "Դաշտերից ցուցադրել նամակում ամբողջական անունները"
@@ -1532,7 +1532,7 @@ hy:
     email_accent_fg_color: "HTML նամակներում ֆոնի գույնի վրա վերարտադրված տեքստի գույնը: Մուտքագրեք գույնի անունը ('white') կամ 16-ական արժեքը ('#FFFFFF'):"
     email_link_color: "HTML նամակներում հղումների գույնը: Մուտքագրեք գույնի անունը ('blue') կամ տասնվեցերորդական արժեքը ('#0000FF'):"
     detect_custom_avatars: "Ստուգել կամ չստուգել, թե արդյոք օգտատերերը վերբեռնել են անհատական պրոֆիլի նկարներ:"
-    max_daily_gravatar_crawls: "Անգամների առավելագույն քանակը, որ օրվա մեջ Discourse-ը կստուգի Gravatar-ը անհատական ավատարների համար"
+    max_daily_gravatar_crawls: "Անգամների առավելագույն քանակը, որ օրվա մեջ Okse-ը կստուգի Gravatar-ը անհատական ավատարների համար"
     public_user_custom_fields: "Օգտատիրոջ անհատական դաշտերի քանակը, որը կարելի է ստանալ API -ի միջոցով:"
     staff_user_custom_fields: "Օգտատերերի անհատական դաշտերի ցանկ, որը անձնակազմի անդամները կարող են ստանալ API -ի միջոցով"
     enable_user_directory: "Տրամադրել օգտատեերի դիրեկտորիա` ուսումնասիրման համար"
@@ -1957,7 +1957,7 @@ hy:
     subject_template: "[%{email_prefix}] Էլ. Նամակի Հասանելիության Փորձարկում"
   new_version_mailer:
     title: "Նոր Տարբերակի Ուղարկող "
-    subject_template: "[%{email_prefix}] Նոր Discourse տարբերակ, թարմացումը հասանելի է"
+    subject_template: "[%{email_prefix}] Նոր Okse տարբերակ, թարմացումը հասանելի է"
   new_version_mailer_with_notes:
     title: "Նոր Տարբերակի Ուղարկող՝ Նշումների հետ"
     subject_template: "[%{email_prefix}] հասանելի է թարմացում"
@@ -3142,7 +3142,7 @@ hy:
         other: '"%{tag_name}" -ը արգելված է հետևյալ կատեգորիաներում՝ %{category_names}'
   rss_by_tag: "%{tag} թեգով թեմաներ "
   finish_installation:
-    congratulations: "Շնորհավորում ենք, Դուք տեղադրել եք Discourse -ը!"
+    congratulations: "Շնորհավորում ենք, Դուք տեղադրել եք Okse -ը!"
     register:
       button: "Գրանցվել"
       title: "Գրանցել Ադմինի Հաշիվ"
@@ -3162,10 +3162,10 @@ hy:
     enter: "Մուտք գործել Ապահով Ռեժիմ"
     must_select: "Դուք պետք է ընտրեք առնվազն մեկ տարբերակ՝ անվտանգ ռեժիմ մուտք գործելու համար:"
   wizard:
-    title: "Discourse Տեղադրում"
+    title: "Okse Տեղադրում"
     step:
       locale:
-        title: "Բարի գալուստ Ձեր Discourse!"
+        title: "Բարի գալուստ Ձեր Okse!"
         fields:
           default_locale:
             description: "Ո՞րն է Ձեր համայնքի լռելյայն լեզուն:"
@@ -3212,7 +3212,7 @@ hy:
             description: "Ընդհանուր կապի էջ Ձեր կամ Ձեր կազմակերպության համար: Կցուցադրվի <a href='%{base_path}/about' target='_blank'>Ձեր մասին էջում</a>:"
           site_contact:
             label: "Ավտոմատացված Նամակներ"
-            description: "Բոլոր ավտոմատացված Discourse անձնական նամակները կուղարկվեն այս օգտատիրոջից, օրինակ՝ դրոշակավորված զգուշացումներ և պահուստային լրացւոմների նշումներ:"
+            description: "Բոլոր ավտոմատացված Okse անձնական նամակները կուղարկվեն այս օգտատիրոջից, օրինակ՝ դրոշակավորված զգուշացումներ և պահուստային լրացւոմների նշումներ:"
       corporate:
         title: "Կազմակերպություն"
         description: "Այս տեղեկատվությունը կմուտքագրվի Ձեր <a href='%{base_path}/tos' target='blank'>Օգտագործման Կանոններ</a>, որը թեմա է, որը կարելի է խմբագրել Անձնակազմ կատեգորիայում: եթե չունեք ընկերություն, ազատ կարող եք առայժմ բաց թողնել այս քայլը: "
@@ -3269,7 +3269,7 @@ hy:
         description: "Դուք գրեթե վերջացրել եք! Եկեք հրավիրենք որոշ մարդկանց՝ օգնելու <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>լցնել Ձեր քննարկումները</a> հետաքրքիր թեմաներով և պատասխաններով՝ Ձեր համայնքին սկիզբ դնելու համար:"
         disabled: "Քանի որ տեղական մուտքերը անջատված են, անհնար է ուղարկել հրավերներ որևէ մեկին: Խնդրում ենք անցնել մյուս քայլին:"
       finished:
-        title: "Ձեր Discourse -ը պատրաստ է!"
+        title: "Ձեր Okse -ը պատրաստ է!"
         description: |
           <p>Եթե Դուք երբևէ ցանկանաք փոփոխել այս կարգավորումները, <b>վերագործարկեք այս օգնականը ցանկացած ժամանակ</b> կամ այցելեք <a href='%{base_path}/admin' target='_blank'>Ձեր ադմինի բաժին</a>; այն կգտնեք կայքի մենյուում պտուտակի պատկերակի կողքին: </p>
           <p>Վայելեք, և հաջողություն ենք մաղթում <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='_blank'>Ձեր նոր համայնքը կառուցելիս!</a></p>

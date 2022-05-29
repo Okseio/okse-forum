@@ -23,11 +23,11 @@ ja:
     <<: *datetime_formats
     am: "午前"
     pm: "午後"
-  title: "Discourse"
+  title: "Okse"
   topics: "トピック"
   posts: "投稿"
   loading: "読み込み中"
-  powered_by_html: '<a href="https://www.discourse.org">Discourse</a>により提供されています。最適な表示のために、Javascriptを有効にしてください。'
+  powered_by_html: '<a href="https://www.discourse.org">Okse</a>により提供されています。最適な表示のために、Javascriptを有効にしてください。'
   sign_up: "アカウントを作成"
   log_in: "ログイン"
   submit: "送信"
@@ -789,7 +789,7 @@ ja:
     add_rel_nofollow_to_user_content: ' 内部リンク(親ドメインを含む)を除き、投稿されたすべてのユーザコンテンツに rel nofollow を追加する。この設定を反映するには "rake posts:rebake" を実行して baked markdown をすべて更新する必要があります'
     exclude_rel_nofollow_domains: "nofollowをリンクに追加しないドメインのリストです。 example.comは自動的にsub.example.comも許可します。少なくとも、Webクローラーがすべてのコンテンツを見つけやすくするために、このサイトのドメインを追加する必要があります。 もし、Webサイトの他の部分に別のドメインがある場合は、それらも追加してください。"
     post_excerpt_maxlength: "投稿の引用/サマリの最大文字数"
-    post_onebox_maxlength: "Discourse OneBox投稿の最大文字数"
+    post_onebox_maxlength: "Okse OneBox投稿の最大文字数"
     logo: "サイトの左上にあるロゴ画像です。高さ120、縦横比3：1を超える広い長方形の画像を使用してください。空白のままにすると、サイトのタイトルがテキストで表示されます。"
     logo_small: "あなたのサイトの左上にある小さなロゴ画像です。下にスクロールしたときに見えます。 120×120の正方形の画像を使用してください。空白のままにすると、ホームグリフが表示されます。"
     digest_logo: "サイトのメールサマリーの上部で使用されるロゴの代替画像です。広い長方形の画像を使用してください。 SVG画像を使わないでください。空白のままにすると、 `logo`で設定した画像が使用されます。"

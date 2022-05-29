@@ -27,7 +27,7 @@ th:
   topics: "หัวข้อ"
   posts: "โพสต์"
   loading: "กำลังโหลด"
-  powered_by_html: 'บอร์ดนี้ใช้<a href="https://www.discourse.org">Discourse</a> จะแสดงได้สมบูรณ์เมื่อเปิดการใช้งาน JavaScript'
+  powered_by_html: 'บอร์ดนี้ใช้<a href="https://www.discourse.org">Okse</a> จะแสดงได้สมบูรณ์เมื่อเปิดการใช้งาน JavaScript'
   sign_up: "สมัคร"
   log_in: "เข้าสู่ระบบ"
   submit: "ตกลง"

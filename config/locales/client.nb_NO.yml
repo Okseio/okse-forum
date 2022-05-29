@@ -153,7 +153,7 @@ nb_NO:
         disabled: "fjernet dette banneret %{when}. Det vil ikke lenger vises på toppen av hver side."
       forwarded: "videresendte e-posten voer"
     topic_admin_menu: "handlinger for tråd"
-    wizard_required: "Velkommen til ditt nye Discourse! Kom i gang med <a href='%{url}' data-auto-route='true'>oppstartsveiviseren</a> ✨"
+    wizard_required: "Velkommen til ditt nye Okse! Kom i gang med <a href='%{url}' data-auto-route='true'>oppstartsveiviseren</a> ✨"
     emails_are_disabled: "All utgående e-post har blitt deaktivert globalt av en administrator. Ingen e-postvarslinger vil bli sendt."
     bootstrap_mode_enabled: "For å gjøre lansering av siden enklere er den nå i oppstartsmodus. Alle nye brukere tildeles tillitsnivå 1 og får daglige oppsummeringer på e-post aktivert. Oppstartsmodus vil bli automatisk slått av når %{min_users} brukere har registrert seg."
     bootstrap_mode_disabled: "Oppstartsmodus vil bli deaktivert i løpet av 24 timer."
@@ -2535,7 +2535,7 @@ nb_NO:
   admin_js:
     type_to_filter: "skriv for å filtrere…"
     admin:
-      title: "Discourse-admin"
+      title: "Okse-admin"
       moderator: "Moderator"
       tags:
         remove_muted_tags_from_latest:
@@ -2575,7 +2575,7 @@ nb_NO:
         show_traffic_report: "Vis detaljert trafikkrapport"
         community_health: Samfunnshelse
         moderators_activity: Moderatoraktivitet
-        whats_new_in_discourse: "Hva er nytt i Discourse?"
+        whats_new_in_discourse: "Hva er nytt i Okse?"
         activity_metrics: Aktivitetsmåling
         all_reports: "Alle rapporter"
         general_tab: "Generelt"
@@ -2684,7 +2684,7 @@ nb_NO:
       web_hooks:
         title: "Webhooker"
         none: "Det finnes ingen webhooker for tiden."
-        instruction: "Webhooker lar Discourse sender meldinger til eksterne tjenester når spesifiserte situasjoner oppstår på nettstedet. Når en webhook utløses, sendes en POST-forespørsel til nettadressene du angir."
+        instruction: "Webhooker lar Okse sender meldinger til eksterne tjenester når spesifiserte situasjoner oppstår på nettstedet. Når en webhook utløses, sendes en POST-forespørsel til nettadressene du angir."
         detailed_instruction: "En POST-forespørsel sendes til den angitte URL-en når den valgte hendelsen skjer."
         new: "Ny webhook"
         create: "Opprett"
@@ -3596,9 +3596,9 @@ nb_NO:
         image: "Bilde"
         delete_confirm: "Sikker på at du vil slette: %{name}: emoji?"
       embedding:
-        get_started: "Hvis du vil bygge inn Discourse på en annen nettside, begynn med å legge til dens vert."
+        get_started: "Hvis du vil bygge inn Okse på en annen nettside, begynn med å legge til dens vert."
         confirm_delete: "Er du sikker på at du vil slette den verten?"
-        sample: "Bruk følgende HTML-kode på siden din for å bygge inn Discourse-emner. Erstatt <b>ERSTATT_MEG</b> med riktig nettadresse til siden du bygger den inn i."
+        sample: "Bruk følgende HTML-kode på siden din for å bygge inn Okse-emner. Erstatt <b>ERSTATT_MEG</b> med riktig nettadresse til siden du bygger den inn i."
         title: "Innbygging"
         host: "Tillatte verter"
         class_name: "Klassenavn"
@@ -3608,7 +3608,7 @@ nb_NO:
         add_host: "Legg til vert"
         settings: "Innbyggingsinnstillinger"
         crawling_settings: "Innstillinger for søkeroboter"
-        crawling_description: "Dersom Discourse oppretter emner for innleggene dine og ingen RSS/ATOM-informasjonskanal finnes, vil det prøve å tolke innholdet ditt ut fra HTML-koden din. Noen ganger kan det være utfordrende å hente ut innhold, så muligheten til å oppgi CSS-regler er der for å gjøre uthentingen enklere."
+        crawling_description: "Dersom Okse oppretter emner for innleggene dine og ingen RSS/ATOM-informasjonskanal finnes, vil det prøve å tolke innholdet ditt ut fra HTML-koden din. Noen ganger kan det være utfordrende å hente ut innhold, så muligheten til å oppgi CSS-regler er der for å gjøre uthentingen enklere."
         embed_by_username: "Brukernavn for opprettelse av emne"
         embed_post_limit: "Maksimalt antall innlegg å bygge inn"
         embed_title_scrubber: "Regulære uttrykk brukt til å finne og korrigere feil i titler"

@@ -24,11 +24,11 @@ he:
     <<: *datetime_formats
     am: "am"
     pm: "pm"
-  title: "Discourse"
+  title: "Okse"
   topics: "נושאים"
   posts: "פוסטים"
   loading: "בטעינה"
-  powered_by_html: 'מופעל על גבי <a href="https://www.discourse.org">Discourse</a>, לצפייה מיטבית יש להפעיל JavaScript'
+  powered_by_html: 'מופעל על גבי <a href="https://www.discourse.org">Okse</a>, לצפייה מיטבית יש להפעיל JavaScript'
   sign_up: "הרשמה"
   log_in: "כניסה"
   submit: "הגשה"
@@ -45,13 +45,13 @@ he:
       unrecognized_extension: "סיומת הקובץ אינה מוכרת: %{extension}"
     import_error:
       generic: אירעה שגיאה בעת ייבוא ערכת העיצוב הזו
-      about_json: "שגיאת ייבוא: about.json לא קיים או שהוא שגוי. האם אכן מדובר בערכת עיצוב של Discourse?"
+      about_json: "שגיאת ייבוא: about.json לא קיים או שהוא שגוי. האם אכן מדובר בערכת עיצוב של Okse?"
       about_json_values: "about.json מכיל ערכים שגויים: %{errors}"
       modifier_values: "המחליפים ב־about.json מכילים ערכים שגויים: %{errors}"
       git: "שגיאה בעת שכפול מאגר git, הגישה נדחיתה או שהמאגר לא נמצא"
       unpack_failed: "חילוץ הקובץ נכשל"
       file_too_big: "הקובץ גדול מדי ללא דחיסה."
-      unknown_file_type: "הקובץ שהעלית הוא כפי הנראה אינה ערכת עיצוב תקנית של Discourse."
+      unknown_file_type: "הקובץ שהעלית הוא כפי הנראה אינה ערכת עיצוב תקנית של Okse."
     errors:
       component_no_user_selectable: "רכיבי ערכת העיצוב לא יכולים להיות לבחירת המשתמש"
       component_no_default: "רכיבי ערכת העיצוב לא יכולים להיות בררת המחדל של ערכת העיצוב"
@@ -228,7 +228,7 @@ he:
   provider_not_enabled: "אין לך הרשאה לצפות במשאב המבוקש. ספק האימות אינו פעיל."
   provider_not_found: "אין לך הרשאה לצפות במשאב המבוקש. ספק האימות אינו קיים."
   read_only_mode_enabled: "האתר נמצא במצב קריאה בלבד. פעולות עם משוב לא תפעלנה."
-  invalid_grant_badge_reason_link: "אסור להשתמש בקישור חיצוני או קישור שגוי ל־Discourse בסיבת העיטור."
+  invalid_grant_badge_reason_link: "אסור להשתמש בקישור חיצוני או קישור שגוי ל־Okse בסיבת העיטור."
   email_template_cant_be_modified: "לא ניתן לערוך את תבנית הדוא״ל הזו"
   invalid_whisper_access: "או שלחישות אינן פעילות או שאין לך גישה ליצור פוסטים של לחישות"
   not_in_group:
@@ -573,7 +573,7 @@ he:
   staff_category_name: "סגל"
   staff_category_description: "קטגוריה פרטית לדיוני הסגל. הנושאים חשופים רק בפני מנהלים ומפקחים."
   discourse_welcome_topic:
-    title: "ברוך בואך ל־Discourse"
+    title: "ברוך בואך ל־Okse"
     body: |2
 
       הפסקה הראשונה של נושא נעוץ זה תראה כהודעת ״ברוכים הבאים״ לכל המבקרים החדשים באתר הבית שלכם. היא חשובה!
@@ -1389,7 +1389,7 @@ he:
     display_local_time_in_user_card: "להציג את הזמן המקומי בהתאם לאזור הזמן של המשתמש כאשר כרטיס המשתמש שלו נפתח."
     censored_words: "מלים שיוחלפו אוטומטית ב־&#9632;&#9632;&#9632;&#9632;"
     delete_old_hidden_posts: "מחיקה אוטומטית של פוסטים מוסתרים כלשהם שנשארו מוסתרים למעלה מ־30 ימים."
-    default_locale: "שפת בררת המחדל של עותק ה־Discourse הזה. ניתן להחליף את השם של קטגוריות ונושאים שנוצרו על ידי המערכת דרך <a href='%{base_path}/admin/customize/site_texts' target='_blank'>התאמה / טקסט</a>."
+    default_locale: "שפת בררת המחדל של עותק ה־Okse הזה. ניתן להחליף את השם של קטגוריות ונושאים שנוצרו על ידי המערכת דרך <a href='%{base_path}/admin/customize/site_texts' target='_blank'>התאמה / טקסט</a>."
     allow_user_locale: "לאפשר למשתמשים לבחור את העדפת שפת המנשק לעצמם באופן עצמאי"
     set_locale_from_accept_language_header: "קבעו את שפת הממשק עבור משתמשים אנונימיים לפי השפה בדפדפן. (נ-י-ס-י-ו-נ-י, לא עובד עם cache אנונימי)"
     support_mixed_text_direction: "תמיכה בכיווני שמאל לימין וימין לשמאל בצורה מעורבת."
@@ -1448,7 +1448,7 @@ he:
     topic_excerpt_maxlength: "האורך המרבי של מקטע מתוך / סיכום של נושא, נוצר מהפוסט הראשון בנושא."
     show_pinned_excerpt_mobile: "הצגת קטע בנושאים נעוצים במבט ניידים."
     show_pinned_excerpt_desktop: "הצגת קטע בנושאים נעוצים בתצוגת מחשב-שולחני."
-    post_onebox_maxlength: "אורך מרבי של פוסט ב־Discourse בתיבת תחימה בתווים."
+    post_onebox_maxlength: "אורך מרבי של פוסט ב־Okse בתיבת תחימה בתווים."
     onebox_domains_blacklist: "רשימת מתחמים (דומיינים) שלעולם לא יופיעו בתיבות תחימה."
     inline_onebox_domains_whitelist: "רשימת שמות מתחם שיופיעו בתיבות תחימה בתצורה המזערית שלהם אם הקישור מופיע ללא כותרת"
     enable_inline_onebox_on_all_domains: "להתעלם מהגדרות אתר inline_onebox_domain_whitelist ולאפשר תיבות תחימה לכל שמות המתחם."
@@ -1517,9 +1517,9 @@ he:
     moderators_create_categories: "לאפשר למפקחים ליצור קטגוריות חדשות"
     cors_origins: "מקורות שאפשר לבצע להם בקשות קרוס-דומיין (Cross origin requests). כל מקור צריך לכלול את התחילית http:// או https:// . משתנה הסביבה DISCOURCE_ENABLE_CORS חייב להיות true כדי לאפשר CORS."
     use_admin_ip_whitelist: "מנהלים יכולים להתחבר רק אם הכתובת שלהם מופיע ברשימת ה IPs המסוננים (ניהול > לוגים > כתובות IP מסוננות)."
-    blacklist_ip_blocks: "רשימת מקטעי כתובות IP פרטיות ש־Discourse לא אמור לסרוק"
-    whitelist_internal_hosts: "רשימת מארחים פנימיים ש־Discourse יכול לסרוק לטובת תיבת תחימה ומטרות אחרות."
-    allowed_iframes: "רשימה של קידומות שמות מתחם בתור מקור של iframe שאפשר לאפשר בבטחה בפוסטים ב־Discourse"
+    blacklist_ip_blocks: "רשימת מקטעי כתובות IP פרטיות ש־Okse לא אמור לסרוק"
+    whitelist_internal_hosts: "רשימת מארחים פנימיים ש־Okse יכול לסרוק לטובת תיבת תחימה ומטרות אחרות."
+    allowed_iframes: "רשימה של קידומות שמות מתחם בתור מקור של iframe שאפשר לאפשר בבטחה בפוסטים ב־Okse"
     whitelisted_crawler_user_agents: "סוכני משתמשים של סורקי רשת שמורשים לגשת לאתר. אזהרה! שינוי הגדרה זו תחסום את כל הסורקים שאינם מופיעים כאן!"
     blacklisted_crawler_user_agents: "מילה ייחודית שאינה תלוית רישיות במחרוזת סוכן המשתמש (user agent) שמגדירה לאילו סורקי רשת אין הרשאת גישה לאתר. לא חל במקרה שהגדרת רשימת היתר."
     slow_down_crawler_user_agents: "סוכני משתמש (user agents) של סורקי אינטרנט אמורים להיות כפופים להגבלת קצב דרך robots.txt בעזרת ההנחיה Crawl-delay (השהיית סריקה)"
@@ -1559,8 +1559,8 @@ he:
     auto_approve_email_domains: "משתמשים עם כתובות דוא״ל מרשימת שמות התחום האלה יאושרו אוטומטית."
     hide_email_address_taken: "לא להודיע למשתמשים שקיים חשבון עם כתובת דוא״ל מסוימת במהלך ההרשמה ובטופס שחזור הססמה."
     log_out_strict: "בהתנתקות, נתקו את כל ההפעלות של המשתמש/ת בכל המכשירים"
-    version_checks: "לדגום את Discourse Hub כדי למצוא עדכוני גרסאות ולהציג הודעות של גרסאות חדשות בלוח הניהול <a href='%{base_path}/admin' target='_blank'>‎/admin</a>"
-    new_version_emails: "שלחו דוא\"ל לכתובת של contact_email כשגרסה חדשה של Discourse זמינה."
+    version_checks: "לדגום את Okse Hub כדי למצוא עדכוני גרסאות ולהציג הודעות של גרסאות חדשות בלוח הניהול <a href='%{base_path}/admin' target='_blank'>‎/admin</a>"
+    new_version_emails: "שלחו דוא\"ל לכתובת של contact_email כשגרסה חדשה של Okse זמינה."
     invite_expiry_days: "מה התוקף מפתחות הזמנת משתמשים, בימים"
     invite_only: "כל המשתמשים החדשים חייבים לקבל הזמנה ממשתמשים מהימנים או חברי סגל. הרשמה ציבורית סגורה."
     login_required: "דרשו הזדהות לקריאת תוכן באתר זה, אל תאפשרו גישה אנונימית."
@@ -1575,16 +1575,16 @@ he:
     block_common_passwords: "אל תאפשרו סיסמאות מתוך 10,000 הסיסמאות הנפוצות ביותר."
     enable_sso: "הפעלת כניסה אחודה (Single Sign On) באמצעות אתר חיצוני (א-ז-ה-ר-ה: כתובות הדוא״ל של משתמשים *חייבות* לעבור אימות על ידי האתר החיצוני!)"
     verbose_sso_logging: "תיעוד ניתוח מורחב בנושא SSO אל <a href='%{base_path}/logs' target='_blank'>‎/logs</a>"
-    enable_sso_provider: "הטמעת פרוטוקול ספק SSO מטעם Discourse תחת נקודת הקצה ‎/session/sso_provider, נדרשת הפעלת ההגדרה sso_provider_secrets (סודות ספק SSO)"
+    enable_sso_provider: "הטמעת פרוטוקול ספק SSO מטעם Okse תחת נקודת הקצה ‎/session/sso_provider, נדרשת הפעלת ההגדרה sso_provider_secrets (סודות ספק SSO)"
     sso_url: "URL of single sign on endpoint (must include http:// or https://)"
     sso_secret: "מחרוזת סודית המשמשית לאמת באופן קרפיטוגרפי מידע SSO, וודאו שהיא באורך 10 תווים ומעלה"
-    sso_provider_secrets: "רשימת צמדי סודות שמות מתחם שמשתמשים ב־Discourse כספק SSO. עליך לוודא שאורך סוד ה־SSO הוא 10 תווים ומעלה. ניתן להשתמש בתו המכליל * כדי להרחיב את ההתאמה לכל שם מתחם שהוא או חלק נרחב משם מתחם (למשל: ‎*.example.com)"
+    sso_provider_secrets: "רשימת צמדי סודות שמות מתחם שמשתמשים ב־Okse כספק SSO. עליך לוודא שאורך סוד ה־SSO הוא 10 תווים ומעלה. ניתן להשתמש בתו המכליל * כדי להרחיב את ההתאמה לכל שם מתחם שהוא או חלק נרחב משם מתחם (למשל: ‎*.example.com)"
     sso_overrides_bio: "דורס ביוגרפיה של משתמשים בפרופיל המשתמש ומונע מהם מלשנות אותה"
     sso_overrides_groups: "סנכרון כל החברויות הידניות בקבוצות מול הקבוצות שהוגדרו במאפייני הקבוצות של ה־sso (אזהרה: אם לא תצויינה קבוצות כל החברויות הידניות בקבוצות יוסרו עבור המשתמש)"
     sso_overrides_email: "דורס מייל מקומי עם אתר מייל חיצוני מתוכן SSO בכל התחברות, ומונע שינויים מקומיים. (אזהרה: אי-התאמות עלולות להתרחש בעקבות נורמליזציה של מיילים מקומיים)"
     sso_overrides_username: "דורס שם משתמש מקומי עם שם משתמש של אתר חיצוני מתוכן SSO בכל התחברות, ומונע שינויים מקומיים. (אזהרה: אי-התאמות עלולות להתרחש בעקבות הבדלים בדרישות אורך לגבי שמות משתמשים)"
     sso_overrides_name: "דורס שם מלא מקומי עם שם מלא מאתר חיצוני מתוכן SSO בכל התחברות, מונע שינויים מקומיים."
-    sso_overrides_avatar: "דריסת התמונה הייצוגית בתמונה ייצוגית חיצונית ממטען ה־SSO. אם אפשרות זו פעילה, למשתמשים לא תהיה אפשרות להעלות תמונות ייצוגיות ל־Discourse."
+    sso_overrides_avatar: "דריסת התמונה הייצוגית בתמונה ייצוגית חיצונית ממטען ה־SSO. אם אפשרות זו פעילה, למשתמשים לא תהיה אפשרות להעלות תמונות ייצוגיות ל־Okse."
     sso_overrides_location: "דורס את מיקום המשתמש במיקום חיצוני ממטען SSO ומניעת שינויים מקומיים."
     sso_overrides_website: "דורס את אתר המשתמש במיקום חיצוני ממטען ה־SSO ומניעת שינויים מקומיים."
     sso_overrides_profile_background: "דריסת רקע פרופיל המשתמש בתמונה ייצוגית חיצונית ממטען ה־SSO."
@@ -1595,21 +1595,21 @@ he:
     enable_local_logins_via_email: "לאפשר למשתמשים לבקש לשלוח אליהם קישור לכניסה בלחיצה אחת בדוא״ל."
     allow_new_registrations: "לאפשר הרשמות של משתמשים חדשים. יש לבטל סימון זה כדי למנוע יצירת חשבונות חדשים."
     enable_signup_cta: "הציגו מודעה למשתמשים אנונימיים חוזרים שמציעה להם להרשם כדי לקבל חשבון."
-    enable_google_oauth2_logins: "להפעיל אימות עם Oauth2 מול Google. זו שיטת האימות שכרגע נתמכת מול Google. דורשת מפתח וסוד. יש לעיין ב<a href='https://meta.discourse.org/t/15858' target='_blank'>הגדרת כניסה עם Google ל־Discourse</a>."
+    enable_google_oauth2_logins: "להפעיל אימות עם Oauth2 מול Google. זו שיטת האימות שכרגע נתמכת מול Google. דורשת מפתח וסוד. יש לעיין ב<a href='https://meta.discourse.org/t/15858' target='_blank'>הגדרת כניסה עם Google ל־Okse</a>."
     google_oauth2_client_id: "זהות לקוח (Client ID) של אפליקציית ה-Google שלך."
     google_oauth2_client_secret: "קוד סודי של לקוח (client secret) של אפליקציית Google."
     google_oauth2_prompt: "רשימת רשות של ערכי מחרוזות מופרדים ברווחים שמציינת האם שרת האימות מבקש מהמשתמש אימות מחודש והסכמה. יש לעיין ב־<a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> לצפייה בערכים האפשריים."
     google_oauth2_hd: "שם מתחם שמתארח ב־Google Apps שאליו תוגבל הכניסה. יש לעיין ב־<a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> לפרטים נוספים."
-    enable_twitter_logins: "הפעלת אימות עם טוויטר, דורש twitter_consumer_key ו־twitter_consumer_secret. יש לעיין ב<a href='https://meta.discourse.org/t/13395' target='_blank'>הגדרת כניסה עם טוויטר (לרבות הטמעות עשירות) ל־Discourse</a>."
+    enable_twitter_logins: "הפעלת אימות עם טוויטר, דורש twitter_consumer_key ו־twitter_consumer_secret. יש לעיין ב<a href='https://meta.discourse.org/t/13395' target='_blank'>הגדרת כניסה עם טוויטר (לרבות הטמעות עשירות) ל־Okse</a>."
     twitter_consumer_key: "מפתח צרכן לאימות עם טוויטר, ניתן להירשם תחת <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "סוד צרכן לאימות עם טוויטר, ניתן להירשם תחת <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "הפעלת אימות אינסטגרם, דורש instagram_consumer_key ו־instagram_consumer_secret"
     instagram_consumer_key: "מפתח לאימות אינסטגרם"
     instagram_consumer_secret: "סוד לאימות אינסטגרם"
-    enable_facebook_logins: "הפעלת אימות עם Facebook, דורש facebook_app_id ו־facebook_app_secret. יש לעיין ב<a href='https://meta.discourse.org/t/13394' target='_blank'>הגדרת כניסה עם Facebook ל־Discourse</a>."
+    enable_facebook_logins: "הפעלת אימות עם Facebook, דורש facebook_app_id ו־facebook_app_secret. יש לעיין ב<a href='https://meta.discourse.org/t/13394' target='_blank'>הגדרת כניסה עם Facebook ל־Okse</a>."
     facebook_app_id: "מזהה יישום לאימות עם Facebook, ניתן להירשם תחת <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "סוד יישום לאימות עם Facebook, ניתן להירשם תחת <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "הפעלת אימות עם GitHub, דורש github_client_id ו־github_client_secret. יש לעיין ב<a href='https://meta.discourse.org/t/13745' target='_blank'>הגדרת כניסה עם GitHub ל־Discourse</a>."
+    enable_github_logins: "הפעלת אימות עם GitHub, דורש github_client_id ו־github_client_secret. יש לעיין ב<a href='https://meta.discourse.org/t/13745' target='_blank'>הגדרת כניסה עם GitHub ל־Okse</a>."
     github_client_id: "מזהה לקוח לאימות מול Github, ניתן להירשם ב־<a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "סוד לקוח לאימות מול Github, ניתן להירשם ב־<a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     enable_discord_logins: "לאפשר למשתמשים לעבור אימות דרך Discord?"
@@ -1668,7 +1668,7 @@ he:
     purge_deleted_uploads_grace_period_days: "תקופת חסד (בימים) לפני שהעלאה שהוסרה תמחק."
     purge_unactivated_users_grace_period_days: "תקופת חסד (בימים) בטרם מחיקת משתמש שלא הפעיל את חשבונו. יש להגדיר ל־0 כדי לא למחוק משתמשים בלתי מופעלים."
     enable_s3_uploads: "אחסן העלאות (uploads) על תשתית של Amazon S3. חשוב: מצריך מפתח גישה + מפתח גישה סודי שיהיו חוקיים."
-    s3_use_iam_profile: 'יש להשתמש ב<a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">פרופיל מכונה שלAWS EC2</a> כדי להעניק גישה לדלי S3. לתשומת לבך: הפעלת אפשרות זו דורשת את הפעלת Discourse על מכונת EC2 שהוגדרה כראוי, ודורסת את ההגדרות „s3 access key id” ואת „s3 secret access key” (מפתחות הגישה ל־AWS).'
+    s3_use_iam_profile: 'יש להשתמש ב<a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">פרופיל מכונה שלAWS EC2</a> כדי להעניק גישה לדלי S3. לתשומת לבך: הפעלת אפשרות זו דורשת את הפעלת Okse על מכונת EC2 שהוגדרה כראוי, ודורסת את ההגדרות „s3 access key id” ואת „s3 secret access key” (מפתחות הגישה ל־AWS).'
     s3_upload_bucket: "שם של Amazon S3 bucket אליו יועלו קבצים. אזהרה: שם זה חייב להיות באותיות קטנות, ללא נקודות וללא קווים תחתונים."
     s3_access_key_id: "מזהה מפתח הגישה ל־Amazon S3 שישמש להעלאת תמונות, קבצים מצורפים וגיבויים."
     s3_secret_access_key: "מפתח סוד הגישה ל־Amazon S3 שישמש להעלאת תמונות, קבצים מצורפים וגיבויים."
@@ -1800,7 +1800,7 @@ he:
     alternative_reply_by_email_addresses: "רשימה של כמה תבניות לתגובות במייל באמצעות כתובות מייל נכנסות. למשל: %%{reply_key}@reply.example.com|replies+%%{reply_key}@example.com"
     incoming_email_prefer_html: "להשתמש ב־HTML במקום בטקסט בהודעות דוא״ל נכנסות."
     strip_incoming_email_lines: "להסיר רווחים מובילים וסוגרים בכל שורה בהודעות דוא״ל נכנסות."
-    disable_emails: "למנוע מ־Discourse לשלוח כל סוג של הודעות דוא״ל. יש לבחור ב־‚כן’ כדי לנטרל את כל הודעות הדוא״ל לכל המשתמשים. ניתן גם לבחור ב־‚ללא סגל’ כדי לנטרל את ההודעות למשתמשים שאינם נמנים עם הסגל."
+    disable_emails: "למנוע מ־Okse לשלוח כל סוג של הודעות דוא״ל. יש לבחור ב־‚כן’ כדי לנטרל את כל הודעות הדוא״ל לכל המשתמשים. ניתן גם לבחור ב־‚ללא סגל’ כדי לנטרל את ההודעות למשתמשים שאינם נמנים עם הסגל."
     strip_images_from_short_emails: "הסרת תמונות מדוא\"ל בגודל של פחות מ-2800 בתים"
     short_email_length: "אורכו של דוא\"ל קצר בבתים (Bytes)"
     display_name_on_email_from: "הצגת שמות מלאים בשדה ה״מאת״ במיילים"
@@ -1821,7 +1821,7 @@ he:
     reset_bounce_score_after_days: "איפוס אוטומטי של ניקוד-החזר לאחר X ימים."
     attachment_content_type_blacklist: "רשימת מילות מפתח שמשמשות להכנסת צירופים לרשימה שחורה על בסיס סוג התוכן."
     attachment_filename_blacklist: "רשימת מילות מפתח לרשימה שחורה של שמות קבצים מצורפים."
-    forwarded_emails_behaviour: "איך להתייחס להודעת דוא״ל שהועברה ל־Discourse"
+    forwarded_emails_behaviour: "איך להתייחס להודעת דוא״ל שהועברה ל־Okse"
     always_show_trimmed_content: "תמיד הציגו חלק מקוצר של מיילים נכנסים. אזהרה: עלול לחשוף כתובות מייל."
     private_email: "לא כלול תוכן מפוסטים או נושאים בכותרת או בגוף הודעת הדוא״ל. לתשומת לבך: גם הודעות התמצית תבוטלנה."
     email_total_attachment_size_limit_kb: "הגודל הכולל המרבי של קבצים שמצורפים להודעות דוא״ל יוצאות. 0 כדי לנטרל שליחת צרופות."
@@ -1872,7 +1872,7 @@ he:
     email_accent_fg_color: "צבע הטקסט שמופיע על צבע הרקע של מיילים מסוג HTML. הכניסו שם צבע ('white') או ערך הקסדצימלי ('#FFFFFF')."
     email_link_color: "צבע הקישורים במיילים מסוג HTML. הכניסו שם צבע ('blue') או ערך הקסדצימלי ('#0000FF')."
     detect_custom_avatars: "האם לבדוק או לא לבדוק שמשתמשים העלו תמונות פרופיל אישיות."
-    max_daily_gravatar_crawls: "מספר הפעמים המקסימלי ש-Discourse יבדוק אווטרים ב-Gravatar ביום"
+    max_daily_gravatar_crawls: "מספר הפעמים המקסימלי ש-Okse יבדוק אווטרים ב-Gravatar ביום"
     public_user_custom_fields: "רשימה של שדות מותאמים לבחירת המשתמש שניתן לאחזר באמצעות ה־API."
     staff_user_custom_fields: "רשימה של שדות מותאמים לבחירת המשתמש שחברי הסגל יכולים לאחזר באמצעות ה־API."
     enable_user_directory: "ספקו ספריייה של משתמשים לגלישה"
@@ -2464,7 +2464,7 @@ he:
 
       בהצלחה,
 
-      חבריך ב־[Discourse](https://www.discourse.org)
+      חבריך ב־[Okse](https://www.discourse.org)
 
       [0]: %{base_url}
 
@@ -2491,9 +2491,9 @@ he:
       [mt]: https://www.mail-tester.com/
   new_version_mailer:
     title: "שולח-מיילים של גרסה חדשה"
-    subject_template: "[%{email_prefix}] גרסת Discourse חדשה, עדכון זמין."
+    subject_template: "[%{email_prefix}] גרסת Okse חדשה, עדכון זמין."
     text_body_template: |
-      היאח, יצאה גרסה חדשה של [Discourse](https://www.discourse.org)!
+      היאח, יצאה גרסה חדשה של [Okse](https://www.discourse.org)!
 
       הגרסה שלך: %{installed_version}
       הגרסה החדשה: **%{new_version}**
@@ -2502,12 +2502,12 @@ he:
 
       - צפייה ב[הערות המהדורה](https://meta.discourse.org/tag/release-notes) יציגו בפניך את כל השינויים או צפייה ב[יומן השינויים הגולמי של GitHub](https://github.com/discourse/discourse/commits/master)
 
-      - ניתן לבקר ב־[meta.discourse.org](https://meta.discourse.org) לחדשות, דיונים ותמיכה ב־Discourse
+      - ניתן לבקר ב־[meta.discourse.org](https://meta.discourse.org) לחדשות, דיונים ותמיכה ב־Okse
   new_version_mailer_with_notes:
     title: "שולח-מיילים של גרסה חדשה עם הערות"
     subject_template: "[%{email_prefix}] עדכון זמין"
     text_body_template: |
-      היאח, יצאה גרסה חדשה של [Discourse](https://www.discourse.org)!
+      היאח, יצאה גרסה חדשה של [Okse](https://www.discourse.org)!
 
       הגרסה שלך: %{installed_version}
       הגרסה החדשה: **%{new_version}**
@@ -2516,7 +2516,7 @@ he:
 
       - צפייה ב[הערות המהדורה](https://meta.discourse.org/tag/release-notes) יציגו בפניך את כל השינויים או צפייה ב[יומן השינויים הגולמי של GitHub](https://github.com/discourse/discourse/commits/master)
 
-      - ניתן לבקר ב־[meta.discourse.org](https://meta.discourse.org) לחדשות, דיונים ותמיכה ב־Discourse
+      - ניתן לבקר ב־[meta.discourse.org](https://meta.discourse.org) לחדשות, דיונים ותמיכה ב־Okse
 
       ### הערות מהדורה
 
@@ -3612,7 +3612,7 @@ he:
 
       הדיונים המתקיימים כאן משפיעים רבות על הגדלת מעגל המעורבות. נרצה את עזרתך בעיצוב עתיד הקהילה הזו בזכות בחירה בקיום דיונים מפרים שמעשירים את הפורום הזה לכדי מקום מעניין להיות בו &mdash; תוך הסתייגות מדיונים שאינם כאלה.
 
-      מערכת Discourse מספקת כלים שמאפשרים לקהילה הזו לזהות מתוך ההמון את התרומות הטובות (והגרועות) לרבות: סימניות, לייקים, סימוני דגלים, תגובות, עריכות וכדומה. מוטב להשתמש בכלים האלו לשיפור החוויה האישית שלך וגם זו של אחרים.
+      מערכת Okse מספקת כלים שמאפשרים לקהילה הזו לזהות מתוך ההמון את התרומות הטובות (והגרועות) לרבות: סימניות, לייקים, סימוני דגלים, תגובות, עריכות וכדומה. מוטב להשתמש בכלים האלו לשיפור החוויה האישית שלך וגם זו של אחרים.
 
       מטרתנו להשאיר את הקהילה שלנו במצב טוב יותר מזה שבו מצאנו אותה.
 
@@ -4053,7 +4053,7 @@ he:
     synonyms_exist: "אסור לשימוש כל עוד קיימות מילים נרדפות"
   rss_by_tag: "נושאים מתוייגים %{tag}"
   finish_installation:
-    congratulations: "ברכותינו, התקנת את Discourse!"
+    congratulations: "ברכותינו, התקנת את Okse!"
     register:
       button: "הרשמה"
       title: "הרשמת חשבון אדמיניסטרטור"
@@ -4074,10 +4074,10 @@ he:
     enter: "כנסו למצב בטוח"
     must_select: "עליך לבחור באפשרות אחת לפחות כדי להיכנס למצב בטוח."
   wizard:
-    title: "הקמת Discourse"
+    title: "הקמת Okse"
     step:
       locale:
-        title: "ברוכים הבאים ל Discourse!"
+        title: "ברוכים הבאים ל Okse!"
         fields:
           default_locale:
             description: "מה השפה של הקהילה שלכם?"
@@ -4136,7 +4136,7 @@ he:
             description: "דף יצירת קשר כללי איתכם או עם הארגון שלכם. יוצג ב<a href='%{base_path}/about' target='_blank'>דף האודות שלכם</a>."
           site_contact:
             label: "הודעות אוטומטיות"
-            description: "כל ההודעות האישיות האוטומטיות שנשלחות על ידי Discourse נשלחות מהמשתמש הזה, כגון אזהרות על סימוני דגלים והתראות על השלמת גיבוי."
+            description: "כל ההודעות האישיות האוטומטיות שנשלחות על ידי Okse נשלחות מהמשתמש הזה, כגון אזהרות על סימוני דגלים והתראות על השלמת גיבוי."
       corporate:
         title: "ארגון"
         description: "פרטים אלו יתווספו אל <a href='%{base_path}/tos' target='blank'>תנאי השירות</a> שלך, שהוא נושא שניתן לערוך בקטגוריית הסגל. אם אין אף חברה שמיוצגת על ידיך, אפשר לדלג על שלב זה כרגע."
@@ -4154,7 +4154,7 @@ he:
         title: "תמה"
       themes_further_reading:
         title: "תמות"
-        description: "מעניין אותך לערוך התאמות ל־Discourse שלך? אפשר לעשות זאת בעזרת מערכת ערכות העיצוב: <ul> <li><a href='https://meta.discourse.org/t/63682' target='_blank'>איך אוכל להתקין ערכת עיצוב או רכיב של ערכת עיצוב?</a></li> <li><a href='https://meta.discourse.org/t/110448' target='_blank'>מדריך זריז למפתחי ערכות עיצוב</a></li> </ul> רכיבי ערכות עיצוב נפוצים (לעיון בנוספים יש לסייר ב־<a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>‎#theme</a>)"
+        description: "מעניין אותך לערוך התאמות ל־Okse שלך? אפשר לעשות זאת בעזרת מערכת ערכות העיצוב: <ul> <li><a href='https://meta.discourse.org/t/63682' target='_blank'>איך אוכל להתקין ערכת עיצוב או רכיב של ערכת עיצוב?</a></li> <li><a href='https://meta.discourse.org/t/110448' target='_blank'>מדריך זריז למפתחי ערכות עיצוב</a></li> </ul> רכיבי ערכות עיצוב נפוצים (לעיון בנוספים יש לסייר ב־<a href='https://meta.discourse.org/c/theme/l/latest' target='_blank'>‎#theme</a>)"
       logos:
         title: "לוגואים"
         fields:
@@ -4201,7 +4201,7 @@ he:
         description: "כמעט סיימת! אולי נזמין כמה אנשים כדי <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>לעורר דיונים</a> עם נושאים מעניינים ותגובות שיניעו קדימה את הקהילה שלך."
         disabled: "מאחר שכניסה בשליטה מקומית מנוטרלת, אי אפשר לשלוח לכולם הזמנות. נא להמשיך לשלב הבא."
       finished:
-        title: "ה Discourse שלכם מוכן!"
+        title: "ה Okse שלכם מוכן!"
         description: |
           <p>אם חשקה נפשך בשינוי ההגדרות האלו, <b>יש להפעיל את האשף הזה מחדש</b>, או לבקר ב<a href='%{base_path}/admin' target='_blank'>אגף הניהול</a>; ניתן למצוא אותו ליד סמל מפתח הברגים בתפריט האתר.</p>
           <p>מאחלים לך הנאה מרובה ובהצלחה <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='_blank'>בהקמת הקהילה החדשה שלך!</a></p>
@@ -4347,9 +4347,9 @@ he:
   old_keys_reminder:
     title: "תזכורת על פרטי גישה ישנים"
     body: |
-      שלום! זאת תזכורת אבטחה שנתית שגרתית מעותק ה־Discourse שלך.
+      שלום! זאת תזכורת אבטחה שנתית שגרתית מעותק ה־Okse שלך.
 
-      מתוך נימוס, רצינו ליידע אותך שפרטי הגישה הבאים, המשמשים אותך לגישה ל־Discourse שלך, לא עודכנו זה למעלה משנתיים:
+      מתוך נימוס, רצינו ליידע אותך שפרטי הגישה הבאים, המשמשים אותך לגישה ל־Okse שלך, לא עודכנו זה למעלה משנתיים:
 
       %{keys}
 

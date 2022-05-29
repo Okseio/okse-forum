@@ -153,7 +153,7 @@ tr_TR:
         enabled: "Bunu pankart yaptı %{when}. Kullanıcı tarafından yoksayılana kadar her sayfanın en üstünde belirecek."
         disabled: "Pankart kaldırıldı %{when}. Bundan sonra her sayfanın en üstünde gözükmeyecek. "
     topic_admin_menu: "konu eylemleri"
-    wizard_required: "Yeni Discourse'una hoşgeldin! Haydi kuruluma başlayalım! <a href='%{url}' data-auto-route='true'>Kurulum Sihirbazı</a> ✨"
+    wizard_required: "Yeni Okse'una hoşgeldin! Haydi kuruluma başlayalım! <a href='%{url}' data-auto-route='true'>Kurulum Sihirbazı</a> ✨"
     emails_are_disabled: "Giden tüm e-postalar yönetici tarafından devre dışı bırakıldı. Herhangi bir e-posta bildirimi gönderilmeyecek."
     bootstrap_mode_enabled: "Yeni sitenizi daha kolay başlatmak için önyükleme modundasınız. Tüm yeni kullanıcılara güven düzeyi 1 verilir ve günlük e-posta özet güncellemeleri etkinleştirilir. Bu,%{min_users} kullanıcının katıldığı zaman otomatik olarak kapatılacaktır."
     bootstrap_mode_disabled: "Önyükleme modu 24 saat içinde devre dışı bırakılacak. "
@@ -2966,7 +2966,7 @@ tr_TR:
       dashboard:
         title: "Gösterge Paneli"
         last_updated: "Kontrol paneli güncellendi:"
-        discourse_last_updated: "Discourse güncellendi:"
+        discourse_last_updated: "Okse güncellendi:"
         version: "Sürüm"
         up_to_date: "Sistemin güncel durumda!"
         critical_available: "Önemli bir güncelleme var."
@@ -3003,7 +3003,7 @@ tr_TR:
         show_traffic_report: "Ayrıntılı Akış Raporunu Göster"
         community_health: Topluluk sağlığı
         moderators_activity: Moderatörlerin etkinliği
-        whats_new_in_discourse: "Discourse'daki yenilikler neler?"
+        whats_new_in_discourse: "Okse'daki yenilikler neler?"
         activity_metrics: Aktivite Ölçütleri
         all_reports: "Tüm raporlar"
         general_tab: "Genel"
@@ -3495,7 +3495,7 @@ tr_TR:
           undo: "geri al"
           undo_title: " Son kayıt esnasında yapılan bu renkteki değişiklikleri geri al."
           revert: "eski haline getir"
-          revert_title: "Bu rengi Discourse'un varsayılan renk paletine sıfırla."
+          revert_title: "Bu rengi Okse'un varsayılan renk paletine sıfırla."
           primary:
             name: "Ana"
             description: "Çoğu yazı, ikonlar ve kenarlar"
@@ -3546,7 +3546,7 @@ tr_TR:
         preview_digest: "Özeti Önizle"
         advanced_test:
           title: "Gelişmiş Test"
-          desc: "Discourse süreçlerinin nasıl e-posta aldığını görün. E-postayı doğru bir şekilde işleyebilmek için lütfen orijinal e-posta iletisinin altına yapıştırın."
+          desc: "Okse süreçlerinin nasıl e-posta aldığını görün. E-postayı doğru bir şekilde işleyebilmek için lütfen orijinal e-posta iletisinin altına yapıştırın."
           email: "Orjinal ileti"
           run: "Testi Çalıştır"
           text: "Seçilmiş Metin Gövdesi"
@@ -4216,9 +4216,9 @@ tr_TR:
         image: "Resim"
         delete_confirm: ":%{name}: emojisini silmek istediğine emin misin?"
       embedding:
-        get_started: "Eğer Discourse'u başka bir web sitesine yerleştirmek istiyorsan bu sitenin sunucusunu ekleyerek başla. "
+        get_started: "Eğer Okse'u başka bir web sitesine yerleştirmek istiyorsan bu sitenin sunucusunu ekleyerek başla. "
         confirm_delete: "Bu sunucuyu silmek istediğine emin misin?"
-        sample: "Discourse konuları oluşturmak ve yerleştirmek için aşağıdaki HTML kodunu sitende kullan. <b>REPLACE_ME</b>'yi Discourse'u yerleştirdiğin sayfanın tam URL'i ile değiştir."
+        sample: "Okse konuları oluşturmak ve yerleştirmek için aşağıdaki HTML kodunu sitende kullan. <b>REPLACE_ME</b>'yi Okse'u yerleştirdiğin sayfanın tam URL'i ile değiştir."
         title: "Yerleştirme"
         host: "İzin Verilen Sunucular"
         class_name: "Sınıf adı"
@@ -4228,7 +4228,7 @@ tr_TR:
         add_host: "Sunucu Ekle"
         settings: "Yerleştirme Ayarları"
         crawling_settings: "Yazı Ayarları"
-        crawling_description: "Discourse gönderilerin için bir konu oluşturduğunda eğer bir RSS/ATOM beslemesi yoksa içeriği HTML'den ayrıştırmaya çalışacaktır. Bazen içeriğini çıkartmak zor olabilir. İçeriğini kolayca çıkartabilmen için CSS kuralları belirtme yeteneği sağlıyoruz."
+        crawling_description: "Okse gönderilerin için bir konu oluşturduğunda eğer bir RSS/ATOM beslemesi yoksa içeriği HTML'den ayrıştırmaya çalışacaktır. Bazen içeriğini çıkartmak zor olabilir. İçeriğini kolayca çıkartabilmen için CSS kuralları belirtme yeteneği sağlıyoruz."
         embed_by_username: "Konu oluşturmak için kullanıcı adı"
         embed_post_limit: "Yerleştirmek için en fazla gönderi sayısı"
         embed_title_scrubber: "Gönderilerin başlığını temizlemek için kullanılan düzenli ifade"

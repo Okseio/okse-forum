@@ -156,7 +156,7 @@ pt_BR:
         disabled: "removeu este banner %{when}. Ele não vai mais aparecer no topo de todas as páginas."
       forwarded: "encaminhado o e-mail acima"
     topic_admin_menu: "ações de tópico"
-    wizard_required: "Bem vindo ao seu novo Discourse! Vamos começar com o <a href='%{url}' data-auto-route='true'>assistente de configuração</a> ✨"
+    wizard_required: "Bem vindo ao seu novo Okse! Vamos começar com o <a href='%{url}' data-auto-route='true'>assistente de configuração</a> ✨"
     emails_are_disabled: "Todo o envio de e-mail foi globalmente desabilitado por um administrador. Nenhum e-mail de notificações de qualquer tipo será enviado."
     bootstrap_mode_enabled: "Para facilitar o lançamento do seu novo site, você está no modo de bootstrap. Todos os novos usuários receberão o nível de confiança 1 e terão os e-mails diários de resumo ativados. Isso será desativado automaticamente quando %{min_users} usuários se registrarem."
     bootstrap_mode_disabled: "O modo bootstrap será desativado em 24 horas."
@@ -3079,7 +3079,7 @@ pt_BR:
   admin_js:
     type_to_filter: "escreva para filtrar..."
     admin:
-      title: "Discourse Admin"
+      title: "Okse Admin"
       moderator: "Moderador"
       tags:
         remove_muted_tags_from_latest:
@@ -3091,7 +3091,7 @@ pt_BR:
       dashboard:
         title: "Painel Administrativo"
         last_updated: "Painel atualizado:"
-        discourse_last_updated: "Discourse atualizado:"
+        discourse_last_updated: "Okse atualizado:"
         version: "Versão"
         up_to_date: "Você está atualizado!"
         critical_available: "Uma atualização crítica está disponível."
@@ -3275,7 +3275,7 @@ pt_BR:
       web_hooks:
         title: "Webhooks"
         none: "Não existem webhooks no momento."
-        instruction: "Webhooks permitem que o Discourse notifique serviços externos quando certos eventos acontecem em seu site. Quando o webhook é desencadeado, uma requisição POST é enviada às URLs fornecidas."
+        instruction: "Webhooks permitem que o Okse notifique serviços externos quando certos eventos acontecem em seu site. Quando o webhook é desencadeado, uma requisição POST é enviada às URLs fornecidas."
         detailed_instruction: "Uma requisição POST será enviada à URL fornecida quando o evento escolhido acontecer."
         new: "Novo Webhook"
         create: "Criar"
@@ -3483,8 +3483,8 @@ pt_BR:
           component_name: "Nome do Componente"
           themes_intro: "Selecione um tema existente ou instale um novo para começar"
           themes_intro_emoji: "emoji de artista mulher"
-          beginners_guide_title: "Guia para iniciantes de uso de Temas do Discourse"
-          developers_guide_title: "Guia para desenvolvedores de Temas do Discourse"
+          beginners_guide_title: "Guia para iniciantes de uso de Temas do Okse"
+          developers_guide_title: "Guia para desenvolvedores de Temas do Okse"
           browse_themes: "Explore temas da comunidade"
           customize_desc: "Personalizar:"
           title: "Temas"
@@ -3575,9 +3575,9 @@ pt_BR:
           disabled: "Este componente foi desabilitado."
           disabled_by: "Este componente foi desabilitado por"
           required_version:
-            error: "Este tema foi desabilitado automaticamente porque ele não é compatível com esta versão do Discourse."
-            minimum: "Requer versão %{version} ou acima do Discourse."
-            maximum: "Requer versão %{version} ou abaixo do Discourse."
+            error: "Este tema foi desabilitado automaticamente porque ele não é compatível com esta versão do Okse."
+            minimum: "Requer versão %{version} ou acima do Okse."
+            maximum: "Requer versão %{version} ou abaixo do Okse."
           component_of: "Componente de:"
           update_to_latest: "Atualize para o mais recente"
           check_for_updates: "Verificar Atualizações"
@@ -3632,7 +3632,7 @@ pt_BR:
           undo: "desfazer"
           undo_title: "Desfazer suas mudanças para esta cor desde a última vez que foi salvo."
           revert: "reverter"
-          revert_title: "Redefinir esta cor na paleta de cores padrão do Discourse."
+          revert_title: "Redefinir esta cor na paleta de cores padrão do Okse."
           primary:
             name: "primário"
             description: "Maioria dos textos, ícones e bordas."
@@ -3683,7 +3683,7 @@ pt_BR:
         preview_digest: "Preview Digest"
         advanced_test:
           title: "Teste Avançado"
-          desc: "Veja como Discourse processa e-mails recebidos. Para conseguir processar o e-mail corretamente, por favor cole abaixo a mensagem original inteira do e-mail."
+          desc: "Veja como Okse processa e-mails recebidos. Para conseguir processar o e-mail corretamente, por favor cole abaixo a mensagem original inteira do e-mail."
           email: "Mensagem original"
           run: "Executar Teste"
           text: "Corpo do Texto Selecionado"
@@ -4380,9 +4380,9 @@ pt_BR:
         alt: "prévia do emoji personalizado"
         delete_confirm: "Tem certeza que deseja excluir o emoji :%{name}: ?"
       embedding:
-        get_started: "Se você deseja incorporar Discourse em outro site, começe adicionando seu host."
+        get_started: "Se você deseja incorporar Okse em outro site, começe adicionando seu host."
         confirm_delete: "Você tem certeza que deseja apagar este host?"
-        sample: "Use o seguinte código HTML no seu site para criar e incorporar tópicos do Discourse. Troque <b>REPLACE_ME</b> com a URL canônica da página na qual você está incorporando."
+        sample: "Use o seguinte código HTML no seu site para criar e incorporar tópicos do Okse. Troque <b>REPLACE_ME</b> com a URL canônica da página na qual você está incorporando."
         title: "Incorporar"
         host: "Hosts Permitidos"
         class_name: "Nome da classe"
@@ -4392,7 +4392,7 @@ pt_BR:
         add_host: "Adicionar Host"
         settings: "Configurações de Incorporação"
         crawling_settings: "Configurações de Crawler"
-        crawling_description: "Quando Discourse cria tópicos para suas postagens, se nenhum feed RSS/ATOM estiver presente ele tentar recuperar o conteúdo do seu HTML. Algumas vezes isto pode sem um desafio, então provemos a habilidade de prover as regras específicas de CSS para fazer a extração mais fácil."
+        crawling_description: "Quando Okse cria tópicos para suas postagens, se nenhum feed RSS/ATOM estiver presente ele tentar recuperar o conteúdo do seu HTML. Algumas vezes isto pode sem um desafio, então provemos a habilidade de prover as regras específicas de CSS para fazer a extração mais fácil."
         embed_by_username: "Nome de usuário para criação do tópico"
         embed_post_limit: "Número máximo de postagens para incorporar"
         embed_title_scrubber: "Expressão regular usada para higienizar o título das publicações"

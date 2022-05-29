@@ -23,11 +23,11 @@ nb_NO:
     <<: *datetime_formats
     am: "am"
     pm: "pm"
-  title: "Discourse"
+  title: "Okse"
   topics: "Emner"
   posts: "innlegg"
   loading: "Laster"
-  powered_by_html: 'Drives av <a href="https://www.discourse.org">Discourse</a>, og ser best ut med JavaScript aktivert'
+  powered_by_html: 'Drives av <a href="https://www.discourse.org">Okse</a>, og ser best ut med JavaScript aktivert'
   sign_up: "Registrer deg"
   log_in: "Logg inn"
   submit: "Send"
@@ -413,7 +413,7 @@ nb_NO:
   staff_category_name: "Stab"
   staff_category_description: "Privat kategori for diskusjoner blant staben. Emner er kun synlige for administratorer og moderatorer."
   discourse_welcome_topic:
-    title: "Velkommen til Discourse"
+    title: "Velkommen til Okse"
     body: |2
 
       Det første avsnittet av dette festede emnet vil være synlig som en velkomstmelding til alle nye besøkende på hjemmesiden. Det er viktig!
@@ -1021,7 +1021,7 @@ nb_NO:
     post_excerpt_maxlength: "Maksimal lengde på utdrag eller oppsummering av innlegg."
     show_pinned_excerpt_mobile: "Vis utdrag fra festede emner i mobil visning."
     show_pinned_excerpt_desktop: "Vis utdrag fra festede emner i desktop visning."
-    post_onebox_maxlength: "Maksimal lengde på et onebox Discourse innlegg i antall tegn."
+    post_onebox_maxlength: "Maksimal lengde på et onebox Okse innlegg i antall tegn."
     onebox_domains_blacklist: "En liste over domener som aldri vil bli forsøkt oneboxet."
     inline_onebox_domains_whitelist: "En liste over domener hvor onebox brukes i miniatyrstørrelse hvis lenken ikke har en tittel"
     enable_inline_onebox_on_all_domains: "Ignorer inline_onebox_domain_whitelist innstillingen og tillat inline onebox på alle domener."
@@ -1455,7 +1455,7 @@ nb_NO:
     title: "Start sikkerhetsmodus"
     description: "Sikkerhetsmodus lar deg teste nettstedet ditt uten at tillegg eller tilpasninger lastes."
   wizard:
-    title: "Discourse-oppsett"
+    title: "Okse-oppsett"
     step:
       forum_title:
         title: "Navn"

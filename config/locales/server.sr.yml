@@ -20,7 +20,7 @@ sr:
     <<: *datetime_formats
   time:
     <<: *datetime_formats
-  title: "Discourse"
+  title: "Okse"
   topics: "Teme"
   posts: "poruke"
   loading: "Učitavanje"
@@ -349,7 +349,7 @@ sr:
   wizard:
     step:
       locale:
-        title: "Dobrodošli na vaš Discourse"
+        title: "Dobrodošli na vaš Okse"
         fields:
           default_locale:
             description: "Koji je podrazumevani jezik vaše zajednice?"

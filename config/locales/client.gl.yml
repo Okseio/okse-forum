@@ -2448,7 +2448,7 @@ gl:
   admin_js:
     type_to_filter: "escribe para filtrar..."
     admin:
-      title: "Administrador de Discourse"
+      title: "Administrador de Okse"
       moderator: "Moderador"
       tags:
         remove_muted_tags_from_latest:
@@ -2484,7 +2484,7 @@ gl:
         page_views_short: "Visualizacións de páxinas"
         show_traffic_report: "Amosar o informe detallado do tráfico"
         moderators_activity: Actividade dos moderadores
-        whats_new_in_discourse: Novidades en Discourse
+        whats_new_in_discourse: Novidades en Okse
         all_reports: "Todos os informes"
         general_tab: "Xeral"
         security_tab: "Seguranza"
@@ -3388,9 +3388,9 @@ gl:
         alt: "previsualizar emoji personalizado"
         delete_confirm: "Confirmas a eliminación do emoji :%{name}:?"
       embedding:
-        get_started: "Se queres encaixar o Discourse noutro sitio web, comeza engadindo o seu host."
+        get_started: "Se queres encaixar o Okse noutro sitio web, comeza engadindo o seu host."
         confirm_delete: "Confirmas a eliminación deste host?"
-        sample: "Usa o seguinte código HTML no teu sitio para crear e encaixar temas do Discourse. Substitúe <b>REPLACE_ME</b> pola URL canónica da páxina que recibe o encaixado. "
+        sample: "Usa o seguinte código HTML no teu sitio para crear e encaixar temas do Okse. Substitúe <b>REPLACE_ME</b> pola URL canónica da páxina que recibe o encaixado. "
         title: "Encaixado"
         host: "Hosts permitidos"
         class_name: "Nome da clase"
@@ -3399,7 +3399,7 @@ gl:
         add_host: "Engadir host"
         settings: "Axustes para o encaixado"
         crawling_settings: "Axustes do extractor"
-        crawling_description: "Cando o Discourse crea temas para as túas publicacións, se non existe unha fonte RSS/ATOM, tentará analizar o contido do teu HTML. Ás veces pode ser difícil extraer o contido, por iso damos a posibilidade de especificar as regras do CSS para facilitar a extracción."
+        crawling_description: "Cando o Okse crea temas para as túas publicacións, se non existe unha fonte RSS/ATOM, tentará analizar o contido do teu HTML. Ás veces pode ser difícil extraer o contido, por iso damos a posibilidade de especificar as regras do CSS para facilitar a extracción."
         embed_by_username: "Nome do usuario para crear o tema"
         embed_post_limit: "Número máximo de publicacións a encaixar"
         embed_truncate: "Truncar as publicacións encaixadas"

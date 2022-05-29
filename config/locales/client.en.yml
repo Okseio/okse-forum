@@ -1,6 +1,6 @@
 # encoding: utf-8
 #
-# This file contains content for the client portion of Discourse, sent out
+# This file contains content for the client portion of Okse, sent out
 # to the Javascript app.
 #
 # To work with us on translations, see: https://www.transifex.com/projects/p/discourse-org/
@@ -190,7 +190,7 @@ en:
 
     topic_admin_menu: "topic actions"
 
-    wizard_required: "Welcome to your new Discourse! Let’s get started with <a href='%{url}' data-auto-route='true'>the setup wizard</a> ✨"
+    wizard_required: "Welcome to your new Okse! Let’s get started with <a href='%{url}' data-auto-route='true'>the setup wizard</a> ✨"
     emails_are_disabled: "All outgoing email has been globally disabled by an administrator. No email notifications of any kind will be sent."
 
     bootstrap_mode_enabled: "To make launching your new site easier, you are in bootstrap mode. All new users will be granted trust level 1 and have daily email summary emails enabled. This will be automatically turned off when %{min_users} users have joined."
@@ -3385,7 +3385,7 @@ en:
     type_to_filter: "type to filter..."
 
     admin:
-      title: "Discourse Admin"
+      title: "Okse Admin"
       moderator: "Moderator"
 
       tags:
@@ -3400,7 +3400,7 @@ en:
       dashboard:
         title: "Dashboard"
         last_updated: "Dashboard updated:"
-        discourse_last_updated: "Discourse updated:"
+        discourse_last_updated: "Okse updated:"
         version: "Version"
         up_to_date: "You're up to date!"
         critical_available: "A critical update is available."
@@ -3437,7 +3437,7 @@ en:
         show_traffic_report: "Show Detailed Traffic Report"
         community_health: Community health
         moderators_activity: Moderators activity
-        whats_new_in_discourse: What’s new in Discourse?
+        whats_new_in_discourse: What’s new in Okse?
         activity_metrics: Activity Metrics
         all_reports: "All reports"
         general_tab: "General"
@@ -3590,7 +3590,7 @@ en:
       web_hooks:
         title: "Webhooks"
         none: "There are no webhooks right now."
-        instruction: "Webhooks allows Discourse to notify external services when certain event happens in your site. When the webhook is triggered, a POST request will send to URLs provided."
+        instruction: "Webhooks allows Okse to notify external services when certain event happens in your site. When the webhook is triggered, a POST request will send to URLs provided."
         detailed_instruction: "A POST request will be sent to provided URL when chosen event happens."
         new: "New Webhook"
         create: "Create"
@@ -3803,8 +3803,8 @@ en:
           component_name: "Component name"
           themes_intro: "Select an existing theme or install a new one to get started"
           themes_intro_emoji: "woman artist emoji"
-          beginners_guide_title: "Beginner’s guide to using Discourse Themes"
-          developers_guide_title: "Developer’s guide to Discourse Themes"
+          beginners_guide_title: "Beginner’s guide to using Okse Themes"
+          developers_guide_title: "Developer’s guide to Okse Themes"
           browse_themes: "Browse community themes"
           customize_desc: "Customize:"
           title: "Themes"
@@ -3895,9 +3895,9 @@ en:
           disabled: "This component has been disabled."
           disabled_by: "This component has been disabled by"
           required_version:
-            error: "This theme has been automatically disabled because it is not compatible with this version of Discourse."
-            minimum: "Requires Discourse version %{version} or above."
-            maximum: "Requires Discourse version %{version} or below."
+            error: "This theme has been automatically disabled because it is not compatible with this version of Okse."
+            minimum: "Requires Okse version %{version} or above."
+            maximum: "Requires Okse version %{version} or below."
           component_of: "Component of:"
           update_to_latest: "Update to Latest"
           check_for_updates: "Check for Updates"
@@ -3952,7 +3952,7 @@ en:
           undo: "undo"
           undo_title: "Undo your changes to this color since the last time it was saved."
           revert: "revert"
-          revert_title: "Reset this color to Discourse's default color palette."
+          revert_title: "Reset this color to Okse's default color palette."
           primary:
             name: "primary"
             description: "Most text, icons, and borders."
@@ -4004,7 +4004,7 @@ en:
         preview_digest: "Preview Summary"
         advanced_test:
           title: "Advanced Test"
-          desc: "See how Discourse processes received emails. To be able to correctly process the email, please paste below the whole original email message."
+          desc: "See how Okse processes received emails. To be able to correctly process the email, please paste below the whole original email message."
           email: "Original message"
           run: "Run Test"
           text: "Selected Text Body"
@@ -4725,7 +4725,7 @@ en:
         delete_confirm: "Are you sure you want to delete the :%{name}: emoji?"
 
       embedding:
-        get_started: "If you'd like to embed Discourse on another website, begin by adding its host."
+        get_started: "If you'd like to embed Okse on another website, begin by adding its host."
         confirm_delete: "Are you sure you want to delete that host?"
         sample: "Use the following HTML code into your site to create and embed discourse topics. Replace <b>REPLACE_ME</b> with the canonical URL of the page you are embedding it on."
         title: "Embedding"
@@ -4737,7 +4737,7 @@ en:
         add_host: "Add Host"
         settings: "Embedding Settings"
         crawling_settings: "Crawler Settings"
-        crawling_description: "When Discourse creates topics for your posts, if no RSS/ATOM feed is present it will attempt to parse your content out of your HTML. Sometimes it can be challenging to extract your content, so we provide the ability to specify CSS rules to make extraction easier."
+        crawling_description: "When Okse creates topics for your posts, if no RSS/ATOM feed is present it will attempt to parse your content out of your HTML. Sometimes it can be challenging to extract your content, so we provide the ability to specify CSS rules to make extraction easier."
 
         embed_by_username: "Username for topic creation"
         embed_post_limit: "Maximum number of posts to embed"

@@ -175,7 +175,7 @@ bs_BA:
         disabled: "odkloni zastavicu %{when}.Neće se više prikazivati na vrhu svake stranice."
       forwarded: "gornji email proslijeđen"
     topic_admin_menu: "akcije u vezi teme"
-    wizard_required: "Dobrodošli na vaš novi Discourse! Odpočnimo sa <a href='%{url}' data-auto-route='true'>čarobnjakom za postavke</a> ✨"
+    wizard_required: "Dobrodošli na vaš novi Okse! Odpočnimo sa <a href='%{url}' data-auto-route='true'>čarobnjakom za postavke</a> ✨"
     emails_are_disabled: "Sve odlazeće email poruke su globalno onemogućene od strane administratora. Ni jedna notifikacija bilo koje vrste neće biti poslana."
     bootstrap_mode_enabled: "Kako bi olakšali lansiranje vaše nove web stranice, trenutačno ste u \"bootstrap\" načinu rada. Svim novim korisnicima će se dodjeljivati nivo povjerenja 1 i imati uključen dnevni izvještaj dešavanja na forumu preko email-a. Ovo će se automatski isključiti nakon što %{min_users} korisnika prijavi račun na forumu."
     bootstrap_mode_disabled: "Bootstrap način rada će biti isključen u toku 24 sata."
@@ -3014,7 +3014,7 @@ bs_BA:
   admin_js:
     type_to_filter: "kucaj da sortiraš..."
     admin:
-      title: "Discourse Admin"
+      title: "Okse Admin"
       moderator: "Moderator"
       tags:
         remove_muted_tags_from_latest:
@@ -4203,7 +4203,7 @@ bs_BA:
         image: "Slika"
         delete_confirm: "Jeste li sigurni da želite izbrisati: %{name}: emoji?"
       embedding:
-        get_started: "Ako želite da ugradite Discourse na drugu web lokaciju, počnite sa dodavanjem njegovog hosta."
+        get_started: "Ako želite da ugradite Okse na drugu web lokaciju, počnite sa dodavanjem njegovog hosta."
         confirm_delete: "Jeste li sigurni da želite izbrisati taj host?"
         title: "Embedding"
         host: "Dozvoljeni domaćini"

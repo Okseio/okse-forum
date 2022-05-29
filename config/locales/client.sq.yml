@@ -129,7 +129,7 @@ sq:
       visible:
         enabled: "listuar %{when}"
         disabled: "çlistuar %{when}"
-    wizard_required: "Mirseerdhët tek faqja juaj e re Discourse! Le t'ia nisim me <a href='%{url}' data-auto-route='true'>\"setup wizard\"</a> ✨"
+    wizard_required: "Mirseerdhët tek faqja juaj e re Okse! Le t'ia nisim me <a href='%{url}' data-auto-route='true'>\"setup wizard\"</a> ✨"
     emails_are_disabled: "Emailat janë çaktivizuar globalisht nga administratori i faqes. Asnjë njoftim me email nuk do të dërgohet. "
     themes:
       default_description: "Paracaktuar"

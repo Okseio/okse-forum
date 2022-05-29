@@ -23,11 +23,11 @@ el:
     <<: *datetime_formats
     am: "πμ"
     pm: "μμ"
-  title: "Discourse"
+  title: "Okse"
   topics: "Νήματα"
   posts: "αναρτήσεις"
   loading: "Φόρτωση"
-  powered_by_html: 'Powered by Discourse, best viewed with JavaScript enabled'
+  powered_by_html: 'Powered by Okse, best viewed with JavaScript enabled'
   sign_up: "Εγγραφείτε"
   log_in: "Σύνδεση"
   purge_reason: "Διεγράφη αυτόματα ως εγκαταλελειμμένος, μη ενεργοποιημένος λογαριασμός."
@@ -349,7 +349,7 @@ el:
   staff_category_name: "Συνεργάτες"
   staff_category_description: "Ιδιωτική κατηγορία για συζητήσεις των συνεργατών. Τα θέματα είναι ορατά μόνο σε διαχειριστές και συντονιστές."
   discourse_welcome_topic:
-    title: "Καλώς ήρθατε στο Discourse"
+    title: "Καλώς ήρθατε στο Okse"
     body: |2
 
       Η πρώτη παράγραφος αυτού του καρφιτσωμένου θέματος θα είναι ορατή ως μήνυμα καλωσορίσματος προς τους νέους επισκέπτες της σελίδας. Είναι σημαντικό!
@@ -916,7 +916,7 @@ el:
     moderators_create_categories: "Να επιτρέπεται στους συντονιστές να δημιουργούν νέες κατηγορίες"
     cors_origins: "Επιτρεπόμενες πηγές για αιτήσεις πολλαπλής προέλευσης (cross-origin requests, CORS). Η κάθε προέλευση πρέπει να περιέχει http:// or https://. Η env μεταβλητή DISCOURSE_ENABLE_CORS πρέπει να οριστεί σε αληθινή για να ενεργοποιηθεί το CORS."
     use_admin_ip_whitelist: "Οι διαχειριστές μπορούν να συνδέονται μόνο αν βρίσκονται σε μια διευθυνση IP καθορισμένη στη λίστα Screened IPs (Admin > Logs > Screened Ips)."
-    blacklist_ip_blocks: "Μια λίστα από private IP blocks η οποία ποτέ δεν θα ανιχνεύεται από το Discourse"
+    blacklist_ip_blocks: "Μια λίστα από private IP blocks η οποία ποτέ δεν θα ανιχνεύεται από το Okse"
     whitelist_internal_hosts: "Μια λίστα από internal hosts την οποία το discourse μπορεί να ανιχνεύει με ασφάλεια για oneboxing και άλλους λόγους"
     allowed_iframes: "Μία λίστα από iframe src domain prefixes τα οποία το discourse μπορεί με ασφάλεια να επιτρέπει στις αναρτήσεις."
     top_menu: "Καθόρισε ποια αντικείμενα θα εμφανίζονται στην πλοήγηση της αρχικής σελίδας και με ποια σειρά. Παράδειγμα τελευταία/νέα/μη αναγνωσμένα/κατηγορίες/κορυφαία/αναγνωσμένα/δημοσιευμένα/σελιδοδείκτες"
@@ -941,7 +941,7 @@ el:
     email_domains_whitelist: "Μία λίστα με διευθύνσεις email τις οποίες οι χρήστες ΘΑ ΠΡΕΠΕΙ να χρησιμοποιήσουν για να δημιουργήσουν λογαριασμό. ΠΡΟΣΟΧΗ: οι χρήστες με διευθύνσεις email οι οποίες δεν βρίσκονται σε αυτή τη λίστα δεν θα μπορούν να δημιουργήσουν λογαριασμό."
     hide_email_address_taken: "Μην ενημερώνεις του χρήστες ότι υπάρχει λογαριασμός χρήστη με αυτήν την διεύθυνση email κατά την εγγραφή και στην φόρμα επαναφοράς κωδικού."
     log_out_strict: "Όταν αποσυνδεθείτε, ΟΛΕΣ οι δραστηριότητες σας σε ΟΛΕΣ τις συσκευές θα αποσυνδεθούν"
-    new_version_emails: "Αποστολή email στην contact_email διεύθυνση όταν μια νέα έκδοση του Discourse είναι διαθέσιμη."
+    new_version_emails: "Αποστολή email στην contact_email διεύθυνση όταν μια νέα έκδοση του Okse είναι διαθέσιμη."
     invite_expiry_days: "Για πόσο καιρό οι κύριες προσκλήσεις ισχύουν, σε μέρες "
     login_required: "Απαιτήστε την επικύρωση για να διαβάσετε το περιεχόμενο σε αυτήν την ιστοσελίδα, απαγορεύσετε την ανώνυμη πρόσβαση."
     min_username_length: "Ελάχιστο μέγεθος ονόματος χρήστη σε χαρακτήρες. ΠΡΟΣΟΧΗ: εάν υπάρχουν χρήστες ή ομάδες που έχουν ονόματα πιο μικρά από την ρύθμιση αυτή, θα δημιουργηθεί πρόβλημα στην λειτουργία της ιστοσελίδας!"
@@ -1158,7 +1158,7 @@ el:
     email_accent_fg_color: "Το χρώμα του κειμένου που θα αποδωθεί στο φόντο του email σε HTML ηλεκτρονικά μηνύματα. Εισήγαγε το όνομα του χρώματος ('white') ή την δεκαεξαδική τιμή του ('#FFFFFF')."
     email_link_color: "Το χρώμα των συνδέσμων σε HTML email. Εισήγαγε το όνομα του χρώματος ('blue') ή την δεκαεξαδική τιμή του ('#0000FF'). "
     detect_custom_avatars: "Αν πρέπει ή όχι να ελεγχθεί ότι οι χρήστες έχουν μεταφορτώσει εξατομικευμένες φωτογραφίες προφίλ. "
-    max_daily_gravatar_crawls: "Μέγιστος αριθμός φορών που το Discourse θα ελέγξει το Gravatar για προσαρμοσμένα avatars σε μία μέρα"
+    max_daily_gravatar_crawls: "Μέγιστος αριθμός φορών που το Okse θα ελέγξει το Gravatar για προσαρμοσμένα avatars σε μία μέρα"
     enable_user_directory: "Παροχή καταλόγου χρηστών για περιήγηση"
     enable_group_directory: "Παροχή καταλόγου με ομάδες για περιήγηση"
     allow_anonymous_posting: "Επίτρεψε στους χρήστες να μεταβαίνουν σε ανώνυμη κατάσταση"
@@ -1457,7 +1457,7 @@ el:
     subject_template: "[%{email_prefix}] Email Deliverability Test"
   new_version_mailer:
     title: "Αποστολή Καινούργιας Έκδοσης"
-    subject_template: "[%{email_prefix}] Νέα έκδοση Discourse, διαθέσιμη ενημέρωση"
+    subject_template: "[%{email_prefix}] Νέα έκδοση Okse, διαθέσιμη ενημέρωση"
   new_version_mailer_with_notes:
     title: "Αποστολή Καινούργιας Έκδοσης με Σημειώσεις"
     subject_template: "[%{email_prefix}] διαθέσιμη ενημέρωση"
@@ -2215,7 +2215,7 @@ el:
 
       The conversations we have here set the tone for every new arrival. Help us influence the future of this community by choosing to engage in discussions that make this forum an interesting place to be &mdash; and avoiding those that do not.
 
-      Discourse provides tools that enable the community to collectively identify the best (and worst) contributions: bookmarks, likes, flags, replies, edits, and so forth. Use these tools to improve your own experience, and everyone else’s, too.
+      Okse provides tools that enable the community to collectively identify the best (and worst) contributions: bookmarks, likes, flags, replies, edits, and so forth. Use these tools to improve your own experience, and everyone else’s, too.
 
       Let’s leave our community better than we found it.
 
@@ -2564,7 +2564,7 @@ el:
     staff_tag_remove_disallowed: 'Η ετικέτα "%{tag}"μπορεί να αφαιρεθεί μόνο από τους συνεργάτες.'
   rss_by_tag: "Νήματα με ετικέτες %{tag}"
   finish_installation:
-    congratulations: "Συγχαρητήρια, έχετε εγκαταστήσει το Discourse!"
+    congratulations: "Συγχαρητήρια, έχετε εγκαταστήσει το Okse!"
     register:
       button: "Εγγραφή"
       title: "Εγγραφή Λογαριασμού Διαχειριστή"
@@ -2583,10 +2583,10 @@ el:
     enter: "Έναρξη Ασφαλούς Λειτουργίας"
     must_select: "Θα πρέπει να διαλέξτε τουλάχιστον μία επιλογή για να εισέλθετε σε ασφαλή λειτοθργία."
   wizard:
-    title: "Εγκατάσταση Discourse"
+    title: "Εγκατάσταση Okse"
     step:
       locale:
-        title: "Καλώς ήλθες στο Discourse!"
+        title: "Καλώς ήλθες στο Okse!"
         fields:
           default_locale:
             description: "Ποια είναι η προεπιλεγμένη γλώσσα για την κοινότητά σου;"
@@ -2666,7 +2666,7 @@ el:
         title: "Πρόσκληση Συνεργάτη"
         description: "Έχεις σχεδόν τελειώσει! Ας προσκαλέσουμε μερικούς χρήστες να <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>συμμετάσχουν στις συζητήσεις</a> με ενδιαφέροντα νήματα και αναρτήσεις ώστε να ξεκινήσει να λειτουργεί η κοινότητα. "
       finished:
-        title: "Το Discourse σου είναι έτοιμο!"
+        title: "Το Okse σου είναι έτοιμο!"
   joined: "Έγινε μέλος"
   discourse_push_notifications:
     popup:

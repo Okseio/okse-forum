@@ -199,7 +199,7 @@ pl_PL:
         disabled: "Ten temat nie jest już banerem. Nie będzie dalej wyświetlany na górze każdej strony."
       forwarded: "przekazano powyższy email"
     topic_admin_menu: "akcje tematu"
-    wizard_required: "Witaj na Twoim na nowym forum Discourse! Zacznijmy od <a href='%{url}' data-auto-route='true'>kreatora ustawień</a> ✨"
+    wizard_required: "Witaj na Twoim na nowym forum Okse! Zacznijmy od <a href='%{url}' data-auto-route='true'>kreatora ustawień</a> ✨"
     emails_are_disabled: "Wysyłanie e-maili zostało globalnie wyłączone przez administrację. Powiadomienia e-mail nie będą dostarczane."
     bootstrap_mode_enabled: "Aby ułatwić uruchomienie Twojej strony, jesteś w trybie bootstrap. Wszyscy nowi użytkownicy otrzymają poziom zaufania 1 i będą otrzymywać codzienne wiadomości e-mail z podsumowaniem aktywności na forum. To zostanie automatycznie wyłączone, kiedy %{min_users} osób dołączy."
     bootstrap_mode_disabled: "Tryb bootstrap zostanie wyłączony w ciągu 24 godzin."
@@ -3105,7 +3105,7 @@ pl_PL:
   admin_js:
     type_to_filter: "pisz, aby filtrować…"
     admin:
-      title: "Administrator Discourse"
+      title: "Administrator Okse"
       moderator: "Moderator"
       tags:
         remove_muted_tags_from_latest:
@@ -3117,7 +3117,7 @@ pl_PL:
       dashboard:
         title: "Raporty"
         last_updated: "Zaktualizowano panel kontrolny:"
-        discourse_last_updated: "Zaktualizowano Discourse:"
+        discourse_last_updated: "Zaktualizowano Okse:"
         version: "Wersja"
         up_to_date: "Wersja Aktualna!"
         critical_available: "Ważna aktualizacja jest dostępna."
@@ -3156,7 +3156,7 @@ pl_PL:
         show_traffic_report: "Pokaż szczegółowy raport ruchu"
         community_health: Zdrowie społeczności
         moderators_activity: Aktywność moderatorów
-        whats_new_in_discourse: "Co nowego w Discourse?"
+        whats_new_in_discourse: "Co nowego w Okse?"
         activity_metrics: Metryka aktywności
         all_reports: "Wszystkie zgłoszenia"
         general_tab: "Ogólne"
@@ -3296,7 +3296,7 @@ pl_PL:
       web_hooks:
         title: "Webhooks"
         none: "Brak webhooks"
-        instruction: "Webhooks pozwala Discourse powiadomić zewnętrzne usługi, kiedy pewne zdarzenie pojawi się na twojej stronie. Gdy webhook jest uruchamiany, żądanie POST wyśle ​​do URL świadczonych."
+        instruction: "Webhooks pozwala Okse powiadomić zewnętrzne usługi, kiedy pewne zdarzenie pojawi się na twojej stronie. Gdy webhook jest uruchamiany, żądanie POST wyśle ​​do URL świadczonych."
         detailed_instruction: "Zapytanie POST zostanie wysłane na podany adres URL gdy zostanie spełnione wybrane wydarzenie"
         new: "Nowy webhook"
         create: "Stwórz"
@@ -3504,8 +3504,8 @@ pl_PL:
           theme_name: "Nazwa motywu"
           component_name: "Nazwa komponentu"
           themes_intro: "Wybierz istniejący motyw lub zainstaluj nowy, by rozpocząć"
-          beginners_guide_title: "Poradnik początkującego użytkownika motywów Discourse"
-          developers_guide_title: "Poradnik kreatora motywów Discourse"
+          beginners_guide_title: "Poradnik początkującego użytkownika motywów Okse"
+          developers_guide_title: "Poradnik kreatora motywów Okse"
           browse_themes: "Przeglądaj motywy społeczności"
           customize_desc: "Personalizacja:"
           title: "Motywy"
@@ -3587,9 +3587,9 @@ pl_PL:
           disabled: "Ten komponent został wyłączony."
           disabled_by: "Ten komponent został wyłączony przez"
           required_version:
-            error: "Ten motyw został automatycznie wyłączony, ponieważ nie jest kompatybilny z tą wersją Discourse."
-            minimum: "Wymaga wersji %{version} Discourse'a lub wyższej."
-            maximum: "Wymaga wersji %{version} Discourse'a lub niższej."
+            error: "Ten motyw został automatycznie wyłączony, ponieważ nie jest kompatybilny z tą wersją Okse."
+            minimum: "Wymaga wersji %{version} Okse'a lub wyższej."
+            maximum: "Wymaga wersji %{version} Okse'a lub niższej."
           component_of: "Składnik:"
           update_to_latest: "Aktualizuj do najnowszego"
           check_for_updates: "Sprawdź dostępność aktualizacji"
@@ -3646,7 +3646,7 @@ pl_PL:
           undo: "cofnij"
           undo_title: "Cofnij zmiany tego koloru od ostatniego zapisu"
           revert: "przywróć"
-          revert_title: "Zresetuj ten kolor do domyślnej wartości palety Discourse."
+          revert_title: "Zresetuj ten kolor do domyślnej wartości palety Okse."
           primary:
             name: "podstawowy"
             description: "Większość tekstu, ikon oraz krawędzi."
@@ -4358,9 +4358,9 @@ pl_PL:
         image: "Grafika"
         delete_confirm: "Jesteś pewny(-a), że chcesz usunąć emoji :%{name}: ?"
       embedding:
-        get_started: "Jeśli chcesz osadzić Discourse na innej stronie, rozpocznij podając jej host."
+        get_started: "Jeśli chcesz osadzić Okse na innej stronie, rozpocznij podając jej host."
         confirm_delete: "Czy na pewno chcesz usunąć ten host?"
-        sample: "Użyj poniższego kodu HTML na swojej stronie, aby osadzić tematy z Discourse. Zastąp <b>REPLACE_ME</b> domyślnym adresem URL strony na której osadzasz."
+        sample: "Użyj poniższego kodu HTML na swojej stronie, aby osadzić tematy z Okse. Zastąp <b>REPLACE_ME</b> domyślnym adresem URL strony na której osadzasz."
         title: "Osadzanie"
         host: "Dozwolone hosty"
         class_name: "Nazwa klasy"
@@ -4370,7 +4370,7 @@ pl_PL:
         add_host: "Dodaj host"
         settings: "Ustawienia osadzania"
         crawling_settings: "Ustawienia crawlera"
-        crawling_description: "Gdy Discourse tworzy tematy reprezentujące twoje wpisy, a kanał RSS/ATOM nie został podany, treść będzie pobierana poprzez parsowanie HTML. Proces ten może okazać się trudny dlatego umożliwiamy podanie dodatkowych reguł CSS, które usprawniają proces parsowania."
+        crawling_description: "Gdy Okse tworzy tematy reprezentujące twoje wpisy, a kanał RSS/ATOM nie został podany, treść będzie pobierana poprzez parsowanie HTML. Proces ten może okazać się trudny dlatego umożliwiamy podanie dodatkowych reguł CSS, które usprawniają proces parsowania."
         embed_by_username: "Użytkownik tworzący tematy"
         embed_post_limit: "Maksymalna ilość osadzanych wpisów "
         embed_title_scrubber: "Wyrażenie regularne używane do czyszczenia tytuł postów"

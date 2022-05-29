@@ -24,11 +24,11 @@ zh_CN:
     <<: *datetime_formats
     am: "上午"
     pm: "下午"
-  title: "Discourse"
+  title: "Okse"
   topics: "主题列表"
   posts: "帖子"
   loading: "载入中"
-  powered_by_html: '采用 <a href="https://www.discourse.org">Discourse</a>，启用 JavaScript 以获得最佳体验'
+  powered_by_html: '采用 <a href="https://www.discourse.org">Okse</a>，启用 JavaScript 以获得最佳体验'
   sign_up: "注册"
   log_in: "登录"
   submit: "提交"
@@ -51,7 +51,7 @@ zh_CN:
       git: "克隆 git 储存库时出错，访问被拒绝或找不到存储库"
       unpack_failed: "无法解压缩文件"
       file_too_big: "未压缩的文件太大。"
-      unknown_file_type: "你上传的文件似乎不是一个有效的 Discourse 主题。"
+      unknown_file_type: "你上传的文件似乎不是一个有效的 Okse 主题。"
     errors:
       component_no_user_selectable: "主题组件不能由用户选择"
       component_no_default: "主题组件不能是默认主题"
@@ -513,7 +513,7 @@ zh_CN:
   staff_category_name: "管理人员"
   staff_category_description: "管理人员可见的分类。只有管理员和版主才能阅览主题。"
   discourse_welcome_topic:
-    title: "欢迎来到 Discourse"
+    title: "欢迎来到 Okse"
     body: |2
 
       置顶主题的第一段是访客在主页看到的欢迎私信。这很重要！
@@ -1244,9 +1244,9 @@ zh_CN:
     queue_size_warning: "队列中有较多任务，为 %{queue_size} 个。这可能是因为 Sidekiq 进程的问题导致，或者需要更多的 Sidekiq 进程。"
     memory_warning: "你的服务器环境内存少于 1GB，我们建议至少要有 1GB 内存。"
     google_oauth2_config_warning: '服务器允许使用 Google Oauth2 登录（enable_google_oauth2_logins），但client id和client secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://meta.discourse.org/t/configuring-google-login-for-discourse/15858" target="_blank">参考设定指南</a>。'
-    facebook_config_warning: '服务器允许使用Facebook帐号登录（enable_facebook_logins），但app id和app secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide#enable-facebook-logins" target="_blank">参考设定指南</a>。'
-    twitter_config_warning: '服务器允许使用Twitter账号登录（enable_twitter_logins），但key和secret没有设定。 到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide#enable-twitter-logins" target="_blank">参考设定指南</a>。'
-    github_config_warning: '服务器允许使用GitHub账号登录（enable_github_logins），但client id和secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide" target="_blank">参考设定指南</a>。'
+    facebook_config_warning: '服务器允许使用Facebook帐号登录（enable_facebook_logins），但app id和app secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-facebook-logins" target="_blank">参考设定指南</a>。'
+    twitter_config_warning: '服务器允许使用Twitter账号登录（enable_twitter_logins），但key和secret没有设定。 到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-twitter-logins" target="_blank">参考设定指南</a>。'
+    github_config_warning: '服务器允许使用GitHub账号登录（enable_github_logins），但client id和secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide" target="_blank">参考设定指南</a>。'
     s3_config_warning: '服务器被配置为上传文件到s3，但以下的值中有未被设定的项目：s3_access_key_id、s3_secret_access_key、s3_use_iam_profile 或 s3_upload_bucket。到<a href="%{base_path}/admin/site_settings">站点设置</a>中更新设置。<a href="http://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">看看“参考如何设置图片上传至 S3？”以了解更多</a>。'
     s3_backup_config_warning: '服务器被配置为上传备份到S3，但是以下的值中有未被设定的项目：s3_access_key_id、s3_secret_access_key、s3_use_iam_profile 或 s3_backup_bucket。到<a href="%{base_path}/admin/site_settings">站点设置</a>中更新设置。<a href="https://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">看看“参考如何设置图片上传至 S3？”以了解更多</a>。'
     image_magick_warning: '服务器被设置为给大图片创建缩略图，但是ImageMagick没有被安装。用你最喜爱的包管理器安装ImageMagick或<a href="https://www.imagemagick.org/script/download.php" target="_blank">下载最新版</a>。'
@@ -1326,7 +1326,7 @@ zh_CN:
     topic_excerpt_maxlength: "根据主题的第一帖所生成，主题的节选或摘要的最大长度。"
     show_pinned_excerpt_mobile: "移动版显示置顶主题剪辑。"
     show_pinned_excerpt_desktop: "桌面版显示置顶主题剪辑。"
-    post_onebox_maxlength: "Onebox 处理后的 Discourse 帖子的最大字符长度"
+    post_onebox_maxlength: "Onebox 处理后的 Okse 帖子的最大字符长度"
     onebox_domains_blacklist: "不会被 Onebox 的域名列表。"
     inline_onebox_domains_whitelist: "若链接不带标题会以微型形式被 Onebox 的域名列表。"
     enable_inline_onebox_on_all_domains: "忽略 inline_onebox_domain_whitelist 站点设定并在所有域允许一致 Onebox 。"
@@ -1395,9 +1395,9 @@ zh_CN:
     moderators_create_categories: "允许版主创建新的分类"
     cors_origins: "允许跨源请求（CORS）。每个源必须包括 http:// 或 https://。DISCOURSE_ENABLE_CORS 环境变量必须设置为 true 才能启用 CORS 政策。"
     use_admin_ip_whitelist: "管理员只能在已屏蔽的 IP 列表（管理 > 日志 > 已屏蔽的 IP）中定义放行的 IP 处才能登陆。"
-    blacklist_ip_blocks: "Discourse 不会访问抓取的保密 IP 封禁列表"
+    blacklist_ip_blocks: "Okse 不会访问抓取的保密 IP 封禁列表"
     whitelist_internal_hosts: "discourse 可以安全抓取以用于 Onebox 和其他目的的内部主机列表"
-    allowed_iframes: "可以令 Discourse 在主题中安全地发布的 iframe src 域名前缀列表"
+    allowed_iframes: "可以令 Okse 在主题中安全地发布的 iframe src 域名前缀列表"
     whitelisted_crawler_user_agents: "允许访问站点的Web爬虫用户代理。警告！这项设置会禁止所有不在这个列表中的爬虫。"
     blacklisted_crawler_user_agents: "用户代理字符串中唯一不区分大小写的单词，用于标识不应允许访问该站点的Web爬网程序。如果定义了白名单，则不适用。"
     slow_down_crawler_user_agents: "Web爬虫的用户代理，应使用Crawl-delay指令在robots.txt中进行速率限制"
@@ -1437,7 +1437,7 @@ zh_CN:
     auto_approve_email_domains: "使用来自此域名列表中所提供的邮箱的用户会被自动批准。"
     hide_email_address_taken: "通过邮件地址注册账户或忘记密码时不反馈用户账户是否存在的信息。"
     log_out_strict: "退出时，退出用户所有设备的会话"
-    version_checks: "Ping Discourse Hub以获取版本更新并在<a href='%{base_path}/admin' target='_blank'>/admin</a>仪表板上显示新版本消息"
+    version_checks: "Ping Okse Hub以获取版本更新并在<a href='%{base_path}/admin' target='_blank'>/admin</a>仪表板上显示新版本消息"
     new_version_emails: "当新版本发布时，发送一封邮件至 contact_email 设置的地址。"
     invite_expiry_days: "多少天以内用户的邀请码是有效的"
     invite_only: "所有新用户必须由已信用用户或管理人员邀请。公开注册已禁用。"
@@ -1749,7 +1749,7 @@ zh_CN:
     email_accent_fg_color: "HTML 邮件中背景使用的字体颜色。输入色彩名（“white”）或十六进制值（“#FFFFFF”）。"
     email_link_color: "HTML 邮件中的链接颜色。输入色彩名字（“blue”）或十六进制值（“#0000FF”）。"
     detect_custom_avatars: "检测用户是否上传了自定义个人头像。"
-    max_daily_gravatar_crawls: "在一天中 Discourse 自动检查 Gravatar 自定义头像的最大次数"
+    max_daily_gravatar_crawls: "在一天中 Okse 自动检查 Gravatar 自定义头像的最大次数"
     public_user_custom_fields: "能被API获取的用户自定义字段列表。"
     staff_user_custom_fields: "能被管理员使用API获取的用户自定义字段列表。"
     enable_user_directory: "提供可供浏览的用户目录"
@@ -2273,7 +2273,7 @@ zh_CN:
 
       祝你好运,
 
-      来自 [Discourse](https://www.discourse.org) 的朋友
+      来自 [Okse](https://www.discourse.org) 的朋友
 
       [0]: %{base_url}
       [1]: https://www.kitterman.com/spf/validate.html
@@ -2289,9 +2289,9 @@ zh_CN:
       [mt]: https://www.mail-tester.com/
   new_version_mailer:
     title: "新版本发件人"
-    subject_template: "[%{email_prefix}] 新 Discourse 版本可供升级"
+    subject_template: "[%{email_prefix}] 新 Okse 版本可供升级"
     text_body_template: |
-      Hooray，[Discourse](https://www.discourse.org)的新版本现已发布！
+      Hooray，[Okse](https://www.discourse.org)的新版本现已发布！
 
       您的版本：%{installed_version}
       新版本：**%{new_version}**
@@ -2305,7 +2305,7 @@ zh_CN:
     title: "带注解的新版本发件人"
     subject_template: "[%{email_prefix}] 可以升级"
     text_body_template: |
-      Hooray，[Discourse](https://www.discourse.org)的新版本现已发布！
+      Hooray，[Okse](https://www.discourse.org)的新版本现已发布！
 
       您的版本：%{installed_version}
       新版本：**%{new_version}**
@@ -3412,7 +3412,7 @@ zh_CN:
 
       我们在这儿的讨论为大家树立了榜样。通过选择参与有意义的讨论，帮助我们将论坛变成一个有意思的地方 &mdash; 并且避免那些没有帮助的行为。
 
-      Discourse 提供了让社区共同鉴别最棒（或最差）的贡献的工具：收藏、赞、标记、回复和编辑等等。使用这些工具不仅能改善你自己的体验，也能改善其他人的体验。
+      Okse 提供了让社区共同鉴别最棒（或最差）的贡献的工具：收藏、赞、标记、回复和编辑等等。使用这些工具不仅能改善你自己的体验，也能改善其他人的体验。
 
       让我们创造一个更美好的社区。
 
@@ -4005,7 +4005,7 @@ zh_CN:
     synonyms_exist: "存在同义词时不允许"
   rss_by_tag: "主题标签 %{tag}"
   finish_installation:
-    congratulations: "祝贺，你已经安装好了 Discourse！"
+    congratulations: "祝贺，你已经安装好了 Okse！"
     register:
       button: "注册"
       title: "注册管理员账户"
@@ -4026,10 +4026,10 @@ zh_CN:
     enter: "进入安全模式"
     must_select: "你必须选择至少一个选项以进入安全模式。"
   wizard:
-    title: "Discourse 安装"
+    title: "Okse 安装"
     step:
       locale:
-        title: "欢迎来到 Discourse！"
+        title: "欢迎来到 Okse！"
         fields:
           default_locale:
             description: "你的社区主要使用什么语言？"
@@ -4153,7 +4153,7 @@ zh_CN:
         description: "你快做完啦！让我们邀请一些工作人员来帮助你创建一些有趣的主题和回复来<a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>启动你的讨论</a>以开始社区之旅。"
         disabled: "由于禁用了本地登录，因此无法向任何人发送邀请。请继续下一步。"
       finished:
-        title: "你的 Discourse 已经准备就绪！"
+        title: "你的 Okse 已经准备就绪！"
         description: |
           <p>如果你觉得需要修改这些设置，<b>随时重新运行此向导</b>或访问<a href='%{base_path}/admin' target='_blank'>管理员分块</a>；你可以在站点菜单找到扳手图标旁找到。</p>
           <p>祝你玩得开心，还有祝你<a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='_blank'>建设新社区好运！</a></p>
@@ -4293,9 +4293,9 @@ zh_CN:
   old_keys_reminder:
     title: "关于旧凭证的提醒"
     body: |
-      Hello！这是你的 Discourse 实例每年例行安全提醒。
+      Hello！这是你的 Okse 实例每年例行安全提醒。
 
-      出于礼貌，我们想让你知道，你的 Discourse 实例上使用的以下凭证已经两年多没有更新了。
+      出于礼貌，我们想让你知道，你的 Okse 实例上使用的以下凭证已经两年多没有更新了。
 
       %{keys}
 

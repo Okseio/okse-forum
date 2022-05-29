@@ -152,7 +152,7 @@ hu:
         enabled: "Kiemelve ekkor: %{when}. Amíg a felhasználó nem törli, minden oldal tetején megjelenik."
         disabled: "Kiemelés eltávolítva ekkor: %{when}. Többé nem jelenik meg minden oldal tetején."
     topic_admin_menu: "témaműveletek"
-    wizard_required: "Üdvözöljük az új Discourse-on. Kezdjük a <a href='%{url}' data-auto-route='true'>beállításvarázslóval</a>. ✨"
+    wizard_required: "Üdvözöljük az új Okse-on. Kezdjük a <a href='%{url}' data-auto-route='true'>beállításvarázslóval</a>. ✨"
     emails_are_disabled: "Egy adminisztrátor letiltotta a kimenő e-maileket. Semmilyen értesítő e-mail nem lesz elküldve."
     bootstrap_mode_enabled: "Hogy könnyebbé tegyük az új oldala elindítását, most előkészítési módban van. Minden új felhasználó 1-es szintet kap és be lesz állítva, hogy napi kivonat e-mailt kapjanak. Ez a beállítás automatikusan kikapcsol, ha legalább %{min_users} felhasználó regisztrált."
     bootstrap_mode_disabled: "Az előkészítési mód 24 órán belül kikapcsol."
@@ -2365,7 +2365,7 @@ hu:
   admin_js:
     type_to_filter: "Írj ide a szűréshez.."
     admin:
-      title: "Discourse Admin"
+      title: "Okse Admin"
       moderator: "Moderátor"
       tags:
         remove_muted_tags_from_latest:
@@ -3190,7 +3190,7 @@ hu:
         image: "Kép"
         delete_confirm: "Biztos, hogy törli a(z) :%{name}: emodzsit?"
       embedding:
-        get_started: "Ha szeretnéd a Discourse-t egy másik weboldalba ágyazni, kezdd a hoszt megadásával."
+        get_started: "Ha szeretnéd a Okse-t egy másik weboldalba ágyazni, kezdd a hoszt megadásával."
         title: "Beágyazás"
         host: "Engedélyezett hosztok"
         edit: "szerkesztés"

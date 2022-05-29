@@ -23,11 +23,11 @@ lt:
     <<: *datetime_formats
     am: "ryte"
     pm: "vakare"
-  title: "Discourse"
+  title: "Okse"
   topics: "Temos"
   posts: "žinutės"
   loading: "Kraunama"
-  powered_by_html: 'Sukurta <a href="https://www.discourse.org">Discourse</a>, geriausias žiūrimumas su JavaScript igalinimu'
+  powered_by_html: 'Sukurta <a href="https://www.discourse.org">Okse</a>, geriausias žiūrimumas su JavaScript igalinimu'
   sign_up: "Registruotis"
   log_in: "Prisijungti"
   submit: "Pateikti"
@@ -209,7 +209,7 @@ lt:
   staff_category_name: "Personalas"
   staff_category_description: "Privati kategorija personalo diskusijoms. Temos matomos tik administratoriams ir moderatoriams."
   discourse_welcome_topic:
-    title: "Sveiki atvykę į Discourse"
+    title: "Sveiki atvykę į Okse"
   lounge_welcome:
     title: "Sveiki atvykę į Šaukyklą"
   category:
@@ -660,7 +660,7 @@ lt:
     title: "Testuoti Siuntimą"
     subject_template: "[%{email_prefix}]Pasto veikimo testas"
   new_version_mailer:
-    subject_template: "[%{email_prefix}] Išleista Nauja Discourse versija"
+    subject_template: "[%{email_prefix}] Išleista Nauja Okse versija"
   new_version_mailer_with_notes:
     subject_template: "[%{email_prefix}] Galimas atnaujinimas"
   system_messages:
@@ -1058,7 +1058,7 @@ lt:
       invites:
         title: "Pakviesti valdytojus"
       finished:
-        title: "Jūsų Discourse paruoštas!"
+        title: "Jūsų Okse paruoštas!"
   search_logs:
     graph_title: "Ieškoti kontakto"
   joined: "Prisijungė"

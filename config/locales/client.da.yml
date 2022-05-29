@@ -151,7 +151,7 @@ da:
       banner:
         enabled: "lavede dette til et banner %{when}. Emnet bliver vist på toppen af alle sider indtil det bliver afskediget af brugeren."
         disabled: "fjernede banneret %{when}. Det vil ikke længere vises i toppen af alle sider."
-    wizard_required: "Velkommen til din nye Discourse! Lad os komme i gang med <a href='%{url}' data-auto-route='true'>konfigurationsguiden</a> ✨"
+    wizard_required: "Velkommen til din nye Okse! Lad os komme i gang med <a href='%{url}' data-auto-route='true'>konfigurationsguiden</a> ✨"
     emails_are_disabled: "Alle udgående emails er blevet globalt deaktiveret af en administrator. Ingen email notifikationer af nogen slags vil blive sendt."
     bootstrap_mode_enabled: "For at gøre lanceringen af dit nye forum lettere er du i bootstrap-tilstand. Alle nye brugere tildeles tillidsniveau 1 og har dagligt email resume aktiveret. Dette deaktiveres automatisk, når %{min_users} brugere er tilsluttet."
     bootstrap_mode_disabled: "Bootstrap-tilstand deaktiveres inden for 24 timer."
@@ -2852,7 +2852,7 @@ da:
   admin_js:
     type_to_filter: "skriv for at filtrere…"
     admin:
-      title: "Discourse Admin"
+      title: "Okse Admin"
       moderator: "Moderator"
       tags:
         remove_muted_tags_from_latest:
@@ -2864,9 +2864,9 @@ da:
       dashboard:
         title: "Dashboard"
         last_updated: "instrumentbræt opdateret:"
-        discourse_last_updated: "Discourse opdateret:"
+        discourse_last_updated: "Okse opdateret:"
         version: "Installeret version"
-        up_to_date: "Du kører den seneste version af Discourse."
+        up_to_date: "Du kører den seneste version af Okse."
         critical_available: "En kritisk opdatering er tilgængelig."
         updates_available: "Opdatering er tilgængelige."
         please_upgrade: "Opgradér venligst!"
@@ -2901,7 +2901,7 @@ da:
         show_traffic_report: "Vist detaljeret trafik rapport"
         community_health: Fællesskabets sundhed
         moderators_activity: Moderator aktivitet
-        whats_new_in_discourse: "Hvad er nyt i Discourse?"
+        whats_new_in_discourse: "Hvad er nyt i Okse?"
         activity_metrics: Aktivitetsmåling
         all_reports: "Alle rapporter"
         general_tab: "Overordnet"
@@ -3024,7 +3024,7 @@ da:
       web_hooks:
         title: "Webhooks"
         none: "Der er ingen webhooks i øjeblikket"
-        instruction: "Webhooks lader Discourse notificere eksterne tjenester når visse events forekommer på dit site. Når en webhook udløses, så sendes der en POST-forespørgsel til URL-adresserne som er angivet."
+        instruction: "Webhooks lader Okse notificere eksterne tjenester når visse events forekommer på dit site. Når en webhook udløses, så sendes der en POST-forespørgsel til URL-adresserne som er angivet."
         detailed_instruction: "En POST-forespørgsel vil blive sendt til den angivne URL når valgt event forekommer."
         new: "Ny Webhook"
         create: "Opret"
@@ -3225,8 +3225,8 @@ da:
           theme_name: "Tema navn"
           component_name: "Komponent navn"
           themes_intro: "Vælg et eksisterende tema, eller installer et nyt for at komme i gang"
-          beginners_guide_title: "Begyndervejledning til brug af Discourse Temaer"
-          developers_guide_title: "Udviklervejledning til brug af Discourse Temaer"
+          beginners_guide_title: "Begyndervejledning til brug af Okse Temaer"
+          developers_guide_title: "Udviklervejledning til brug af Okse Temaer"
           browse_themes: "Gennemse fællesskabs temaer"
           customize_desc: "Tilpas:"
           title: "Temaer"
@@ -3308,9 +3308,9 @@ da:
           disabled: "Dette komponent er deaktiveret."
           disabled_by: "Dette komponent er deaktiveret af"
           required_version:
-            error: "Dette tema er automatisk deaktiveret, fordi det ikke er kompatibelt med denne version af Discourse."
-            minimum: "Kræver Discourse version %{version} eller nyere."
-            maximum: "Kræver Discourse version %{version} eller under."
+            error: "Dette tema er automatisk deaktiveret, fordi det ikke er kompatibelt med denne version af Okse."
+            minimum: "Kræver Okse version %{version} eller nyere."
+            maximum: "Kræver Okse version %{version} eller under."
           component_of: "Komponent af:"
           update_to_latest: "Opdatér til seneste"
           check_for_updates: "Tjek efter opdateringer"
@@ -3409,7 +3409,7 @@ da:
         preview_digest: "Forhåndsvisning af sammendrag"
         advanced_test:
           title: "Avanceret test"
-          desc: "Se hvordan Discourse behandler modtagne e-mails. For at kunne behandle email korrekt skal du indsætte hele den originale email besked her under."
+          desc: "Se hvordan Okse behandler modtagne e-mails. For at kunne behandle email korrekt skal du indsætte hele den originale email besked her under."
           email: "Original besked"
           run: "Kør test"
           text: "Valgt tekstdel"
@@ -4060,7 +4060,7 @@ da:
         image: "Billede"
         delete_confirm: "Er du sikker på du vil slette emojien: %{name} ?"
       embedding:
-        get_started: "Hvis du vil indlejre Discourse på et andet website, skal du starte med at tilføje dets server."
+        get_started: "Hvis du vil indlejre Okse på et andet website, skal du starte med at tilføje dets server."
         confirm_delete: "Er du sikker på at du vil slette denne server?"
         sample: "Tilføj denne HTML til dit site for at oprette og indlejre emner fra discourse. Erstat <b>REPLACE_ME</b> med den kanoniske URL for den side du indlejrer den på,"
         title: "Indlejring"
@@ -4072,7 +4072,7 @@ da:
         add_host: "Tilføj server"
         settings: "Indlejrings-indstillinger"
         crawling_settings: "Robot-indstillinger"
-        crawling_description: "Når Discourse opretter emner for dine indlæg, og der ikke er noget RSS/ATOM-feed, vil den forsøge at parse dit indhold ud fra din HTML. Det kan nogengange være en udfordring at udtrække dit indhold, så vi giver mulighed for at specificere CSS-regler for at gøre udtræk lettere."
+        crawling_description: "Når Okse opretter emner for dine indlæg, og der ikke er noget RSS/ATOM-feed, vil den forsøge at parse dit indhold ud fra din HTML. Det kan nogengange være en udfordring at udtrække dit indhold, så vi giver mulighed for at specificere CSS-regler for at gøre udtræk lettere."
         embed_by_username: "Brugernavn for oprettelse af emne"
         embed_post_limit: "Maksimalt antal indlæg der kan indlejres."
         embed_title_scrubber: "Regular expression er brugt til at gøre titler pæne på indlæg"

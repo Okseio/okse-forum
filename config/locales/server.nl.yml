@@ -24,11 +24,11 @@ nl:
     <<: *datetime_formats
     am: "am"
     pm: "pm"
-  title: "Discourse"
+  title: "Okse"
   topics: "Topics"
   posts: "berichten"
   loading: "Laden"
-  powered_by_html: 'Mogelijk gemaakt door <a href="https://www.discourse.org">Discourse</a>, best bekeken met JavaScript ingeschakeld'
+  powered_by_html: 'Mogelijk gemaakt door <a href="https://www.discourse.org">Okse</a>, best bekeken met JavaScript ingeschakeld'
   sign_up: "Registreren"
   log_in: "Aanmelden"
   submit: "Versturen"
@@ -45,13 +45,13 @@ nl:
       unrecognized_extension: "Niet-herkende bestandsextensie: %{extension}"
     import_error:
       generic: Er is een fout opgetreden bij het importeren van dat thema
-      about_json: "Belangrijke fout: about.json bestaat niet, of is ongeldig. Weet u zeker dat dit een Discourse-thema is?"
+      about_json: "Belangrijke fout: about.json bestaat niet, of is ongeldig. Weet u zeker dat dit een Okse-thema is?"
       about_json_values: "about.json bevat ongeldige waarden: %{errors}"
       modifier_values: "about.json-modificatoren bevatten ongeldige waarden: %{errors}"
       git: "Fout bij klonen van git-repository; toegang is geweigerd of repository is niet gevonden"
       unpack_failed: "Uitpakken van bestand mislukt"
       file_too_big: "Het niet-gecomprimeerde bestand is te groot."
-      unknown_file_type: "Het bestand dat u hebt geüpload lijkt geen geldig Discourse-thema te zijn."
+      unknown_file_type: "Het bestand dat u hebt geüpload lijkt geen geldig Okse-thema te zijn."
     errors:
       component_no_user_selectable: "Themaonderdelen kunnen niet door de gebruiker selecteerbaar zijn"
       component_no_default: "Themaonderdelen kunnen geen standaardthema zijn"
@@ -218,7 +218,7 @@ nl:
   provider_not_enabled: "U mag de opgevraagde bron niet bekijken. De authenticatieprovider is niet ingeschakeld."
   provider_not_found: "U mag de opgevraagde bron niet bekijken. De authenticatieprovider bestaat niet."
   read_only_mode_enabled: "De website bevindt zich in alleen-lezenmodus. Interacties zijn uitgeschakeld."
-  invalid_grant_badge_reason_link: "Externe of ongeldige Discourse-koppeling is niet toegestaan in badge-reden"
+  invalid_grant_badge_reason_link: "Externe of ongeldige Okse-koppeling is niet toegestaan in badge-reden"
   email_template_cant_be_modified: "Deze e-mailsjabloon kan niet worden aangepast."
   invalid_whisper_access: "Fluisterberichten zijn niet ingeschakeld, of u kunt geen fluisterberichten maken"
   not_in_group:
@@ -533,7 +533,7 @@ nl:
   staff_category_name: "Staf"
   staff_category_description: "Privécategorie voor stafgesprekken. Topics zijn alleen zichtbaar voor beheerders en moderators."
   discourse_welcome_topic:
-    title: "Welkom bij Discourse"
+    title: "Welkom bij Okse"
     body: |2
 
       De eerste alinea van dit vastgemaakte topic is op uw startpagina zichtbaar als een welkomstbericht voor alle nieuwe bezoekers. Dit is belangrijk!
@@ -1311,7 +1311,7 @@ nl:
     display_local_time_in_user_card: "De lokale tijd weergeven op basis van de tijdzone van een gebruiker wanneer zijn of haar gebruikerskaart wordt geopend."
     censored_words: "Woorden die automatisch door &#9632;&#9632;&#9632;&#9632; zullen worden vervangen"
     delete_old_hidden_posts: "Verborgen berichten die meer dan 30 dagen verborgen blijven automatisch verwijderen"
-    default_locale: "De standaardtaal van deze Discourse-instantie. U kunt de tekst van door het systeem gegenereerde categorieën en topics vervangen onder <a href='%{base_path}/admin/customize/site_texts' target='_blank'>Aanpassen / Tekst</a>."
+    default_locale: "De standaardtaal van deze Okse-instantie. U kunt de tekst van door het systeem gegenereerde categorieën en topics vervangen onder <a href='%{base_path}/admin/customize/site_texts' target='_blank'>Aanpassen / Tekst</a>."
     allow_user_locale: "Gebruikers mogen een eigen voorkeur voor de interfacetaal kiezen"
     set_locale_from_accept_language_header: "Taal van interface voor anonieme gebruikers instellen op basis van de taalheaders van hun webbrowser. (EXPERIMENTEEL, werkt niet met anonieme cache)"
     support_mixed_text_direction: "Gemengde links-naar-rechts- en rechts-naar-links-tekstrichtingen ondersteunen."
@@ -1370,7 +1370,7 @@ nl:
     topic_excerpt_maxlength: "Maximale lengte van een fragment / samenvatting van een topic, gegenereerd vanuit het eerste bericht in een topic."
     show_pinned_excerpt_mobile: "Fragment tonen bij vastgemaakte topics in mobiele weergave."
     show_pinned_excerpt_desktop: "Fragment tonen bij vastgemaakte topics in desktopweergave."
-    post_onebox_maxlength: "Maximale lengte van een 'oneboxed Discourse'-bericht in tekens."
+    post_onebox_maxlength: "Maximale lengte van een 'oneboxed Okse'-bericht in tekens."
     onebox_domains_blacklist: "Een lijst van domeinen die nooit in een onebox worden omgezet."
     inline_onebox_domains_whitelist: "Een lijst van domeinen die in een onebox als miniatuur worden omgezet wanneer gekoppeld zonder titel"
     enable_inline_onebox_on_all_domains: "Website-instelling inline_onebox_domain_whitelist negeren en inline onebox op alle domeinen toestaan."
@@ -1439,9 +1439,9 @@ nl:
     moderators_create_categories: "Moderators mogen nieuwe categorieën maken"
     cors_origins: "Toegestane domeinen voor cross-origin-aanvragen (CORS). Elk domein moet http:// of https:// bevatten. De omgevingsvariabele DISCOURSE_ENABLE_CORS moet op true zijn ingesteld om CORS in te schakelen."
     use_admin_ip_whitelist: "Beheerders kunnen zich alleen aanmelden vanaf een IP-adres dat in de lijst Gecontroleerde IP-nummers is gedefinieerd (Beheer > Logboeken > Gecontroleerde IP-adressen)."
-    blacklist_ip_blocks: "Een lijst van private IP-blokken die nooit door Discourse mogen worden verkend"
-    whitelist_internal_hosts: "Een lijst van interne hosts die Discourse veilig kan verkennen voor oneboxing en andere doeleinden"
-    allowed_iframes: "Een lijst van 'iframe src'-domeinvoorvoegsels die Discourse veilig kan toestaan in berichten"
+    blacklist_ip_blocks: "Een lijst van private IP-blokken die nooit door Okse mogen worden verkend"
+    whitelist_internal_hosts: "Een lijst van interne hosts die Okse veilig kan verkennen voor oneboxing en andere doeleinden"
+    allowed_iframes: "Een lijst van 'iframe src'-domeinvoorvoegsels die Okse veilig kan toestaan in berichten"
     whitelisted_crawler_user_agents: "Useragents van webcrawlers die toegang tot de website dienen te hebben. WAARSCHUWING! INSTELLEN HIERVAN BLOKKEERT ALLE CRAWLERS DIE HIER NIET WORDEN VERMELD!"
     blacklisted_crawler_user_agents: "Uniek hoofdlettergevoelig woord in de useragent-string waarmee webcrawlers worden herkend die geen toegang tot de website mogen hebben. Niet van toepassing als whitelist is opgegeven."
     slow_down_crawler_user_agents: "Useragents van webcrawlers waarvan aanvragen beperkt moeten zijn in robots.txt via de Crawl-delay-instructie"
@@ -1481,8 +1481,8 @@ nl:
     auto_approve_email_domains: "Gebruikers met e-mailadressen van deze lijst met domeinen worden automatisch goedgekeurd."
     hide_email_address_taken: "Gebruikers niet informeren dat een account met een bepaald e-mailadres bestaat tijdens registratie en vanaf het formulier voor vergeten wachtwoorden."
     log_out_strict: "Bij het afmelden ALLE sessies voor de gebruiker op alle apparaten afmelden"
-    version_checks: "De Discourse Hub pingen voor versie-updates en berichten over nieuwe versies tonen op het <a href='%{base_path}/admin' target='_blank'>/admin</a>-dashboard"
-    new_version_emails: "Een e-mail naar het contact_email-adres sturen wanneer een nieuwe versie van Discourse beschikbaar is."
+    version_checks: "De Okse Hub pingen voor versie-updates en berichten over nieuwe versies tonen op het <a href='%{base_path}/admin' target='_blank'>/admin</a>-dashboard"
+    new_version_emails: "Een e-mail naar het contact_email-adres sturen wanneer een nieuwe versie van Okse beschikbaar is."
     invite_expiry_days: "Hoelang uitnodigingssleutels geldig zijn, in dagen"
     invite_only: "Alle nieuwe gebruikers moeten expliciet worden uitgenodigd door vertrouwde gebruikers of stafleden. Openbare registratie is uitgeschakeld."
     login_required: "Authenticatie vereisen om inhoud op deze website te lezen, anonieme toegang verbieden."
@@ -1497,16 +1497,16 @@ nl:
     block_common_passwords: "Geen wachtwoorden toestaan die in de 10.000 meest gebruikte wachtwoorden voorkomen."
     enable_sso: "Eenmalige aanmelding via een externe website inschakelen (WAARSCHUWING: E-MAILADRESSEN VAN GEBRUIKERS *MOETEN* DOOR DE EXTERNE WEBSITE WORDEN GEVALIDEERD!)"
     verbose_sso_logging: "Uitgebreide SSO-gerelateerde diagnosegegevens opslaan in <a href='%{base_path}/logs' target='_blank'>/logs</a>"
-    enable_sso_provider: "Discourse SSO provider-protocol aan het /session/sso_provider-eindpunt implementeren, vereist dat sso_provider_secrets is ingesteld"
+    enable_sso_provider: "Okse SSO provider-protocol aan het /session/sso_provider-eindpunt implementeren, vereist dat sso_provider_secrets is ingesteld"
     sso_url: "URL van single-sign-on-eindpunt (moet http:// of https:// bevatten)"
     sso_secret: "Geheime tekenreeks voor het cryptografisch authenticeren van SSO-informatie, zorg ervoor dat deze 10 tekens of langer is"
-    sso_provider_secrets: "Een lijst van domain-secret-paren die Discourse als SSO-provider gebruiken. Zorg ervoor dat het SSO-geheim 10 tekens of langer is. Het jokerteken * kan worden gebruikt om een domein of alleen een deel ervan (bv. *.example.com) te laten overeenkomen."
+    sso_provider_secrets: "Een lijst van domain-secret-paren die Okse als SSO-provider gebruiken. Zorg ervoor dat het SSO-geheim 10 tekens of langer is. Het jokerteken * kan worden gebruikt om een domein of alleen een deel ervan (bv. *.example.com) te laten overeenkomen."
     sso_overrides_bio: "Overschrijft biografie in gebruikersprofiel en voorkomt dat gebruiker deze kan wijzigen"
     sso_overrides_groups: "Alle handmatige groepslidmaatschappen synchroniseren met opgegeven groepen in SSO-attribuut van de groep (WAARSCHUWING: als u geen groepen opgeeft, worden alle handmatige groepslidmaatschappen voor de gebruiker gewist)"
     sso_overrides_email: "Overschrijft bij elke aanmelding lokaal opgegeven e-mailadres door e-mailadres uit SSO-payload van externe website, en voorkomt lokale wijzigingen. (WAARSCHUWING: er kunnen discrepanties ontstaan door normalisatie van lokale e-mailadressen)"
     sso_overrides_username: "Overschrijft bij elke aanmelding lokaal opgegeven gebruikersnaam door gebruikersnaam uit SSO-payload van externe website, en voorkomt lokale wijzigingen. (WAARSCHUWING: er kunnen discrepanties ontstaan door verschillen in lengte/vereisten van gebruikersnaam)"
     sso_overrides_name: "Overschrijft bij elke aanmelding lokaal opgegeven volledige naam door volledige naam uit SSO-payload van externe website, en voorkomt lokale wijzigingen."
-    sso_overrides_avatar: "Overschrijft gebruikersavatar door avatar uit SSO-payload van externe website. Als dit is ingeschakeld, mogen gebruikers geen avatars uploaden op Discourse."
+    sso_overrides_avatar: "Overschrijft gebruikersavatar door avatar uit SSO-payload van externe website. Als dit is ingeschakeld, mogen gebruikers geen avatars uploaden op Okse."
     sso_overrides_location: "Overschrijft gebruikerslocatie door externe locatie uit SSO-payload, en voorkomt lokale wijzigingen."
     sso_overrides_website: "Overschrijft gebruikerswebsite door externe locatie uit SSO-payload, en voorkomt lokale wijzigingen."
     sso_overrides_profile_background: "Overschrijft achtergrond van gebruikersprofiel door avatar uit SSO-payload van externe website."
@@ -1517,21 +1517,21 @@ nl:
     enable_local_logins_via_email: "Gebruikers mogen vragen een koppeling voor aanmelding met één klik via e-mail te laten toesturen."
     allow_new_registrations: "Nieuwe gebruikersregistraties toestaan. Vink dit uit om te voorkomen dat iedereen een nieuwe account kan maken."
     enable_signup_cta: "Een melding tonen voor terugkerende anonieme gebruikers waarin wordt gevraagd zich voor een account te registreren"
-    enable_google_oauth2_logins: "Google Oauth2-authenticatie inschakelen. Dit is de methode voor authenticatie die Google momenteel ondersteunt. Vereist sleutel en geheim. Zie <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuring Google login for Discourse</a>."
+    enable_google_oauth2_logins: "Google Oauth2-authenticatie inschakelen. Dit is de methode voor authenticatie die Google momenteel ondersteunt. Vereist sleutel en geheim. Zie <a href='https://meta.discourse.org/t/15858' target='_blank'>Configuring Google login for Okse</a>."
     google_oauth2_client_id: "Client-ID van uw Google-toepassing."
     google_oauth2_client_secret: "Client-geheim van uw Google-toepassing."
     google_oauth2_prompt: "Een optionele door spaties gescheiden lijst van tekenreekswaarden die bepaalt of de autorisatieserver de gebruiker opnieuw om authenticatie en instemming vraagt. Zie <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a> voor de mogelijke waarden."
     google_oauth2_hd: "Een optioneel door Google Apps gehost domein waartoe de aanmelding wordt beperkt. Zie <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a> voor meer details."
-    enable_twitter_logins: "Twitter-authenticatie inschakelen, vereist twitter_consumer_key en twitter_consumer_secret. Zie <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Discourse</a>."
+    enable_twitter_logins: "Twitter-authenticatie inschakelen, vereist twitter_consumer_key en twitter_consumer_secret. Zie <a href='https://meta.discourse.org/t/13395' target='_blank'>Configuring Twitter login (and rich embeds) for Okse</a>."
     twitter_consumer_key: "Consumentsleutel voor Twitter-authenticatie, geregistreerd bij <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Consumentgeheim voor Twitter-authenticatie, geregistreerd bij <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "Instagram-authenticatie inschakelen; vereist instagram_consumer_key en instagram_consumer_secret."
     instagram_consumer_key: "Consumentsleutel voor Instagram-authenticatie"
     instagram_consumer_secret: "Consumentgeheim voor Instagram-authenticatie"
-    enable_facebook_logins: "Facebook-authenticatie inschakelen, vereist facebook_app_id en facebook_app_secret. Zie <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuring Facebook login for Discourse</a>."
+    enable_facebook_logins: "Facebook-authenticatie inschakelen, vereist facebook_app_id en facebook_app_secret. Zie <a href='https://meta.discourse.org/t/13394' target='_blank'>Configuring Facebook login for Okse</a>."
     facebook_app_id: "App-ID voor Facebook-authenticatie, geregistreerd bij <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "App-geheim voor Facebook-authenticatie, geregistreerd bij <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "Github-authenticatie inschakelen, vereist github_client_id en github_client_secret. Zie <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuring GitHub login for Discourse</a>."
+    enable_github_logins: "Github-authenticatie inschakelen, vereist github_client_id en github_client_secret. Zie <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuring GitHub login for Okse</a>."
     github_client_id: "Client-ID voor Github-authenticatie, geregistreerd bij <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     github_client_secret: "Client-geheim voor Github-authenticatie, geregistreerd bij <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/developers</a>"
     enable_discord_logins: "Mogen gebruikers authenticeren via Discord?"
@@ -1590,7 +1590,7 @@ nl:
     purge_deleted_uploads_grace_period_days: "Wachtperiode (in dagen) voordat een verwijderde upload wordt gewist."
     purge_unactivated_users_grace_period_days: "Wachtperiode (in dagen) voordat een gebruiker die zijn/haar account niet heeft geactiveerd wordt verwijderd. Stel dit in op 0 om niet-geactiveerde gebruikers nooit te verwijderen."
     enable_s3_uploads: "Uploads op Amazon S3-opslag plaatsen. BELANGRIJK: vereist geldige S3-referenties (zowel toegangssleutel als geheime toegangssleutel)"
-    s3_use_iam_profile: 'Een <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">AWS EC2-instantieprofiel</a> gebruiken voor toegang tot de S3-bucket. OPMERKING: inschakelen hiervan vereist dat Discourse in een juist geconfigureerde EC2-instantie wordt uitgevoerd, en negeert de instellingen ''s3 access key id'' en ''s3 secret access key''.'
+    s3_use_iam_profile: 'Een <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">AWS EC2-instantieprofiel</a> gebruiken voor toegang tot de S3-bucket. OPMERKING: inschakelen hiervan vereist dat Okse in een juist geconfigureerde EC2-instantie wordt uitgevoerd, en negeert de instellingen ''s3 access key id'' en ''s3 secret access key''.'
     s3_upload_bucket: "De naam van de Amazon S3-bucket waarin bestanden worden geüpload. WAARSCHUWING: moet bestaan uit kleine letters, geen punten, geen onderstrepingstekens."
     s3_access_key_id: "De toegangssleutel-ID voor Amazon S3 die wordt gebruikt voor het uploaden van afbeeldingen, bijlagen en back-ups."
     s3_secret_access_key: "De geheime toegangssleutel voor Amazon S3 die wordt gebruikt voor het uploaden van afbeeldingen, bijlagen en back-ups."
@@ -1722,7 +1722,7 @@ nl:
     alternative_reply_by_email_addresses: "Lijst van alternatieve sjablonen voor adressen voor inkomende e-mail bij antwoorden per e-mail. Voorbeeld: %%{reply_key}@reply.example.com|replies+%%{reply_key}@example.com"
     incoming_email_prefer_html: "HTML in plaats van tekst gebruiken voor inkomende e-mail."
     strip_incoming_email_lines: "Voorloop- en volgspaties uit elke regel van inkomende e-mails verwijderen."
-    disable_emails: "Voorkomen dat Discourse alle soorten e-mail verstuurt. Selecteer 'yes' om e-mails voor alle gebruikers uit te schakelen. Selecteer 'non-staff' om alleen e-mails voor stafleden uit te schakelen."
+    disable_emails: "Voorkomen dat Okse alle soorten e-mail verstuurt. Selecteer 'yes' om e-mails voor alle gebruikers uit te schakelen. Selecteer 'non-staff' om alleen e-mails voor stafleden uit te schakelen."
     strip_images_from_short_emails: "Afbeeldingen met grootte van minder dan 2800 bytes uit e-mails verwijderen"
     short_email_length: "Lengte van korte e-mail in bytes"
     display_name_on_email_from: "Volledige namen in van-veld van e-mails weergeven"
@@ -1743,7 +1743,7 @@ nl:
     reset_bounce_score_after_days: "Bouncescore na X dagen automatisch terugzetten."
     attachment_content_type_blacklist: "Lijst van trefwoorden voor het blacklisten van bijlagen op basis van het inhoudstype."
     attachment_filename_blacklist: "Lijst van trefwoorden voor het blacklisten van bijlagen op basis van de bestandsnaam."
-    forwarded_emails_behaviour: "Hoe een doorgestuurde e-mail naar Discourse te behandelen"
+    forwarded_emails_behaviour: "Hoe een doorgestuurde e-mail naar Okse te behandelen"
     always_show_trimmed_content: "Altijd afgekapt deel van inkomende e-mails tonen. WAARSCHUWING: kan e-mailadressen onthullen."
     private_email: "Geen inhoud van berichten of topics in titel of tekst van e-mail opnemen. OPMERKING: schakelt ook e-mailsamenvattingen uit."
     email_total_attachment_size_limit_kb: "Maximale totale grootte van aan uitgaande e-mails gekoppelde bestanden. Stel dit in op 0 om het verzenden van bijlagen uit te schakelen."
@@ -1794,7 +1794,7 @@ nl:
     email_accent_fg_color: "De kleur van gerenderde tekst op de achtergrondkleur van HTML-e-mails. Voer een kleurnaam ('white') of hex-waarde ('#FFFFFF') in."
     email_link_color: "De kleur van koppelingen in HTML-e-mails. Voer een kleurnaam ('blue') of hex-waarde ('#0000FF') in."
     detect_custom_avatars: "Wel of niet te verifiëren of gebruikers eigen profielfoto's hebben geüpload."
-    max_daily_gravatar_crawls: "Maximale aantal keren dat Discourse op een dag bij Gravatar op aangepaste gravatars controleert"
+    max_daily_gravatar_crawls: "Maximale aantal keren dat Okse op een dag bij Gravatar op aangepaste gravatars controleert"
     public_user_custom_fields: "Een lijst van aangepaste gebruikersvelden die met de API kan worden opgehaald."
     staff_user_custom_fields: "Een lijst van aangepaste gebruikersvelden die voor stafleden met de API kan worden opgehaald."
     enable_user_directory: "Een lijst van gebruikers aanbieden om door te bladeren"
@@ -2244,7 +2244,7 @@ nl:
       [Beheerdersaccount bevestigen](%{admin_confirm_url})
   new_version_mailer:
     text_body_template: |
-      Hoera, er is een nieuwe versie van [Discourse](https://www.discourse.org) beschikbaar!
+      Hoera, er is een nieuwe versie van [Okse](https://www.discourse.org) beschikbaar!
 
       Uw versie: %{installed_version}
       Nieuwe versie: **%{new_version}**
@@ -2253,10 +2253,10 @@ nl:
 
       - Lees wat er nieuw is in de [uitgaveopmerkingen](https://meta.discourse.org/tag/release-notes), of bekijk de [groffe GitHub-changelog](https://github.com/discourse/discourse/commits/master)
 
-      - Bezoek [meta.discourse.org](https://meta.discourse.org) voor nieuws, discussie en ondersteuning voor Discourse
+      - Bezoek [meta.discourse.org](https://meta.discourse.org) voor nieuws, discussie en ondersteuning voor Okse
   new_version_mailer_with_notes:
     text_body_template: |
-      Hoera, er is een nieuwe versie van [Discourse](https://www.discourse.org) beschikbaar!
+      Hoera, er is een nieuwe versie van [Okse](https://www.discourse.org) beschikbaar!
 
       Uw versie: %{installed_version}
       Nieuwe versie: **%{new_version}**
@@ -2265,7 +2265,7 @@ nl:
 
       - Lees wat er nieuw is in de [uitgaveopmerkingen](https://meta.discourse.org/tag/release-notes), of bekijk de [groffe GitHub-changelog](https://github.com/discourse/discourse/commits/master)
 
-      - Bezoek [meta.discourse.org](https://meta.discourse.org) voor nieuws, discussie en ondersteuning voor Discourse
+      - Bezoek [meta.discourse.org](https://meta.discourse.org) voor nieuws, discussie en ondersteuning voor Okse
 
       ### Uitgaveopmerkingen
 
@@ -2760,7 +2760,7 @@ nl:
     invalid_target_tag: "kan geen synoniem van een synoniem zijn"
     synonyms_exist: "is niet toegestaan terwijl er synoniemen bestaan"
   finish_installation:
-    congratulations: "Gefeliciteerd, u hebt Discourse geïnstalleerd!"
+    congratulations: "Gefeliciteerd, u hebt Okse geïnstalleerd!"
     register:
       button: "Registreren"
       title: "Beheerdersaccount registreren"
@@ -2779,7 +2779,7 @@ nl:
   wizard:
     step:
       locale:
-        title: "Welkom bij uw Discourse!"
+        title: "Welkom bij uw Okse!"
         fields:
           default_locale:
             description: "Wat is de standaardtaal voor uw gemeenschap?"
@@ -2871,7 +2871,7 @@ nl:
         description: "U bent bijna klaar! Nodig wat mensen uit om te helpen met het <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>seeden van uw discussies</a> met interessante topics en berichten om uw gemeenschap op te zetten."
         disabled: "Omdat sociale aanmeldingen zijn uitgeschakeld, is het niet mogelijk om uitnodigingen naar iedereen te versturen. Ga verder met de volgende stap."
       finished:
-        title: "Uw Discourse is gereed!"
+        title: "Uw Okse is gereed!"
         description: |
           <p>Als u deze instellingen ooit wilt wijzigen, <b>voer deze wizard dan opnieuw uit</b>, of bezoek <a href='%{base_path}/admin' target='_blank'>uw beheersectie</a>; deze vindt u naast het moersleutelpictogram in het websitemenu.</p>
           <p>Veel plezier, en succes met het <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='_blank'>opbouwen van uw nieuwe gemeenschap!</a></p>

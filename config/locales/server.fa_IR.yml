@@ -24,7 +24,7 @@ fa_IR:
     <<: *datetime_formats
     am: "ق.ظ"
     pm: "ب.ظ"
-  title: "Discourse"
+  title: "Okse"
   topics: "موضوعات"
   posts: "فرسته‌ها"
   loading: "بارگیری..."
@@ -928,7 +928,7 @@ fa_IR:
     email_domains_blacklist: "لیست pipe-delimit دامنه های ایمیل که کاربران اجازه ندارند با آن حساب کاربری ثبت‌نام کنند. برای مثال: mailinator.com|trashmail.net"
     email_domains_whitelist: "لیست pipe-delimit دامنه های ایمیل که کاربران اجازه باید با آن حساب کاربری ثبت نام کنند. اخطار: کاربرانی با دامنه‌های ایمیلی به غیر از آن‌هایی که در لیست هستند اجازه ندارند. "
     log_out_strict: "وقتی از سیستم خارج می شود، کاربر را از تمام session‌ها بر روی تمام دستگاه‌ها خارج کن "
-    new_version_emails: "ارسال ایمیل به contact_email address وقتی نسخه جدید Discourse موجود است. "
+    new_version_emails: "ارسال ایمیل به contact_email address وقتی نسخه جدید Okse موجود است. "
     invite_expiry_days: "کلید دعوتنامه فراخوان برای چه مدت اعتبار دارد، واحد روز"
     login_required: "برای خواندن محتوا در سایت نیاز به تصدیق است، دسترسی ناشناس رد شود."
     min_username_length: "حداقل طول نام کاربری به نویسه. توجه: اگر کاربری در حال حاضر نام کاربری کوتاه تر از این مقدار داشته باشد سایت به مشکل برمی‌خورد."
@@ -1437,7 +1437,7 @@ fa_IR:
     subject_template: "[%{email_prefix}] تست تحویل ایمیل"
   new_version_mailer:
     title: "نسخه جدید نامه‌رسان"
-    subject_template: "[%{email_prefix}] نسخه جدید Discourse موجود است"
+    subject_template: "[%{email_prefix}] نسخه جدید Okse موجود است"
   new_version_mailer_with_notes:
     title: "نسخه جدید نامه‌رسان با یادداشت"
     subject_template: "[%{email_prefix}] نسخه جدید موجود است"
@@ -2178,7 +2178,7 @@ fa_IR:
     no_plugins: "غیر‌فعال‌سازی تمام افزونه‌ها"
     enter: "فعال‌سازی حالت امن"
   wizard:
-    title: "راه اندازی Discourse"
+    title: "راه اندازی Okse"
     step:
       locale:
         title: "به Discoue خوش آمدید!"
@@ -2261,7 +2261,7 @@ fa_IR:
       invites:
         title: "دعوت همکاران"
       finished:
-        title: "Discourse شما آماده‌ست!"
+        title: "Okse شما آماده‌ست!"
   joined: "ملحق شده"
   discourse_push_notifications:
     popup:

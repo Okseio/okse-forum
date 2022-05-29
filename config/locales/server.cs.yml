@@ -23,11 +23,11 @@ cs:
     <<: *datetime_formats
     am: "am"
     pm: "pm"
-  title: "Discourse"
+  title: "Okse"
   topics: "Témata"
   posts: "příspěvky"
   loading: "Nahrávám"
-  powered_by_html: 'Systém běží na <a href="https://www.discourse.org">Discourse</a>, nejlépe funguje se zapnutým JavaScriptem'
+  powered_by_html: 'Systém běží na <a href="https://www.discourse.org">Okse</a>, nejlépe funguje se zapnutým JavaScriptem'
   sign_up: "Registrovat se"
   log_in: "Přihlásit se"
   submit: "Odeslat"
@@ -353,7 +353,7 @@ cs:
   staff_category_name: "Redakce"
   staff_category_description: "Privátní kategorie pro diskuze redakce. Témata jsou viditelná pouze pro moderátory a správce."
   discourse_welcome_topic:
-    title: "Vítejte v Discourse"
+    title: "Vítejte v Okse"
     body: |2
 
       První odstavec tohoto připnutého tématu se zobrazí na domovské stránce jako uvítací zpráva pro všechny nové návštěvníky. Je to důležité!
@@ -1110,7 +1110,7 @@ cs:
   wizard:
     step:
       locale:
-        title: "Vítejte ve vašem Discourse!"
+        title: "Vítejte ve vašem Okse!"
       forum_title:
         title: "Jméno"
       privacy:
@@ -1162,7 +1162,7 @@ cs:
       invites:
         title: "Pozvi redakci"
       finished:
-        title: "Váš Discourse je připraven!"
+        title: "Váš Okse je připraven!"
   joined: "Účet vytvořen"
   discourse_push_notifications:
     popup:

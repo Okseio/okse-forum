@@ -23,7 +23,7 @@ ro:
     <<: *datetime_formats
     am: "AM"
     pm: "PM"
-  title: "Discourse"
+  title: "Okse"
   topics: "Subiecte"
   posts: "Postări"
   loading: "Se încarcă"
@@ -880,7 +880,7 @@ ro:
     email_domains_blacklist: "O listă de domenii de email separate cu simbolul | (pipe) ale căror utilizatori nu au permisiunea să înregistreze conturi. Exemplu: mailinator.com|trashmail.net"
     email_domains_whitelist: "O listă de domenii de email (separate cu simbolul | (pipe)) cu care utilizatorii TREBUIE să se înregistreze. ATENȚIE: utilizatorii cu alte domenii de email decât cele listate nu vor avea permisiunea să se înregistreze."
     log_out_strict: "La ieșire, închide TOATE sesiunile pentru utilizator, pe toate dispozitivele."
-    new_version_emails: "Trimite un email la adresa contact_email când o nouă versiune de Discourse este disponibilă."
+    new_version_emails: "Trimite un email la adresa contact_email când o nouă versiune de Okse este disponibilă."
     invite_expiry_days: "Cât timp sunt valabile cheile de invitație ale utilizatorilor, în zile"
     login_required: "Cere autentificare pentru a citi conținutul acestui site, blochează accesul anonim."
     min_password_length: "Lungimea minimă a parolei."
@@ -1079,7 +1079,7 @@ ro:
     email_accent_fg_color: "Culoarea textului redat pe culoarea de fundal a emailurilor HTML. Introdu un nume de culoare („alb”) sau o valoare hex ('#FFFFFF')."
     email_link_color: "Culoarea link-urilor din emailurile HTML. Introdu un nume de culoare („albastru”) sau o valoare hex ('#0000FF')."
     detect_custom_avatars: "Dacă sau nu să verifice dacă utilizatorii și-au încărcat poze de profil personalizate."
-    max_daily_gravatar_crawls: "Numărul maxim zilnic de verificări pe care Discourse le va face pe Gravatar pentru a vedea dacă există avatare personalizate."
+    max_daily_gravatar_crawls: "Numărul maxim zilnic de verificări pe care Okse le va face pe Gravatar pentru a vedea dacă există avatare personalizate."
     enable_user_directory: "Furnizează un „carte de telefon” cu utilizatorii"
     allow_anonymous_posting: "Permite utilizatorilor să comute pe modul anonim"
     anonymous_posting_min_trust_level: "Nivelul minim de încredere necesar pentru a putea activa postarea anonimă."
@@ -1914,7 +1914,7 @@ ro:
     staff_tag_remove_disallowed: 'Eticheta "%{tag}" poate fi ștearsă doar de un membru al echipei.'
   rss_by_tag: "Subiecte etichetate %{tag}"
   finish_installation:
-    congratulations: "Felicitări, ai instalat Discourse!"
+    congratulations: "Felicitări, ai instalat Okse!"
     register:
       button: "Înregistrare"
       title: "Înregistrare cont administrator"
@@ -1931,10 +1931,10 @@ ro:
     no_plugins: "Dezactivează toate plugin-urile"
     enter: "Activează modul sigur"
   wizard:
-    title: "Configurare Discourse"
+    title: "Configurare Okse"
     step:
       locale:
-        title: "Bun venit pe Discourse-ul tău!"
+        title: "Bun venit pe Okse-ul tău!"
         fields:
           default_locale:
             description: "Care e limba implicită pentru comunitatea ta?"
@@ -2012,7 +2012,7 @@ ro:
         title: "Invită membrii echipei"
         description: "Aproape ai încheiat ! Hai să invităm câțiva prieteni să te ajute <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>cu demararea comunității </a> prin discuții și răspunsuri interesante."
       finished:
-        title: "Discourse-ul tău e gata!"
+        title: "Okse-ul tău e gata!"
   joined: "Înscris"
   discourse_push_notifications:
     popup:

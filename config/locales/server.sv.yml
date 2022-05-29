@@ -24,11 +24,11 @@ sv:
     <<: *datetime_formats
     am: "förmiddag"
     pm: "eftermiddag"
-  title: "Discourse"
+  title: "Okse"
   topics: "Ämnen"
   posts: "inlägg"
   loading: "Laddar"
-  powered_by_html: 'Drivs av <a href="https://www.discourse.org">Discourse</a>, visas bäst med JavaScript aktiverat'
+  powered_by_html: 'Drivs av <a href="https://www.discourse.org">Okse</a>, visas bäst med JavaScript aktiverat'
   sign_up: "Registrera"
   log_in: "Logga in"
   submit: "Skicka"
@@ -45,13 +45,13 @@ sv:
       unrecognized_extension: "Okänt filnamnstillägg: %{extension}"
     import_error:
       generic: Det uppstod ett fel vid import av det temat
-      about_json: "Importfel: about.json finns inte eller är ogiltig. Är du säker på att detta är ett Discourse tema?"
+      about_json: "Importfel: about.json finns inte eller är ogiltig. Är du säker på att detta är ett Okse tema?"
       about_json_values: "about.json innehåller ogiltiga värden: %{errors}"
       modifier_values: "about.json modifierare innehåller ogiltiga värden: %{errors}"
       git: "Fel vid kloning av git-lagringsplats, åtkomst nekas eller lagringsplatsen finns inte"
       unpack_failed: "Det gick inte att packa upp filen"
       file_too_big: "Den okomprimerade filen är för stor."
-      unknown_file_type: "Filen som du laddade upp verkar inte vara ett giltigt Discourse-tema."
+      unknown_file_type: "Filen som du laddade upp verkar inte vara ett giltigt Okse-tema."
     errors:
       component_no_user_selectable: "Temakomponenter kan inte väljas av användaren"
       component_no_default: "Temakomponenter kan inte vara standardtema"
@@ -218,7 +218,7 @@ sv:
   provider_not_enabled: "Du har inte behörighet att se den begärda resursen. Autentiseringsleverantören är inte aktiverad."
   provider_not_found: "Du har inte behörighet att se den begärda resursen. Autentiseringsleverantören finns inte."
   read_only_mode_enabled: "Webbplatsen är i skrivskyddat läge. Interaktioner är inaktiverade."
-  invalid_grant_badge_reason_link: "Extern eller ogiltig Discourse-länk tillåts inte av utmärkelseskäl"
+  invalid_grant_badge_reason_link: "Extern eller ogiltig Okse-länk tillåts inte av utmärkelseskäl"
   email_template_cant_be_modified: "Den här e-postmallen kan inte ändras"
   invalid_whisper_access: "Antingen är viskningar inte aktiverade eller så har du inte behörighet för att skapa viskningsinlägg"
   not_in_group:
@@ -1354,7 +1354,7 @@ sv:
     topic_excerpt_maxlength: "Maxlängd på ett inläggs utdrag / sammanfattning, genererat från det första inlägget i ett ämne."
     show_pinned_excerpt_mobile: "Visa inte utdrag för klistrade ämnen i mobilen."
     show_pinned_excerpt_desktop: "Visa inte utdrag för klistrade ämnen på datorn."
-    post_onebox_maxlength: "Maximal teckenlängd för ett Discourse-inlägg i onebox."
+    post_onebox_maxlength: "Maximal teckenlängd för ett Okse-inlägg i onebox."
     onebox_domains_blacklist: "En lista över domäner som aldrig placeras i onebox."
     inline_onebox_domains_whitelist: "En lista över domäner som placeras i onebox i miniatyrform om de länkas utan en rubrik"
     enable_inline_onebox_on_all_domains: "Ignorera webbplatsinställningen inline_onebox_domain_whitelist och tillåt infogad onebox på alla domäner."
@@ -1423,9 +1423,9 @@ sv:
     moderators_create_categories: "Tillåt moderatorer att skapa nya kategorier"
     cors_origins: "Tillåtna ursprung för cross-ursprungsbegäran (CORS). Varje ursprung måste inkludera http:// eller https://. DISCOURSE_ENABLE_CORS env variabeln måste sättas till true för att aktivera CORS."
     use_admin_ip_whitelist: "Administratörer kan bara logga in om de är på en IP-adress definierad i listan över granskade IP-adresser (Admin > Loggar > Granskade IP-adresser)."
-    blacklist_ip_blocks: "En lista över privata IP-block som aldrig bör genomsökas av Discourse"
+    blacklist_ip_blocks: "En lista över privata IP-block som aldrig bör genomsökas av Okse"
     whitelist_internal_hosts: "En lista över interna värdar som discourse säkert kan söka igenom för oneboxing och andra syften"
-    allowed_iframes: "En lista med iframekällors domänprefix som Discourse säkert kan tillåta i inlägg"
+    allowed_iframes: "En lista med iframekällors domänprefix som Okse säkert kan tillåta i inlägg"
     whitelisted_crawler_user_agents: "Användaragenter för sökrobotar som ska få åtkomst till webbplatsen. VARNING! INSTÄLLNING AV DETTA FÖRBJUDER ALLA SÖKMOTORER SOM INTE LISTAS HÄR!"
     blacklisted_crawler_user_agents: "Unikt fall av känsligt ord i användaragent-strängen som identifierar webbsökare som inte bör få åtkomst till webbplatsen. Gäller inte om vitlista är definierad."
     slow_down_crawler_user_agents: "Användaragenter för webbsökare som bör begränsas i robots.txt med hjälp av Crawl-delay-direktivet"
@@ -1465,8 +1465,8 @@ sv:
     auto_approve_email_domains: "Användare med e-postadresser som finns i denna lista av domäner kommer automatiskt att godkännas."
     hide_email_address_taken: "Informera inte användare om att det finns ett konto med en given e-postadress vid registreringen eller från det glömda lösenordsformuläret."
     log_out_strict: "Vid utloggning, logga ut ALLA sessioner för den användaren på alla apparater"
-    version_checks: "Pinga Discourse Hub för versionuppdateringar och visa nya versionmeddelanden på instrumentpanelen <a href='%{base_path}/admin' target='_blank'>/admin</a> "
-    new_version_emails: "Skicka ett mejl till contact_email när en ny version av Discourse finns tillgängligt."
+    version_checks: "Pinga Okse Hub för versionuppdateringar och visa nya versionmeddelanden på instrumentpanelen <a href='%{base_path}/admin' target='_blank'>/admin</a> "
+    new_version_emails: "Skicka ett mejl till contact_email när en ny version av Okse finns tillgängligt."
     invite_expiry_days: "Hur länge användarinbjudningsnycklar är giltiga, i dagar"
     invite_only: "Alla nya användare måste uttryckligen bjudas in av betrodda användare eller personal. Allmän registrering är inaktiverad."
     login_required: "Kräv autentisering för att läsa innehåll på den här webbplatsen, avvisa anonym tillgång."
@@ -1481,16 +1481,16 @@ sv:
     block_common_passwords: "Tillåt inte lösenord som är bland de 10000 vanligaste lösenorden."
     enable_sso: "Aktivera Single sign on via en extern sida (VARNING: ANVÄNDARENS E-POSTADRESS *MÅSTE* VARA VALIDERAD AV DEN EXTERNA SIDAN!)"
     verbose_sso_logging: "Logga mångordig SSO-relaterad diagnostik till <a href='%{base_path}/logs' target='_blank'>/logs</a>"
-    enable_sso_provider: "Implementera Discourse SSO leverantörsprotokoll /session/sso_provider vid ändpunkt, kräver att sso_provider_secrets är inställd"
+    enable_sso_provider: "Implementera Okse SSO leverantörsprotokoll /session/sso_provider vid ändpunkt, kräver att sso_provider_secrets är inställd"
     sso_url: "URL för single sign on endpoint (måste inkludera http:// eller https://)"
     sso_secret: "Hemlig sträng som används för att kryptografiskt autentisera SSO-information, se till att den är 10 tecken eller mer"
-    sso_provider_secrets: "En lista över domänhemliga par som använder Discourse som en SSO-leverantör. Se till att SSO-hemligheten är 10 tecken eller längre. Jokertecknet * kan användas för att matcha valfri domän eller bara en del av den (t.ex. *.exempel.com)."
+    sso_provider_secrets: "En lista över domänhemliga par som använder Okse som en SSO-leverantör. Se till att SSO-hemligheten är 10 tecken eller längre. Jokertecknet * kan användas för att matcha valfri domän eller bara en del av den (t.ex. *.exempel.com)."
     sso_overrides_bio: "Åsidosätter användar bio i användarprofil och förhindrar användare från att ändra det"
     sso_overrides_groups: "Synkronisera alla manuella gruppmedlemskap med grupper som anges i gruppens sso-attribut (VARNING: om du inte anger grupper kommer alla manuella gruppmedlemskap att rensas för användaren)"
     sso_overrides_email: "Åsidosätter lokal e-post med externa webbplatsers e-post från SSO-nyttolast vid varje inloggning, och förhindrar lokala ändringar (VARNING: diskrepanser kan inträffa på grund av normalisering av lokala e-poster)"
     sso_overrides_username: "Åsidosätter lokala användarnamn med externa webbplatsers användarnamn från SSO-nyttolast vid varje inloggning, och förhindrar lokala ändringar. (VARNING: diskrepanser kan inträffa på grund av skillnader i användarnamnets längd/krav)"
     sso_overrides_name: "Åsidosätter lokala fullständiga namn med externa webbplatsers fullständiga namn från SSO-nyttolast vid varje inloggning, och förhindrar lokala ändringar."
-    sso_overrides_avatar: "Åsidosätter användaravatar med extern webbplatsavatar från SSO-nyttolast. Om det är aktiverat kan användare inte ladda upp avatarer på Discourse."
+    sso_overrides_avatar: "Åsidosätter användaravatar med extern webbplatsavatar från SSO-nyttolast. Om det är aktiverat kan användare inte ladda upp avatarer på Okse."
     sso_overrides_location: "Åsidosätter användarens plats med plats hämtad externt från SSO-nyttolast och förhindrar sedan lokala ändringar."
     sso_overrides_website: "Åsidosätter användarens webbplats med data hämtad externt från SSO-nyttolast och förhindrar sedan lokala ändringar."
     sso_overrides_profile_background: "Åsidosätter användarprofilbakgrund med extern webbplatsavatar från SSO-nyttolast."
@@ -1501,21 +1501,21 @@ sv:
     enable_local_logins_via_email: "Tillåt användare att begära en engångs inloggningslänk, att skickas till dem via e-post."
     allow_new_registrations: "Tillåt nya användarregistreringar. Avbocka det här för att förhindra vem som helst från att skapa ett nytt konto."
     enable_signup_cta: "Visa en notis för återvändande anonyma användare för att förmå dem att registrera ett nytt konto."
-    enable_google_oauth2_logins: "Aktivera Google Oauth2-autentisering. Detta är den autentiseringsmetod som Google för närvarande stöder. Kräver nyckel och hemlighet. Se <a href='https://meta.discourse.org/t/15858' target='_blank'>Konfigurera Google-inloggning för Discourse</a>."
+    enable_google_oauth2_logins: "Aktivera Google Oauth2-autentisering. Detta är den autentiseringsmetod som Google för närvarande stöder. Kräver nyckel och hemlighet. Se <a href='https://meta.discourse.org/t/15858' target='_blank'>Konfigurera Google-inloggning för Okse</a>."
     google_oauth2_client_id: "Klient-ID för din Google-applikation."
     google_oauth2_client_secret: "Klienthemlighet för din Google-applikation."
     google_oauth2_prompt: "En valfri mellanrumsavgränsad lista över strängvärden som anger om auktoriseringsservern ber användaren om omautentisering och samtycke. Se möjliga värden i <a href='https://developers.google.com/identity/protocols/OpenIDConnect#prompt' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#prompt</a>."
     google_oauth2_hd: "En valfri Google Apps Hosted-domän som inloggningen kommer att begränsas till. Se mer information på <a href='https://developers.google.com/identity/protocols/OpenIDConnect#hd-param' target='_blank'>https://developers.google.com/identity/protocols/OpenIDConnect#hd-param</a>."
-    enable_twitter_logins: "Aktivera Twitter-autentisering, kräver twitter_consumer_key och twitter_consumer_secret. Se <a href='https://meta.discourse.org/t/13395' target='_blank'>Konfigurera Twitter-inloggning (och utförliga inbäddningar) för Discourse</a>."
+    enable_twitter_logins: "Aktivera Twitter-autentisering, kräver twitter_consumer_key och twitter_consumer_secret. Se <a href='https://meta.discourse.org/t/13395' target='_blank'>Konfigurera Twitter-inloggning (och utförliga inbäddningar) för Okse</a>."
     twitter_consumer_key: "Konsumentnyckel för Twitter-autentisering, registrerad på <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     twitter_consumer_secret: "Konsumenthemlighet för Twitter-autentisering, registrerad på <a href='https://developer.twitter.com/apps' target='_blank'>https://developer.twitter.com/apps</a>"
     enable_instagram_logins: "Tillåt Instagramautentisering, kräver instagram_consumer_key och instagram_consumer_secret"
     instagram_consumer_key: "Konsumentnyckel för Instagram-autentisering"
     instagram_consumer_secret: "Konsumenthemlighet för Instagram-autentisering"
-    enable_facebook_logins: "Aktivera Facebook-autentisering, kräver facebook_app_id och facebook_app_secret. Se <a href='https://meta.discourse.org/t/13394' target='_blank'>Konfigurera Facebook-inloggning för Discourse</a>."
+    enable_facebook_logins: "Aktivera Facebook-autentisering, kräver facebook_app_id och facebook_app_secret. Se <a href='https://meta.discourse.org/t/13394' target='_blank'>Konfigurera Facebook-inloggning för Okse</a>."
     facebook_app_id: "App-id för Facebook-autentisering, registrerad på <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
     facebook_app_secret: "App-hemlighet för Facebook-autentisering, registrerad på <a href='https://developers.facebook.com/apps/' target='_blank'>https://developers.facebook.com/apps</a>"
-    enable_github_logins: "Aktivera Github-autentisering, kräver github_client_id och github_client_secret. Se <a href='https://meta.discourse.org/t/13745' target='_blank'>Konfigurera GitHub-inloggning för Discourse</a>."
+    enable_github_logins: "Aktivera Github-autentisering, kräver github_client_id och github_client_secret. Se <a href='https://meta.discourse.org/t/13745' target='_blank'>Konfigurera GitHub-inloggning för Okse</a>."
     github_client_id: "Klient-ID för Github-autentisering, registrerad på <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/applications</a>"
     github_client_secret: "Klienthemlighet för Github autentisering, registrerad på <a href='https://github.com/settings/developers/' target='_blank'>https://github.com/settings/applications</a>"
     enable_discord_logins: "Tillåta användare att autentisera genom Discord?"
@@ -1574,7 +1574,7 @@ sv:
     purge_deleted_uploads_grace_period_days: "Nådefrist (i dagar) innan en borttagen uppladdning raderas."
     purge_unactivated_users_grace_period_days: "Väntetid (i dagar) innan en användare som inte har aktiverat sitt konto raderas. Ställ på 0 för att aldrig rensa bort ej aktiverade användare."
     enable_s3_uploads: "Lägg uppladdningar i Amazon S3 lagring. VIKTIGT: kräver giltiga S3-kreditiv (både åtkomstnyckelns ID och den hemliga åtkomstnyckeln)."
-    s3_use_iam_profile: 'Använd en <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">AWS EC2-instansprofil</a> för att ge åtkomst till S3-hinken. NOTERA: för att aktivera detta krävs att Discourse körs i en lämpligt konfigurerad EC2-instans och åsidosätter inställningarna "s3 tillträdes nyckel-id" och "s3 tillträdes hemliga-nyckel".'
+    s3_use_iam_profile: 'Använd en <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html">AWS EC2-instansprofil</a> för att ge åtkomst till S3-hinken. NOTERA: för att aktivera detta krävs att Okse körs i en lämpligt konfigurerad EC2-instans och åsidosätter inställningarna "s3 tillträdes nyckel-id" och "s3 tillträdes hemliga-nyckel".'
     s3_upload_bucket: "Namnet på Amazon S3 behållaren som filerna kommer att laddas upp i. VARNING: måste vara gemener, inga punkter och inga understreck."
     s3_access_key_id: "Amazons S3-åtkomstnyckel-ID som kommer att användas för att ladda upp bilder, bilagor och säkerhetskopior."
     s3_secret_access_key: "Amazons hemliga S3-åtkomstnyckel-ID som kommer att användas för att ladda upp bilder, bilagor och säkerhetskopior."
@@ -1706,7 +1706,7 @@ sv:
     alternative_reply_by_email_addresses: "Lista på alternativa mallar för svar genom inkommen e-post. Exempelvis: %%{reply_key}@svar.exempel.se|replies+%% {reply_key}@exempel.se"
     incoming_email_prefer_html: "Använd HTML istället för text för inkommande e-post."
     strip_incoming_email_lines: "Ta bort ledande och efterföljande blanksteg från varje rad för inkommande e-post."
-    disable_emails: "Förhindra att Discourse skickar några e-postmeddelanden alls. Välj 'ja' för att inaktivera e-postmeddelanden för alla användare. Välj 'icke-personliga' för att inaktivera e-postmeddelanden endast för användare som inte är personal."
+    disable_emails: "Förhindra att Okse skickar några e-postmeddelanden alls. Välj 'ja' för att inaktivera e-postmeddelanden för alla användare. Välj 'icke-personliga' för att inaktivera e-postmeddelanden endast för användare som inte är personal."
     strip_images_from_short_emails: "Rensa bilder från e-post som har mindre storlek än 2800 bytes."
     short_email_length: "Kort e-postlängd i bytes."
     display_name_on_email_from: "Visa fullständiga namn på e-post från fält."
@@ -1727,7 +1727,7 @@ sv:
     reset_bounce_score_after_days: "Nollställ studspoäng automatiskt efter X dagar."
     attachment_content_type_blacklist: "lista av fraser som används till att svartlista bilagor baserade på innehållstyper"
     attachment_filename_blacklist: "Lista över fraser som används till att svartlista bilagor baserade på filnamnet"
-    forwarded_emails_behaviour: "Hur man behandlar ett vidarebefordrat e-postmeddelande till Discourse"
+    forwarded_emails_behaviour: "Hur man behandlar ett vidarebefordrat e-postmeddelande till Okse"
     always_show_trimmed_content: "Tillåt visning av trimmade delar av incomna emails. Varning: kan avslöja emailadresser."
     private_email: "Inkludera inte innehåll från inlägg eller ämnen i e-posttitel eller e-postinnehåll. NOTERA: inaktiverar även sammanfogade e-postmeddelanden."
     email_total_attachment_size_limit_kb: "Maximal storlek på filer som är bifogade till utgående e-post. Sätt till 0 för att inaktivera sändningar av bilagor."
@@ -1778,7 +1778,7 @@ sv:
     email_accent_fg_color: "Färgen på text som visas på e-posten bakgrundsfärg i HTML-e-postmeddelanden. Ange ett färgnamn ('vitt') eller hexvärde ('#FFFFFF')."
     email_link_color: "Färgen på länkar i HTML-e-postmeddelanden. Ange ett färgnamn ('blått') eller hexvärde ('#0000FF')."
     detect_custom_avatars: "Huruvida det ska kontrolleras att användare har laddat upp anpassade profilbilder."
-    max_daily_gravatar_crawls: "Högsta antal gånger per dag som Discourse kommer att kolla efter anpassade avatarer hos Gravatar."
+    max_daily_gravatar_crawls: "Högsta antal gånger per dag som Okse kommer att kolla efter anpassade avatarer hos Gravatar."
     public_user_custom_fields: "En lista med användaranpassade fält som kan hämtas genom API."
     staff_user_custom_fields: "En lista med användaranpassade fält som kan hämtas för personal genom API."
     enable_user_directory: "Tillhandahåll en bläddringsbar användarkatalog"
@@ -2314,7 +2314,7 @@ sv:
 
       Lycka till,
 
-      Dina vänner på [Discourse](https://www.discourse.org)
+      Dina vänner på [Okse](https://www.discourse.org)
 
       [0]: %{base_url}
       [1]: https://www.kitterman.com/spf/validate.html
@@ -2330,13 +2330,13 @@ sv:
       [mt]: https://www.mail-tester.com/
   new_version_mailer:
     title: "Ny version mail skrivare"
-    subject_template: "[%{email_prefix}] Ny version av Discourse, uppdatering tillgänglig"
-    text_body_template: "Hurra, en ny version av [Discourse](http://www.discourse.org) är tillgänglig!\n\nDin version: %{installed_version}\nNy version: **%{new_version}**\n\n- Uppgradera genom att använda den enkla **[uppgraderingsknappen](%{base_url}/admin/upgrade)** \n\n- Se vad som är nytt i [uppdaterings noteringarna](https://meta.discourse.org/tag/release-notes) eller läs i [GitHubs råa ändringslogg](https://github.com/discourse/discourse/commits/master)\n\n- Besök [meta.discourse.org](http://meta.discourse.org) för att läsa de senaste nyheterna, diskutera eller få hjälp angående Discourse\n"
+    subject_template: "[%{email_prefix}] Ny version av Okse, uppdatering tillgänglig"
+    text_body_template: "Hurra, en ny version av [Okse](http://www.discourse.org) är tillgänglig!\n\nDin version: %{installed_version}\nNy version: **%{new_version}**\n\n- Uppgradera genom att använda den enkla **[uppgraderingsknappen](%{base_url}/admin/upgrade)** \n\n- Se vad som är nytt i [uppdaterings noteringarna](https://meta.discourse.org/tag/release-notes) eller läs i [GitHubs råa ändringslogg](https://github.com/discourse/discourse/commits/master)\n\n- Besök [meta.discourse.org](http://meta.discourse.org) för att läsa de senaste nyheterna, diskutera eller få hjälp angående Okse\n"
   new_version_mailer_with_notes:
     title: "Ny version mail skrivare med anteckningar"
     subject_template: "[%{email_prefix}] uppdatering tillgänglig"
     text_body_template: |
-      Hurra, en ny version av [Discourse](http://www.discourse.org) är tillgänglig!
+      Hurra, en ny version av [Okse](http://www.discourse.org) är tillgänglig!
 
       Din version: %{installed_version}
       Ny version: **%{new_version}**
@@ -2345,7 +2345,7 @@ sv:
 
       - Se vad som är nytt i [uppdaterings noteringarna](https://meta.discourse.org/tag/release-notes) eller läs i [GitHubs råa ändringslogg](https://github.com/discourse/discourse/commits/master)
 
-      - Besök [meta.discourse.org](http://meta.discourse.org) för att läsa de senaste nyheterna, diskutera eller få hjälp angående Discourse
+      - Besök [meta.discourse.org](http://meta.discourse.org) för att läsa de senaste nyheterna, diskutera eller få hjälp angående Okse
 
       ### Uppdaterings noteringar
 
@@ -2406,7 +2406,7 @@ sv:
         Hejsan,
 
         Detta är ett automatiskt meddelande från %{site_name} för att informera dig om att [ditt inlägg](%{base_url}%{url}) återställdes.
-         
+
         Detta inlägg flaggades av gemenskapen och en ur personalen valde att återställa det.
 
         [details="Klicka för att expandera det återställda inlägget
@@ -3252,7 +3252,7 @@ sv:
       ## [Vilken information samlar vi in?](#collect)
 
       Vi samlar in information från dig när du registrerar dig på vår webbplats och samlar in data när du deltar i forumet genom att läsa, skriva och utvärdera innehållet som delas här.
-       
+
       När du registrerar dig på vår webbplats kan du bli ombedd att ange ditt namn och din e-postadress. Du kan dock besöka vår webbplats utan att registrera dig. Din e-postadress kommer att verifieras med ett e-postmeddelande som innehåller en unik länk. Om den länken besöks, vet vi att du kontrollerar e-postadressen.
 
       Efter registrering och postning registrerar vi IP-adressen som data härstammar från. Vi kan också behålla serverloggar som inkluderar IP-adressen för varje begäran till vår server.
@@ -3262,7 +3262,7 @@ sv:
       ## [Vad använder vi din information till?](#use)
 
        All information som vi samlar in från dig kan användas på något av följande sätt:
-       
+
       * För att anpassa din upplevelse &mdash; din information hjälper oss att bättre svara på dina individuella behov.
       * För att förbättra vår webbplats &mdash; vi strävar kontinuerligt efter att förbättra våra webbplatserbjudanden baserat på den information och feedback vi får från dig.
       * För att förbättra kundservice &mdash; din information hjälper oss att mer effektivt svara på dina kundtjänstförfrågningar och supportbehov.
@@ -3273,7 +3273,7 @@ sv:
       ## [Hur skyddar vi din information?](#protect)
 
        Vi genomför olika säkerhetsåtgärder för att upprätthålla säkerheten för din personliga information när du skriver in, skickar in eller får åtkomst till din personliga information.
-       
+
       <a name="data-retention"></a>
 
       ## [Vad är vår datalagringspolicy?](#data-retention)
@@ -3294,7 +3294,7 @@ sv:
       <a name="disclose"></a>
 
       ## [Visar vi någon information till externa parter?](#disclose)
-       
+
       Vi säljer inte, handlar eller överför på annat sätt din personliga identifierbara information till externa parter. Detta inkluderar inte betrodda tredje parter som hjälper oss att driva vår webbplats, bedriva vår verksamhet eller serva dig så länge dessa parter går med på att hålla denna information konfidentiell. Vi kan också släppa din information när vi anser att utgivningen är lämplig för att följa lagen, verkställa vår webbplatspolicy eller skydda våra eller andra rättigheter, egendom eller säkerhet. Icke-personligt identifierbar besökarinformation kan emellertid tillhandahållas andra parter för marknadsföring, reklam eller annan användning.
 
       <a name="third-party"></a>
@@ -3306,7 +3306,7 @@ sv:
       <a name="coppa"></a>
 
       ## [Barnens integritetsskydd online enligt COPPA](#coppa)
-       
+
       Vår webbplats, produkter och tjänster riktas till alla personer som är minst 13 år eller äldre. Om denna server finns i USA och du är under 13 år ska du enligt kraven i COPPA ([Children's Online Privacy Protection Act](https://en.wikipedia.org/wiki/Children%27s_Online_Privacy_Protection_Act)), inte använda den här webbplatsen.
 
       <a name="online"></a>
@@ -3690,7 +3690,7 @@ sv:
             description: "Allmän kontaktsida för dig eller din organisation. Visas på din <a href='%{base_path}/about' target='_blank'>om sida</a>. "
           site_contact:
             label: "Automatiska meddelanden"
-            description: "Alla automatiska personliga meddelanden från Discourse kommer att skickas från den här användaren, till exempel flaggvarningar eller meddelanden om säkerhetskopiering.\n "
+            description: "Alla automatiska personliga meddelanden från Okse kommer att skickas från den här användaren, till exempel flaggvarningar eller meddelanden om säkerhetskopiering.\n "
       corporate:
         title: "Organisation"
         description: "Den här informationen kommer att anges i dina <a href='%{base_path}/tos' target='blank'>användarvillkor</a>, vilket är ett ämne du kan redigera i personalkategorin. Om du inte har ett företag kan du hoppa över det här steget nu. "
@@ -3898,4 +3898,4 @@ sv:
     not_in_allowed_guild: "Autentisering misslyckades. Du är inte medlem i ett tillåtet Discord sällskap. "
   old_keys_reminder:
     title: "Påminnelse gällande gamla behörigheter"
-    body: "Hejsan! Detta är en årlig säkerhetspåminnelse från din Discourse-instans.\n  \nAv artighet vill vi upplysa dig om att följande behörighet som används för din Discourse-instans inte har uppdaterats under de senaste 2 åren:\n\n%{keys}\n\nIngen åtgärd är nödvändig i nuläget, däremot anses det som god praxis ur säkerhetssynpunkt att ändra alla dina viktiga behörigheter med tiden.\n"
+    body: "Hejsan! Detta är en årlig säkerhetspåminnelse från din Okse-instans.\n  \nAv artighet vill vi upplysa dig om att följande behörighet som används för din Okse-instans inte har uppdaterats under de senaste 2 åren:\n\n%{keys}\n\nIngen åtgärd är nödvändig i nuläget, däremot anses det som god praxis ur säkerhetssynpunkt att ändra alla dina viktiga behörigheter med tiden.\n"

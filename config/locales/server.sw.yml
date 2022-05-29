@@ -23,11 +23,11 @@ sw:
     <<: *datetime_formats
     am: "Asubuhi"
     pm: "jioni "
-  title: "Discourse"
+  title: "Okse"
   topics: "Mada"
   posts: "machapisho"
   loading: "Inapakuliwa"
-  powered_by_html: 'Imetengenezwa na <a href="https://www.discourse.org">Discourse</a>, inaonekana vizuri ukiruhusu JavaScript'
+  powered_by_html: 'Imetengenezwa na <a href="https://www.discourse.org">Okse</a>, inaonekana vizuri ukiruhusu JavaScript'
   sign_up: "Jiunge"
   log_in: "Ingia"
   submit: "Wasilisha"
@@ -336,7 +336,7 @@ sw:
   staff_category_name: "Wasaidizi"
   staff_category_description: "Kategoria binafsi kwa ajili ya majadiliano ya wasaidizi. Mada zitaonwa na wasimamizi na viongozi tu."
   discourse_welcome_topic:
-    title: "Karibu kwenye Discourse"
+    title: "Karibu kwenye Okse"
   lounge_welcome:
     title: "Karibu kwenye Majilisi"
   category:
@@ -802,7 +802,7 @@ sw:
     email_token_valid_hours: "Nimesahau nywila / tokens za kuanzisha akaunti zina kibali cha masaa (n)"
     enable_badges: "Ruhusu mfumo wa beji"
     enable_whispers: "Ruhusu mawasiliano binafsi kati ya wasaidizi ndani ya mada."
-    new_version_emails: "Tuma barua pepe kwa barua pepe_mawasiliano toleo jipya la Discourse likitolewa."
+    new_version_emails: "Tuma barua pepe kwa barua pepe_mawasiliano toleo jipya la Okse likitolewa."
     invite_expiry_days: "Funguo za mualiko ni sahihi, kwa siku ngapi"
     min_password_length: "Kiwango cha chini cha urefu wa nywila"
     min_admin_password_length: "Kiwango cha chini cha urefu wa nywila ya Kiongozi."
@@ -1861,7 +1861,7 @@ sw:
 
       Mazungumzo tunayoyafanya hapa ndio yatakayoonwa na mtumiaji mpya. Tusaidie kuathiri siku za baadae za jumuiya yetu, kwa kuchagua kushiriki kwenye majadiliano ambayo yanafanya jumuiya iwe sehemu ya kuvuita &mdash; na epuka na zile mbaya.
 
-      Discourse inatoa vifaa vinavyosaidia jumuiya kujua ushiriki mzuri sana (na mbaya): mialamisho, upendo, bendera, majibu, uhariri, na vinginevyo. Tumia vifaa hivi kuboresha uzoefu wako na wa wengine. Tuiache jumuiya yetu ikiwa vizuri zaidi ya tulivyoikuta.
+      Okse inatoa vifaa vinavyosaidia jumuiya kujua ushiriki mzuri sana (na mbaya): mialamisho, upendo, bendera, majibu, uhariri, na vinginevyo. Tumia vifaa hivi kuboresha uzoefu wako na wa wengine. Tuiache jumuiya yetu ikiwa vizuri zaidi ya tulivyoikuta.
 
       <a name="flag-problems"></a>
 
@@ -2095,7 +2095,7 @@ sw:
     staff_tag_remove_disallowed: 'lebo ya "%{tag}" inaweza kuondolewa na wasaidizi tu.'
   rss_by_tag: "Mada zenye lebo %{tag}"
   finish_installation:
-    congratulations: "Hongera, umesakinisha Discourse!"
+    congratulations: "Hongera, umesakinisha Okse!"
     register:
       button: "Jisajili"
       title: "Sajili Akaunti ya Kiongozi"
@@ -2111,10 +2111,10 @@ sw:
     no_plugins: "Sitisha programu-jalizi zote"
     enter: "Ingia Hali-tumizi iliyo salama"
   wizard:
-    title: "Mpangilio wa Discourse"
+    title: "Mpangilio wa Okse"
     step:
       locale:
-        title: "Karibu kwenye Discourse yako!"
+        title: "Karibu kwenye Okse yako!"
         fields:
           default_locale:
             description: "Lugha ipi ni chaguo-msingi ya jumuia yako?"
@@ -2195,7 +2195,7 @@ sw:
         title: "Alika Wasaidizi"
         description: "Una karibia kumaliza! Karibisha watu kadhaa kusaidia <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>kuanzisha majadiliano</a>na mada nzuri na majibu kufanya jumuiya yako ianze."
       finished:
-        title: "Discourse yako iko Tayari!"
+        title: "Okse yako iko Tayari!"
   search_logs:
     graph_title: "Idadi ya Utafiti"
   joined: "Alijiunga"

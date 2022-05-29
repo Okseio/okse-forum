@@ -154,7 +154,7 @@ lv:
       banner:
         enabled: "padarīja šo par baneri %{when}. Tas parādīsies katras lapas augšā, līdz lietotājs to aizvērs."
         disabled: "noņēma šo baneri %{when}. Tas vairs neparādīsies katras lapas augšā."
-    wizard_required: "Laipni lūgti jūsu jaunajā Discourse! Sāksim ar <a href='%{url}' data-auto-route='true'>uzstādīšanas palīgu</a> ✨"
+    wizard_required: "Laipni lūgti jūsu jaunajā Okse! Sāksim ar <a href='%{url}' data-auto-route='true'>uzstādīšanas palīgu</a> ✨"
     emails_are_disabled: "Administrators ir globāli izslēdzis visus izejošos e-pastus. Netiks nosūtīti nekāda veida paziņojumi."
     themes:
       default_description: "Noklusējums"
@@ -2219,7 +2219,7 @@ lv:
   admin_js:
     type_to_filter: "ievadiet, lai atlasītu..."
     admin:
-      title: "Discourse administrators"
+      title: "Okse administrators"
       moderator: "Moderators"
       tags:
         remove_muted_tags_from_latest:
@@ -3049,7 +3049,7 @@ lv:
         image: "Attēls"
         delete_confirm: "Vai tiešām vēlies dzēst šo :%{name}: smaidiņu?"
       embedding:
-        get_started: "Ja tu vēlies ieguldīt Discourse citā mājas lapā, sāc ar \"hosta\" pievienošanu.\n\nIf you'd like to embed Discourse on another website, begin by adding its host."
+        get_started: "Ja tu vēlies ieguldīt Okse citā mājas lapā, sāc ar \"hosta\" pievienošanu.\n\nIf you'd like to embed Okse on another website, begin by adding its host."
         confirm_delete: "Vai tiešām vēlies dzēst šo?"
         sample: "(Use the following HTML code into your site to create and embed discourse topics. Replace <b>REPLACE_ME</b> with the canonical URL of the page you are embedding it on.)"
         title: "Ieguldīšana"
