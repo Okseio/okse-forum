@@ -28,7 +28,7 @@ zh_CN:
   topics: "主题列表"
   posts: "帖子"
   loading: "载入中"
-  powered_by_html: '采用 <a href="https://www.discourse.org">Okse</a>，启用 JavaScript 以获得最佳体验'
+  powered_by_html: '采用 <a href="https://forum.okse.io">Okse</a>，启用 JavaScript 以获得最佳体验'
   sign_up: "注册"
   log_in: "登录"
   submit: "提交"
@@ -2273,7 +2273,7 @@ zh_CN:
 
       祝你好运,
 
-      来自 [Okse](https://www.discourse.org) 的朋友
+      来自 [Okse](https://forum.okse.io) 的朋友
 
       [0]: %{base_url}
       [1]: https://www.kitterman.com/spf/validate.html
@@ -2291,7 +2291,7 @@ zh_CN:
     title: "新版本发件人"
     subject_template: "[%{email_prefix}] 新 Okse 版本可供升级"
     text_body_template: |
-      Hooray，[Okse](https://www.discourse.org)的新版本现已发布！
+      Hooray，[Okse](https://forum.okse.io)的新版本现已发布！
 
       您的版本：%{installed_version}
       新版本：**%{new_version}**
@@ -2305,7 +2305,7 @@ zh_CN:
     title: "带注解的新版本发件人"
     subject_template: "[%{email_prefix}] 可以升级"
     text_body_template: |
-      Hooray，[Okse](https://www.discourse.org)的新版本现已发布！
+      Hooray，[Okse](https://forum.okse.io)的新版本现已发布！
 
       您的版本：%{installed_version}
       新版本：**%{new_version}**

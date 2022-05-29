@@ -28,7 +28,7 @@ pl_PL:
   topics: "Tematy"
   posts: "posty"
   loading: "Ładowanie"
-  powered_by_html: 'Oparte na <a href="https://www.discourse.org">Okse</a>, najlepiej oglądać z włączonym JavaScriptem'
+  powered_by_html: 'Oparte na <a href="https://forum.okse.io">Okse</a>, najlepiej oglądać z włączonym JavaScriptem'
   sign_up: "Rejestracja"
   log_in: "Logowanie"
   submit: "Prześlij"

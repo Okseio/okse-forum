@@ -328,7 +328,7 @@ acceptance("Avatar selector when selectable avatars is enabled", {
       return [
         200,
         { "Content-Type": "application/json" },
-        ["https://www.discourse.org", "https://forum.okse.io"]
+        ["https://forum.okse.io", "https://forum.okse.io"]
       ];
     });
   }

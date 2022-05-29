@@ -2276,7 +2276,7 @@ describe UsersController do
       let!(:user) { sign_in(Fabricate(:user)) }
       fab!(:avatar1) { Fabricate(:upload) }
       fab!(:avatar2) { Fabricate(:upload) }
-      let(:url) { "https://www.discourse.org" }
+      let(:url) { "https://forum.okse.io" }
 
       it 'raises an error when url is blank' do
         put "/u/#{user.username}/preferences/avatar/select.json", params: { url: "" }

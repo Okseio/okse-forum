@@ -28,7 +28,7 @@ sl:
   topics: "Teme"
   posts: "prispevkov"
   loading: "Nalagam"
-  powered_by_html: 'Uporablja tehnologijo <a href="https://www.discourse.org">Okse</a>, za ogled te strani se priporoča omogočen JavaScript.'
+  powered_by_html: 'Uporablja tehnologijo <a href="https://forum.okse.io">Okse</a>, za ogled te strani se priporoča omogočen JavaScript.'
   sign_up: "Registracija"
   log_in: "Vpis"
   submit: "Pošlji"

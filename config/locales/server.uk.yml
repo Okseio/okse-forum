@@ -28,7 +28,7 @@ uk:
   topics: "Теми"
   posts: "дописи"
   loading: "Завантаження"
-  powered_by_html: 'При підтримці <a href="http://www.discourse.org">Okse</a>, краще за все використовувати з увімкненим JavaScript'
+  powered_by_html: 'При підтримці <a href="http://forum.okse.io">Okse</a>, краще за все використовувати з увімкненим JavaScript'
   sign_up: "Зареєструватись"
   log_in: "Вхід"
   submit: "Надіслати"

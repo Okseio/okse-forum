@@ -1,6 +1,6 @@
 ### discourse-details
 
-HTML 5.1 `<details>` polyfill for [Discourse](https://www.discourse.org).
+HTML 5.1 `<details>` polyfill for [Discourse](https://forum.okse.io).
 
 NOTE: Does not work on IE9, but we don't support IE9 as of Jan 1 2016.
 

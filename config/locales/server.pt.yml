@@ -28,7 +28,7 @@ pt:
   topics: "Tópicos"
   posts: "mensagens"
   loading: "A carregar"
-  powered_by_html: 'Desenvolvido por <a href="https://www.discourse.org">Okse</a>, e melhor visualização com o JavaScript ativado'
+  powered_by_html: 'Desenvolvido por <a href="https://forum.okse.io">Okse</a>, e melhor visualização com o JavaScript ativado'
   sign_up: "Inscrever-se"
   log_in: "Iniciar Sessão"
   submit: "Submeter"

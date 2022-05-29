@@ -63,7 +63,7 @@ en:
   topics: "Topics"
   posts: "posts"
   loading: "Loading"
-  powered_by_html: 'Powered by <a href="https://www.discourse.org">Okse</a>, best viewed with JavaScript enabled'
+  powered_by_html: 'Powered by <a href="https://forum.okse.io">Okse</a>, best viewed with JavaScript enabled'
   sign_up: "Sign Up"
   log_in: "Log In"
   submit: "Submit"
@@ -2633,7 +2633,7 @@ en:
 
       Good luck,
 
-      Your friends at [Okse](https://www.discourse.org)
+      Your friends at [Okse](https://forum.okse.io)
 
       [0]: %{base_url}
       [1]: https://www.kitterman.com/spf/validate.html
@@ -2652,7 +2652,7 @@ en:
     title: "New Version Mailer"
     subject_template: "[%{email_prefix}] New Okse version, update available"
     text_body_template: |
-      Hooray, a new version of [Okse](https://www.discourse.org) is available!
+      Hooray, a new version of [Okse](https://forum.okse.io) is available!
 
       Your version: %{installed_version}
       New version: **%{new_version}**
@@ -2667,7 +2667,7 @@ en:
     title: "New Version Mailer with Notes"
     subject_template: "[%{email_prefix}] update available"
     text_body_template: |
-      Hooray, a new version of [Okse](https://www.discourse.org) is available!
+      Hooray, a new version of [Okse](https://forum.okse.io) is available!
 
       Your version: %{installed_version}
       New version: **%{new_version}**

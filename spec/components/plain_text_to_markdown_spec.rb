@@ -181,7 +181,7 @@ describe PlainTextToMarkdown do
     it "does not explode with weird links" do
       expect {
         Timeout::timeout(0.25) {
-          to_markdown("https://www.discourse.org/?boom=#{"." * 20}")
+          to_markdown("https://forum.okse.io/?boom=#{"." * 20}")
         }
       }.not_to raise_error
     end

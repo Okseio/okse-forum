@@ -28,7 +28,7 @@ it:
   topics: "Argomenti"
   posts: "messaggi"
   loading: "Caricamento"
-  powered_by_html: 'Fornito da <a href="https://www.discourse.org">Okse</a>, si consiglia di abilitare JavaScript'
+  powered_by_html: 'Fornito da <a href="https://forum.okse.io">Okse</a>, si consiglia di abilitare JavaScript'
   sign_up: "Iscriviti"
   log_in: "Connetti"
   submit: "Invia"

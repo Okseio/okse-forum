@@ -18,7 +18,7 @@ describe PostCreator do
     let(:creator_with_category) { PostCreator.new(user, basic_topic_params.merge(category: category.id)) }
     let(:creator_with_meta_data) { PostCreator.new(user, basic_topic_params.merge(meta_data: { hello: "world" })) }
     let(:creator_with_image_sizes) { PostCreator.new(user, basic_topic_params.merge(image_sizes: image_sizes)) }
-    let(:creator_with_featured_link) { PostCreator.new(user, title: "featured link topic", archetype_id: 1, featured_link: "http://www.discourse.org", raw: "http://www.discourse.org") }
+    let(:creator_with_featured_link) { PostCreator.new(user, title: "featured link topic", archetype_id: 1, featured_link: "http://forum.okse.io", raw: "http://forum.okse.io") }
 
     it "can create a topic with null byte central" do
       post = PostCreator.create(user, title: "hello\u0000world this is title", raw: "this is my\u0000 first topic")
@@ -306,7 +306,7 @@ describe PostCreator do
         SiteSetting.min_first_post_length = 100
 
         post = creator_with_featured_link.create
-        expect(post.topic.featured_link).to eq('http://www.discourse.org')
+        expect(post.topic.featured_link).to eq('http://forum.okse.io')
         expect(post.valid?).to eq(true)
       end
 

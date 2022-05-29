@@ -27,7 +27,7 @@ nb_NO:
   topics: "Emner"
   posts: "innlegg"
   loading: "Laster"
-  powered_by_html: 'Drives av <a href="https://www.discourse.org">Okse</a>, og ser best ut med JavaScript aktivert'
+  powered_by_html: 'Drives av <a href="https://forum.okse.io">Okse</a>, og ser best ut med JavaScript aktivert'
   sign_up: "Registrer deg"
   log_in: "Logg inn"
   submit: "Send"

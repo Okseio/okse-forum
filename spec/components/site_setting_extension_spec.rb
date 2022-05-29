@@ -600,8 +600,8 @@ describe SiteSettingExtension do
     end
 
     it "filters domain" do
-      settings.set("white_listed_spam_host_domains", "http://www.discourse.org/")
-      expect(settings.white_listed_spam_host_domains).to eq("www.discourse.org")
+      settings.set("white_listed_spam_host_domains", "http://forum.okse.io/")
+      expect(settings.white_listed_spam_host_domains).to eq("forum.okse.io")
     end
 
     it "returns invalid domain as is, without throwing exception" do

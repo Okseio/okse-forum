@@ -2750,7 +2750,7 @@ hy:
         this_week: "Շաբաթ"
         today: "Այսօր"
         other_periods: "տեսնել թոփը՝ "
-    browser_update: 'Ցավոք, <a href="https://www.discourse.org/faq/#browser"> Ձեր բրաուզերը չափազանց հին է այս կայքն օգտագործելու համար </a>: Խնդրում ենք, <a href="https://browsehappy.com"> թարմացնել Ձեր բրաուզերը </a> կայքի լիարժեք աշխատանքի համար:'
+    browser_update: 'Ցավոք, <a href="https://forum.okse.io/faq/#browser"> Ձեր բրաուզերը չափազանց հին է այս կայքն օգտագործելու համար </a>: Խնդրում ենք, <a href="https://browsehappy.com"> թարմացնել Ձեր բրաուզերը </a> կայքի լիարժեք աշխատանքի համար:'
     permission_types:
       full: "Ստեղծել/Պատասխանել/Դիտել"
       create_post: "Պատասխանել/Դիտել"

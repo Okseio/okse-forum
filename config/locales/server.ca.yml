@@ -28,7 +28,7 @@ ca:
   topics: "Temes"
   posts: "publicacions"
   loading: "Carregant"
-  powered_by_html: 'Funciona gràcies a <a href="https://www.discourse.org">Okse</a>. Per a una millor experiència visiteu-nos amb JavaScript activat.'
+  powered_by_html: 'Funciona gràcies a <a href="https://forum.okse.io">Okse</a>. Per a una millor experiència visiteu-nos amb JavaScript activat.'
   sign_up: "Registre"
   log_in: "Inicia la sessió"
   submit: "Envia"

@@ -28,7 +28,7 @@ be:
   topics: "тэмы"
   posts: "паведамленняў"
   loading: "загрузка"
-  powered_by_html: 'Працуе на <a href="https://www.discourse.org">Okse</a>. Не выключай JavaScript, боўдзіла.'
+  powered_by_html: 'Працуе на <a href="https://forum.okse.io">Okse</a>. Не выключай JavaScript, боўдзіла.'
   sign_up: "рэгістрацыя"
   log_in: "Увайсці"
   submit: "Адправіць"

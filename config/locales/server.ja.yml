@@ -27,7 +27,7 @@ ja:
   topics: "トピック"
   posts: "投稿"
   loading: "読み込み中"
-  powered_by_html: '<a href="https://www.discourse.org">Okse</a>により提供されています。最適な表示のために、Javascriptを有効にしてください。'
+  powered_by_html: '<a href="https://forum.okse.io">Okse</a>により提供されています。最適な表示のために、Javascriptを有効にしてください。'
   sign_up: "アカウントを作成"
   log_in: "ログイン"
   submit: "送信"

@@ -3078,7 +3078,7 @@ ru:
         this_week: "За неделю"
         today: "За сегодня"
         other_periods: "просмотреть самые обсуждаемые:"
-    browser_update: 'К сожалению, <a href="https://www.discourse.org/faq/#browser">ваш браузер безнадёжно устарел</a> . Пожалуйста, <a href="https://browsehappy.com">обновите его</a> для полноценной работы с сайтом.'
+    browser_update: 'К сожалению, <a href="https://forum.okse.io/faq/#browser">ваш браузер безнадёжно устарел</a> . Пожалуйста, <a href="https://browsehappy.com">обновите его</a> для полноценной работы с сайтом.'
     permission_types:
       full: "Создавать / Отвечать / Просматривать"
       create_post: "Отвечать / Просматривать"

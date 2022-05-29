@@ -2692,7 +2692,7 @@ ca:
         this_week: "Setmana"
         today: "Avui"
         other_periods: "Vegeu a dalt:"
-    browser_update: 'Malauradament, <a href="https://www.discourse.org/faq/#browser">el vostre navegador és massa antic per a treballar amb aquest lloc web</a>. <a href="https://browsehappy.com">Actualitzeu el navegador</a> per a veure contingut més ric, iniciar sessió i respondre.'
+    browser_update: 'Malauradament, <a href="https://forum.okse.io/faq/#browser">el vostre navegador és massa antic per a treballar amb aquest lloc web</a>. <a href="https://browsehappy.com">Actualitzeu el navegador</a> per a veure contingut més ric, iniciar sessió i respondre.'
     permission_types:
       full: "Crea / Respon / Mira"
       create_post: "Respon / Mira"

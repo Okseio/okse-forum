@@ -28,7 +28,7 @@ hu:
   topics: "Témák"
   posts: "Bejegyzések"
   loading: "Betöltés"
-  powered_by_html: 'A motorháztető alatt: <a href="https://www.discourse.org">Okse</a>, a megtekintése JavaScript engedélyezésével ajánlott'
+  powered_by_html: 'A motorháztető alatt: <a href="https://forum.okse.io">Okse</a>, a megtekintése JavaScript engedélyezésével ajánlott'
   sign_up: "Regisztráció"
   log_in: "Bejelentkezés"
   submit: "Beküldés"

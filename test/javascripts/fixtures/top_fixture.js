@@ -2057,7 +2057,7 @@ export default {
           reply_count: 157,
           highest_post_number: 219,
           image_url:
-            "http://www.discourse.org/images/install/droplet-step-1.png",
+            "http://forum.okse.io/images/install/droplet-step-1.png",
           created_at: "2014-01-23T14:58:17.918-05:00",
           last_posted_at: "2014-08-26T10:06:25.833-04:00",
           bumped: true,

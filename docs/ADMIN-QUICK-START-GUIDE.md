@@ -1,4 +1,4 @@
-Congratulations, you are now the proud owner of your very own [Civilized Discourse Construction Kit](https://www.discourse.org). :hatching_chick:
+Congratulations, you are now the proud owner of your very own [Civilized Discourse Construction Kit](https://forum.okse.io). :hatching_chick:
 
 ### Getting Started
 

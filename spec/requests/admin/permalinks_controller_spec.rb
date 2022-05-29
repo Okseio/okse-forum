@@ -31,7 +31,7 @@ describe Admin::PermalinksController do
     it 'filters external url' do
       Fabricate(:permalink, external_url: "http://google.com")
       Fabricate(:permalink, external_url: "http://wikipedia.org")
-      Fabricate(:permalink, external_url: "http://www.discourse.org")
+      Fabricate(:permalink, external_url: "http://forum.okse.io")
       Fabricate(:permalink, external_url: "http://try.discourse.org")
 
       get "/admin/permalinks.json", params: { filter: "discourse" }

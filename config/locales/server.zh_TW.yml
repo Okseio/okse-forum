@@ -28,7 +28,7 @@ zh_TW:
   topics: "討論話題"
   posts: "貼文"
   loading: "載入中"
-  powered_by_html: 'Powered by <a href="https://www.discourse.org">Okse</a>, 建議開啟 JavaScript 瀏覽'
+  powered_by_html: 'Powered by <a href="https://forum.okse.io">Okse</a>, 建議開啟 JavaScript 瀏覽'
   sign_up: "註冊"
   log_in: "登入"
   submit: "提交"

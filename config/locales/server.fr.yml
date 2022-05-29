@@ -28,7 +28,7 @@ fr:
   topics: "Sujets"
   posts: "messages"
   loading: "Chargement"
-  powered_by_html: 'Propulsé par <a href="https://www.discourse.org">Okse</a>, le rendu est meilleur quand JavaScript est activé.'
+  powered_by_html: 'Propulsé par <a href="https://forum.okse.io">Okse</a>, le rendu est meilleur quand JavaScript est activé.'
   sign_up: "S'inscrire"
   log_in: "Se connecter"
   submit: "Envoyer"
@@ -2329,7 +2329,7 @@ fr:
     title: "Nouvelle version"
     subject_template: "[%{email_prefix}] Nouvelle version de Okse, mise à jour disponible"
     text_body_template: |
-      Hourra, une nouvelle version de [Okse](https://www.discourse.org) est disponible !
+      Hourra, une nouvelle version de [Okse](https://forum.okse.io) est disponible !
 
       Votre version : %{installed_version}
       Nouvelle version : **%{new_version}**
@@ -2343,7 +2343,7 @@ fr:
     title: "Nouvelle version avec notes de modifications"
     subject_template: "[%{email_prefix}] Mise à jour disponible"
     text_body_template: |
-      Hourra, une nouvelle version de [Okse](https://www.discourse.org) est disponible !
+      Hourra, une nouvelle version de [Okse](https://forum.okse.io) est disponible !
 
       Votre version : %{installed_version}
       Nouvelle version : **%{new_version}**

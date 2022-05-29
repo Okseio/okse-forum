@@ -28,7 +28,7 @@ hy:
   topics: "Թեմաներ"
   posts: "գրառումներ"
   loading: "Բեռնում"
-  powered_by_html: 'Գործարկված է <a href="https://www.discourse.org">Okse</a>-ի կողմից, լավագույնս աշխատում է, երբ JavaScript-ը միացված է'
+  powered_by_html: 'Գործարկված է <a href="https://forum.okse.io">Okse</a>-ի կողմից, լավագույնս աշխատում է, երբ JavaScript-ը միացված է'
   sign_up: "Գրանցվել"
   log_in: "Մուտք Գործել"
   submit: "Հաստատել"

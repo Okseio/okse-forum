@@ -28,7 +28,7 @@ ko:
   topics: "토픽"
   posts: "포스트"
   loading: "로딩중"
-  powered_by_html: '<a href="https://www.discourse.org">Okse</a> 으로 호스팅되고 있습니다. JavaScript 가 활성화되어 있을 때 가장 멋지게 보입니다.'
+  powered_by_html: '<a href="https://forum.okse.io">Okse</a> 으로 호스팅되고 있습니다. JavaScript 가 활성화되어 있을 때 가장 멋지게 보입니다.'
   sign_up: "회원가입"
   log_in: "로그인"
   submit: "제출"

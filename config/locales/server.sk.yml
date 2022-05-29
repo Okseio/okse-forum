@@ -26,7 +26,7 @@ sk:
   topics: "Témy"
   posts: "príspevky"
   loading: "Načítava sa"
-  powered_by_html: 'Beží na <a href="https://www.discourse.org">Okse</a>, najlepšie so zapnutým JavaScriptom'
+  powered_by_html: 'Beží na <a href="https://forum.okse.io">Okse</a>, najlepšie so zapnutým JavaScriptom'
   sign_up: "Registrovať sa"
   log_in: "Prihlásenie"
   submit: "odošli"

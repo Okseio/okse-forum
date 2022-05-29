@@ -28,7 +28,7 @@ da:
   topics: "Emner"
   posts: "indlæg"
   loading: "Indlæser"
-  powered_by_html: 'Drives med brug af <a href="https://www.discourse.org">Okse</a>, ses bedst med JavaScript slået til'
+  powered_by_html: 'Drives med brug af <a href="https://forum.okse.io">Okse</a>, ses bedst med JavaScript slået til'
   sign_up: "Tilmeld dig"
   log_in: "Log ind"
   submit: "Færdiggør"

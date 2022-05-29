@@ -28,7 +28,7 @@ es:
   topics: "Temas"
   posts: "publicaciones"
   loading: "Cargando"
-  powered_by_html: 'Creado con <a href="https://www.discourse.org">Okse</a>, se ve mejor con JavaScript habilitado'
+  powered_by_html: 'Creado con <a href="https://forum.okse.io">Okse</a>, se ve mejor con JavaScript habilitado'
   sign_up: "Registrarse"
   log_in: "Iniciar sesión"
   submit: "Enviar"
@@ -2315,7 +2315,7 @@ es:
 
       Buena suerte,
 
-      Tus amigos de [Okse](https://www.discourse.org)
+      Tus amigos de [Okse](https://forum.okse.io)
 
       [0]:%{base_url}
       [1]: https://www.kitterman.com/spf/validate.html
@@ -2333,7 +2333,7 @@ es:
     title: "Correo electrónico de nueva versión"
     subject_template: "[%{email_prefix}] Nueva versión de Okse, actualización disponible"
     text_body_template: |
-      ¡Hurra! Una version nueva de [Okse] (https://www.discourse.org) está disponible.
+      ¡Hurra! Una version nueva de [Okse] (https://forum.okse.io) está disponible.
 
       Tu versión: %{installed_version}
       Versión nueva: **%{new_version}**
@@ -2347,7 +2347,7 @@ es:
     title: "Correo electrónico de nueva versión con notas"
     subject_template: "[%{email_prefix}] actualización disponible"
     text_body_template: |
-      Hurra! Una version nueva de [Okse] (https://www.discourse.org) está disponible.
+      Hurra! Una version nueva de [Okse] (https://forum.okse.io) está disponible.
 
       Tu versión: %{installed_version}
       Versión nueva: **%{new_version}**

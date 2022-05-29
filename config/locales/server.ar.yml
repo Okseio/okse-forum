@@ -27,7 +27,7 @@ ar:
   topics: "الموضوعات "
   posts: "المنشورات"
   loading: "يحمّل"
-  powered_by_html: 'مدعومة من <a href="http://www.discourse.org">دسكورس </a>، يفضّل عرضه و جافاسكربت مفعّل'
+  powered_by_html: 'مدعومة من <a href="http://forum.okse.io">دسكورس </a>، يفضّل عرضه و جافاسكربت مفعّل'
   sign_up: "إنشاء حساب"
   log_in: "لِج"
   submit: "أرسل"

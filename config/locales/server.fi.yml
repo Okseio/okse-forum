@@ -28,7 +28,7 @@ fi:
   topics: "Ketjut"
   posts: "viestit"
   loading: "Lataa"
-  powered_by_html: 'Voimanlähteenä <a href="https://www.discourse.org">Okse</a>, toimii parhaiten, kun JavaScript on käytössä'
+  powered_by_html: 'Voimanlähteenä <a href="https://forum.okse.io">Okse</a>, toimii parhaiten, kun JavaScript on käytössä'
   sign_up: "Luo tili"
   log_in: "Kirjaudu"
   submit: "Lähetä"
@@ -2251,7 +2251,7 @@ fi:
     title: "Uusi versio"
     subject_template: "[%{email_prefix}] Uusi Okse-versio, päivitys saatavilla"
     text_body_template: |
-      Hurraa, uusi [Okse-versio](https://www.discourse.org) on saatavilla!
+      Hurraa, uusi [Okse-versio](https://forum.okse.io) on saatavilla!
 
       Sinun versiosi: %{installed_version}
       Uusi versio: **%{new_version}**
@@ -2265,7 +2265,7 @@ fi:
     title: "Uusi versio julkaisumuistiolla"
     subject_template: "[%{email_prefix}] päivitys saatavilla"
     text_body_template: |
-      Hurraa, uusi [Okse-versio](https://www.discourse.org) on saatavilla!
+      Hurraa, uusi [Okse-versio](https://forum.okse.io) on saatavilla!
 
       Sinun versiosi: %{installed_version}
       Uusi versio: **%{new_version}**

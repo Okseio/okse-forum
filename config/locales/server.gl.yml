@@ -28,7 +28,7 @@ gl:
   topics: "Temas"
   posts: "publicacións"
   loading: "Cargando"
-  powered_by_html: 'Con tecnoloxía de <a href="https://www.discourse.org">Okse</a>, vese mellor con Java habilitado'
+  powered_by_html: 'Con tecnoloxía de <a href="https://forum.okse.io">Okse</a>, vese mellor con Java habilitado'
   sign_up: "Crear unha conta"
   log_in: "Iniciar sesión"
   submit: "Enviar"

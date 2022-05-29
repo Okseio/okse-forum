@@ -82,7 +82,7 @@ describe SearchIndexer do
 
   it "doesn't index local files" do
     html = <<~HTML
-      <p><img src="https://www.discourse.org/logo.png" alt="Discourse"></p>
+      <p><img src="https://forum.okse.io/logo.png" alt="Discourse"></p>
       <p><img src="#{Discourse.base_url_no_prefix}/uploads/episodeinteractive/original/3X/0/f/0f40b818356bdc1d80acfa905034e95cfd112a3a.png" alt="51%20PM" width="289" height="398"></p>
       <div class="lightbox-wrapper">
         <a class="lightbox" href="#{Discourse.base_url_no_prefix}/uploads/episodeinteractive/original/3X/1/6/16790095df3baf318fb2eb1d7e5d7860dc45d48b.jpg" data-download-href="#{Discourse.base_url_no_prefix}/uploads/episodeinteractive/16790095df3baf318fb2eb1d7e5d7860dc45d48b" title="Untitled design (21).jpg" rel="nofollow noopener">

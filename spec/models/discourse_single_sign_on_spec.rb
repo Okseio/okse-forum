@@ -32,7 +32,7 @@ describe DiscourseSingleSignOn do
     sso.title = "user title"
     sso.custom_fields["a"] = "Aa"
     sso.custom_fields["b.b"] = "B.b"
-    sso.website = "https://www.discourse.org/"
+    sso.website = "https://forum.okse.io/"
     sso.location = "Home"
     sso
   end

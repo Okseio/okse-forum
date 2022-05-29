@@ -28,7 +28,7 @@ ru:
   topics: "Темы"
   posts: "сообщения"
   loading: "Загрузка..."
-  powered_by_html: 'При поддержке <a href="http://www.discourse.org">Okse</a>, лучше всего использовать с включенным JavaScript'
+  powered_by_html: 'При поддержке <a href="http://forum.okse.io">Okse</a>, лучше всего использовать с включенным JavaScript'
   sign_up: "Зарегистрироваться"
   log_in: "Войти"
   submit: "Подтвердить"

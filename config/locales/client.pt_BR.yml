@@ -2824,7 +2824,7 @@ pt_BR:
         this_week: "Semana"
         today: "Hoje"
         other_periods: "ver top:"
-    browser_update: 'Infelizmente, <a href="https://www.discourse.org/faq/#browser">seu navegador é muito antigo para funcionar neste site</a>. <a href="https://browsehappy.com">Atualize seu navegador</a> para visualizar conteúdo rico, fazer login e responder.'
+    browser_update: 'Infelizmente, <a href="https://forum.okse.io/faq/#browser">seu navegador é muito antigo para funcionar neste site</a>. <a href="https://browsehappy.com">Atualize seu navegador</a> para visualizar conteúdo rico, fazer login e responder.'
     permission_types:
       full: "Criar / Responder / Ver"
       create_post: "Responder / Ver"

@@ -2858,7 +2858,7 @@ sv:
         this_week: "Vecka"
         today: "Idag"
         other_periods: "se toppen för:"
-    browser_update: 'Tyvärr, <a href="https://www.discourse.org/faq/#browser">din webbläsare är för gammal för att fungera på den här sidan</a>. Vänligen <a href="https://browsehappy.com">uppgradera din webbläsare</a> för att visa formaterat innehåll, logga in eller svara. '
+    browser_update: 'Tyvärr, <a href="https://forum.okse.io/faq/#browser">din webbläsare är för gammal för att fungera på den här sidan</a>. Vänligen <a href="https://browsehappy.com">uppgradera din webbläsare</a> för att visa formaterat innehåll, logga in eller svara. '
     permission_types:
       full: "Skapa / svara / se"
       create_post: "Svara / se"

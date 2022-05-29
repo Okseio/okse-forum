@@ -1,4 +1,4 @@
-<a href="https://www.discourse.org/"><img src=
+<a href="https://forum.okse.io/"><img src=
 "https://user-images.githubusercontent.com/1681963/52239617-e2683480-289c-11e9-922b-5da55472e5b4.png"
  width="300px"></a>
 
@@ -10,7 +10,7 @@ Discourse is the 100% open source discussion platform built for the next decade 
 - discussion forum
 - long-form chat room
 
-To learn more about the philosophy and goals of the project, [visit **discourse.org**](https://www.discourse.org).
+To learn more about the philosophy and goals of the project, [visit **discourse.org**](https://forum.okse.io).
 
 ## Screenshots
 
@@ -22,7 +22,7 @@ To learn more about the philosophy and goals of the project, [visit **discourse.
 
 <img src="https://user-images.githubusercontent.com/1681963/52239118-b304f800-289b-11e9-9904-16450680d9ec.jpg" alt="Mobile" width="414">
 
-Browse [lots more notable Discourse instances](https://www.discourse.org/customers).
+Browse [lots more notable Discourse instances](https://forum.okse.io/customers).
 
 ## Development
 
@@ -40,7 +40,7 @@ Before you get started, ensure you have the following minimum versions: [Ruby 2.
 
 If you want to set up a Discourse forum for production use, see our [**Discourse Install Guide**](docs/INSTALL.md).
 
-If you're looking for business class hosting, see [discourse.org/buy](https://www.discourse.org/buy/).
+If you're looking for business class hosting, see [discourse.org/buy](https://forum.okse.io/buy/).
 
 ## Requirements
 
@@ -73,8 +73,8 @@ accepts contributions from the public &ndash; including you!
 
 Before contributing to Discourse:
 
-1. Please read the complete mission statements on [**discourse.org**](https://www.discourse.org). Yes we actually believe this stuff; you should too.
-2. Read and sign the [**Electronic Discourse Forums Contribution License Agreement**](https://www.discourse.org/cla).
+1. Please read the complete mission statements on [**discourse.org**](https://forum.okse.io). Yes we actually believe this stuff; you should too.
+2. Read and sign the [**Electronic Discourse Forums Contribution License Agreement**](https://forum.okse.io/cla).
 3. Dig into [**CONTRIBUTING.MD**](CONTRIBUTING.md), which covers submitting bugs, requesting new features, preparing your code for a pull request, etc.
 4. Always strive to collaborate [with mutual respect](https://github.com/Okseio/okse-forum/blob/master/docs/code-of-conduct.md).
 5. Not sure what to work on? [**We've got some ideas.**](https://forum.okse.io/t/so-you-want-to-help-out-with-discourse/3823)

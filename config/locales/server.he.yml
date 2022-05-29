@@ -28,7 +28,7 @@ he:
   topics: "נושאים"
   posts: "פוסטים"
   loading: "בטעינה"
-  powered_by_html: 'מופעל על גבי <a href="https://www.discourse.org">Okse</a>, לצפייה מיטבית יש להפעיל JavaScript'
+  powered_by_html: 'מופעל על גבי <a href="https://forum.okse.io">Okse</a>, לצפייה מיטבית יש להפעיל JavaScript'
   sign_up: "הרשמה"
   log_in: "כניסה"
   submit: "הגשה"
@@ -2464,7 +2464,7 @@ he:
 
       בהצלחה,
 
-      חבריך ב־[Okse](https://www.discourse.org)
+      חבריך ב־[Okse](https://forum.okse.io)
 
       [0]: %{base_url}
 
@@ -2493,7 +2493,7 @@ he:
     title: "שולח-מיילים של גרסה חדשה"
     subject_template: "[%{email_prefix}] גרסת Okse חדשה, עדכון זמין."
     text_body_template: |
-      היאח, יצאה גרסה חדשה של [Okse](https://www.discourse.org)!
+      היאח, יצאה גרסה חדשה של [Okse](https://forum.okse.io)!
 
       הגרסה שלך: %{installed_version}
       הגרסה החדשה: **%{new_version}**
@@ -2507,7 +2507,7 @@ he:
     title: "שולח-מיילים של גרסה חדשה עם הערות"
     subject_template: "[%{email_prefix}] עדכון זמין"
     text_body_template: |
-      היאח, יצאה גרסה חדשה של [Okse](https://www.discourse.org)!
+      היאח, יצאה גרסה חדשה של [Okse](https://forum.okse.io)!
 
       הגרסה שלך: %{installed_version}
       הגרסה החדשה: **%{new_version}**

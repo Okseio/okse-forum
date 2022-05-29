@@ -774,7 +774,7 @@ class PluginApi {
    * addNavigationBarItem({
    *   name: "discourse",
    *   displayName: "Discourse"
-   *   href: "https://www.discourse.org",
+   *   href: "https://forum.okse.io",
    * })
    *
    * An optional `customFilter` callback can be included to not display the

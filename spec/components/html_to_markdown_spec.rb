@@ -119,7 +119,7 @@ describe HtmlToMarkdown do
   end
 
   it "converts <a>" do
-    expect(html_to_markdown(%Q{<a href="https://www.discourse.org">Discourse</a>})).to eq("[Discourse](https://www.discourse.org)")
+    expect(html_to_markdown(%Q{<a href="https://forum.okse.io">Discourse</a>})).to eq("[Discourse](https://forum.okse.io)")
   end
 
   it "supports SiteSetting.allowed_href_schemes" do
@@ -133,11 +133,11 @@ describe HtmlToMarkdown do
     expect(html_to_markdown(%Q{<a href="foo.bar">Discourse</a>})).to eq("Discourse")
   end
 
-  HTML_WITH_IMG     ||= %Q{<img src="https://www.discourse.org/logo.svg" alt="Discourse Logo">}
+  HTML_WITH_IMG     ||= %Q{<img src="https://forum.okse.io/logo.svg" alt="Discourse Logo">}
   HTML_WITH_CID_IMG ||= %Q{<img src="cid:ii_1525434659ddb4cb" title="Discourse Logo">}
 
   it "converts <img>" do
-    expect(html_to_markdown(HTML_WITH_IMG)).to eq("![Discourse Logo](https://www.discourse.org/logo.svg)")
+    expect(html_to_markdown(HTML_WITH_IMG)).to eq("![Discourse Logo](https://forum.okse.io/logo.svg)")
   end
 
   it "keeps <img> with 'keep_img_tags'" do
@@ -155,16 +155,16 @@ describe HtmlToMarkdown do
   end
 
   it "skips hidden <img>" do
-    expect(html_to_markdown(%Q{<img src="https://www.discourse.org/logo.svg" width=0>})).to eq("")
-    expect(html_to_markdown(%Q{<img src="https://www.discourse.org/logo.svg" height="0">})).to eq("")
-    expect(html_to_markdown(%Q{<img src="https://www.discourse.org/logo.svg" style="width: 0">})).to eq("")
-    expect(html_to_markdown(%Q{<img src="https://www.discourse.org/logo.svg" style="height:0px">})).to eq("")
+    expect(html_to_markdown(%Q{<img src="https://forum.okse.io/logo.svg" width=0>})).to eq("")
+    expect(html_to_markdown(%Q{<img src="https://forum.okse.io/logo.svg" height="0">})).to eq("")
+    expect(html_to_markdown(%Q{<img src="https://forum.okse.io/logo.svg" style="width: 0">})).to eq("")
+    expect(html_to_markdown(%Q{<img src="https://forum.okse.io/logo.svg" style="height:0px">})).to eq("")
   end
 
   it "supports width/height on <img>" do
-    expect(html_to_markdown(%Q{<img src="https://www.discourse.org/logo.svg" height=100>})).to eq("![](https://www.discourse.org/logo.svg)")
-    expect(html_to_markdown(%Q{<img src="https://www.discourse.org/logo.svg" width=200>})).to eq("![](https://www.discourse.org/logo.svg)")
-    expect(html_to_markdown(%Q{<img src="https://www.discourse.org/logo.svg" height=100 width=200>})).to eq("![|200x100](https://www.discourse.org/logo.svg)")
+    expect(html_to_markdown(%Q{<img src="https://forum.okse.io/logo.svg" height=100>})).to eq("![](https://forum.okse.io/logo.svg)")
+    expect(html_to_markdown(%Q{<img src="https://forum.okse.io/logo.svg" width=200>})).to eq("![](https://forum.okse.io/logo.svg)")
+    expect(html_to_markdown(%Q{<img src="https://forum.okse.io/logo.svg" height=100 width=200>})).to eq("![|200x100](https://forum.okse.io/logo.svg)")
   end
 
   (1..6).each do |n|

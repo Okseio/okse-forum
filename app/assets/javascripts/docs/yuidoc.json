@@ -1,7 +1,7 @@
 {
   "name": "Discourse Client",
   "description": "This is the EmberJS client to access a Discourse Server",
-  "url": "http://www.discourse.org/",
+  "url": "http://forum.okse.io/",
   "options": {
     "exclude": "development,production,defer",
     "outdir":   "./build"

@@ -179,26 +179,26 @@ describe Badge do
     end
 
     it "is awarded" do
-      post = create_post(raw: "https://www.discourse.org/")
+      post = create_post(raw: "https://forum.okse.io/")
 
-      TopicLinkClick.create_from(url: "https://www.discourse.org/", post_id: post.id, topic_id: post.topic.id, ip: "192.168.0.100")
+      TopicLinkClick.create_from(url: "https://forum.okse.io/", post_id: post.id, topic_id: post.topic.id, ip: "192.168.0.100")
       BadgeGranter.backfill(popular_link_badge)
       expect(UserBadge.where(user_id: post.user.id, badge_id: Badge::PopularLink).count).to eq(0)
 
-      TopicLinkClick.create_from(url: "https://www.discourse.org/", post_id: post.id, topic_id: post.topic.id, ip: "192.168.0.101")
+      TopicLinkClick.create_from(url: "https://forum.okse.io/", post_id: post.id, topic_id: post.topic.id, ip: "192.168.0.101")
       BadgeGranter.backfill(popular_link_badge)
       expect(UserBadge.where(user_id: post.user.id, badge_id: Badge::PopularLink).count).to eq(1)
     end
 
     it "is not awarded for links in a restricted category" do
       category = Fabricate(:category)
-      post = create_post(raw: "https://www.discourse.org/", category: category)
+      post = create_post(raw: "https://forum.okse.io/", category: category)
 
       category.set_permissions({})
       category.save!
 
-      TopicLinkClick.create_from(url: "https://www.discourse.org/", post_id: post.id, topic_id: post.topic.id, ip: "192.168.0.100")
-      TopicLinkClick.create_from(url: "https://www.discourse.org/", post_id: post.id, topic_id: post.topic.id, ip: "192.168.0.101")
+      TopicLinkClick.create_from(url: "https://forum.okse.io/", post_id: post.id, topic_id: post.topic.id, ip: "192.168.0.100")
+      TopicLinkClick.create_from(url: "https://forum.okse.io/", post_id: post.id, topic_id: post.topic.id, ip: "192.168.0.101")
       BadgeGranter.backfill(popular_link_badge)
       expect(UserBadge.where(user_id: post.user.id, badge_id: Badge::PopularLink).count).to eq(0)
     end

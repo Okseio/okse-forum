@@ -27,7 +27,7 @@ lt:
   topics: "Temos"
   posts: "žinutės"
   loading: "Kraunama"
-  powered_by_html: 'Sukurta <a href="https://www.discourse.org">Okse</a>, geriausias žiūrimumas su JavaScript igalinimu'
+  powered_by_html: 'Sukurta <a href="https://forum.okse.io">Okse</a>, geriausias žiūrimumas su JavaScript igalinimu'
   sign_up: "Registruotis"
   log_in: "Prisijungti"
   submit: "Pateikti"

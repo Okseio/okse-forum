@@ -2860,7 +2860,7 @@ fr:
         this_week: "Semaine"
         today: "Aujourd'hui"
         other_periods: "voir le top :"
-    browser_update: 'Malheureusement <a href="https://www.discourse.org/faq/#browser">votre navigateur est trop vieux pour ce site</a>. Veuillez <a href="https://browsehappy.com">mettre à jour votre navigateur</a> afin de voir du contenu enrichi, se connecter et répondre.'
+    browser_update: 'Malheureusement <a href="https://forum.okse.io/faq/#browser">votre navigateur est trop vieux pour ce site</a>. Veuillez <a href="https://browsehappy.com">mettre à jour votre navigateur</a> afin de voir du contenu enrichi, se connecter et répondre.'
     permission_types:
       full: "Créer / Répondre / Voir"
       create_post: "Répondre / Voir"

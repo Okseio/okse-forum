@@ -27,7 +27,7 @@ cs:
   topics: "Témata"
   posts: "příspěvky"
   loading: "Nahrávám"
-  powered_by_html: 'Systém běží na <a href="https://www.discourse.org">Okse</a>, nejlépe funguje se zapnutým JavaScriptem'
+  powered_by_html: 'Systém běží na <a href="https://forum.okse.io">Okse</a>, nejlépe funguje se zapnutým JavaScriptem'
   sign_up: "Registrovat se"
   log_in: "Přihlásit se"
   submit: "Odeslat"

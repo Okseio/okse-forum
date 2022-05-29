@@ -2811,7 +2811,7 @@ es:
         this_month: "Mes"
         this_week: "Semana"
         today: "Hoy"
-    browser_update: 'Desgraciadamente <a href="https://www.discourse.org/faq/#browser">tu navegador es demasiado antiguo para funcionar en este sitio</a>. Por favor, <a href="https://browsehappy.com">actualiza tu navegador</a> para ver más contenido, iniciar sesión o responder.'
+    browser_update: 'Desgraciadamente <a href="https://forum.okse.io/faq/#browser">tu navegador es demasiado antiguo para funcionar en este sitio</a>. Por favor, <a href="https://browsehappy.com">actualiza tu navegador</a> para ver más contenido, iniciar sesión o responder.'
     permission_types:
       full: "Crear / Responder / Ver"
       create_post: "Responder / Ver"

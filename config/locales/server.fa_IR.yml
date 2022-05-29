@@ -28,7 +28,7 @@ fa_IR:
   topics: "موضوعات"
   posts: "فرسته‌ها"
   loading: "بارگیری..."
-  powered_by_html: 'قدرت گرفته از <a href="https://www.discourse.org">دیسکورس</a>، بهترین نمایش با جاوا اسکریپت فعال.'
+  powered_by_html: 'قدرت گرفته از <a href="https://forum.okse.io">دیسکورس</a>، بهترین نمایش با جاوا اسکریپت فعال.'
   sign_up: "ثبت نام"
   log_in: "ورود"
   submit: "ثبت"
