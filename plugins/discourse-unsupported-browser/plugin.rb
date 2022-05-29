@@ -4,7 +4,7 @@
 # about: Attempts to provide support for old and unsupported browser through polyfills
 # version: 1.0
 # authors: Joffrey Jaffeux, David Taylor, Daniel Waterworth, Robin Ward
-# url: https://github.com/discourse/discourse/tree/master/plugins/discourse-unsupported-browser
+# url: https://github.com/Okseio/okse-forum/tree/master/plugins/discourse-unsupported-browser
 
 enabled_site_setting :discourse_unsupported_browser_enabled
 hide_plugin if self.respond_to?(:hide_plugin)

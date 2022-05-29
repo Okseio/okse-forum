@@ -508,7 +508,7 @@
      delete mode 100644 vendor/gems/rails_multisite/spec/spec_helper.rb
 
     I, [2015-10-23T15:53:58.134756 #42]  INFO -- : > cd /var/www/discourse && git fetch origin tests-passed
-    From https://github.com/discourse/discourse
+    From https://github.com/Okseio/okse-forum
      * branch            tests-passed -> FETCH_HEAD
     I, [2015-10-23T15:54:04.068910 #42]  INFO -- :
     I, [2015-10-23T15:54:04.069344 #42]  INFO -- : > cd /var/www/discourse && git checkout tests-passed

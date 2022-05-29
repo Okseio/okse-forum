@@ -103,7 +103,7 @@ describe Admin::ThemesController do
     context 'when theme whitelist mode is enabled' do
       before do
         GlobalSetting.reset_whitelisted_theme_ids!
-        global_setting :whitelisted_theme_repos, "https://github.com/discourse/discourse-brand-header"
+        global_setting :whitelisted_theme_repos, "https://github.com/Okseio/okse-forum-brand-header"
       end
 
       after do
@@ -113,7 +113,7 @@ describe Admin::ThemesController do
       it "allows whitelisted imports" do
         RemoteTheme.stubs(:import_theme)
         post "/admin/themes/import.json", params: {
-          remote: '    https://github.com/discourse/discourse-brand-header       '
+          remote: '    https://github.com/Okseio/okse-forum-brand-header       '
         }
 
         expect(response.status).to eq(201)
@@ -137,7 +137,7 @@ describe Admin::ThemesController do
     it 'can import a theme from Git' do
       RemoteTheme.stubs(:import_theme)
       post "/admin/themes/import.json", params: {
-        remote: '    https://github.com/discourse/discourse-brand-header       '
+        remote: '    https://github.com/Okseio/okse-forum-brand-header       '
       }
 
       expect(response.status).to eq(201)

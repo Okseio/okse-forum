@@ -62,11 +62,11 @@ Discourse supports the **latest, stable releases** of all major browsers and pla
 - [PostgreSQL](https://www.postgresql.org/) &mdash; Our main data store is in Postgres.
 - [Redis](https://redis.io/) &mdash; We use Redis as a cache and for transient data.
 
-Plus *lots* of Ruby Gems, a complete list of which is at [/master/Gemfile](https://github.com/discourse/discourse/blob/master/Gemfile).
+Plus *lots* of Ruby Gems, a complete list of which is at [/master/Gemfile](https://github.com/Okseio/okse-forum/blob/master/Gemfile).
 
 ## Contributing
 
-[![Build Status](https://github.com/discourse/discourse/workflows/CI/badge.svg)](https://github.com/discourse/discourse/actions)
+[![Build Status](https://github.com/Okseio/okse-forum/workflows/CI/badge.svg)](https://github.com/Okseio/okse-forum/actions)
 
 Discourse is **100% free** and **open source**. We encourage and support an active, healthy community that
 accepts contributions from the public &ndash; including you!
@@ -76,7 +76,7 @@ Before contributing to Discourse:
 1. Please read the complete mission statements on [**discourse.org**](https://www.discourse.org). Yes we actually believe this stuff; you should too.
 2. Read and sign the [**Electronic Discourse Forums Contribution License Agreement**](https://www.discourse.org/cla).
 3. Dig into [**CONTRIBUTING.MD**](CONTRIBUTING.md), which covers submitting bugs, requesting new features, preparing your code for a pull request, etc.
-4. Always strive to collaborate [with mutual respect](https://github.com/discourse/discourse/blob/master/docs/code-of-conduct.md).
+4. Always strive to collaborate [with mutual respect](https://github.com/Okseio/okse-forum/blob/master/docs/code-of-conduct.md).
 5. Not sure what to work on? [**We've got some ideas.**](https://forum.okse.io/t/so-you-want-to-help-out-with-discourse/3823)
 
 
@@ -84,11 +84,11 @@ We look forward to seeing your pull requests!
 
 ## Security
 
-We take security very seriously at Discourse; all our code is 100% open source and peer reviewed. Please read [our security guide](https://github.com/discourse/discourse/blob/master/docs/SECURITY.md) for an overview of security measures in Discourse, or if you wish to report a security issue.
+We take security very seriously at Discourse; all our code is 100% open source and peer reviewed. Please read [our security guide](https://github.com/Okseio/okse-forum/blob/master/docs/SECURITY.md) for an overview of security measures in Discourse, or if you wish to report a security issue.
 
 ## The Discourse Team
 
-The original Discourse code contributors can be found in [**AUTHORS.MD**](docs/AUTHORS.md). For a complete list of the many individuals that contributed to the design and implementation of Discourse, please refer to [the official Discourse blog](https://blog.discourse.org/2013/02/the-discourse-team/) and [GitHub's list of contributors](https://github.com/discourse/discourse/contributors).
+The original Discourse code contributors can be found in [**AUTHORS.MD**](docs/AUTHORS.md). For a complete list of the many individuals that contributed to the design and implementation of Discourse, please refer to [the official Discourse blog](https://blog.discourse.org/2013/02/the-discourse-team/) and [GitHub's list of contributors](https://github.com/Okseio/okse-forum/contributors).
 
 
 ## Copyright / License

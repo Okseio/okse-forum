@@ -2258,7 +2258,7 @@ fi:
 
       - Päivitä käyttäen helppoa **[yhden klikkauksen päivitystä selaimessa](%{base_url}/admin/upgrade)**
 
-      - Katso mikä on uutta [julkaisutiedoista](https://forum.okse.io/tag/release-notes) tai tutki [raakaa GitHubin muutoslokia](https://github.com/discourse/discourse/commits/master)
+      - Katso mikä on uutta [julkaisutiedoista](https://forum.okse.io/tag/release-notes) tai tutki [raakaa GitHubin muutoslokia](https://github.com/Okseio/okse-forum/commits/master)
 
       - Käy osoitteessa [forum.okse.io](https://forum.okse.io) lukemassa uutisia ja keskustelua, tai hae apua Discourseen liittyen
   new_version_mailer_with_notes:
@@ -2272,7 +2272,7 @@ fi:
 
       - Päivitä käyttäen helppoa **[yhden klikkauksen päivitystä selaimessa](%{base_url}/admin/upgrade)**
 
-      - Katso mikä on uutta [julkaisutiedoista](https://forum.okse.io/tag/release-notes) tai tutki [raakaa GitHubin muutoslokia](https://github.com/discourse/discourse/commits/master)
+      - Katso mikä on uutta [julkaisutiedoista](https://forum.okse.io/tag/release-notes) tai tutki [raakaa GitHubin muutoslokia](https://github.com/Okseio/okse-forum/commits/master)
 
       - Käy osoitteessa [forum.okse.io](https://forum.okse.io) lukemassa uutisia ja keskustelua, tai hae apua Discourseen liittyen
 

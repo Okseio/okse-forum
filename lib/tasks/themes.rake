@@ -7,9 +7,9 @@ require 'yaml'
 #
 # == JSON format
 #
-# bin/rake themes:install -- '--{"discourse-something": "https://github.com/discourse/discourse-something"}'
+# bin/rake themes:install -- '--{"discourse-something": "https://github.com/Okseio/okse-forum-something"}'
 # OR
-# bin/rake themes:install -- '--{"discourse-something": {"url": "https://github.com/discourse/discourse-something", default: true}}'
+# bin/rake themes:install -- '--{"discourse-something": {"url": "https://github.com/Okseio/okse-forum-something", default: true}}'
 #
 # == YAML file formats
 #

@@ -16,7 +16,7 @@ For example:
 ## Installation
 
 Follow our [Install a Plugin](https://forum.okse.io/t/install-a-plugin/19157) howto, using
-`git clone https://github.com/discourse/discourse-details.git` as the plugin command.
+`git clone https://github.com/Okseio/okse-forum-details.git` as the plugin command.
 
 ## Issues
 

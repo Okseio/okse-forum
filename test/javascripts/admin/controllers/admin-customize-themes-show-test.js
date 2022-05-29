@@ -9,7 +9,7 @@ moduleFor("controller:admin-customize-themes-show", {
 });
 
 QUnit.test("can display source url for remote themes", function(assert) {
-  const repoUrl = "https://github.com/discourse/discourse-brand-header.git";
+  const repoUrl = "https://github.com/Okseio/okse-forum-brand-header.git";
   const remoteTheme = Theme.create({
     id: 2,
     default: true,
@@ -37,7 +37,7 @@ QUnit.test("can display source url for remote theme branches", function(
     default: true,
     name: "default",
     remote_theme: {
-      remote_url: "https://github.com/discourse/discourse-brand-header.git",
+      remote_url: "https://github.com/Okseio/okse-forum-brand-header.git",
       branch: "beta"
     }
   });
@@ -47,7 +47,7 @@ QUnit.test("can display source url for remote theme branches", function(
 
   assert.deepEqual(
     controller.get("remoteThemeLink"),
-    "https://github.com/discourse/discourse-brand-header/tree/beta",
+    "https://github.com/Okseio/okse-forum-brand-header/tree/beta",
     "returns theme's repo URL to branch"
   );
 });

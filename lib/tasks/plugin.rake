@@ -12,8 +12,8 @@ task 'plugin:install_all_official' do
   ])
 
   map = {
-    'Canned Replies' => 'https://github.com/discourse/discourse-canned-replies',
-    'discourse-perspective' => 'https://github.com/discourse/discourse-perspective-api'
+    'Canned Replies' => 'https://github.com/Okseio/okse-forum-canned-replies',
+    'discourse-perspective' => 'https://github.com/Okseio/okse-forum-perspective-api'
   }
 
   STDERR.puts "Allowing write to all repos!" if ENV['GIT_WRITE']

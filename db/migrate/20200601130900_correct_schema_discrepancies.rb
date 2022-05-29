@@ -163,8 +163,8 @@ class CorrectSchemaDiscrepancies < ActiveRecord::Migration[6.0]
 
     raw_info = DB.query_hash <<~SQL
       SELECT table_name, column_name, is_nullable, character_maximum_length, column_default
-      FROM information_schema.columns 
-      WHERE table_schema='public' 
+      FROM information_schema.columns
+      WHERE table_schema='public'
       AND (
         #{lookup_sql}
       )
@@ -222,7 +222,7 @@ class CorrectSchemaDiscrepancies < ActiveRecord::Migration[6.0]
       SQL
     end
 
-    # Category color default was changed in https://github.com/discourse/discourse/commit/faf09bb8c80fcb28b132a5a644ac689cc9abffc2
+    # Category color default was changed in https://github.com/Okseio/okse-forum/commit/faf09bb8c80fcb28b132a5a644ac689cc9abffc2
     # But should have been added in a new migration
     if schema_hash["categories.color"]["column_default"] != "'0088CC'::character varying"
       DB.exec <<~SQL

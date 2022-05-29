@@ -149,7 +149,7 @@ export default {
           uploaded_avatar_id: 40181,
           created_at: "2013-02-05T21:32:47.649Z",
           cooked:
-            '<p>The application strings <a href="https://github.com/discourse/discourse/blob/master/config/locales/en.yml" rel="nofollow">are externalized</a>, so localization should be entirely possible with enough translation effort.</p>',
+            '<p>The application strings <a href="https://github.com/Okseio/okse-forum/blob/master/config/locales/en.yml" rel="nofollow">are externalized</a>, so localization should be entirely possible with enough translation effort.</p>',
           post_number: 2,
           post_type: 1,
           updated_at: "2013-02-06T10:15:27.965Z",
@@ -172,7 +172,7 @@ export default {
           link_counts: [
             {
               url:
-                "https://github.com/discourse/discourse/blob/master/config/locales/en.yml",
+                "https://github.com/Okseio/okse-forum/blob/master/config/locales/en.yml",
               internal: false,
               reflection: false,
               clicks: 118
@@ -245,7 +245,7 @@ export default {
           uploaded_avatar_id: 5297,
           created_at: "2013-02-06T02:26:24.922Z",
           cooked:
-            '<p>Yep, all strings are going through a lookup table.*</p>\n\n<p><a href="https://github.com/discourse/discourse/blob/master/config/locales">master/config/locales</a></p>\n\n<p>So you could replace that lookup table with the "de" one to get German.</p>\n\n<p><sub>* we didn\'t get all the strings into the lookup table for launch, but the vast, vast majority of them are and the ones that are not, we will fix as we go!</sub></p>',
+            '<p>Yep, all strings are going through a lookup table.*</p>\n\n<p><a href="https://github.com/Okseio/okse-forum/blob/master/config/locales">master/config/locales</a></p>\n\n<p>So you could replace that lookup table with the "de" one to get German.</p>\n\n<p><sub>* we didn\'t get all the strings into the lookup table for launch, but the vast, vast majority of them are and the ones that are not, we will fix as we go!</sub></p>',
           post_number: 3,
           post_type: 1,
           updated_at: "2014-02-24T05:23:39.211Z",
@@ -268,7 +268,7 @@ export default {
           link_counts: [
             {
               url:
-                "https://github.com/discourse/discourse/blob/master/config/locales",
+                "https://github.com/Okseio/okse-forum/blob/master/config/locales",
               internal: false,
               reflection: false,
               title:
@@ -2175,7 +2175,7 @@ export default {
       links: [
         {
           url:
-            "https://github.com/discourse/discourse/blob/master/config/locales/en.yml",
+            "https://github.com/Okseio/okse-forum/blob/master/config/locales/en.yml",
           title: null,
           fancy_title: null,
           internal: false,
@@ -2208,7 +2208,7 @@ export default {
         },
         {
           url:
-            "https://github.com/discourse/discourse/blob/master/config/locales",
+            "https://github.com/Okseio/okse-forum/blob/master/config/locales",
           title:
             "discourse/config/locales at master · discourse/discourse · GitHub",
           fancy_title: null,
@@ -2291,7 +2291,7 @@ export default {
         },
         {
           url:
-            "https://github.com/discourse/discourse/tree/master/config/locales",
+            "https://github.com/Okseio/okse-forum/tree/master/config/locales",
           title:
             "discourse/config/locales at master · discourse/discourse · GitHub",
           fancy_title: null,
@@ -2302,7 +2302,7 @@ export default {
           domain: "github.com"
         },
         {
-          url: "https://github.com/discourse/discourse/pull/493",
+          url: "https://github.com/Okseio/okse-forum/pull/493",
           title:
             "Danish translation. by mikl · Pull Request #493 · discourse/discourse · GitHub",
           fancy_title: null,
@@ -2336,7 +2336,7 @@ export default {
         },
         {
           url:
-            "https://github.com/discourse/discourse/blob/master/config/locales/client.en.yml#L691",
+            "https://github.com/Okseio/okse-forum/blob/master/config/locales/client.en.yml#L691",
           title:
             "discourse/config/locales/client.en.yml at master · discourse/discourse · GitHub",
           fancy_title: null,
@@ -2358,7 +2358,7 @@ export default {
         },
         {
           url:
-            "https://github.com/discourse/discourse/blob/master/config/locales/client.nl.yml",
+            "https://github.com/Okseio/okse-forum/blob/master/config/locales/client.nl.yml",
           title:
             "discourse/config/locales/client.nl.yml at master · discourse/discourse · GitHub",
           fancy_title: null,
@@ -2370,7 +2370,7 @@ export default {
         },
         {
           url:
-            "https://github.com/discourse/discourse/commit/c5761eae8afe37e20cec0d0f9d14b85b6e585bda",
+            "https://github.com/Okseio/okse-forum/commit/c5761eae8afe37e20cec0d0f9d14b85b6e585bda",
           title:
             "Support for Simplified Chinese thanks to tangramor · c5761ea · discourse/discourse · GitHub",
           fancy_title: null,
@@ -2590,7 +2590,7 @@ export default {
         },
         {
           url:
-            "https://github.com/discourse/discourse/blob/master/app/assets/javascripts/locales/date_locales.js",
+            "https://github.com/Okseio/okse-forum/blob/master/app/assets/javascripts/locales/date_locales.js",
           title: null,
           fancy_title: null,
           internal: false,
@@ -2610,7 +2610,7 @@ export default {
           domain: "transifex.com"
         },
         {
-          url: "https://github.com/discourse/discourse/issues/279",
+          url: "https://github.com/Okseio/okse-forum/issues/279",
           title: null,
           fancy_title: null,
           internal: false,
@@ -2655,7 +2655,7 @@ export default {
         },
         {
           url:
-            "https://github.com/discourse/discourse/blob/master/config/locales/client.de.yml",
+            "https://github.com/Okseio/okse-forum/blob/master/config/locales/client.de.yml",
           title:
             "discourse/config/locales/client.de.yml at master · discourse/discourse · GitHub",
           fancy_title: null,
@@ -2689,7 +2689,7 @@ export default {
         },
         {
           url:
-            "https://github.com/discourse/discourse/blob/master/config/locales/server.de.yml",
+            "https://github.com/Okseio/okse-forum/blob/master/config/locales/server.de.yml",
           title:
             "discourse/config/locales/server.de.yml at master · discourse/discourse · GitHub",
           fancy_title: null,

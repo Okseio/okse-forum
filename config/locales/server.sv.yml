@@ -2331,7 +2331,7 @@ sv:
   new_version_mailer:
     title: "Ny version mail skrivare"
     subject_template: "[%{email_prefix}] Ny version av Okse, uppdatering tillgänglig"
-    text_body_template: "Hurra, en ny version av [Okse](http://www.discourse.org) är tillgänglig!\n\nDin version: %{installed_version}\nNy version: **%{new_version}**\n\n- Uppgradera genom att använda den enkla **[uppgraderingsknappen](%{base_url}/admin/upgrade)** \n\n- Se vad som är nytt i [uppdaterings noteringarna](https://forum.okse.io/tag/release-notes) eller läs i [GitHubs råa ändringslogg](https://github.com/discourse/discourse/commits/master)\n\n- Besök [forum.okse.io](http://forum.okse.io) för att läsa de senaste nyheterna, diskutera eller få hjälp angående Okse\n"
+    text_body_template: "Hurra, en ny version av [Okse](http://www.discourse.org) är tillgänglig!\n\nDin version: %{installed_version}\nNy version: **%{new_version}**\n\n- Uppgradera genom att använda den enkla **[uppgraderingsknappen](%{base_url}/admin/upgrade)** \n\n- Se vad som är nytt i [uppdaterings noteringarna](https://forum.okse.io/tag/release-notes) eller läs i [GitHubs råa ändringslogg](https://github.com/Okseio/okse-forum/commits/master)\n\n- Besök [forum.okse.io](http://forum.okse.io) för att läsa de senaste nyheterna, diskutera eller få hjälp angående Okse\n"
   new_version_mailer_with_notes:
     title: "Ny version mail skrivare med anteckningar"
     subject_template: "[%{email_prefix}] uppdatering tillgänglig"
@@ -2343,7 +2343,7 @@ sv:
 
       - Uppgradera genom att använda den enkla **[uppgraderingsknappen](%{base_url}/admin/upgrade)**
 
-      - Se vad som är nytt i [uppdaterings noteringarna](https://forum.okse.io/tag/release-notes) eller läs i [GitHubs råa ändringslogg](https://github.com/discourse/discourse/commits/master)
+      - Se vad som är nytt i [uppdaterings noteringarna](https://forum.okse.io/tag/release-notes) eller läs i [GitHubs råa ändringslogg](https://github.com/Okseio/okse-forum/commits/master)
 
       - Besök [forum.okse.io](http://forum.okse.io) för att läsa de senaste nyheterna, diskutera eller få hjälp angående Okse
 

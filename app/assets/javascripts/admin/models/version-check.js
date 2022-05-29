@@ -21,7 +21,7 @@ const VersionCheck = EmberObject.extend({
   @discourseComputed("installed_sha")
   gitLink(installedSHA) {
     if (installedSHA) {
-      return `https://github.com/discourse/discourse/commits/${installedSHA}`;
+      return `https://github.com/Okseio/okse-forum/commits/${installedSHA}`;
     }
   },
 

@@ -35,7 +35,7 @@ If you have reason to install your own version of Docker, you may do so. If dock
 Clone the [Official Discourse Docker Image][dd] into `/var/discourse`.
 
     sudo -s
-    git clone https://github.com/discourse/discourse_docker.git /var/discourse
+    git clone https://github.com/Okseio/okse-forum_docker.git /var/discourse
     cd /var/discourse
 
 You will need to be root through the rest of the setup and bootstrap process.
@@ -154,7 +154,7 @@ Do you want...
 
 - A Content Delivery Network to speed up worldwide access? [Configure a CDN](https://forum.okse.io/t/enable-a-cdn-for-your-discourse/14857). We recommend [Fastly](http://www.fastly.com/).
 
-- Import old content from vBulletin, PHPbb, Vanilla, Drupal, BBPress, etc? [See our open source importers](https://github.com/discourse/discourse/tree/master/script/import_scripts).
+- Import old content from vBulletin, PHPbb, Vanilla, Drupal, BBPress, etc? [See our open source importers](https://github.com/Okseio/okse-forum/tree/master/script/import_scripts).
 
 - A user friendly [offline page when rebuilding or upgrading?](https://forum.okse.io/t/adding-an-offline-page-when-rebuilding/45238)
 
@@ -162,9 +162,9 @@ Do you want...
 
 Help us improve this guide! Feel free to ask about it on [forum.okse.io][meta], or even better, submit a pull request.
 
-   [dd]: https://github.com/discourse/discourse_docker
+   [dd]: https://github.com/Okseio/okse-forum_docker
   [ssh]: https://help.github.com/articles/generating-ssh-keys
  [meta]: https://forum.okse.io
    [do]: https://www.digitalocean.com/?refcode=5fa48ac82415
   [put]: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
-  [mailconfig]: https://github.com/discourse/discourse/blob/master/docs/INSTALL-email.md
+  [mailconfig]: https://github.com/Okseio/okse-forum/blob/master/docs/INSTALL-email.md

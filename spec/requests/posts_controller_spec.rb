@@ -1800,7 +1800,7 @@ describe PostsController do
     end
 
     it 'can create and remove notices' do
-      put "/posts/#{public_post.id}/notice.json", params: { notice: "Hello *world*!\n\nhttps://github.com/discourse/discourse" }
+      put "/posts/#{public_post.id}/notice.json", params: { notice: "Hello *world*!\n\nhttps://github.com/Okseio/okse-forum" }
 
       expect(response.status).to eq(200)
       public_post.reload

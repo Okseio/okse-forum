@@ -1244,9 +1244,9 @@ zh_CN:
     queue_size_warning: "队列中有较多任务，为 %{queue_size} 个。这可能是因为 Sidekiq 进程的问题导致，或者需要更多的 Sidekiq 进程。"
     memory_warning: "你的服务器环境内存少于 1GB，我们建议至少要有 1GB 内存。"
     google_oauth2_config_warning: '服务器允许使用 Google Oauth2 登录（enable_google_oauth2_logins），但client id和client secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://forum.okse.io/t/configuring-google-login-for-discourse/15858" target="_blank">参考设定指南</a>。'
-    facebook_config_warning: '服务器允许使用Facebook帐号登录（enable_facebook_logins），但app id和app secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-facebook-logins" target="_blank">参考设定指南</a>。'
-    twitter_config_warning: '服务器允许使用Twitter账号登录（enable_twitter_logins），但key和secret没有设定。 到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide#enable-twitter-logins" target="_blank">参考设定指南</a>。'
-    github_config_warning: '服务器允许使用GitHub账号登录（enable_github_logins），但client id和secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/discourse/discourse/wiki/The-Okse-Admin-Quick-Start-Guide" target="_blank">参考设定指南</a>。'
+    facebook_config_warning: '服务器允许使用Facebook帐号登录（enable_facebook_logins），但app id和app secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/Okseio/okse-forum/wiki/The-Okse-Admin-Quick-Start-Guide#enable-facebook-logins" target="_blank">参考设定指南</a>。'
+    twitter_config_warning: '服务器允许使用Twitter账号登录（enable_twitter_logins），但key和secret没有设定。 到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/Okseio/okse-forum/wiki/The-Okse-Admin-Quick-Start-Guide#enable-twitter-logins" target="_blank">参考设定指南</a>。'
+    github_config_warning: '服务器允许使用GitHub账号登录（enable_github_logins），但client id和secret没有设定。到<a href="%{base_path}/admin/site_settings">站点设置</a>更新此设定。<a href="https://github.com/Okseio/okse-forum/wiki/The-Okse-Admin-Quick-Start-Guide" target="_blank">参考设定指南</a>。'
     s3_config_warning: '服务器被配置为上传文件到s3，但以下的值中有未被设定的项目：s3_access_key_id、s3_secret_access_key、s3_use_iam_profile 或 s3_upload_bucket。到<a href="%{base_path}/admin/site_settings">站点设置</a>中更新设置。<a href="http://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">看看“参考如何设置图片上传至 S3？”以了解更多</a>。'
     s3_backup_config_warning: '服务器被配置为上传备份到S3，但是以下的值中有未被设定的项目：s3_access_key_id、s3_secret_access_key、s3_use_iam_profile 或 s3_backup_bucket。到<a href="%{base_path}/admin/site_settings">站点设置</a>中更新设置。<a href="https://forum.okse.io/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">看看“参考如何设置图片上传至 S3？”以了解更多</a>。'
     image_magick_warning: '服务器被设置为给大图片创建缩略图，但是ImageMagick没有被安装。用你最喜爱的包管理器安装ImageMagick或<a href="https://www.imagemagick.org/script/download.php" target="_blank">下载最新版</a>。'
@@ -2298,7 +2298,7 @@ zh_CN:
 
       - 轻松使用我们的**[浏览器一键式升级](%{base_url}/admin/upgrade)**进行升级
 
-      - 查看[发行说明](https://forum.okse.io/tag/release-notes)中的新功能或查看[原始GitHub更新日志](https://github.com/discourse/discourse/commits/master)
+      - 查看[发行说明](https://forum.okse.io/tag/release-notes)中的新功能或查看[原始GitHub更新日志](https://github.com/Okseio/okse-forum/commits/master)
 
       - 访问[forum.okse.io](https://forum.okse.io)获取资讯、讨论以及对Discourse的支持
   new_version_mailer_with_notes:
@@ -2312,7 +2312,7 @@ zh_CN:
 
       - 轻松使用我们的**[浏览器一键式升级](%{base_url}/admin/ upgrade)**进行升级
 
-      - 查看[发行说明](https://forum.okse.io/tag/release-notes)中的新功能或查看[原始GitHub更新日志](https://github.com/discourse/discourse/commits/master)
+      - 查看[发行说明](https://forum.okse.io/tag/release-notes)中的新功能或查看[原始GitHub更新日志](https://github.com/Okseio/okse-forum/commits/master)
 
       - 访问[forum.okse.io](https://forum.okse.io)获取资讯、讨论以及对Discourse的支持
 

@@ -152,7 +152,7 @@ if Rails.configuration.multisite
 end
 
 Logster.config.project_directories = [
-  { path: Rails.root.to_s, url: "https://github.com/discourse/discourse", main_app: true }
+  { path: Rails.root.to_s, url: "https://github.com/Okseio/okse-forum", main_app: true }
 ]
 Discourse.plugins.each do |plugin|
   next if !plugin.metadata.url

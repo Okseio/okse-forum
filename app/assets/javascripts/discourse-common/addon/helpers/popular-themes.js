@@ -25,7 +25,7 @@ export const POPULAR_THEMES = [
   },
   {
     name: "Sam's Simple Theme",
-    value: "https://github.com/discourse/discourse-simple-theme",
+    value: "https://github.com/Okseio/okse-forum-simple-theme",
     preview: "https://theme-creator.discourse.org/theme/sam/simple",
     description:
       "Simplified front page design with classic colors and typography.",
@@ -34,14 +34,14 @@ export const POPULAR_THEMES = [
   },
   {
     name: "Vincent",
-    value: "https://github.com/discourse/discourse-vincent-theme",
+    value: "https://github.com/Okseio/okse-forum-vincent-theme",
     preview: "https://theme-creator.discourse.org/theme/awesomerobot/vincent",
     description: "An elegant dark theme with a few color palettes.",
     meta_url: "https://forum.okse.io/t/discourse-vincent-theme/76662"
   },
   {
     name: "Brand Header",
-    value: "https://github.com/discourse/discourse-brand-header",
+    value: "https://github.com/Okseio/okse-forum-brand-header",
     description:
       "Add an extra top header with your logo, navigation links and social icons.",
     meta_url: "https://forum.okse.io/t/brand-header-theme-component/77977",
@@ -49,7 +49,7 @@ export const POPULAR_THEMES = [
   },
   {
     name: "Custom Header Links",
-    value: "https://github.com/discourse/discourse-custom-header-links",
+    value: "https://github.com/Okseio/okse-forum-custom-header-links",
     preview:
       "https://theme-creator.discourse.org/theme/Johani/custom-header-links",
     description: "Easily add custom text-based links to the header.",
@@ -58,7 +58,7 @@ export const POPULAR_THEMES = [
   },
   {
     name: "Category Banners",
-    value: "https://github.com/discourse/discourse-category-banners",
+    value: "https://github.com/Okseio/okse-forum-category-banners",
     preview:
       "https://theme-creator.discourse.org/theme/awesomerobot/discourse-category-banners",
     description:
@@ -68,7 +68,7 @@ export const POPULAR_THEMES = [
   },
   {
     name: "Kanban Board",
-    value: "https://github.com/discourse/discourse-kanban-theme",
+    value: "https://github.com/Okseio/okse-forum-kanban-theme",
     preview: "https://theme-creator.discourse.org/theme/david/kanban",
     description: "Display and organize topics using a Kanban board interface.",
     meta_url:
@@ -77,7 +77,7 @@ export const POPULAR_THEMES = [
   },
   {
     name: "Hamburger Theme Selector",
-    value: "https://github.com/discourse/discourse-hamburger-theme-selector",
+    value: "https://github.com/Okseio/okse-forum-hamburger-theme-selector",
     description:
       "Displays a theme selector in the hamburger menu provided there is more than one user-selectable theme.",
     meta_url: "https://forum.okse.io/t/hamburger-theme-selector/61210",
@@ -85,7 +85,7 @@ export const POPULAR_THEMES = [
   },
   {
     name: "Header Submenus",
-    value: "https://github.com/discourse/discourse-header-submenus",
+    value: "https://github.com/Okseio/okse-forum-header-submenus",
     preview: "https://theme-creator.discourse.org/theme/Johani/header-submenus",
     description: "Lets you build a header menu with submenus (dropdowns).",
     meta_url: "https://forum.okse.io/t/header-submenus/94584",
@@ -93,7 +93,7 @@ export const POPULAR_THEMES = [
   },
   {
     name: "Alternative Logos",
-    value: "https://github.com/discourse/discourse-alt-logo",
+    value: "https://github.com/Okseio/okse-forum-alt-logo",
     description: "Add alternative logos for dark / light themes.",
     meta_url:
       "https://forum.okse.io/t/alternative-logo-for-dark-themes/88502",
@@ -110,7 +110,7 @@ export const POPULAR_THEMES = [
   },
   {
     name: "Easy Responsive Footer",
-    value: "https://github.com/discourse/Discourse-easy-footer",
+    value: "https://github.com/Okseio/okse-forum-easy-footer",
     preview: "https://theme-creator.discourse.org/theme/Johani/easy-footer",
     description: "Add a fully responsive footer without writing any HTML.",
     meta_url: "https://forum.okse.io/t/easy-responsive-footer/95818",

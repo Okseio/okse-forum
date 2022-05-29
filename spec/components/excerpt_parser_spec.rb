@@ -41,12 +41,12 @@ describe ExcerptParser do
         <aside class="onebox">
           <header class="source">
             <img src="https://github.githubassets.com/favicon.ico" class="site-icon" width="32" height="32">
-            <a href="https://github.com/discourse/discourse" target="_blank">GitHub</a>
+            <a href="https://github.com/Okseio/okse-forum" target="_blank">GitHub</a>
           </header>
           <article class="onebox-body">
             <img src="/uploads/default/original/1X/10c0f1565ee5b6ca3fe43f3183529bc0afd26003.jpeg" class="thumbnail">
             <h3>
-              <a href="https://github.com/discourse/discourse" target="_blank">discourse/discourse</a>
+              <a href="https://github.com/Okseio/okse-forum" target="_blank">discourse/discourse</a>
             </h3>
             <p>A platform for community discussion. Free, open, simple. - discourse/discourse</p>
           </article>
@@ -55,7 +55,7 @@ describe ExcerptParser do
       expect(ExcerptParser.get_excerpt(html, 100, keep_onebox_body: true)).to eq(<<~HTML.strip)
         [image]
 
-        <a href="https://github.com/discourse/discourse" target="_blank">discourse/discourse</a>
+        <a href="https://github.com/Okseio/okse-forum" target="_blank">discourse/discourse</a>
 
         A platform for community discussion. Free, o&hellip;
       HTML

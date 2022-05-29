@@ -2,7 +2,7 @@
 
 class AddPublicFieldToPublishedPages < ActiveRecord::Migration[6.0]
   def up
-    # Delete the record of https://github.com/discourse/discourse/commit/b9762afc106ee9b18d1ac33ca3cac281083e428e
+    # Delete the record of https://github.com/Okseio/okse-forum/commit/b9762afc106ee9b18d1ac33ca3cac281083e428e
     execute <<~SQL
       DELETE FROM schema_migrations WHERE version='20201006172700'
     SQL

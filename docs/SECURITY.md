@@ -6,7 +6,7 @@ We take security very seriously at Discourse. We welcome any peer review of our 
 
 In order to give the community time to respond and upgrade we strongly urge you report all security issues privately. Please use our [vulnerability disclosure program at Hacker One](https://hackerone.com/discourse) to provide details and repro steps and we will respond ASAP. If you prefer not to use Hacker One, email us directly at `team@discourse.org` with details and repro steps. Security issues *always* take precedence over bug fixes and feature work. We can and do mark releases as "urgent" if they contain serious security fixes.
 
-For a list of recent security commits, check [our GitHub commits prefixed with SECURITY](https://github.com/discourse/discourse/search?o=desc&q=SECURITY&s=committer-date&type=Commits).
+For a list of recent security commits, check [our GitHub commits prefixed with SECURITY](https://github.com/Okseio/okse-forum/search?o=desc&q=SECURITY&s=committer-date&type=Commits).
 
 ### Password Storage
 
@@ -29,7 +29,7 @@ There are 3 main scenarios we protect against:
 
 3. **CSP is on by default** for [all Discourse installations](https://forum.okse.io/t/mitigate-xss-attacks-with-content-security-policy/104243) as of Discourse 2.2. It can be switched off in the site settings, but it is default on.
 
-On the server side we run a whitelist based sanitizer, implemented using the [Sanitize gem](https://github.com/rgrove/sanitize). See the [relevant Discourse code](https://github.com/discourse/discourse/blob/master/lib/pretty_text.rb).
+On the server side we run a whitelist based sanitizer, implemented using the [Sanitize gem](https://github.com/rgrove/sanitize). See the [relevant Discourse code](https://github.com/Okseio/okse-forum/blob/master/lib/pretty_text.rb).
 
 In addition, titles and all other places where non-admins can enter code are protected either using the Handlebars library or standard Rails XSS protection.
 
@@ -53,4 +53,4 @@ If you install via our recommended Docker image in our [install guide][ig], ngin
 
 We strongly recommend that the various Discourse processes (web server, sidekiq) run under a non-elevated account. This is handled automatically if you install via our recommended Docker image -- see [our install guide][ig] for details.
 
-[ig]: https://github.com/discourse/discourse/blob/master/docs/INSTALL.md
+[ig]: https://github.com/Okseio/okse-forum/blob/master/docs/INSTALL.md

@@ -432,7 +432,7 @@ export default {
         action_type: 7,
         created_at: "2014-01-16T14:13:05Z",
         excerpt:
-          "So again,  \n\nWhat is the problem?\n\nI need to check user_trust_level , i get the &#39;username&#39; from a form via ajax, i need to check what level he is on discourse \n\nAlso, if possible, i would like to get other details as well, like email address etc. \n\nI took a look at : <a href='https://github.com/discourse/discourse_api' rel='nofollow'>https://github.com/discourse/dis&hellip;</a>",
+          "So again,  \n\nWhat is the problem?\n\nI need to check user_trust_level , i get the &#39;username&#39; from a form via ajax, i need to check what level he is on discourse \n\nAlso, if possible, i would like to get other details as well, like email address etc. \n\nI took a look at : <a href='https://github.com/Okseio/okse-forum_api' rel='nofollow'>https://github.com/discourse/dis&hellip;</a>",
         avatar_template:
           "//www.gravatar.com/avatar/bdab7e61b3191e483492fd680f563fed.png?s={size}&r=pg&d=identicon",
         acting_avatar_template:
@@ -1087,7 +1087,7 @@ export default {
         action_type: 7,
         created_at: "2014-01-14T00:21:26Z",
         excerpt:
-          "In <a href='https://github.com/discourse/discourse/pull/1821' rel='nofollow'>pull request 1821</a>, <a class='mention' href='/users/eviltrout'>@eviltrout</a> asked: \n\n &quot;About rails s: I wouldn&#39;t be against adding it but at what point do we stop holding their hand and expect them to know how rails works? I&#39;m sure rails documentation could do a better job than us. Actually maybe we should just link to that? \n\nWhat point to &hellip;",
+          "In <a href='https://github.com/Okseio/okse-forum/pull/1821' rel='nofollow'>pull request 1821</a>, <a class='mention' href='/users/eviltrout'>@eviltrout</a> asked: \n\n &quot;About rails s: I wouldn&#39;t be against adding it but at what point do we stop holding their hand and expect them to know how rails works? I&#39;m sure rails documentation could do a better job than us. Actually maybe we should just link to that? \n\nWhat point to &hellip;",
         avatar_template:
           "//www.gravatar.com/avatar/035d12bad251759d8fbc9fb10574d1f6.png?s={size}&r=pg&d=identicon",
         acting_avatar_template:
@@ -1761,7 +1761,7 @@ export default {
         action_type: 6,
         created_at: "2014-01-12T04:14:06Z",
         excerpt:
-          "Awesome plugin, but doesn&#39;t seem to work out of the box with images \n\n<a href='https://github.com/discourse/discourse-spoiler-alert/issues/2' class='onebox' target='_blank' rel='nofollow'>https://github.com/discourse/discourse-spoiler-alert/issues/2</a>",
+          "Awesome plugin, but doesn&#39;t seem to work out of the box with images \n\n<a href='https://github.com/Okseio/okse-forum-spoiler-alert/issues/2' class='onebox' target='_blank' rel='nofollow'>https://github.com/Okseio/okse-forum-spoiler-alert/issues/2</a>",
         avatar_template:
           "//localhost:3000/uploads/default/avatars/276/f19/3826efe463/{size}.jpg",
         acting_avatar_template:
