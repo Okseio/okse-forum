@@ -275,6 +275,6 @@ after_initialize do
 
   UserAvatar.register_custom_user_gravatar_email_hash(
     DiscourseNarrativeBot::BOT_USER_ID,
-    "discobot@discourse.org"
+    "oksebot@okse.io"
   )
 end

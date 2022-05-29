@@ -39,7 +39,7 @@ required:
     client: true
     default: ""
   notification_email:
-    default: "noreply@unconfigured.discourse.org"
+    default: "noreply@unconfigured.okse.io"
     type: email
   site_contact_username:
     default: ""
