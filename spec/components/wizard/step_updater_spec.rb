@@ -40,7 +40,7 @@ describe Wizard::StepUpdater do
   end
 
   it "updates the introduction step" do
-    topic = Fabricate(:topic, title: "Welcome to Okse")
+    topic = Fabricate(:topic, title: "Welcome to Okse forum")
     welcome_post = Fabricate(:post, topic: topic, raw: "this will be the welcome topic post\n\ncool!")
 
     updater = wizard.create_updater('introduction', welcome: "Welcome to my new awesome forum!")

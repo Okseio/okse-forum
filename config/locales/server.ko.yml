@@ -2799,7 +2799,7 @@ ko:
     enter: "안전모드 들어가기"
     must_select: "안전 모드로 들어가려면 하나 이상의 옵션을 선택해야합니다."
   wizard:
-    title: "Okse Setup"
+    title: "Okse forum Setup"
     step:
       locale:
         title: "Welcome to your Okse!"

@@ -278,7 +278,7 @@ task 'assets:precompile' => 'assets:precompile:before' do
               info["size"] = File.size(path)
               info["mtime"] = File.mtime(path).iso8601
               gzip(path)
-              brotli(path, max_compress)
+              # brotli(path, max_compress)
 
               STDERR.puts "Done compressing #{file} : #{(Process.clock_gettime(Process::CLOCK_MONOTONIC) - start).round(2)} secs"
               STDERR.puts

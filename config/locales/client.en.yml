@@ -190,7 +190,7 @@ en:
 
     topic_admin_menu: "topic actions"
 
-    wizard_required: "Welcome to your new Okse! Let’s get started with <a href='%{url}' data-auto-route='true'>the setup wizard</a> ✨"
+    wizard_required: "Welcome to your new Okse forum! Let’s get started with <a href='%{url}' data-auto-route='true'>the setup wizard</a> ✨"
     emails_are_disabled: "All outgoing email has been globally disabled by an administrator. No email notifications of any kind will be sent."
 
     bootstrap_mode_enabled: "To make launching your new site easier, you are in bootstrap mode. All new users will be granted trust level 1 and have daily email summary emails enabled. This will be automatically turned off when %{min_users} users have joined."

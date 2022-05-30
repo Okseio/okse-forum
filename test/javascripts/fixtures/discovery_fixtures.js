@@ -6082,8 +6082,8 @@ export default {
       topics: [
         {
           id: 8,
-          title: "Welcome to Okse",
-          fancy_title: "Welcome to Okse",
+          title: "Welcome to Okse forum",
+          fancy_title: "Welcome to Okse forum",
           slug: "welcome-to-discourse",
           posts_count: 1,
           reply_count: 0,

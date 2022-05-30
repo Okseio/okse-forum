@@ -25,7 +25,7 @@
 required:
   title:
     client: true
-    default: "Okse"
+    default: "Okse foum"
   site_description:
     default: ""
   short_site_description:
@@ -39,7 +39,7 @@ required:
     client: true
     default: ""
   notification_email:
-    default: "noreply@unconfigured.okse.io"
+    default: "no-reply@okse.io"
     type: email
   site_contact_username:
     default: ""

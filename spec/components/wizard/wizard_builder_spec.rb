@@ -108,7 +108,7 @@ describe Wizard::Builder do
       end
 
       it 'enables step if welcome topic is present' do
-        topic = Fabricate(:topic, title: 'Welcome to Okse')
+        topic = Fabricate(:topic, title: 'Welcome to Okse forum')
         welcome_post = Fabricate(:post, topic: topic, raw: "this will be the welcome topic post\n\ncool!")
 
         expect(introduction_step.disabled).to be_nil
