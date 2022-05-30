@@ -3,7 +3,7 @@
 if SiteSetting.notification_email == SiteSetting.defaults[:notification_email]
   # don't crash for invalid hostname, which is possible in dev
   begin
-    SiteSetting.notification_email = "noreply@#{Discourse.current_hostname}"
+    SiteSetting.notification_email = "no-reply@#{Discourse.current_hostname}"
   rescue Discourse::InvalidParameters
     if Rails.env.production?
       STDERR.puts "WARNING: Discourse hostname: #{Discourse.current_hostname} is not a valid domain for emails!"

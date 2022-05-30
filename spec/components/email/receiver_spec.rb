@@ -454,7 +454,7 @@ describe Email::Receiver do
           expect { process("unsubscribe_subject") }.to change { ActionMailer::Base.deliveries.count }.by(1)
           expect(last_email.to.length).to eq 1
           expect(last_email.from.length).to eq 1
-          expect(last_email.from).to include "noreply@#{Discourse.current_hostname}"
+          expect(last_email.from).to include "no-reply@#{Discourse.current_hostname}"
           expect(last_email.to).to include "discourse@bar.com"
           expect(last_email.subject).to eq I18n.t(:"unsubscribe_mailer.subject_template").gsub("%{site_title}", SiteSetting.title)
         end
@@ -472,7 +472,7 @@ describe Email::Receiver do
           expect { process("unsubscribe_body") }.to change { ActionMailer::Base.deliveries.count }.by(1)
           expect(last_email.to.length).to eq 1
           expect(last_email.from.length).to eq 1
-          expect(last_email.from).to include "noreply@#{Discourse.current_hostname}"
+          expect(last_email.from).to include "no-reply@#{Discourse.current_hostname}"
           expect(last_email.to).to include "discourse@bar.com"
           expect(last_email.subject).to eq I18n.t(:"unsubscribe_mailer.subject_template").gsub("%{site_title}", SiteSetting.title)
         end
