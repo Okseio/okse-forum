@@ -4,18 +4,18 @@
 require 'action_mailer'
 
 # Make this your email address. Poor example.com gets SO MUCH MAIL
-YOUR_EMAIL = "nobody@example.com"
+YOUR_EMAIL = ""
 
 # Change these to be the same settings as your Discourse environment
-DISCOURSE_SMTP_ADDRESS = "smtp.example.com"       # (mandatory)
+DISCOURSE_SMTP_ADDRESS = "smtp.sendgrid.net"       # (mandatory)
 @DISCOURSE_SMTP_PORT = 587                    # (optional)
-@DISCOURSE_SMTP_USER_NAME = "username"              # (optional)
-@DISCOURSE_SMTP_PASSWORD  = "blah"                  # (optional)
+@DISCOURSE_SMTP_USER_NAME = "apikey"              # (optional)
+@DISCOURSE_SMTP_PASSWORD  = ""                  # (optional)
 #@DISCOURSE_SMTP_OPENSSL_VERIFY_MODE = "none"       # (optional) none|peer|client_once|fail_if_no_peer_cert
 
 # Note that DISCOURSE_SMTP_ADDRESS should NOT BE ALLOWED to relay mail to
 # YOUR_EMAIL without authentication
-MAILFROM = @DISCOURSE_SMTP_USER_NAME || YOUR_EMAIL
+MAILFROM = "no-reply@okse.io"
 MAILTO = YOUR_EMAIL
 
 ### You shouldn't need to change anything below here
